@@ -4,6 +4,7 @@ The Creative Services Project Manager provides general operational support for a
 This is a six month part-time contract position, contractor will be responsible for assisting formalization of these projects as programs and handoff to full-time program staff in the Fall. 
 
 Caltrans Mobility Newsletter
+
 + Manage biweekly meetings with Caltrans to review newsletter content and take requests for newsletter topics. Circulate notes and action items after each meeting.
 + Organize the review and approval process for the biweekly newsletter, ensuring content has been appropriately edited and reviewed before publication.
 + Write the email message that accompanies each newsletter. Attend weekly Data and/or Payments meetings and weekly meetings with Program Manager to ensure that relevant project updates are included. Proactively include relevant content in email messaging.
