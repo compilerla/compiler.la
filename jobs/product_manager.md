@@ -35,7 +35,7 @@ We are looking for a Product Manager to support a product for a public transport
 
 ## Compensation
 
-* Full-time contractor, starting in Feb 2022
+* Full-time contractor, starting in March 2022
 * Hourly compensation
 * Applicant will need to provide their own laptop computer
 * Remote work is expected and hours are flexible. 
@@ -43,7 +43,7 @@ We are looking for a Product Manager to support a product for a public transport
 
 ## To Apply
 
-To apply; Send resume, brief intro and preferences for working (hours, timezone, etc) to careers@compiler.la by February 15th 2022.
+To apply; Send resume, brief intro and preferences for working (hours, timezone, etc) to careers@compiler.la by March 1st 2022.
 
 Opportunities for W-2 employment possible in the future. QTPOC applicants are welcome. 
 
