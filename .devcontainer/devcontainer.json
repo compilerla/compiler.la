@@ -1,0 +1,18 @@
+{
+    "name": "compiler.la",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "site",
+	"workspaceFolder": "/srv/jekyll",
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash"
+            }
+        }
+    },
+    "extensions": [
+        "eamodio.gitlens",
+        "mhutchie.git-graph"
+	]
+}
