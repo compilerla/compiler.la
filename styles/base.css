@@ -1,0 +1,62 @@
+@import url("./fonts.css");
+
+:root {
+    --purple: #663190;
+    --green: #88B440;
+    --teal: #01B4CB;
+    --navy: #223061;
+    --off-black: #262626;
+    --grey: #EDEDED;
+    --white: #FFFFFF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+p, a {
+    color: var(--off-black);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+header {
+    margin-bottom: 50px;
+    margin-left: -10px;
+}
+
+.logo {
+    width: 20rem;
+}
+
+main {
+    margin-top: 15px;
+    height: calc(100vh - 380px);
+}
+
+.main-title * {
+    font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
+    font-size: 2.25rem;
+}
+
+a {
+    text-decoration: none;
+    transition: 250ms;
+}
+
+a:hover {
+    color: var(--purple);
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brandmark {
+    width: 20rem;
+    margin-right: -15px;
+}
