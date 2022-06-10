@@ -14,10 +14,11 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color: var(--off-black);
 }
 
 p, a {
-    color: var(--off-black);
+    color: var(--white);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 1.5rem;

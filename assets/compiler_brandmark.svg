@@ -1,11 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2129.77 526.81">
     <defs>
-        <style>.ef614ab3-ab66-4efb-b3cc-150b02789fce{fill:#262626;}</style>
+        <style>
+            .ef614ab3-ab66-4efb-b3cc-150b02789fce {
+                fill: #ffffff;
+            }
+            .teal {
+                fill: #00b3ca;
+            }
+        </style>
     </defs>
     <g id="a4307449-c03b-44d2-981a-2dc4981134c0" data-name="BASE">
-        <rect class="ef614ab3-ab66-4efb-b3cc-150b02789fce" x="490.87" y="96.45" width="341.65" height="341.65" />
-        <rect class="ef614ab3-ab66-4efb-b3cc-150b02789fce" x="940.6" y="96.45" width="648.44" height="341.65" rx="66.57" />
-        <rect class="ef614ab3-ab66-4efb-b3cc-150b02789fce" x="58.58" y="324.22" width="324.22" height="113.88" />
+        <rect class="teal" x="490.87" y="96.45" width="341.65" height="341.65" />
+        <rect class="teal" x="940.6" y="96.45" width="648.44" height="341.65" rx="66.57" />
+        <rect class="teal" x="58.58" y="324.22" width="324.22" height="113.88" />
         <circle class="ef614ab3-ab66-4efb-b3cc-150b02789fce" cx="1849.93" cy="267.27" r="170.83" />
     </g>
 </svg>
