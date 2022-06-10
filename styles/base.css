@@ -40,7 +40,7 @@ main {
 
 .main-title * {
     font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 
 a {
@@ -60,4 +60,55 @@ footer {
 .brandmark {
     width: 20rem;
     margin-right: -15px;
+}
+
+/***** Media Queries *****/
+
+/* - with default font 16px, 48rem = 768px */
+@media (max-width: 48rem) and (max-height: 48rem) {
+    header {
+        margin-left: -5px;
+    }
+
+    .logo {
+        width: 15rem;
+    }
+
+    p, a {
+        font-size: 1.25rem;
+    }
+
+    .main-title * {
+        font-size: 1.75rem;
+    }
+
+    main {
+        height: calc(70vh - 110px);
+    }
+
+    .brandmark {
+        width: 15rem;
+    }
+}
+
+@media (max-height: 30rem) {
+    main {
+        height: calc(40vh - 90px);
+    }
+}
+
+@media (max-height: 40rem) {
+    main {
+        height: calc(55vh - 110px);
+    }
+}
+
+@media (max-height: 25rem) {
+    header {
+        margin-bottom: 10px;
+    }
+
+    main {
+        height: calc(30vh);
+    }
 }
