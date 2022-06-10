@@ -44,12 +44,12 @@ main {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     transition: 250ms;
 }
 
 a:hover {
-    color: var(--purple);
+    color: var(--green);
 }
 
 footer {
