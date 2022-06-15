@@ -1,14 +1,17 @@
 @font-face {
     font-family: 'Roboto';
     src: url("/fonts/Roboto-Regular.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Source Code Pro Bold';
     src: url("/fonts/SourceCodePro-Bold.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Source Code Pro Regular';
     src: url("/fonts/SourceCodePro-Regular.ttf");
+    font-display: swap;
 }
