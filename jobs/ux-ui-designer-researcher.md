@@ -28,7 +28,7 @@ You’ll collaborate with a small team of designers and engineers. You’ll have
 
 ## Preferred qualifications
 
-+ 2+ years working in product management
++ 2+ years working in UX / UI design
 + Experience working as a consultant
 + Experience working with or in proximity to government 
 + Demonstrated experience working with data, data literacy.
