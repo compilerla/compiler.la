@@ -89,6 +89,17 @@ footer {
 
 /***** Media Queries *****/
 
+@media (max-width: 48rem) and (max-height: 60rem) {
+    .social-media-icon {
+        padding: 0 10px;
+        width: 2.5rem;
+    }
+
+    .brandmark {
+        width: 8rem;
+    }
+}
+
 /* - with default font 16px, 48rem = 768px */
 @media (max-width: 48rem) and (max-height: 48rem) {
     header {
@@ -109,15 +120,6 @@ footer {
 
     main {
         height: calc(70vh - 110px);
-    }
-
-    .social-media-icon {
-        padding: 0 10px;
-        width: 2rem;
-    }
-
-    .brandmark {
-        width: 10rem;
     }
 }
 
