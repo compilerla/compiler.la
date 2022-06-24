@@ -35,7 +35,7 @@ header {
 
 main {
     margin-top: 15px;
-    height: calc(100vh - 380px);
+    height: calc(100vh - 400px);
 }
 
 .main-title * {
@@ -54,12 +54,32 @@ a:hover {
 
 footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.social-media-icon {
+    opacity: 40%;
+    width: 3.5rem;
+    transition: 250ms;
+}
+
+.social-media-icon:hover, .social-media-icon:focus {
+    opacity: 100%;
+    filter: invert(61%) sepia(54%) saturate(473%) hue-rotate(42deg) brightness(100%) contrast(90%);
 }
 
 .brandmark {
     width: 20rem;
     margin-right: -15px;
+    margin-left: auto;
 }
 
 /***** Media Queries *****/
@@ -86,8 +106,12 @@ footer {
         height: calc(70vh - 110px);
     }
 
+    .social-media-icon {
+        width: 2.5rem;
+    }
+
     .brandmark {
-        width: 15rem;
+        width: 10rem;
     }
 }
 
