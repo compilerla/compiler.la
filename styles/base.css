@@ -112,7 +112,8 @@ footer {
     }
 
     .social-media-icon {
-        width: 2.5rem;
+        padding: 0 10px;
+        width: 2rem;
     }
 
     .brandmark {
