@@ -67,8 +67,13 @@ footer {
 
 .social-media-icon {
     opacity: 40%;
+    padding: 0 12.5px;
     width: 3.5rem;
     transition: 250ms;
+}
+
+.social-media-container a:first-child .social-media-icon {
+    padding-left: 0;
 }
 
 .social-media-icon:hover, .social-media-icon:focus {
