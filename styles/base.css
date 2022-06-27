@@ -83,7 +83,6 @@ footer {
 
 .social-media-icon:hover, .social-media-icon:focus {
     opacity: 100%;
-    filter: invert(61%) sepia(54%) saturate(473%) hue-rotate(42deg) brightness(100%) contrast(90%);
 }
 
 .brandmark {
