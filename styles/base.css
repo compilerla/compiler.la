@@ -10,6 +10,10 @@
     --white: #FFFFFF;
 }
 
+html, body {
+    height: 96.5%;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -35,7 +39,7 @@ header {
 
 main {
     margin-top: 15px;
-    height: calc(100vh - 380px);
+    flex: 1 0 auto;
 }
 
 .main-title * {
@@ -53,21 +57,47 @@ a:hover {
 }
 
 footer {
+    flex-shrink: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.social-media-icon {
+    opacity: 40%;
+    padding: 0 12.5px;
+    width: 3.5rem;
+    transition: 250ms;
+}
+
+.social-media-container a:first-child .social-media-icon {
+    padding-left: 0;
+}
+
+.social-media-icon:hover, .social-media-icon:focus {
+    opacity: 100%;
 }
 
 .brandmark {
     width: 20rem;
     margin-right: -15px;
+    margin-left: auto;
 }
 
 /***** Media Queries *****/
 
 /* - with default font 16px, 48rem = 768px */
-@media (max-width: 48rem) and (max-height: 48rem) {
+@media (max-width: 48rem) {
     header {
         margin-left: -5px;
+        margin-bottom: 35px;
     }
 
     .logo {
@@ -82,33 +112,45 @@ footer {
         font-size: 1.75rem;
     }
 
-    main {
-        height: calc(70vh - 110px);
+    .social-media-icon {
+        padding: 0 10px;
+        width: 2.5rem;
     }
 
     .brandmark {
-        width: 15rem;
+        width: 8rem;
     }
 }
 
 @media (max-height: 30rem) {
-    main {
-        height: calc(40vh - 90px);
+    html, body {
+        height: 92%
     }
-}
 
-@media (max-height: 40rem) {
-    main {
-        height: calc(55vh - 110px);
+    .logo {
+        width: 15rem;
+    }
+
+    p, a {
+        font-size: 1.25rem;
+    }
+
+    .main-title * {
+        font-size: 1.75rem;
+    }
+
+    .social-media-icon {
+        padding: 0 10px;
+        width: 2.5rem;
+    }
+
+    .brandmark {
+        width: 8rem;
     }
 }
 
 @media (max-height: 25rem) {
     header {
         margin-bottom: 10px;
-    }
-
-    main {
-        height: calc(30vh);
     }
 }
