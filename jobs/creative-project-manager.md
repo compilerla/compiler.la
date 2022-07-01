@@ -1,8 +1,10 @@
+---
+---
 # Creative Services Project Manager - consultant
 
-The Creative Services Project Manager provides general operational support for all Communication and Content initiatives at [California Integrated Travel Project (Cal-ITP)](https://www.calitp.org/). Responsibilities include management of production timelines for all content and external messaging produced by Cal-ITP, oversight of branded materials and Cal-ITP brand identity, and ownership of the Caltrans Mobility Newsletter. 
+The Creative Services Project Manager provides general operational support for all Communication and Content initiatives at [California Integrated Travel Project (Cal-ITP)](https://www.calitp.org/). Responsibilities include management of production timelines for all content and external messaging produced by Cal-ITP, oversight of branded materials and Cal-ITP brand identity, and ownership of the Caltrans Mobility Newsletter.
 
-This is a six month part-time contract position, contractor will be responsible for assisting formalization of these projects as programs and handoff to full-time program staff in the Fall. 
+This is a six month part-time contract position, contractor will be responsible for assisting formalization of these projects as programs and handoff to full-time program staff in the Fall.
 
 ## Projects
 
@@ -11,7 +13,7 @@ Caltrans Mobility Newsletter
 + Manage biweekly meetings with Caltrans to review newsletter content and take requests for newsletter topics. Circulate notes and action items after each meeting.
 + Organize the review and approval process for the biweekly newsletter, ensuring content has been appropriately edited and reviewed before publication.
 + Write the email message that accompanies each newsletter. Attend weekly Data and/or Payments meetings and weekly meetings with Program Manager to ensure that relevant project updates are included. Proactively include relevant content in email messaging.
-+ Send newsletter via Constant Contact every two weeks and actively manage the distribution list. 
++ Send newsletter via Constant Contact every two weeks and actively manage the distribution list.
 + Upload final newsletter PDF to the Wordpress site when ready to publish. Manage archive of past newsletters and email on team shared file server.
 
 Communication and Content Production
@@ -38,12 +40,10 @@ Support of Outreach Team
 ## Timeline & Compensation
 
 + Hourly compensation
-+ 20-30 hours per week (Part-time) 
++ 20-30 hours per week (Part-time)
 + June 1st - November 30th 2021
 + Contract position
 
 ## To Apply
 
 + Send resume, brief intro and preferences for working (hours, time zone, etc) to Jeremy Dalton (jeremy@method.city) by 5pm PST Friday May 15th 2021.
-
-

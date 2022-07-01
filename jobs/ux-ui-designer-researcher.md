@@ -1,3 +1,5 @@
+---
+---
 # Senior Consultant, UX/UI Designer and Researcher
 
 **About Compiler:** Compiler is a small, woman-owned software consultancy. Compiler helps service-oriented government agencies build open source, human-centered, secure, agile solutions to support the delivery of government services that increase equity of opportunity.
@@ -30,7 +32,7 @@ You’ll collaborate with a small team of designers and engineers. You’ll have
 
 + 2+ years working in UX / UI design
 + Experience working as a consultant
-+ Experience working with or in proximity to government 
++ Experience working with or in proximity to government
 + Demonstrated experience working with data, data literacy.
 + Experience in inclusive and accessible design
 + Ability to work independently and self-direct towards goals not tasks
@@ -43,7 +45,7 @@ You’ll collaborate with a small team of designers and engineers. You’ll have
 ## Timeline & Compensation
 
 + July 2022
-+ 20 hours per week 
++ 20 hours per week
 + Contract position.
 + Hourly compensation at $115/hour
 

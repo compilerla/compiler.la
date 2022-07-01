@@ -1,3 +1,5 @@
+---
+---
 # Compiler LLC - Software Engineer - W2
 
 Compiler is a small, woman-owned software consultancy. Compiler helps service-oriented government agencies build open source, human-centered, secure, agile solutions to support the delivery of government services that increase equity of opportunity.
@@ -19,7 +21,7 @@ We are looking for a Software Engineer to support a range of new and ongoing cli
 
 ## Preferred qualifications
 
-* Experience working with or in proximity to government 
+* Experience working with or in proximity to government
 * Experience using modern, high-level programming languages such as Python and JavaScript to build web applications, API services, or similar
 * Experience using Docker and containers to manage reproducible environments
 * Experience deploying production applications and services to cloud environments such as AWS and GCP
@@ -48,7 +50,7 @@ Medical, dental, and vision insurance benefits
 
 ## Application process
 
-Remote work is expected and hours are flexible. QTPOC applicants are welcome. To apply, send resume, brief intro and preferences for working (days and hours, time zone, etc.) to careers@compiler.la. Or, apply at http://compiler.freshteam.com/jobs. Cover letters are in no way expected and we do not give extra weight in scoring to those that write them. 
+Remote work is expected and hours are flexible. QTPOC applicants are welcome. To apply, send resume, brief intro and preferences for working (days and hours, time zone, etc.) to careers@compiler.la. Or, apply at http://compiler.freshteam.com/jobs. Cover letters are in no way expected and we do not give extra weight in scoring to those that write them.
 
 Applications will be accepted until Friday, June 18th, 2021.
 
@@ -57,5 +59,3 @@ All applicants will receive an acknowledgement that their application has been r
 _In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on race, color, ancestry, national origin, religion, education, age, gender identity, sexual orientation, marital domestic partner status, familial status, disability status, or veteran status.
 
 We will consider for employment qualified applicants with arrest and conviction records. #banthebox_
-
-
