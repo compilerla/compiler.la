@@ -6,6 +6,9 @@
     <title>{{ title | default: "Compiler"}} </title>
 
     <meta charset="UTF-8">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="/favicon.ico" sizes="any">
