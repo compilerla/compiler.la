@@ -51,7 +51,7 @@ You’ll collaborate with a small team of designers and engineers. You’ll have
 + Contract position.
 + Hourly compensation at $115/hour
 
-# Location
+## Location
 
 + 100% Remote
 
