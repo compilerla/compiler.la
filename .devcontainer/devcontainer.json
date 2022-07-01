@@ -18,6 +18,7 @@
     "extensions": [
 		"eamodio.gitlens",
 		"mhutchie.git-graph",
-		"redhat.vscode-xml"
+		"redhat.vscode-xml",
+        "sissel.shopify-liquid"
 	]
 }

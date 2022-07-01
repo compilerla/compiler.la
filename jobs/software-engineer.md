@@ -1,4 +1,6 @@
 ---
+layout: job_post
+title: Compiler LLC - Software Engineer - W2
 ---
 # Compiler LLC - Software Engineer - W2
 

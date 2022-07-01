@@ -1,4 +1,6 @@
 ---
+layout: job_post
+title: Associate Consultant, Scheduling Coordinator
 ---
 # Associate Consultant, Scheduling Coordinator
 

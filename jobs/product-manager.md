@@ -1,4 +1,6 @@
 ---
+layout: job_post
+title: Product Manager - Consultant
 ---
 # Product Manager - Consultant
 

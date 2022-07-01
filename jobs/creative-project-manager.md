@@ -1,4 +1,6 @@
 ---
+layout: job_post
+title: Creative Services Project Manager - consultant
 ---
 # Creative Services Project Manager - consultant
 
