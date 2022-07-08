@@ -1,6 +1,7 @@
 ---
 layout: job_post
 title: Senior Consultant, UX/UI Designer and Researcher
+open: true
 ---
 # Senior Consultant, UX/UI Designer and Researcher
 

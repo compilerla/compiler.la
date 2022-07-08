@@ -41,7 +41,7 @@ a:hover, a:focus {
     color: var(--green);
 }
 
-.monospace {
+.monospace, h1, h2, h3, h4, h5, h6 {
     font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
 }
 
@@ -53,8 +53,11 @@ a:hover, a:focus {
     font-size: 1.5rem;
 }
 
+.shifted-down {
+    margin-top: 50px;
+}
+
 header {
-    padding-bottom: 50px;
     margin-left: -10px; /* account for padding within the Compiler logo*/
 }
 
@@ -63,7 +66,6 @@ header {
 }
 
 main {
-    padding-top: 15px;
     flex: 1 0 auto;
 }
 

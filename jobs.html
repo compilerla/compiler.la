@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<h1>Jobs</h1>
+
+<h2>Accepting applications</h2>
+<ul>
+    {% for job in site.jobs %}
+    {% if job.open %}
+    <li><a href="{{ job.url }}">{{ job.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+
+</ul>
+
+<h2>Past opportunities</h2>
+<ul>
+    {% for job in site.jobs %}
+    {% if job.open != true %}
+    <li><a href="{{ job.url }}">{{ job.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+</ul>
