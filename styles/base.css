@@ -31,6 +31,10 @@ body {
     font-weight: normal;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 a {
     color: var(--white);
     text-decoration: underline;
