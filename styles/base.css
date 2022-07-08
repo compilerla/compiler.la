@@ -17,20 +17,40 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+
     padding: 20px;
     background-color: var(--off-black);
-}
 
-p, a {
     color: var(--white);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: normal;
+}
+
+a {
+    color: var(--white);
+    text-decoration: underline;
+    transition: 250ms;
+}
+
+a:hover, a:focus {
+    color: var(--green);
+}
+
+.monospace {
+    font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
+}
+
+.title-lg {
+    font-size: 2rem;
+}
+
+.text-lg {
     font-size: 1.5rem;
 }
 
 header {
     margin-bottom: 50px;
-    margin-left: -10px;
+    margin-left: -10px; /* account for padding within the Compiler logo*/
 }
 
 .logo {
@@ -40,20 +60,6 @@ header {
 main {
     margin-top: 15px;
     flex: 1 0 auto;
-}
-
-.main-title * {
-    font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
-    font-size: 2rem;
-}
-
-a {
-    text-decoration: underline;
-    transition: 250ms;
-}
-
-a:hover {
-    color: var(--green);
 }
 
 footer {
@@ -104,12 +110,12 @@ footer {
         width: 15rem;
     }
 
-    p, a {
-        font-size: 1.25rem;
+    .title-lg {
+        font-size: 1.75rem;
     }
 
-    .main-title * {
-        font-size: 1.75rem;
+    .text-lg {
+        font-size: 1.25rem;
     }
 
     .social-media-icon {
@@ -131,12 +137,12 @@ footer {
         width: 15rem;
     }
 
-    p, a {
-        font-size: 1.25rem;
+    .title-lg {
+        font-size: 1.75rem;
     }
 
-    .main-title * {
-        font-size: 1.75rem;
+    .text-lg {
+        font-size: 1.25rem;
     }
 
     .social-media-icon {
