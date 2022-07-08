@@ -47,7 +47,7 @@ We are looking for a Product Manager to support a product for a public transport
 
 ## To Apply
 
-To apply; Send resume, brief intro and preferences for working (hours, timezone, etc) to careers@compiler.la by March 1st 2022.
+To apply; Send resume, brief intro and preferences for working (hours, timezone, etc) to [careers@compiler.la](mailto:careers@compiler.la) by March 1st 2022.
 
 Opportunities for W-2 employment possible in the future. QTPOC applicants are welcome.
 

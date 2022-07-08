@@ -52,7 +52,7 @@ Medical, dental, and vision insurance benefits
 
 ## Application process
 
-Remote work is expected and hours are flexible. QTPOC applicants are welcome. To apply, send resume, brief intro and preferences for working (days and hours, time zone, etc.) to careers@compiler.la. Or, apply at http://compiler.freshteam.com/jobs. Cover letters are in no way expected and we do not give extra weight in scoring to those that write them.
+Remote work is expected and hours are flexible. QTPOC applicants are welcome. To apply, send resume, brief intro and preferences for working (days and hours, time zone, etc.) to [careers@compiler.la](mailto:careers@compiler.la). Or, apply at http://compiler.freshteam.com/jobs. Cover letters are in no way expected and we do not give extra weight in scoring to those that write them.
 
 Applications will be accepted until Friday, June 18th, 2021.
 
