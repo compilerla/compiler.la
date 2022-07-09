@@ -57,4 +57,4 @@ You’ll collaborate with a small team of designers and engineers. You’ll have
 ## To Apply
 
 Send resume, brief intro email and preferences for working (hours, time zone, etc) to [careers@compiler.la](mailto:careers@compiler.la) by July 1st 2022.
-Cover letters are not expected and extra weight in scoring will not be given to those that include them them.
+Cover letters are not expected and extra weight in scoring will not be given to those that include them.

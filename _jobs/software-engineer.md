@@ -28,7 +28,7 @@ We are looking for a Software Engineer to support a range of new and ongoing cli
 * Experience collaborating with product managers and remote teams
 * Knowledge of Git / GitHub based development workflows and open source project management
 * A love of public transportation
-* A personal and professional commitment to bring anti-racist principals into development practices
+* A personal and professional commitment to bring anti-racist principles into development practices
 
 ## Position type
 
@@ -56,6 +56,6 @@ Applications will be accepted until Friday, June 18th, 2021.
 
 All applicants will receive an acknowledgement that their application has been received within 24 hours of successful submission. Those candidates selected for further consideration will be contacted to schedule an interview for the week of June 21st, 2021.
 
-_In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on race, color, ancestry, national origin, religion, education, age, gender identity, sexual orientation, marital domestic partner status, familial status, disability status, or veteran status.
+_In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on race, color, ancestry, national origin, religion, education, age, gender identity, sexual orientation, marital domestic partner status, familial status, disability status, or veteran status._
 
-We will consider for employment qualified applicants with arrest and conviction records. #banthebox_
+_We will consider for employment qualified applicants with arrest and conviction records. #banthebox_
