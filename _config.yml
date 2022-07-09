@@ -1,3 +1,4 @@
 collections:
   jobs:
     output: true
+    permalink: /:collection/:name
