@@ -1,9 +1,7 @@
 ---
 layout: job_post
-title: Compiler LLC - Software Engineer - W2
+title: Software Engineer - W2
 ---
-# Compiler LLC - Software Engineer - W2
-
 Compiler is a small, woman-owned software consultancy. Compiler helps service-oriented government agencies build open source, human-centered, secure, agile solutions to support the delivery of government services that increase equity of opportunity.
 
 Our team specializes in building software applications around data for operations support and performance management including: data standards development, data engineering, data cleaning, extract transform and load (ETL) workflows, custom application programming interface (API) development and integration, data integration, data pipelines, data analytics, and data science. Our team’s subject matter expertise in transportation, housing, and homelessness provides depth and quality to the services we design and the applications we build.
