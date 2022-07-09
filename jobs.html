@@ -5,14 +5,16 @@ title: Jobs with Compiler
 <h1>Jobs</h1>
 
 <h2>Accepting applications</h2>
+{% assign open_jobs = site.jobs | where: "open", "true" %}
+{% if open_jobs.size > 0 %}
 <ul>
-    {% for job in site.jobs %}
-    {% if job.open %}
+    {% for job in open_jobs %}
     <li><a href="{{ job.url }}">{{ job.title }}</a></li>
-    {% endif %}
     {% endfor %}
-
 </ul>
+{% else %}
+<p>There are no positions accepting applications at the moment.</p>
+{% endif %}
 
 <h2>Past opportunities</h2>
 <ul>
