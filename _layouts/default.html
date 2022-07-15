@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% if layout.title_prefix %}
+    {% assign title = layout.title_prefix | append: " " | append: page.title %}
+    {% else if page.title %}
+    {% assign title = page.title %}
+    {% endif %}
+
+    <title>{{ title | default: "Compiler"}} </title>
+
+    <meta charset="UTF-8">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link type="text/css" rel="stylesheet" href="/styles/base.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JY7J1TEN2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2JY7J1TEN2');
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="/"><img class="logo" src="/assets/compiler_logo_stacked.svg" alt="Compiler logo"></a>
+    </header>
+
+    <main>
+    {{ content }}
+    </main>
+
+    <footer>
+        <div class="social-media-container">
+            <a href="https://github.com/compilerla">
+                <img class="social-media-icon" src="/assets/social_media/github_mark.png" alt="GitHub">
+            </a>
+            <a href="https://twitter.com/CompilerLA">
+                <img class="social-media-icon" src="/assets/social_media/twitter_logo.svg" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/company/compiler-la">
+                <img class="social-media-icon" src="/assets/social_media/linkedin_in.png" alt="LinkedIn">
+            </a>
+        </div>
+        <img class="brandmark" src="/assets/compiler_brandmark.svg" alt="Compiler brandmark">
+    </footer>
+</body>
+
+</html>

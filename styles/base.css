@@ -10,27 +10,59 @@
     --white: #FFFFFF;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html, body {
-    height: 96.5%;
+    height: 100%;
+    margin: 0;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    background-color: var(--off-black);
-}
 
-p, a {
+    padding: 30px;
+    background-color: var(--off-black);
+
     color: var(--white);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: normal;
+}
+
+p, li {
+    line-height: 1.5rem;
+}
+
+a {
+    color: var(--white);
+    text-decoration: underline;
+    transition: 250ms;
+}
+
+a:hover, a:focus {
+    color: var(--green);
+}
+
+.monospace, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
+}
+
+.title-lg {
+    font-size: 2rem;
+}
+
+.text-lg {
     font-size: 1.5rem;
 }
 
+.shifted-down {
+    margin-top: 50px;
+}
+
 header {
-    margin-bottom: 50px;
-    margin-left: -10px;
+    margin-left: -10px; /* account for padding within the Compiler logo*/
 }
 
 .logo {
@@ -38,22 +70,7 @@ header {
 }
 
 main {
-    margin-top: 15px;
     flex: 1 0 auto;
-}
-
-.main-title * {
-    font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
-    font-size: 2rem;
-}
-
-a {
-    text-decoration: underline;
-    transition: 250ms;
-}
-
-a:hover {
-    color: var(--green);
 }
 
 footer {
@@ -62,6 +79,8 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
+
+    padding: 20px;
 }
 
 .social-media-container {
@@ -72,13 +91,13 @@ footer {
 
 .social-media-icon {
     opacity: 40%;
-    padding: 0 12.5px;
+    margin: 0 12.5px;
     width: 3.5rem;
     transition: 250ms;
 }
 
 .social-media-container a:first-child .social-media-icon {
-    padding-left: 0;
+    margin-left: -15px;
 }
 
 .social-media-icon:hover, .social-media-icon:focus {
@@ -97,23 +116,23 @@ footer {
 @media (max-width: 48rem) {
     header {
         margin-left: -5px;
-        margin-bottom: 35px;
+        padding-bottom: 35px;
     }
 
     .logo {
         width: 15rem;
     }
 
-    p, a {
-        font-size: 1.25rem;
-    }
-
-    .main-title * {
+    .title-lg {
         font-size: 1.75rem;
     }
 
+    .text-lg {
+        font-size: 1.25rem;
+    }
+
     .social-media-icon {
-        padding: 0 10px;
+        margin: 0 10px;
         width: 2.5rem;
     }
 
@@ -123,24 +142,20 @@ footer {
 }
 
 @media (max-height: 30rem) {
-    html, body {
-        height: 92%
-    }
-
     .logo {
         width: 15rem;
     }
 
-    p, a {
-        font-size: 1.25rem;
-    }
-
-    .main-title * {
+    .title-lg {
         font-size: 1.75rem;
     }
 
+    .text-lg {
+        font-size: 1.25rem;
+    }
+
     .social-media-icon {
-        padding: 0 10px;
+        margin: 0 10px;
         width: 2.5rem;
     }
 
@@ -151,6 +166,6 @@ footer {
 
 @media (max-height: 25rem) {
     header {
-        margin-bottom: 10px;
+        padding-bottom: 10px;
     }
 }
