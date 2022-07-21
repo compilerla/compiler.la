@@ -92,7 +92,8 @@ a:hover, a:focus {
 
 .secondary-btn:hover {
     opacity: 70%;
-    color: var(--white);
+    color: var(--black);
+    background-color: var(--green);
 }
 
 .row {
