@@ -6,6 +6,7 @@
     --teal: #01B4CB;
     --navy: #223061;
     --off-black: #262626;
+    --black: #000000;
     --grey: #EDEDED;
     --white: #FFFFFF;
 }
@@ -49,6 +50,10 @@ a:hover, a:focus {
     font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
 }
 
+.san-serif {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
 .title-lg {
     font-size: 2rem;
 }
@@ -59,6 +64,41 @@ a:hover, a:focus {
 
 .shifted-down {
     margin-top: 50px;
+}
+
+.primary-btn {
+    text-decoration: none;
+    border: 3px solid var(--green);
+    background-color: var(--green);
+    color: var(--off-black);
+    padding: 1rem;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.primary-btn:hover {
+    opacity: 70%;
+    color: var(--black)
+}
+
+.secondary-btn {
+    text-decoration: none;
+    border: 3px solid var(--green);
+    color: var(--white);
+    padding: 1rem;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.secondary-btn:hover {
+    opacity: 70%;
+    color: var(--black);
+    background-color: var(--green);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header {
