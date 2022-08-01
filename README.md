@@ -2,7 +2,7 @@
 
 [`compiler.la`](https://compiler.la)
 
-Deployed via [Netlify](https://www.netlify.com)   
+Deployed via [Netlify](https://www.netlify.com)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e6111c60-0ee2-4b02-a925-165411bb767b/deploy-status)](https://app.netlify.com/sites/compilerla/deploys)
 
 ## Design
