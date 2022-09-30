@@ -132,7 +132,7 @@ footer {
 .social-media-icon {
     opacity: 40%;
     margin: 0 12.5px;
-    width: 3.5rem;
+    width: 3rem;
     transition: 250ms;
 }
 
@@ -145,7 +145,7 @@ footer {
 }
 
 .brandmark {
-    width: 20rem;
+    width: 17.5rem;
     margin-right: -15px;
     margin-left: auto;
 }
