@@ -36,6 +36,10 @@ p, li {
     line-height: 1.5rem;
 }
 
+li {
+    padding-bottom: 0.75rem;
+}
+
 a {
     color: var(--white);
     text-decoration: underline;
@@ -44,6 +48,12 @@ a {
 
 a:hover, a:focus {
     color: var(--green);
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .monospace, h1, h2, h3, h4, h5, h6 {
@@ -115,12 +125,31 @@ main {
 
 footer {
     flex-shrink: 0;
+}
+
+footer .row {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
 
-    padding: 20px;
+    padding: 1rem 0;
+}
+
+footer .heading {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: var(--teal)
+}
+
+footer .certs > div {
+    flex: 1 1 0px;
+    align-self: flex-start;
+    padding: 0 20px;
+}
+
+footer .certs > div:first-child  {
+    padding-left: 0;
 }
 
 .social-media-container {
@@ -137,7 +166,7 @@ footer {
 }
 
 .social-media-container a:first-child .social-media-icon {
-    margin-left: -15px;
+    margin-left: 0px;
 }
 
 .social-media-icon:hover, .social-media-icon:focus {
@@ -156,7 +185,6 @@ footer {
 @media (max-width: 48rem) {
     header {
         margin-left: -5px;
-        padding-bottom: 35px;
     }
 
     .logo {
@@ -169,6 +197,10 @@ footer {
 
     .text-lg {
         font-size: 1.25rem;
+    }
+
+    footer .certs > div:nth-child(3) {
+        padding-left: 0;
     }
 
     .social-media-icon {
