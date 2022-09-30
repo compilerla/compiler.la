@@ -1,4 +1,4 @@
-- name: NAICS codes
+- name: NAICS Codes
   values:
     - 541511 - Custom Computer Programming Services (Primary)
     - 518210 - Data Processing, Hosting, and Related Services
