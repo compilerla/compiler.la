@@ -1,7 +1,12 @@
-FROM jekyll/jekyll:4
+FROM python:3.10
 
-RUN apk update
-RUN apk add --no-cache python3 py3-pip python3-dev
+RUN apt-get update
+RUN apt-get install -y ruby-full && gem install bundler
+RUN python -m pip install --upgrade pip
 
-RUN python3 -m pip install --upgrade pip && \
-    pip install pre-commit
+COPY Gemfile Gemfile
+COPY Gemfile.lock Gemfile.lock
+RUN bundle install
+
+COPY .devcontainer/requirements.txt .devcontainer/requirements.txt
+RUN pip install --no-cache-dir -r .devcontainer/requirements.txt

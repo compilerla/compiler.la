@@ -59,6 +59,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  x86_64-linux
   x86_64-linux-musl
 
 DEPENDENCIES
@@ -66,4 +67,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.3.13
+   2.3.22
