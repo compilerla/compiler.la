@@ -209,8 +209,17 @@ footer .certs > div:first-child  {
         font-size: 1.25rem;
     }
 
-    footer .certs > div:nth-child(3) {
-        padding-left: 0;
+    footer .certs {
+        flex-direction: column;
+    }
+
+    footer .certs > div {
+        margin: 48px 0 0;
+        padding: 0;
+    }
+
+    ul.no-bullets li {
+        margin: 16px 0;
     }
 
     .social-media-icon {
