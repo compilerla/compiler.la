@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    padding: 30px;
+    padding: 16px;
     background-color: var(--off-black);
 
     color: var(--white);
@@ -223,8 +223,8 @@ footer .certs > div:first-child  {
     }
 
     .social-media-icon {
-        margin: 0 10px;
-        width: 2.5rem;
+        margin: 0 12px;
+        width: calc(28rem / 16);
     }
 
     .brandmark {
@@ -243,15 +243,6 @@ footer .certs > div:first-child  {
 
     .text-lg {
         font-size: 1.25rem;
-    }
-
-    .social-media-icon {
-        margin: 0 10px;
-        width: 2.5rem;
-    }
-
-    .brandmark {
-        width: 8rem;
     }
 }
 
