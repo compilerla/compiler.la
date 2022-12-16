@@ -1,8 +1,3 @@
-- name: NAICS Codes
-  values:
-    - 541511 - Custom Computer Programming Services (Primary)
-    - 518210 - Data Processing, Hosting, and Related Services
-
 - name: Certifications
   values:
     - Disadvantaged Business Enterprise 49643
@@ -14,3 +9,8 @@
   values:
     - CMAS 3-21-11-1021
     - TDDC MSA 5-22-70-25-341
+
+- name: NAICS Codes
+  values:
+    - 541511 - Custom Computer Programming Services (Primary)
+    - 518210 - Data Processing, Hosting, and Related Services
