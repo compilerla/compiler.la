@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    padding: 16px;
+    padding: 30px;
     background-color: var(--off-black);
 
     color: var(--white);
@@ -193,6 +193,10 @@ footer .certs > div:first-child  {
 
 /* - with default font 16px, 48rem = 768px */
 @media (max-width: 48rem) {
+    body {
+        padding: 16px;
+    }
+
     header {
         margin-left: -5px;
     }
