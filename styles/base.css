@@ -36,10 +36,6 @@ p, li {
     line-height: 1.5rem;
 }
 
-li {
-    padding-bottom: 0.75rem;
-}
-
 a {
     color: var(--white);
     text-decoration: underline;
@@ -54,6 +50,10 @@ ul.no-bullets {
     list-style-type: none;
     padding: 0;
     margin: inherit 0 0;
+}
+
+li.certs {
+    padding-bottom: 0.75rem;
 }
 
 .monospace, h1, h2, h3, h4, h5, h6 {
