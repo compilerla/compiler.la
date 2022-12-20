@@ -123,6 +123,11 @@ main {
     flex: 1 0 auto;
 }
 
+.divider-line {
+    border-top: 1px solid #545454;
+    margin: 125px -30px 0px;
+}
+
 footer {
     flex-shrink: 0;
 }
@@ -211,6 +216,10 @@ footer .certs > div:first-child  {
 
     .text-lg {
         font-size: 1.25rem;
+    }
+
+    .divider-line {
+        margin: 120px -16px -75px;
     }
 
     footer .certs {
