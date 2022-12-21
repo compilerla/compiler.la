@@ -1,0 +1,16 @@
+- name: Certifications
+  values:
+    - Disadvantaged Business Enterprise 49643
+    - State of California Small Business 2020432
+    - City of Los Angeles (SBE, EBE, VSBE, SBE (Proprietary), LBE, LSE, WBE) 2020432
+    - County of Los Angeles WBE, LSBE 091460, CBE 091685
+
+- name: Contract Vehicles
+  values:
+    - CMAS 3-21-11-1021
+    - TDDC MSA 5-22-70-25-341
+
+- name: NAICS Codes
+  values:
+    - 541511 - Custom Computer Programming Services (Primary)
+    - 518210 - Data Processing, Hosting, and Related Services

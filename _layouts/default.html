@@ -39,22 +39,36 @@
     </header>
 
     <main>
-    {{ content }}
+        {{ content }}
     </main>
 
     <footer>
-        <div class="social-media-container">
-            <a href="https://github.com/compilerla">
-                <img class="social-media-icon" src="/assets/social_media/github_mark.png" alt="GitHub">
-            </a>
-            <a href="https://twitter.com/CompilerLA">
-                <img class="social-media-icon" src="/assets/social_media/twitter_logo.svg" alt="Twitter">
-            </a>
-            <a href="https://www.linkedin.com/company/compiler-la">
-                <img class="social-media-icon" src="/assets/social_media/linkedin_in.png" alt="LinkedIn">
-            </a>
+        <div class="divider-line"></div>
+        <div class="row certs shifted-down">
+            <div>
+                <a href="mailto:hello@compiler.la" class="monospace contact-link">hello@compiler.la</a>
+                <p class="address">
+                    525 S Hewitt St<br />Los Angeles, CA 90013
+                </p>
+            </div>
+
+            {% include certs.html %}
+
         </div>
-        <img class="brandmark" src="/assets/compiler_brandmark.svg" alt="Compiler brandmark">
+        <div class="row">
+            <div class="social-media-container">
+                <a href="https://github.com/compilerla">
+                    <img class="social-media-icon" src="/assets/social_media/github_mark.png" alt="GitHub">
+                </a>
+                <a href="https://twitter.com/CompilerLA">
+                    <img class="social-media-icon" src="/assets/social_media/twitter_logo.svg" alt="Twitter">
+                </a>
+                <a href="https://www.linkedin.com/company/compiler-la">
+                    <img class="social-media-icon" src="/assets/social_media/linkedin_in.png" alt="LinkedIn">
+                </a>
+            </div>
+            <img class="brandmark" src="/assets/compiler_brandmark.svg" alt="Compiler brandmark">
+        </div>
     </footer>
 </body>
 
