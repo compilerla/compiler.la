@@ -72,10 +72,6 @@ li.certs {
     font-size: 1.5rem;
 }
 
-.shifted-down {
-    margin-top: 50px;
-}
-
 .primary-btn {
     text-decoration: none;
     border: 3px solid var(--green);
@@ -106,11 +102,6 @@ li.certs {
     background-color: var(--green);
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 header {
     margin-left: -10px; /* account for padding within the Compiler logo*/
 }
@@ -132,15 +123,6 @@ footer {
     flex-shrink: 0;
 }
 
-footer .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
-
-    padding: 1rem 0;
-}
-
 footer .heading {
     font-size: 1.5rem;
     color: var(--teal);
@@ -155,22 +137,6 @@ footer .contact-link {
 
 footer .address {
     margin-top: 24px;
-}
-
-footer .certs > div {
-    flex: 1 1 0px;
-    align-self: flex-start;
-    padding: 0 20px;
-}
-
-footer .certs > div:first-child  {
-    padding-left: 0;
-}
-
-.social-media-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
 }
 
 .social-media-icon {
@@ -256,11 +222,5 @@ footer .certs > div:first-child  {
 
     .text-lg {
         font-size: 1.25rem;
-    }
-}
-
-@media (max-height: 25rem) {
-    header {
-        padding-bottom: 10px;
     }
 }
