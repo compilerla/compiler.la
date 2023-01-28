@@ -223,17 +223,3 @@ footer .address {
         width: 8rem;
     }
 }
-
-@media (max-height: 30rem) {
-    .logo {
-        width: 15rem;
-    }
-
-    .title-lg {
-        font-size: 1.75rem;
-    }
-
-    .text-lg {
-        font-size: 1.25rem;
-    }
-}
