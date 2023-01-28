@@ -176,12 +176,12 @@ main {
 
 .divider-line {
     border-top: 1px solid #545454;
-    margin: 120px -16px -75px;
+    margin: 10px -16px 10px;
 }
 
 @media (min-width: 992px) {
     .divider-line {
-        margin: 125px -30px 0px;
+        margin: 20px -30px 20px;
     }
 
 }
