@@ -60,6 +60,10 @@ a:focus {
 }
 
 ul.no-bullets {
+    padding-left: 0;
+}
+
+ul.no-bullets li {
     list-style-type: none;
     padding: 0;
     margin: 16px 0;
@@ -188,6 +192,21 @@ main {
 
 footer {
     flex-shrink: 0;
+}
+
+:root {
+    --certs-div-padding-left: 0;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --certs-div-padding-left: 16px;
+    }
+}
+
+footer .certs>div {
+    margin: 30px 0 0;
+    padding-left: var(--certs-div-padding-left);
 }
 
 footer .heading {
