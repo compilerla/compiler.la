@@ -1,0 +1,91 @@
+/*#region Rules needed to show hamburger menu on Desktop */
+.navbar-header {
+    float: none;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+/* .navbar-collapse.collapse {
+    display: none !important;
+} */
+
+.navbar-nav {
+    float: none !important;
+}
+
+.navbar-nav>li {
+    float: none;
+}
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+/*#endregion */
+
+.navbar-toggler-icon {
+    width: calc(48rem / 16);
+    height: calc(48rem / 16);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.modal-header, .modal-footer {
+    border: 0;
+}
+
+.modal-content {
+    background-color: var(--off-black);
+}
+
+.btn-close {
+    color: var(--white);
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/2em auto no-repeat;
+    border: 0;
+    border-radius: .75rem;
+    opacity: 1;
+    width: 4em;
+    height: 4em;
+}
+
+@media (min-width: 992px) {
+    .btn-close {
+        background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/3em auto no-repeat;
+        width: 6em;
+        height: 6em;
+    }
+}
+
+:root {
+    --nav-links-padding-left: auto;
+    --nav-links-padding-right: auto;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --nav-links-padding-left: calc(200rem / 16);
+        --nav-links-padding-right: auto;
+    }
+}
+
+.menu-links {
+    height: 100%;
+    padding-left: var(--nav-links-padding-left);
+    padding-right: var(--nav-links-padding-right)
+}
+
+.menu-link {
+    font-family: 'Source Code Pro Regular', 'Courier New', Courier, monospace;
+    font-style: bold;
+    font-weight: 700;
+    font-size: calc(40rem / 16);
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
