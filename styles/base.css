@@ -79,7 +79,7 @@ li.certs {
     padding-bottom: 0.75rem;
 }
 
-/* Font Family */
+/*#region Font Family */
 
 .monospace,
 h1,
@@ -95,7 +95,9 @@ h6 {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-/* Font Sizes */
+/*#endregion */
+
+/*#region Font Sizes */
 
 :root {
     --title-font-size: 1.75rem;
@@ -116,6 +118,37 @@ h6 {
 .btn-link {
     font-size: var(--button-text-font-size);
 }
+
+/*
+Overwrite Bootstrap's heading font-sizes
+https://stackoverflow.com/questions/5410066/what-are-the-default-font-sizes-in-pixels-for-the-html-heading-tags-h1-h2
+*/
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.17rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.83rem;
+}
+
+h6 {
+    font-size: 0.67rem;
+}
+
+/*#endregion */
 
 .primary-btn {
     text-decoration: none;
