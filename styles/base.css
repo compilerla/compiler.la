@@ -126,10 +126,14 @@ https://stackoverflow.com/questions/5410066/what-are-the-default-font-sizes-in-p
 
 h1 {
     font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 h2 {
     font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
