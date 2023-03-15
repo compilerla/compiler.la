@@ -4,9 +4,6 @@ services:
     build:
       context: ..
       dockerfile: .devcontainer/Dockerfile
-    ports:
-      - "4000:4000"
-      - "35729:35729"
     volumes:
       - ..:/srv/jekyll
     command: sleep infinity
