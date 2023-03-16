@@ -41,33 +41,41 @@
         <a href="/"><img class="logo" src="/assets/compiler_logo_stacked.svg" alt="Compiler logo"></a>
     </header>
 
-    <main>
+    <main class="container-fluid">
         {{ content }}
     </main>
 
     <footer>
         <div class="divider-line"></div>
-        <div class="certs d-flex flex-column flex-lg-row row-cols-lg-4">
-            <div>
-                <a href="mailto:hello@compiler.la" class="monospace contact-link">hello@compiler.la</a>
-                <p class="address">
-                    525 S Hewitt St<br />Los Angeles, CA 90013
-                </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="certs col-md-3 mt-5">
+                    <div class="ps-0 ps-md-3">
+                        <a href="mailto:hello@compiler.la" class="monospace contact-link m-0">hello@compiler.la</a>
+                        <p class="mt-4">
+                            525 S Hewitt St<br />Los Angeles, CA 90013
+                        </p>
+                    </div>
+                </div>
+                {% include certs.html %}
             </div>
-
-            {% include certs.html %}
-
         </div>
-        <div class="d-flex social-media-container">
-            <div class="d-flex justify-content-between align-items-end py-4">
-                <a href="https://github.com/compilerla"><img class="social-media-icon"
-                        src="/assets/social_media/github_mark.png" alt="GitHub"></a>
-                <a href="https://twitter.com/CompilerLA"><img class="social-media-icon"
-                        src="/assets/social_media/twitter_logo.svg" alt="Twitter"></a>
-                <a href="https://www.linkedin.com/company/compiler-la"><img class="social-media-icon"
-                        src="/assets/social_media/linkedin_in.png" alt="LinkedIn"></a>
+        <div class="container-fluid">
+            <div class="row d-flex social-media-container justify-content-between">
+                <div class="certs col-6 col-md-4 py-4">
+                    <div class="ps-0 ps-md-3">
+                        <a href="https://github.com/compilerla"><img class="social-media-icon ms-0"
+                            src="/assets/social_media/github_mark.png" alt="GitHub"></a>
+                        <a href="https://twitter.com/CompilerLA"><img class="social-media-icon"
+                            src="/assets/social_media/twitter_logo.svg" alt="Twitter"></a>
+                        <a href="https://www.linkedin.com/company/compiler-la"><img class="social-media-icon"
+                            src="/assets/social_media/linkedin_in.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-flex justify-content-end">
+                    <img class="brandmark" src="/assets/compiler_brandmark.svg" alt="Compiler brandmark">
+                </div>
             </div>
-            <img class="brandmark" src="/assets/compiler_brandmark.svg" alt="Compiler brandmark">
         </div>
     </footer>
 </body>

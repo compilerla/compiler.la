@@ -11,7 +11,7 @@
     --white: #FFFFFF;
 }
 
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -29,13 +29,13 @@ body {
     :root {
         --body-padding: 30px;
     }
-}
+} */
 
 body {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
 
-    padding: var(--body-padding);
+    padding: var(--body-padding); */
     background-color: var(--off-black);
 
     color: var(--white);
@@ -208,30 +208,30 @@ header {
 }
 
 /* Main */
-
+/*
 main {
     flex: 1 0 auto;
-}
+} */
 
 /* Footer */
 
 .divider-line {
     border-top: 1px solid #545454;
-    margin: 10px -16px 10px;
+    /* margin: 10px -16px 10px; */
 }
 
-@media (min-width: 992px) {
-    .divider-line {
-        margin: 20px -30px 20px;
-    }
+/* @media (min-width: 992px) { */
+    /* .divider-line { */
+        /* margin: 20px 0 20px; */
+    /* } */
 
-}
+/* } */
 
-footer {
+/* footer {
     flex-shrink: 0;
-}
+} */
 
-:root {
+/* :root {
     --certs-div-padding-left: 0;
 }
 
@@ -239,28 +239,28 @@ footer {
     :root {
         --certs-div-padding-left: 16px;
     }
-}
+} */
 
-footer .certs>div {
-    margin: 30px 0 0;
-    padding-left: var(--certs-div-padding-left);
-}
+/* footer .certs>div { */
+    /* margin: 30px 0 0; */
+    /* padding-left: var(--certs-div-padding-left); */
+/* } */
 
 footer .heading {
-    font-size: 1.5rem;
-    color: var(--teal);
-    margin: 0;
+    font-size: 1.5rem; /* comment - refactor idea: this could be a util class, like like font-size-1.5 */
+    color: var(--teal); /* comment - refactor idea: this could be a util class, like green-text or something */
+    /* margin: 0; */
 }
 
 footer .contact-link {
-    font-size: 1.125rem;
-    color: var(--green);
-    margin: 0;
+    font-size: 1.125rem; /* comment - refactor idea: this could be a util class, like like font-size-1.125 */
+    color: var(--green); /* comment - refactor idea: this could be a util class, like green-text or something */
+    /* margin: 0; */
 }
 
-footer .address {
-    margin-top: 24px;
-}
+/* footer .address {
+    margin-top: 24px; use mt-4 instead
+} */
 
 .social-media-icon {
     opacity: 40%;
@@ -276,9 +276,9 @@ footer .address {
     }
 }
 
-.social-media-container a:first-child .social-media-icon {
-    margin-left: 0px;
-}
+/* .social-media-container a:first-child .social-media-icon {
+    margin-left: 0; use ms-0 instead s is for start, which is left
+} */
 
 .social-media-icon:hover,
 .social-media-icon:focus {
@@ -287,8 +287,8 @@ footer .address {
 
 .brandmark {
     width: 8rem;
-    margin-right: -15px;
-    margin-left: auto;
+    /* margin-right: -15px;
+    margin-left: auto; */
 }
 
 @media (min-width: 992px) {

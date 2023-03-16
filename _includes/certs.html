@@ -1,6 +1,6 @@
 {% for cert in site.data.certs %}
-<div>
-    <h2 class="san-serif heading">{{ cert.name }}</h2>
+<div class="col-md-3 mt-5">
+    <h2 class="san-serif heading m-0">{{ cert.name }}</h2>
     <ul class="no-bullets">
         {% for value in cert.values %}
         <li>{{ value }}</li>
