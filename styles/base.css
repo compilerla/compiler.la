@@ -11,33 +11,8 @@
     --white: #FFFFFF;
 }
 
-/* * {
-    box-sizing: border-box;
-}
-
-html,
 body {
-    height: 100%;
-    margin: 0;
-}
-
-:root {
-    --body-padding: 16px;
-}
-
-@media (min-width: 992px) {
-    :root {
-        --body-padding: 30px;
-    }
-} */
-
-body {
-    /* display: flex;
-    flex-direction: column;
-
-    padding: var(--body-padding); */
     background-color: var(--off-black);
-
     color: var(--white);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -59,26 +34,6 @@ a:focus {
     color: var(--green);
 }
 
-ul.no-bullets {
-    padding-left: 0;
-}
-
-ul.no-bullets li {
-    list-style-type: none;
-    padding: 0;
-    margin: 16px 0;
-}
-
-@media (min-width: 992px) {
-    ul.no-bullets li {
-        margin: inherit 0 0;
-    }
-}
-
-li.certs {
-    padding-bottom: 0.75rem;
-}
-
 /*#region Font Family */
 
 .monospace,
@@ -98,6 +53,21 @@ h6 {
 /*#endregion */
 
 /*#region Font Sizes */
+/*
+Overwrite Bootstrap's heading font-sizes
+https://stackoverflow.com/questions/5410066/what-are-the-default-font-sizes-in-pixels-for-the-html-heading-tags-h1-h2
+*/
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 :root {
     --title-font-size: 1.75rem;
@@ -119,40 +89,9 @@ h6 {
     font-size: var(--button-text-font-size);
 }
 
-/*
-Overwrite Bootstrap's heading font-sizes
-https://stackoverflow.com/questions/5410066/what-are-the-default-font-sizes-in-pixels-for-the-html-heading-tags-h1-h2
-*/
-
-h1 {
-    font-size: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-h3 {
-    font-size: 1.17rem;
-}
-
-h4 {
-    font-size: 1rem;
-}
-
-h5 {
-    font-size: 0.83rem;
-}
-
-h6 {
-    font-size: 0.67rem;
-}
-
 /*#endregion */
+
+/* Buttons */
 
 .primary-btn {
     text-decoration: none;
@@ -160,8 +99,7 @@ h6 {
     background-color: var(--green);
     color: var(--off-black);
     padding: 1rem;
-    margin-right: 15px;
-    margin-bottom: 10px;
+    line-height: normal;
 }
 
 .primary-btn:hover {
@@ -174,8 +112,7 @@ h6 {
     border: 3px solid var(--green);
     color: var(--white);
     padding: 1rem;
-    margin-right: 15px;
-    margin-bottom: 10px;
+    line-height: normal;
 }
 
 .secondary-btn:hover {
@@ -193,74 +130,36 @@ h6 {
 
 @media (min-width: 992px) {
     :root {
-        --header-margin-left: -10px;
+        --header-margin-left: -7px;
         --logo-width: 20rem;
     }
 }
 
-header {
+.logo {
     margin-left: var(--header-margin-left);
     /* account for padding within the Compiler logo*/
-}
-
-.logo {
     width: var(--logo-width);
 }
-
-/* Main */
-/*
-main {
-    flex: 1 0 auto;
-} */
 
 /* Footer */
 
 .divider-line {
     border-top: 1px solid #545454;
-    /* margin: 10px -16px 10px; */
 }
 
-/* @media (min-width: 992px) { */
-    /* .divider-line { */
-        /* margin: 20px 0 20px; */
-    /* } */
-
-/* } */
-
-/* footer {
-    flex-shrink: 0;
-} */
-
-/* :root {
-    --certs-div-padding-left: 0;
+li.certs {
+    padding-bottom: 0.75rem;
 }
-
-@media (min-width: 992px) {
-    :root {
-        --certs-div-padding-left: 16px;
-    }
-} */
-
-/* footer .certs>div { */
-    /* margin: 30px 0 0; */
-    /* padding-left: var(--certs-div-padding-left); */
-/* } */
 
 footer .heading {
     font-size: 1.5rem; /* comment - refactor idea: this could be a util class, like like font-size-1.5 */
     color: var(--teal); /* comment - refactor idea: this could be a util class, like green-text or something */
-    /* margin: 0; */
 }
 
 footer .contact-link {
     font-size: 1.125rem; /* comment - refactor idea: this could be a util class, like like font-size-1.125 */
     color: var(--green); /* comment - refactor idea: this could be a util class, like green-text or something */
-    /* margin: 0; */
 }
-
-/* footer .address {
-    margin-top: 24px; use mt-4 instead
-} */
 
 .social-media-icon {
     opacity: 40%;
@@ -276,10 +175,6 @@ footer .contact-link {
     }
 }
 
-/* .social-media-container a:first-child .social-media-icon {
-    margin-left: 0; use ms-0 instead s is for start, which is left
-} */
-
 .social-media-icon:hover,
 .social-media-icon:focus {
     opacity: 100%;
@@ -287,8 +182,6 @@ footer .contact-link {
 
 .brandmark {
     width: 8rem;
-    /* margin-right: -15px;
-    margin-left: auto; */
 }
 
 @media (min-width: 992px) {

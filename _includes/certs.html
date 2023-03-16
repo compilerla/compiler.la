@@ -1,9 +1,9 @@
 {% for cert in site.data.certs %}
 <div class="col-md-3 mt-5">
-    <h2 class="san-serif heading m-0">{{ cert.name }}</h2>
-    <ul class="no-bullets">
+    <h2 class="san-serif heading mb-3">{{ cert.name }}</h2>
+    <ul class="list-unstyled">
         {% for value in cert.values %}
-        <li>{{ value }}</li>
+        <li class="my-3 my-lg-0">{{ value }}</li>
         {% endfor %}
     </ul>
 </div>
