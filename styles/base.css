@@ -15,16 +15,27 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
+}
+
+:root {
+    --body-padding: 16px;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --body-padding: 30px;
+    }
 }
 
 body {
     display: flex;
     flex-direction: column;
 
-    padding: 30px;
+    padding: var(--body-padding);
     background-color: var(--off-black);
 
     color: var(--white);
@@ -32,7 +43,8 @@ body {
     font-weight: normal;
 }
 
-p, li {
+p,
+li {
     line-height: 1.5rem;
 }
 
@@ -42,21 +54,40 @@ a {
     transition: 250ms;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: var(--green);
 }
 
 ul.no-bullets {
+    padding-left: 0;
+}
+
+ul.no-bullets li {
     list-style-type: none;
     padding: 0;
-    margin: inherit 0 0;
+    margin: 16px 0;
+}
+
+@media (min-width: 992px) {
+    ul.no-bullets li {
+        margin: inherit 0 0;
+    }
 }
 
 li.certs {
     padding-bottom: 0.75rem;
 }
 
-.monospace, h1, h2, h3, h4, h5, h6 {
+/*#region Font Family */
+
+.monospace,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
 }
 
@@ -64,17 +95,64 @@ li.certs {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-.title-lg {
+/*#endregion */
+
+/*#region Font Sizes */
+
+:root {
+    --title-font-size: 1.75rem;
+    --button-text-font-size: 1.25rem;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --title-font-size: 2rem;
+        --button-text-font-size: 1.5rem;
+    }
+}
+
+.lg-link {
+    font-size: var(--title-font-size);
+}
+
+.btn-link {
+    font-size: var(--button-text-font-size);
+}
+
+/*
+Overwrite Bootstrap's heading font-sizes
+https://stackoverflow.com/questions/5410066/what-are-the-default-font-sizes-in-pixels-for-the-html-heading-tags-h1-h2
+*/
+
+h1 {
     font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
-.text-lg {
+h2 {
     font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.shifted-down {
-    margin-top: 50px;
+h3 {
+    font-size: 1.17rem;
 }
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.83rem;
+}
+
+h6 {
+    font-size: 0.67rem;
+}
+
+/*#endregion */
 
 .primary-btn {
     text-decoration: none;
@@ -106,39 +184,66 @@ li.certs {
     background-color: var(--green);
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
+/* Header */
+
+:root {
+    --header-margin-left: -5px;
+    --logo-width: 15rem;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --header-margin-left: -10px;
+        --logo-width: 20rem;
+    }
 }
 
 header {
-    margin-left: -10px; /* account for padding within the Compiler logo*/
+    margin-left: var(--header-margin-left);
+    /* account for padding within the Compiler logo*/
 }
 
 .logo {
-    width: 20rem;
+    width: var(--logo-width);
 }
+
+/* Main */
 
 main {
     flex: 1 0 auto;
 }
 
+/* Footer */
+
 .divider-line {
     border-top: 1px solid #545454;
-    margin: 125px -30px 0px;
+    margin: 10px -16px 10px;
+}
+
+@media (min-width: 992px) {
+    .divider-line {
+        margin: 20px -30px 20px;
+    }
+
 }
 
 footer {
     flex-shrink: 0;
 }
 
-footer .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
+:root {
+    --certs-div-padding-left: 0;
+}
 
-    padding: 1rem 0;
+@media (min-width: 992px) {
+    :root {
+        --certs-div-padding-left: 16px;
+    }
+}
+
+footer .certs>div {
+    margin: 30px 0 0;
+    padding-left: var(--certs-div-padding-left);
 }
 
 footer .heading {
@@ -157,110 +262,37 @@ footer .address {
     margin-top: 24px;
 }
 
-footer .certs > div {
-    flex: 1 1 0px;
-    align-self: flex-start;
-    padding: 0 20px;
-}
-
-footer .certs > div:first-child  {
-    padding-left: 0;
-}
-
-.social-media-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
 .social-media-icon {
     opacity: 40%;
-    margin: 0 24px;
-    width: 3rem;
     transition: 250ms;
+    margin: 0 12px;
+    width: calc(28rem / 16);
+}
+
+@media (min-width: 992px) {
+    .social-media-icon {
+        margin: 0 24px;
+        width: 3rem;
+    }
 }
 
 .social-media-container a:first-child .social-media-icon {
     margin-left: 0px;
 }
 
-.social-media-icon:hover, .social-media-icon:focus {
+.social-media-icon:hover,
+.social-media-icon:focus {
     opacity: 100%;
 }
 
 .brandmark {
-    width: 17.5rem;
+    width: 8rem;
     margin-right: -15px;
     margin-left: auto;
 }
 
-/***** Media Queries *****/
-
-/* - with default font 16px, 48rem = 768px */
-@media (max-width: 48rem) {
-    body {
-        padding: 16px;
-    }
-
-    header {
-        margin-left: -5px;
-    }
-
-    .logo {
-        width: 15rem;
-    }
-
-    .title-lg {
-        font-size: 1.75rem;
-    }
-
-    .text-lg {
-        font-size: 1.25rem;
-    }
-
-    .divider-line {
-        margin: 120px -16px -75px;
-    }
-
-    footer .certs {
-        flex-direction: column;
-    }
-
-    footer .certs > div {
-        margin: 48px 0 0;
-        padding: 0;
-    }
-
-    ul.no-bullets li {
-        margin: 16px 0;
-    }
-
-    .social-media-icon {
-        margin: 0 12px;
-        width: calc(28rem / 16);
-    }
-
+@media (min-width: 992px) {
     .brandmark {
-        width: 8rem;
-    }
-}
-
-@media (max-height: 30rem) {
-    .logo {
-        width: 15rem;
-    }
-
-    .title-lg {
-        font-size: 1.75rem;
-    }
-
-    .text-lg {
-        font-size: 1.25rem;
-    }
-}
-
-@media (max-height: 25rem) {
-    header {
-        padding-bottom: 10px;
+        width: 17.5rem;
     }
 }
