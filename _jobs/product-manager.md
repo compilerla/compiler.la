@@ -78,10 +78,7 @@ Per company policy, this position has no formal educational requirements
 * Using the linked form, please provide a brief introduction and upload your resume.
 * Cover letters are not expected and extra weight in scoring will not be given to those that include them
 
-<div class="shifted-down">
-   <a class="monospace text-lg primary-btn" href="https://forms.clickup.com/8631512/f/87d6r-5540/DC9U9PVDM86KIWN5XU">Apply Now</a>
-</div>
-<div class="shifted-down"></div>
+{% include job-apply-button.html link="https://forms.clickup.com/8631512/f/87d6r-5540/DC9U9PVDM86KIWN5XU" %}
 
 _In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on race, color, ancestry, national origin, religion, education, age, gender identity, sexual orientation, marital domestic partner status, familial status, disability status, or veteran status._
 

@@ -75,7 +75,7 @@ This is a full-time, salaried position (W2) with benefits. Full-time employment 
 * Cover letters are not expected and extra weight in scoring will not be given to those that include them
 * Writing samples will be requested as part of second round interviews
 
-[Apply Now](https://forms.clickup.com/8631512/f/87d6r-2087/GUOF0LDD4SN58BC27T)
+{% include job-apply-button.html link="https://forms.clickup.com/8631512/f/87d6r-2087/GUOF0LDD4SN58BC27T" %}
 
 
 
