@@ -1,1 +1,6 @@
+{% if page.open == "true" %}
 <a class="d-inline-block monospace primary-btn" href="{{ include.link }}">Apply Now</a>
+{% else %}
+<a class="d-inline-block monospace primary-btn btn disabled" href="{{ include.link }}" role="button"
+    aria-disabled="true">Apply Now</a>
+{% endif %}
