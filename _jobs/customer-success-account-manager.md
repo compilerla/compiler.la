@@ -6,14 +6,14 @@ Our team specializes in building software applications around data for operation
 
 Our clients have included: City of Los Angeles, City of West Hollywood, CicLAvia, LA2050, Caltrans, County of Los Angeles, and the California Community Foundation.
 
-**About Cal-ITP**: Supported by the California State Transportation Agency (CalSTA) and the California Department of Transportation (Caltrans) through a grant from the California Transit and Intercity Rail Capital Program (TIRCP), the [California Integrated Travel Project (Cal-ITP)](https://www.calitp.org/) is a statewide solution to make travel simpler and cost-effective for everyone. Review our [2021 Accomplishments report](https://www.calitp.org/assets/Cal-ITP.2021.Accomplishments.Report.pdf) to learn more about our work. 
+**About Cal-ITP**: Supported by the California State Transportation Agency (CalSTA) and the California Department of Transportation (Caltrans) through a grant from the California Transit and Intercity Rail Capital Program (TIRCP), the [California Integrated Travel Project (Cal-ITP)](https://www.calitp.org/) is a statewide solution to make travel simpler and cost-effective for everyone. Review our [2021 Accomplishments report](https://www.calitp.org/assets/Cal-ITP.2021.Accomplishments.Report.pdf) to learn more about our work.
 
 ## Role
-The Customer Success team helps transit agencies take advantage of the various services offered by Cal-ITP. As an account manager, you will moderate and manage communication between Cal-ITP and the California transit agency customers assigned to you. You will be responsible for maintaining positive and supportive relationships with your assigned agencies and for identifying new opportunities to increase the quality of support provided by Cal-ITP. 
+The Customer Success team helps transit agencies take advantage of the various services offered by Cal-ITP. As an account manager, you will moderate and manage communication between Cal-ITP and the California transit agency customers assigned to you. You will be responsible for maintaining positive and supportive relationships with your assigned agencies and for identifying new opportunities to increase the quality of support provided by Cal-ITP.
 
-You will also be expected to document interactions and agency information in our Customer Relationship Management (CRM) system and to maintain a high-level understanding of Cal-ITP’s various programs and how your agencies are engaging with them. 
+You will also be expected to document interactions and agency information in our Customer Relationship Management (CRM) system and to maintain a high-level understanding of Cal-ITP’s various programs and how your agencies are engaging with them.
 
-This role is client-facing. You’ll report to Anthony Rollins, and collaborate closely with Olivia Ramacier as well as with team members across Compiler and Cal-ITP, including the Payments, Mobility Service Data, and Data and Digital Services Teams. You’ll have access to modern tools to help you get your work done in a remote environment. 
+This role is client-facing. You’ll report to Anthony Rollins, and collaborate closely with Olivia Ramacier as well as with team members across Compiler and Cal-ITP, including the Payments, Mobility Service Data, and Data and Digital Services Teams. You’ll have access to modern tools to help you get your work done in a remote environment.
 
 This is a full-time, salaried position (W-2) with benefits. Full-time employment at Compiler is thirty (30) hours per week.
 
@@ -26,17 +26,17 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 ## Required Qualifications
 - Experience in an account management or customer service setting
-- Experience with a CRM 
+- Experience with a CRM
 - An ability to engage with customers beyond your assigned list of duties and identify opportunities to increase customer satisfaction
 - Ability to incorporate individual tasks and requests into a cohesive customer success strategy
-- Comfortable collecting and sharing feedback from customers to improve existing processes  
+- Comfortable collecting and sharing feedback from customers to improve existing processes
 - A personal and professional commitment to bringing anti-racist principles to your work
 
 ## Preferred Qualifications
 - Proficiency in Google Workspace
 - Comfortable following up with internal and external contacts, encouraging accountability from customers and colleagues
 - Willingness to learn and adapt to new productivity tools and applications (GitHub, ClickUp, Hubspot, etc.)
-- Experience working with or in proximity to government 
+- Experience working with or in proximity to government
 - Experience working as a consultant
 - Preference given to candidates located in California, specifically Los Angeles
 - A love of public transit
@@ -50,7 +50,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 ## Compensation
 - $70,000 annually based on qualifications and experience
 - Paid time off: fifteen (15) days paid time off (PTO) and ten (10) sick days annually, federal holidays, and annual holiday closure between December 23 and January 1
-- 100% company-paid medical, dental, and vision insurance premiums for employees; 50% company-paid insurance premiums for employees’ dependents 
+- 100% company-paid medical, dental, and vision insurance premiums for employees; 50% company-paid insurance premiums for employees’ dependents
 - 100% company-paid short- and long-term disability insurance
 - Discretionary budget for home office and/or professional development
 - 401k contribution
@@ -71,4 +71,3 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 _In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on race, color, ancestry, national origin, religion, education, age, gender identity, sexual orientation, marital domestic partner status, familial status, disability status, or veteran status._
 
 _We will consider for employment qualified applicants with arrest and conviction records. [#banthebox](https://bantheboxcampaign.org)_
-
