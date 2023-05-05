@@ -69,7 +69,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Using the linked form, please briefly introduce yourself and upload your resume
 - Cover letters are not expected, and extra weight in scoring will not be given to those that include them
 
-{% include job-apply-button.html link="https://forms.clickup.com/8631512/f/87d6r-5380/CDHYTQM5QVOKGLTX5C" %}
+{% include job-apply-button.html link="https://forms.clickup.com/8631512/f/87d6r-6640/V5BBPCBTCXDAB3S7O4" %}
 
 _In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on race, color, ancestry, national origin, religion, education, age, gender identity, sexual orientation, marital domestic partner status, familial status, disability status, or veteran status._
 
