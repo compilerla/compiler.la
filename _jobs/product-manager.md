@@ -1,7 +1,8 @@
 ---
 layout: job_post
 title: Senior Consultant, Product Manager
-open: false
+open_date: 2023-02-27
+close_date: 2023-03-12
 ---
 Compiler is a small, woman-owned software consultancy. Compiler helps service-oriented government agencies build open source, human-centered, secure, agile solutions to support the delivery of government services that increase equity of opportunity.
 

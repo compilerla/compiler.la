@@ -1,7 +1,8 @@
 ---
 layout: job_post
 title: Senior Consultant, UX/UI Designer and Researcher
-open: false
+open_date: 2022-06-22
+close_date: 2022-07-01
 ---
 **About Compiler:** Compiler is a small, woman-owned software consultancy. Compiler helps service-oriented government agencies build open source, human-centered, secure, agile solutions to support the delivery of government services that increase equity of opportunity.
 

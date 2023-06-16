@@ -1,6 +1,8 @@
 ---
 layout: job_post
 title: Creative Services Project Manager - consultant
+open_date: 2021-05-01
+close_date: 2021-05-15
 ---
 The Creative Services Project Manager provides general operational support for all Communication and Content initiatives at [California Integrated Travel Project (Cal-ITP)](https://www.calitp.org/). Responsibilities include management of production timelines for all content and external messaging produced by Cal-ITP, oversight of branded materials and Cal-ITP brand identity, and ownership of the Caltrans Mobility Newsletter.
 
