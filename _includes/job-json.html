@@ -1,0 +1,9 @@
+{%- if include.job -%}
+{ title:"{{ job.title }}", open_date:"{{ job.open_date }}", close_date:"{{ job.close_date }}", url:"{{ job.url }}" }
+{%- else -%}
+[
+    {% for job in site.jobs -%}
+    { title:"{{ job.title }}", open_date:"{{ job.open_date }}", close_date:"{{ job.close_date }}", url:"{{ job.url }}" },
+    {% endfor %}
+]
+{%- endif -%}
