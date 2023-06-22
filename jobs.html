@@ -34,16 +34,16 @@ title: Jobs with Compiler
 <script>
     // override default Timezone for California
     luxon.Settings.defaultZone = "America/Los_Angeles";
-    var DateTime = luxon.DateTime;
-    var now = DateTime.now();
+    const DateTime = luxon.DateTime;
+    const now = DateTime.now();
 
-    var all_jobs = {% include job-json.html %};
-    var open_jobs = [];
-    var closed_jobs = [];
+    const all_jobs = {% include job-json.html %};
+    const open_jobs = [];
+    const closed_jobs = [];
 
     all_jobs.forEach(job => {
-        var open_date = DateTime.fromISO(job.open_date).startOf("day");
-        var close_date = DateTime.fromISO(job.close_date).endOf("day");
+        const open_date = DateTime.fromISO(job.open_date).startOf("day");
+        const close_date = DateTime.fromISO(job.close_date).endOf("day");
 
         if(open_date <= now && close_date >= now) {
             open_jobs.push(job);
