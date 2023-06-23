@@ -3,6 +3,7 @@ layout: job_post
 title: Associate Consultant, Customer Success Account Manager
 open_date: 2023-05-05
 close_date: 2023-05-19
+apply_link: https://forms.clickup.com/8631512/f/87d6r-6640/V5BBPCBTCXDAB3S7O4
 ---
 
 Compiler is a small, woman-owned software consultancy. Compiler helps service-oriented government agencies build open source, human-centered, secure, agile solutions to support the delivery of government services that increase equity of opportunity.
@@ -79,5 +80,3 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Applications accepted May 5, 2023 - May 19, 2023
 - Using the linked form, please briefly introduce yourself and upload your resume
 - Cover letters are not expected, and extra weight in scoring will not be given to those that include them
-
-{% include job-apply-button.html link="https://forms.clickup.com/8631512/f/87d6r-6640/V5BBPCBTCXDAB3S7O4" %}
