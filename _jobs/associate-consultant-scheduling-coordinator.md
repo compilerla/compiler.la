@@ -4,6 +4,7 @@ title: Associate Consultant, Scheduling Coordinator
 open_date: 2022-05-01
 close_date: 2022-05-13
 ---
+
 **About Compiler:** Compiler is a small, woman-owned software consultancy. Compiler helps service-oriented government agencies build open source, human-centered, secure, agile solutions to support the delivery of government services that increase equity of opportunity.
 
 Our team specializes in building software applications around data for operations support and performance management including: data standards development, data engineering, data cleaning, extract transform and load (ETL) workflows, custom application programming interface (API) development and integration, data integration, data pipelines, data analytics, and data science. Our team’s subject matter expertise in transportation, housing, and homelessness provides depth and quality to the services we design and the applications we build.
@@ -18,36 +19,36 @@ This is a 6-month part-time contract position.
 
 ## Responsibilities
 
-+ Data Assessment Support and Scheduling (50%)
-+ Coordinate with Cal-ITP colleagues, Caltrans staff, and representatives from various California transit agencies to schedule virtual meetings on an established schedule using Outlook email and calendar
-+ Ensure meeting participation by following up with attendees, confirming availability, and rescheduling as needed
-+ Manage all videoconferencing and phone requirements
-+ Liaise with internal and external meeting participants to share agendas, notes, and other meeting materials in a timely manner
-+ Monitor group inbox for emails and route to the appropriate team member for response
-+ Payments Support and Scheduling (50%)
-+ Support email inquiries from new customers by sharing informational material via email
-+ Coordinate with new customers to schedule introductory meetings with members of the Cal-ITP Payments team
-+ Support interactions with transit agency representatives by fielding email inquiries and routing them to the appropriate contact within Cal-ITP as needed
-+ Ensure that new customer inquiries are responded to in a timely manner by the correct Payments team member
-+ Track interactions with customers in a CRM and ticketing tool
+- Data Assessment Support and Scheduling (50%)
+- Coordinate with Cal-ITP colleagues, Caltrans staff, and representatives from various California transit agencies to schedule virtual meetings on an established schedule using Outlook email and calendar
+- Ensure meeting participation by following up with attendees, confirming availability, and rescheduling as needed
+- Manage all videoconferencing and phone requirements
+- Liaise with internal and external meeting participants to share agendas, notes, and other meeting materials in a timely manner
+- Monitor group inbox for emails and route to the appropriate team member for response
+- Payments Support and Scheduling (50%)
+- Support email inquiries from new customers by sharing informational material via email
+- Coordinate with new customers to schedule introductory meetings with members of the Cal-ITP Payments team
+- Support interactions with transit agency representatives by fielding email inquiries and routing them to the appropriate contact within Cal-ITP as needed
+- Ensure that new customer inquiries are responded to in a timely manner by the correct Payments team member
+- Track interactions with customers in a CRM and ticketing tool
 
 ## Preferred Qualifications
 
-+ Experience coordinating meetings across multiple calendaring platforms
-+ Proficient in Google Suite, Outlook, and calendaring tools (Doodle, Calend.ly)
-+ Comfortable following up with internal and external contacts, encouraging accountability from meeting participants
-+ Willingness to learn and adapt to new productivity tools and applications (Asana, ClickUp, Airtable, Hubspot, Teamwork, etc.)
-+ Experience with CRMs a plus
-+ Interest in public transportation a plus
+- Experience coordinating meetings across multiple calendaring platforms
+- Proficient in Google Suite, Outlook, and calendaring tools (Doodle, Calend.ly)
+- Comfortable following up with internal and external contacts, encouraging accountability from meeting participants
+- Willingness to learn and adapt to new productivity tools and applications (Asana, ClickUp, Airtable, Hubspot, Teamwork, etc.)
+- Experience with CRMs a plus
+- Interest in public transportation a plus
 
 ## Timeline & Compensation
 
-+ Q2 2022 start date
-+ Hourly compensation
-+ 20 hours per week (Part-time)
-+ Contract position, 6-month term
-+ Possibility that opportunity could expand in the future
-+ Applicant will need to provide their own laptop computer
+- Q2 2022 start date
+- Hourly compensation
+- 20 hours per week (Part-time)
+- Contract position, 6-month term
+- Possibility that opportunity could expand in the future
+- Applicant will need to provide their own laptop computer
 
 ## Location
 
@@ -55,5 +56,5 @@ This is a 6-month part-time contract position.
 
 ## To Apply
 
-+ Send resume, brief intro email and preferences for working (hours, time zone, etc) to [careers@compiler.la](mailto:careers@compiler.la) by May 13, 2022
-+ Cover letters are not expected and extra weight in scoring will not be given to those that include them them
+- Send resume, brief intro email and preferences for working (hours, time zone, etc) to [careers@compiler.la](mailto:careers@compiler.la) by May 13, 2022
+- Cover letters are not expected and extra weight in scoring will not be given to those that include them them
