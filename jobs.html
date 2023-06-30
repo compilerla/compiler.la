@@ -5,27 +5,64 @@ title: Jobs with Compiler
 <h1>Jobs</h1>
 
 <h2>Accepting applications</h2>
-{% assign open_jobs = site.jobs | where: "open", "true" %}
-{% if open_jobs.size > 0 %}
-<ul>
-    {% for job in open_jobs %}
-    <li><a href="{{ job.url }}">{{ job.title }}</a></li>
-    {% endfor %}
-</ul>
-{% else %}
-<p>There are no positions accepting applications at the moment.</p>
-{% endif %}
+<ul id="open" class="mx-3"></ul>
 
 <h2>Past opportunities</h2>
-<ul class="mx-3">
-    {% for job in site.jobs %}
-    {% if job.open != true %}
-    <li><a href="{{ job.url }}">{{ job.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-</ul>
+<ul id="closed" class="mx-3"></ul>
 
 <p class="mb-5">
     Missed a past opportunity? <a href="http://eepurl.com/h6qTKL">Subscribe</a> to our mailing list, as we are always
     looking for great candidates.
 </p>
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js" crossorigin="anonymous"></script>
+<script>
+    // override default Timezone for California
+    luxon.Settings.defaultZone = "America/Los_Angeles";
+    const DateTime = luxon.DateTime;
+    const now = DateTime.now();
+
+    const all_jobs = {% include job-json.html %};
+    const open_jobs = [];
+    const closed_jobs = [];
+
+    all_jobs.forEach(job => {
+        const open_date = DateTime.fromISO(job.open_date).startOf("day");
+        const close_date = DateTime.fromISO(job.close_date).endOf("day");
+
+        if(open_date <= now && close_date >= now) {
+            open_jobs.push(job);
+        }
+        else {
+            closed_jobs.push(job);
+        }
+    });
+
+    function createJobItem(job) {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.append(job.title);
+        a.href = job.url;
+        li.appendChild(a);
+        return li;
+    }
+
+    const open_ul = document.getElementById("open");
+    const closed_ul = document.getElementById("closed");
+
+    open_jobs.forEach(job => {
+        const item = createJobItem(job);
+        open_ul.appendChild(item);
+    });
+
+    closed_jobs.forEach(job => {
+        const item = createJobItem(job);
+        closed_ul.appendChild(item);
+    });
+
+    if (open_jobs.length < 1) {
+        const p = document.createElement("p");
+        p.append("There are no positions accepting applications at the moment.");
+        open_ul.replaceWith(p);
+    }
+</script>

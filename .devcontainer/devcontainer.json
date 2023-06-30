@@ -1,24 +1,23 @@
 {
-    "name": "compiler.la",
-    "dockerComposeFile": "docker-compose.yaml",
-    "service": "site",
-	"workspaceFolder": "/srv/jekyll",
-    "postAttachCommand": [
-        "/bin/bash",
-        ".devcontainer/postAttach.sh"
-      ],
-    "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash",
-        "terminal.integrated.profiles.linux": {
-            "bash": {
-                "path": "/bin/bash"
-            }
-        }
-    },
-    "extensions": [
-		"eamodio.gitlens",
-		"mhutchie.git-graph",
-		"redhat.vscode-xml",
-        "sissel.shopify-liquid"
-	]
+  "name": "compiler.la",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "site",
+  "workspaceFolder": "/srv/jekyll",
+  "postAttachCommand": ["/bin/bash", ".devcontainer/postAttach.sh"],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "/bin/bash"
+      }
+    }
+  },
+  "extensions": [
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "mhutchie.git-graph",
+    "redhat.vscode-xml",
+    "sissel.shopify-liquid",
+    ""
+  ]
 }

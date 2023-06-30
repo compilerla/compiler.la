@@ -2,10 +2,65 @@
 layout: default
 title_prefix: "Jobs with Compiler:"
 ---
+
 <h1>{{ page.title }}</h1>
 
-{{ content }}
+{{ content }} {% if page.apply_link %}
+<a
+  class="d-inline-block monospace primary-btn"
+  id="apply"
+  href="{{ page.apply_link }}"
+>
+  Apply Now
+</a>
+{% endif %}
+
+<p>
+  <em>
+    In keeping with our beliefs and goals, no employee or applicant will face
+    discrimination or harassment based on race, color, ancestry, national
+    origin, religion, education, age, gender identity, sexual orientation,
+    marital domestic partner status, familial status, disability status, or
+    veteran status.
+  </em>
+</p>
+<p>
+  <em>
+    We will consider for employment qualified applicants with arrest and
+    conviction records.
+    <a
+      href="https://bantheboxcampaign.org"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      #banthebox
+    </a>
+  </em>
+</p>
 
 <div>
-    <a class="monospace lg-link" href="/jobs">Back to Jobs</a>
+  <a class="monospace lg-link" href="/jobs">Back to Jobs</a>
 </div>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"
+  crossorigin="anonymous"
+></script>
+<script>
+  // override default Timezone for California
+  luxon.Settings.defaultZone = "America/Los_Angeles";
+  const DateTime = luxon.DateTime;
+  const now = DateTime.now();
+
+  const job = {% include job-json.html job=page %};
+  const open_date = DateTime.fromISO(job.open_date).startOf("day");
+  const close_date = DateTime.fromISO(job.close_date).endOf("day");
+
+  if(open_date > now || close_date < now) {
+    const apply = document.getElementById("apply");
+    if (apply) {
+      apply.classList.add("btn", "disabled");
+      apply.setAttribute("aria-disabled", "true");
+    }
+  }
+</script>
