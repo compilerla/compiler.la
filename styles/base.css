@@ -7,7 +7,7 @@
     --navy: #223061;
     --off-black: #262626;
     --black: #000000;
-    --grey: #EDEDED;
+    --grey: #878787;
     --white: #FFFFFF;
 }
 
@@ -187,6 +187,18 @@ h6 {
     opacity: 70%;
     color: var(--black);
     background-color: var(--green);
+}
+
+.label {
+    font-size: 0.75rem;
+    font-family: "Source Code Pro Regular";
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.075rem;
+    text-transform: uppercase;
+    color: var(--grey);
+    border: 1px solid var(--grey);
+    border-radius: 0.375rem;
 }
 
 /* Header */
