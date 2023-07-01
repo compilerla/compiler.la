@@ -2,11 +2,11 @@
 <!-- prettier-ignore -->
 {% endcomment %}
 {%- if include.job -%}
-{ title:"{{ include.job.title }}", open_date:"{{ include.job.open_date }}", close_date:"{{ include.job.close_date }}", url:"{{ include.job.url }}" }
+{ title:"{{ include.job.title }}", type:"{{ include.job.type }}", open_date:"{{ include.job.open_date }}", close_date:"{{ include.job.close_date }}", url:"{{ include.job.url }}" }
 {%- else -%}
 [
     {% for job in site.jobs -%}
-    { title:"{{ job.title }}", open_date:"{{ job.open_date }}", close_date:"{{ job.close_date }}", url:"{{ job.url }}" },
+    { title:"{{ job.title }}", type:"{{ job.type }}", open_date:"{{ job.open_date }}", close_date:"{{ job.close_date }}", url:"{{ job.url }}" },
     {% endfor %}
 ]
 {%- endif -%}

@@ -4,6 +4,7 @@ title: Executive Assistant Business Development
 open_date: 2022-12-02
 close_date: 2023-01-17
 apply_link: https://forms.clickup.com/8631512/f/87d6r-2087/GUOF0LDD4SN58BC27T
+type: W-2
 ---
 
 About Compiler: Compiler is a small, woman-owned software consultancy. Compiler helps service-oriented government agencies build open source, human-centered, secure, agile solutions to support the delivery of government services that increase equity of opportunity.
