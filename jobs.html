@@ -42,6 +42,9 @@ title: Jobs with Compiler
         const li = document.createElement("li");
         const a = document.createElement("a");
         a.append(job.title);
+        if (job.type) {
+            a.append(" (" + job.type + ")");
+        }
         a.href = job.url;
         li.appendChild(a);
         return li;
