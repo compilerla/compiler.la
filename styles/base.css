@@ -182,10 +182,6 @@ h5,
     line-height: var(--h5-line-height);
 }
 
-.posting h2 {
-    margin-top: 40px;
-}
-
 /*#endregion */
 
 /*#region Font Sizes */
@@ -351,4 +347,10 @@ footer .address {
     .brandmark {
         width: 17.5rem;
     }
+}
+
+/* Job Posting Page */
+
+.posting h2 {
+    margin-top: 40px;
 }
