@@ -6,12 +6,12 @@
     --brand-primary-black: #1C1C1C;
     --brand-primary-gray: #ECEDED;
     --brand-primary-white: #FFFFFF;
+    --brand-scales-gray-4: #545454;
     --text-black: #1C1C1C;
     --bs-body-color-rgb: "255, 255, 255";
     --bs-body-bg-rgb: "28, 28, 28";
     --bs-body-color: #FFFFFF;
     --bs-body-bg: #1C1C1C;
-    --brand-scales-gray-4: #545454;
 }
 
 * {
