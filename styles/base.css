@@ -351,6 +351,19 @@ footer .address {
 
 /* Job Posting Page */
 
+:root {
+    --posting-margin: 102px 0 96px 0;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --posting-margin: 135px 0 104px 0;
+    }
+}
+.posting main {
+    margin: var(--posting-margin);
+}
+
 .posting h2 {
     margin-top: 40px;
 }
