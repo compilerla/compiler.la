@@ -168,12 +168,15 @@ h6 {
 .btn-primary {
     --bs-btn-color: #1C1C1C;
     --bs-btn-bg: #88B440;
-    --bs-btn-border-width: 0;
+    --bs-btn-border-width: 1px;
     --bs-btn-border-color: #88B440;
     --bs-btn-hover-color: #1C1C1C;
     --bs-btn-hover-bg: #A6D15F;
     --bs-btn-hover-border-color: #A6D15F;
-    --bs-btn-disabled-opacity: #7D8084;
+    --bs-btn-disabled-color: #1C1C1C;
+    --bs-btn-disabled-bg: #7D8084;
+    --bs-btn-disabled-border-color: #7D8084;
+    --bs-btn-disabled-opacity: 1;
 }
 
 .btn-outline-primary {
