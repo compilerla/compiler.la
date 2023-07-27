@@ -7,7 +7,10 @@
     --brand-primary-gray: #ECEDED;
     --brand-primary-white: #FFFFFF;
     --button-primary-text: #262626;
-
+    --bs-body-color-rgb: "255, 255, 255";
+    --bs-body-bg-rgb: "28, 28, 28";
+    --bs-body-color: #FFFFFF;
+    --bs-body-bg: #1C1C1C;
 }
 
 * {
@@ -33,13 +36,8 @@ body {
 body {
     display: flex;
     flex-direction: column;
-
+    font-family: 'Roboto', Arial, sans-serif;
     padding: var(--body-padding);
-    background-color: var(--brand-primary-black);
-
-    color: var(--brand-primary-white);
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: normal;
 }
 
 p,
@@ -48,14 +46,14 @@ li {
 }
 
 a {
-    color: var(--brand-primary-white);
+    color: var(--brand-primary-green);
     text-decoration: underline;
     transition: 250ms;
 }
 
 a:hover,
 a:focus {
-    color: var(--brand-primary-green);
+    color: var(--brand-primary-white);
 }
 
 ul.no-bullets {
