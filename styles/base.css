@@ -6,7 +6,7 @@
     --brand-primary-black: #1C1C1C;
     --brand-primary-gray: #ECEDED;
     --brand-primary-white: #FFFFFF;
-    --button-primary-text: #262626;
+    --text-black: #1C1C1C;
     --bs-body-color-rgb: "255, 255, 255";
     --bs-body-bg-rgb: "28, 28, 28";
     --bs-body-color: #FFFFFF;
@@ -156,7 +156,7 @@ h6 {
     text-decoration: none;
     border: 3px solid var(--brand-primary-green);
     background-color: var(--brand-primary-green);
-    color: var(--button-primary-text);
+    color: var(--text-black);
     padding: 1rem;
     margin-right: 15px;
     margin-bottom: 10px;
@@ -164,7 +164,7 @@ h6 {
 
 .primary-btn:hover {
     opacity: 70%;
-    color: var(--button-primary-text)
+    color: var(--text-black)
 }
 
 .secondary-btn {
