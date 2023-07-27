@@ -179,7 +179,7 @@ h6 {
 .btn-outline-primary {
     --bs-btn-color: #FFFFFF;
     --bs-btn-border-color: #88B440;
-    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-color: #FFFFFF;
     --bs-btn-hover-bg: #7A974A;
     --bs-btn-hover-border-color: #88B440;
     --bs-btn-active-color: #fff;
