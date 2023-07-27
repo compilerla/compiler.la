@@ -9,6 +9,8 @@
     --black: #000000;
     --grey: #EDEDED;
     --white: #FFFFFF;
+    --bs-font-sans-serif: "Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"";
+    --bs-font-monospace: "'Source Code Pro Bold', SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace";
 }
 
 * {
@@ -83,16 +85,98 @@ li.certs {
 
 .monospace,
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3,
 h4,
-h5,
-h6 {
+.h4 {
     font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
 }
 
-.san-serif {
+.sans-serif {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/*#endregion */
+
+/*#region Headers */
+
+:root {
+    --h1-font-size: calc(40rem / 16);
+    --h1-font-weight: 700;
+    --h1-line-height: 120%;
+    --h2-font-size: calc(32rem / 16);
+    --h2-font-weight: 700;
+    --h2-line-height: 120%;
+    --h3-font-size: calc(24rem / 16);
+    --h3-font-weight: 700;
+    --h3-line-height: 120%;
+    --h4-font-size: calc(16rem / 16);
+    --h4-font-weight: 800;
+    --h4-line-height: 120%;
+    --h5-font-size: calc(16rem / 16);
+    --h5-font-weight: 500;
+    --h5-line-height: 120%;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --h1-font-size: calc(48rem / 16);
+        --h1-font-weight: 800;
+        --h1-line-height: 110%;
+        --h2-font-size: calc(40rem / 16);
+        --h2-font-weight: 700;
+        --h2-line-height: 120%;
+        --h3-font-size: calc(32rem / 16);
+        --h3-font-weight: 700;
+        --h3-line-height: 120%;
+        --h4-font-size: calc(16rem / 16);
+        --h4-font-weight: 800;
+        --h4-line-height: 130%;
+        --h5-font-size: calc(16rem / 16);
+        --h5-font-weight: 500;
+        --h5-line-height: 120%;
+    }
+}
+
+h1,
+.h1 {
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+    line-height: var(--h1-line-height);
+    margin: 0;
+}
+
+h2,
+.h2 {
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weight);
+    line-height: var(--h2-line-height);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h3,
+.h3 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--h3-font-weight);
+    line-height: var(--h3-line-height);
+}
+
+h4,
+.h4 {
+    font-size: var(--h4-font-size);
+    font-weight: var(--h4-font-weight);
+    line-height: var(--h4-line-height);}
+
+h5,
+.h5 {
+    font-family: var(--bs-font-sans-serif);
+    font-size: var(--h5-font-size);
+    font-weight: var(--h5-font-weight);
+    line-height: var(--h5-line-height);
 }
 
 /*#endregion */
@@ -118,41 +202,6 @@ h6 {
 .btn-link {
     font-size: var(--button-text-font-size);
 }
-
-/*
-Overwrite Bootstrap's heading font-sizes
-https://stackoverflow.com/questions/5410066/what-are-the-default-font-sizes-in-pixels-for-the-html-heading-tags-h1-h2
-*/
-
-h1 {
-    font-size: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-h3 {
-    font-size: 1.17rem;
-}
-
-h4 {
-    font-size: 1rem;
-}
-
-h5 {
-    font-size: 0.83rem;
-}
-
-h6 {
-    font-size: 0.67rem;
-}
-
-/*#endregion */
 
 .primary-btn {
     text-decoration: none;
