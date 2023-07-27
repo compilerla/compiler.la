@@ -10,7 +10,7 @@
     --grey: #EDEDED;
     --white: #FFFFFF;
     --bs-font-sans-serif: "Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"";
-    --bs-font-monospace: "'Source Code Pro Bold', SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace";
+    --bs-font-monospace: "Source Code Pro Bold",monospace;
 }
 
 * {
@@ -92,11 +92,11 @@ h3,
 .h3,
 h4,
 .h4 {
-    font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
+    font-family: var(--bs-font-monospace);
 }
 
 .sans-serif {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: var(--bs-font-sans-serif);
 }
 
 /*#endregion */
