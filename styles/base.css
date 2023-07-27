@@ -159,10 +159,13 @@ h2,
 }
 
 h3,
-.h3 {
+.h3,
+.posting h2 {
     font-size: var(--h3-font-size);
     font-weight: var(--h3-font-weight);
     line-height: var(--h3-line-height);
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 h4,
@@ -177,6 +180,10 @@ h5,
     font-size: var(--h5-font-size);
     font-weight: var(--h5-font-weight);
     line-height: var(--h5-line-height);
+}
+
+.posting h2 {
+    margin-top: 40px;
 }
 
 /*#endregion */
