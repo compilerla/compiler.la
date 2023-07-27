@@ -11,6 +11,7 @@
     --bs-body-bg-rgb: "28, 28, 28";
     --bs-body-color: #FFFFFF;
     --bs-body-bg: #1C1C1C;
+    --brand-scales-gray-4: #545454;
 }
 
 * {
@@ -213,7 +214,7 @@ main {
 /* Footer */
 
 .divider-line {
-    border-top: 1px solid #545454;
+    border-top: 1px solid var(--brand-scales-gray-4);
     margin: 10px -16px 10px;
 }
 
