@@ -1,14 +1,13 @@
 @import url("./fonts.css");
 
 :root {
-    --purple: #663190;
-    --green: #88B440;
-    --teal: #01B4CB;
-    --navy: #223061;
+    --brand-primary-green: #88B440;
+    --brand-primary-cyan: #51B1C7;
     --brand-primary-black: #1C1C1C;
-    --black: #000000;
-    --grey: #EDEDED;
-    --white: #FFFFFF;
+    --brand-primary-gray: #ECEDED;
+    --brand-primary-white: #FFFFFF;
+    --button-primary-text: #262626;
+
 }
 
 * {
@@ -38,7 +37,7 @@ body {
     padding: var(--body-padding);
     background-color: var(--brand-primary-black);
 
-    color: var(--white);
+    color: var(--brand-primary-white);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
@@ -49,14 +48,14 @@ li {
 }
 
 a {
-    color: var(--white);
+    color: var(--brand-primary-white);
     text-decoration: underline;
     transition: 250ms;
 }
 
 a:hover,
 a:focus {
-    color: var(--green);
+    color: var(--brand-primary-green);
 }
 
 ul.no-bullets {
@@ -156,9 +155,9 @@ h6 {
 
 .primary-btn {
     text-decoration: none;
-    border: 3px solid var(--green);
-    background-color: var(--green);
-    color: var(--brand-primary-black);
+    border: 3px solid var(--brand-primary-green);
+    background-color: var(--brand-primary-green);
+    color: var(--button-primary-text);
     padding: 1rem;
     margin-right: 15px;
     margin-bottom: 10px;
@@ -166,13 +165,13 @@ h6 {
 
 .primary-btn:hover {
     opacity: 70%;
-    color: var(--black)
+    color: var(--button-primary-text)
 }
 
 .secondary-btn {
     text-decoration: none;
-    border: 3px solid var(--green);
-    color: var(--white);
+    border: 3px solid var(--brand-primary-green);
+    color: var(--brand-primary-white);
     padding: 1rem;
     margin-right: 15px;
     margin-bottom: 10px;
@@ -180,8 +179,8 @@ h6 {
 
 .secondary-btn:hover {
     opacity: 70%;
-    color: var(--black);
-    background-color: var(--green);
+    color: var(--brand-primary-white);
+    background-color: var(--brand-primary-green);
 }
 
 /* Header */
@@ -248,13 +247,13 @@ footer .certs>div {
 
 footer .heading {
     font-size: 1.5rem;
-    color: var(--teal);
+    color: var(--brand-primary-cyan);
     margin: 0;
 }
 
 footer .contact-link {
     font-size: 1.125rem;
-    color: var(--green);
+    color: var(--brand-primary-green);
     margin: 0;
 }
 
