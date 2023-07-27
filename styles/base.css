@@ -9,6 +9,7 @@
     --black: #000000;
     --grey: #EDEDED;
     --white: #FFFFFF;
+    --bs-light-rgb: 84, 84, 84;
     --bs-font-sans-serif: "Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"";
     --bs-font-monospace: "Source Code Pro Bold",monospace;
 }
@@ -215,29 +216,20 @@ footer .h4 {
 
 footer .contact-link {
     color: var(--green);
-    font-size: 1.125rem;
 }
 
 .social-media-icon {
-    opacity: 40%;
     transition: 250ms;
     width: calc(24rem / 16);
 }
 
-@media (min-width: 992px) {
-    .social-media-icon {
-        width: calc(24rem / 16);
-    }
-}
-
 .social-media-icon:hover,
 .social-media-icon:focus {
-    opacity: 100%;
+    opacity: 100% !important;
 }
 
 .brandmark {
     width: 136.898px;
-    margin-left: auto;
 }
 
 @media (min-width: 992px) {
