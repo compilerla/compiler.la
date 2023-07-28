@@ -11,7 +11,7 @@
     --white: #FFFFFF;
     --bs-light-rgb: 84, 84, 84;
     --bs-secondary-rgb: 190, 190, 190;
-    --bs-font-sans-serif: "Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"";
+    --bs-font-sans-serif: Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro Bold",monospace;
     --brand-primary-green: #88B440;
     --brand-primary-cyan: #51B1C7;
