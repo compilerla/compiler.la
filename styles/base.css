@@ -1,18 +1,6 @@
 @import url("./fonts.css");
 
 :root {
-    --purple: #663190;
-    --green: #88B440;
-    --teal: #01B4CB;
-    --navy: #223061;
-    --off-black: #262626;
-    --black: #000000;
-    --grey: #EDEDED;
-    --white: #FFFFFF;
-    --bs-light-rgb: 84, 84, 84;
-    --bs-secondary-rgb: 190, 190, 190;
-    --bs-font-sans-serif: Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    --bs-font-monospace: "Source Code Pro Bold",monospace;
     --brand-primary-green: #88B440;
     --brand-primary-cyan: #51B1C7;
     --brand-primary-black: #1C1C1C;
@@ -20,10 +8,25 @@
     --brand-primary-white: #FFFFFF;
     --brand-scales-gray-4: #545454;
     --text-black: #1C1C1C;
+    --bs-light-rgb: 84, 84, 84;
+    --bs-secondary-rgb: 190, 190, 190;
     --bs-body-color-rgb: "255, 255, 255";
     --bs-body-bg-rgb: "28, 28, 28";
     --bs-body-color: #FFFFFF;
     --bs-body-bg: #1C1C1C;
+    --bs-font-sans-serif: Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: "Source Code Pro Bold",monospace;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+    font-family: var(--bs-font-monospace);
 }
 
 p,
@@ -41,26 +44,6 @@ a:hover:not(.btn),
 a:focus:not(.btn) {
     color: var(--brand-primary-white);
 }
-
-/*#region Font Family */
-
-.monospace,
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4 {
-    font-family: var(--bs-font-monospace);
-}
-
-.sans-serif {
-    font-family: var(--bs-font-sans-serif);
-}
-
-/*#endregion */
 
 /*#region Headers */
 
