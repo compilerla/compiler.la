@@ -4,47 +4,49 @@ classes: posting
 title_prefix: "Jobs with Compiler:"
 ---
 
-<div class="row">
-  <div class="offset-md-2 col-md-7 col-12">
-    <h1 class="pb-4 mb-2 pb-md-5 mb-md-3">{{ page.title }}{% if page.type %} ({{ page.type }}){% endif %}</h1>
+<div class="container">
+  <div class="row">
+    <div class="offset-md-2 col-md-7 col-12">
+      <h1 class="pb-4 mb-2 pb-md-5 mb-md-3">{{ page.title }}{% if page.type %} ({{ page.type }}){% endif %}</h1>
 
-    {{ content }}
+      {{ content }}
 
-    {% if page.apply_link %}
-      <a
-        class="d-inline-block monospace primary-btn"
-        id="apply"
-        href="{{ page.apply_link }}"
-      >
-        Apply Now
-      </a>
-    {% endif %}
-
-    <p>
-      <em>
-        In keeping with our beliefs and goals, no employee or applicant will face
-        discrimination or harassment based on race, color, ancestry, national
-        origin, religion, education, age, gender identity, sexual orientation,
-        marital domestic partner status, familial status, disability status, or
-        veteran status.
-      </em>
-    </p>
-    <p>
-      <em>
-        We will consider for employment qualified applicants with arrest and
-        conviction records.
+      <!-- {% if page.apply_link %} -->
         <a
-          href="https://bantheboxcampaign.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          class="btn btn-primary"
+          id="apply"
+          href="{{ page.apply_link }}"
         >
-          #banthebox
+          Apply Now
         </a>
-      </em>
-    </p>
+      <!-- {% endif %} -->
 
-    <div>
-      <a class="monospace lg-link" href="/jobs">Back to Jobs</a>
+      <p>
+        <em>
+          In keeping with our beliefs and goals, no employee or applicant will face
+          discrimination or harassment based on race, color, ancestry, national
+          origin, religion, education, age, gender identity, sexual orientation,
+          marital domestic partner status, familial status, disability status, or
+          veteran status.
+        </em>
+      </p>
+      <p>
+        <em>
+          We will consider for employment qualified applicants with arrest and
+          conviction records.
+          <a
+            href="https://bantheboxcampaign.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            #banthebox
+          </a>
+        </em>
+      </p>
+
+      <div>
+        <a class="monospace lg-link" href="/jobs">Back to Jobs</a>
+      </div>
     </div>
   </div>
 </div>
