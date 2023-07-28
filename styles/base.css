@@ -10,6 +10,7 @@
     --grey: #EDEDED;
     --white: #FFFFFF;
     --bs-light-rgb: 84, 84, 84;
+    --bs-secondary-rgb: 190, 190, 190;
     --bs-font-sans-serif: "Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"";
     --bs-font-monospace: "Source Code Pro Bold",monospace;
 }
@@ -23,7 +24,7 @@ body {
 
 p,
 li {
-    line-height: 1.5rem;
+    line-height: 140%;
 }
 
 a {
@@ -194,18 +195,20 @@ h5,
 
 /* Header */
 
-:root {
-    --logo-width: 15rem;
+header {
+    padding: 13px 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.16);
 }
 
 @media (min-width: 992px) {
-    :root {
-        --logo-width: 20rem;
+    header {
+        padding: 13px 24px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.16);
     }
 }
 
 .logo {
-    width: var(--logo-width);
+    width: calc(88rem / 16);
 }
 
 /* Footer */
@@ -235,6 +238,18 @@ footer .contact-link {
 @media (min-width: 992px) {
     .brandmark {
         width: 181.676px;
+    }
+}
+
+/* Home Page */
+
+.index {
+    margin: 102px 0 90px 0;
+}
+
+@media (min-width: 992px) {
+    .index {
+        margin: 168px 0 145px 0;
     }
 }
 
