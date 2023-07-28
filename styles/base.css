@@ -14,24 +14,10 @@
     --bs-body-bg-rgb: "28, 28, 28";
     --bs-body-color: #FFFFFF;
     --bs-body-bg: #1C1C1C;
+    --bs-body-line-height: 140%;
+    --bs-body-text-align: left;
     --bs-font-sans-serif: Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro Bold",monospace;
-}
-
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4 {
-    font-family: var(--bs-font-monospace);
-}
-
-p,
-li {
-    line-height: 140%;
 }
 
 a {
@@ -45,7 +31,7 @@ a:focus:not(.btn) {
     color: var(--brand-primary-white);
 }
 
-/*#region Headers */
+/* Headers */
 
 :root {
     --h1-font-size: calc(40rem / 16);
@@ -83,6 +69,17 @@ a:focus:not(.btn) {
         --h5-font-weight: 500;
         --h5-line-height: 120%;
     }
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+    font-family: var(--bs-font-monospace);
 }
 
 h1,
@@ -125,8 +122,6 @@ h5,
     font-weight: var(--h5-font-weight);
     line-height: var(--h5-line-height);
 }
-
-/*#endregion */
 
 /* Buttons */
 
