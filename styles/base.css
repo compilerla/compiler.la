@@ -1,6 +1,18 @@
 @import url("./fonts.css");
 
 :root {
+    --purple: #663190;
+    --green: #88B440;
+    --teal: #01B4CB;
+    --navy: #223061;
+    --off-black: #262626;
+    --black: #000000;
+    --grey: #EDEDED;
+    --white: #FFFFFF;
+    --bs-light-rgb: 84, 84, 84;
+    --bs-secondary-rgb: 190, 190, 190;
+    --bs-font-sans-serif: "Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"";
+    --bs-font-monospace: "Source Code Pro Bold",monospace;
     --brand-primary-green: #88B440;
     --brand-primary-cyan: #51B1C7;
     --brand-primary-black: #1C1C1C;
@@ -14,36 +26,9 @@
     --bs-body-bg: #1C1C1C;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    height: 100%;
-    margin: 0;
-}
-
-:root {
-    --body-padding: 16px;
-}
-
-@media (min-width: 992px) {
-    :root {
-        --body-padding: 30px;
-    }
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto', Arial, sans-serif;
-    padding: var(--body-padding);
-}
-
 p,
 li {
-    line-height: 1.5rem;
+    line-height: 140%;
 }
 
 a {
@@ -57,40 +42,105 @@ a:focus:not(.btn) {
     color: var(--brand-primary-white);
 }
 
-ul.no-bullets {
-    padding-left: 0;
-}
-
-ul.no-bullets li {
-    list-style-type: none;
-    padding: 0;
-    margin: 16px 0;
-}
-
-@media (min-width: 992px) {
-    ul.no-bullets li {
-        margin: inherit 0 0;
-    }
-}
-
-li.certs {
-    padding-bottom: 0.75rem;
-}
-
 /*#region Font Family */
 
 .monospace,
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3,
 h4,
-h5,
-h6 {
-    font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
+.h4 {
+    font-family: var(--bs-font-monospace);
 }
 
-.san-serif {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+.sans-serif {
+    font-family: var(--bs-font-sans-serif);
+}
+
+/*#endregion */
+
+/*#region Headers */
+
+:root {
+    --h1-font-size: calc(40rem / 16);
+    --h1-font-weight: 700;
+    --h1-line-height: 120%;
+    --h2-font-size: calc(32rem / 16);
+    --h2-font-weight: 700;
+    --h2-line-height: 120%;
+    --h3-font-size: calc(24rem / 16);
+    --h3-font-weight: 700;
+    --h3-line-height: 120%;
+    --h4-font-size: calc(16rem / 16);
+    --h4-font-weight: 800;
+    --h4-line-height: 120%;
+    --h5-font-size: calc(16rem / 16);
+    --h5-font-weight: 500;
+    --h5-line-height: 120%;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --h1-font-size: calc(48rem / 16);
+        --h1-font-weight: 800;
+        --h1-line-height: 110%;
+        --h2-font-size: calc(40rem / 16);
+        --h2-font-weight: 700;
+        --h2-line-height: 120%;
+        --h3-font-size: calc(32rem / 16);
+        --h3-font-weight: 700;
+        --h3-line-height: 120%;
+        --h4-font-size: calc(16rem / 16);
+        --h4-font-weight: 800;
+        --h4-line-height: 130%;
+        --h5-font-size: calc(16rem / 16);
+        --h5-font-weight: 500;
+        --h5-line-height: 120%;
+    }
+}
+
+h1,
+.h1 {
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+    line-height: var(--h1-line-height);
+    margin: 0;
+}
+
+h2,
+.h2 {
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weight);
+    line-height: var(--h2-line-height);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h3,
+.h3,
+.posting h2 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--h3-font-weight);
+    line-height: var(--h3-line-height);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h4,
+.h4 {
+    font-size: var(--h4-font-size);
+    font-weight: var(--h4-font-weight);
+    line-height: var(--h4-line-height);}
+
+h5,
+.h5 {
+    font-family: var(--bs-font-sans-serif);
+    font-size: var(--h5-font-size);
+    font-weight: var(--h5-font-weight);
+    line-height: var(--h5-line-height);
 }
 
 /*#endregion */
@@ -116,41 +166,6 @@ h6 {
 .btn-link {
     font-size: var(--button-text-font-size);
 }
-
-/*
-Overwrite Bootstrap's heading font-sizes
-https://stackoverflow.com/questions/5410066/what-are-the-default-font-sizes-in-pixels-for-the-html-heading-tags-h1-h2
-*/
-
-h1 {
-    font-size: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-h3 {
-    font-size: 1.17rem;
-}
-
-h4 {
-    font-size: 1rem;
-}
-
-h5 {
-    font-size: 0.83rem;
-}
-
-h6 {
-    font-size: 0.67rem;
-}
-
-/*#endregion */
 
 /* Buttons */
 
@@ -197,113 +212,79 @@ h6 {
 
 /* Header */
 
-:root {
-    --header-margin-left: -5px;
-    --logo-width: 15rem;
+header {
+    padding: 13px 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.16);
 }
 
 @media (min-width: 992px) {
-    :root {
-        --header-margin-left: -10px;
-        --logo-width: 20rem;
+    header {
+        padding: 13px 24px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.16);
     }
 }
 
-header {
-    margin-left: var(--header-margin-left);
-    /* account for padding within the Compiler logo*/
-}
-
 .logo {
-    width: var(--logo-width);
-}
-
-/* Main */
-
-main {
-    flex: 1 0 auto;
+    width: calc(88rem / 16);
 }
 
 /* Footer */
 
-.divider-line {
-    border-top: 1px solid var(--brand-scales-gray-4);
-    margin: 10px -16px 10px;
-}
-
-@media (min-width: 992px) {
-    .divider-line {
-        margin: 20px -30px 20px;
-    }
-
-}
-
-footer {
-    flex-shrink: 0;
-}
-
-:root {
-    --certs-div-padding-left: 0;
-}
-
-@media (min-width: 992px) {
-    :root {
-        --certs-div-padding-left: 16px;
-    }
-}
-
-footer .certs>div {
-    margin: 30px 0 0;
-    padding-left: var(--certs-div-padding-left);
-}
-
-footer .heading {
-    font-size: 1.5rem;
-    color: var(--brand-primary-cyan);
-    margin: 0;
+footer .h4 {
+    color: var(--teal);
 }
 
 footer .contact-link {
-    font-size: 1.125rem;
-    color: var(--brand-primary-green);
-    margin: 0;
-}
-
-footer .address {
-    margin-top: 24px;
+    color: var(--green);
 }
 
 .social-media-icon {
-    opacity: 40%;
     transition: 250ms;
-    margin: 0 12px;
-    width: calc(28rem / 16);
-}
-
-@media (min-width: 992px) {
-    .social-media-icon {
-        margin: 0 24px;
-        width: 3rem;
-    }
-}
-
-.social-media-container a:first-child .social-media-icon {
-    margin-left: 0px;
+    width: calc(24rem / 16);
 }
 
 .social-media-icon:hover,
 .social-media-icon:focus {
-    opacity: 100%;
+    opacity: 100% !important;
 }
 
 .brandmark {
-    width: 8rem;
-    margin-right: -15px;
-    margin-left: auto;
+    width: 136.898px;
 }
 
 @media (min-width: 992px) {
     .brandmark {
-        width: 17.5rem;
+        width: 181.676px;
     }
+}
+
+/* Home Page */
+
+.index {
+    margin: 102px 0 90px 0;
+}
+
+@media (min-width: 992px) {
+    .index {
+        margin: 168px 0 145px 0;
+    }
+}
+
+/* Job Posting Page */
+
+:root {
+    --posting-margin: 102px 0 96px 0;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --posting-margin: 135px 0 104px 0;
+    }
+}
+.posting main {
+    margin: var(--posting-margin);
+}
+
+.posting h2 {
+    margin-top: 40px;
 }
