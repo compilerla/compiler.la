@@ -104,7 +104,7 @@ h2,
 
 h3,
 .h3,
-.posting h2 {
+.posting main h2 {
     font-size: var(--h3-font-size);
     font-weight: var(--h3-font-weight);
     line-height: var(--h3-line-height);
@@ -127,28 +127,6 @@ h5,
 }
 
 /*#endregion */
-
-/*#region Font Sizes */
-
-:root {
-    --title-font-size: 1.75rem;
-    --button-text-font-size: 1.25rem;
-}
-
-@media (min-width: 992px) {
-    :root {
-        --title-font-size: 2rem;
-        --button-text-font-size: 1.5rem;
-    }
-}
-
-.lg-link {
-    font-size: var(--title-font-size);
-}
-
-.btn-link {
-    font-size: var(--button-text-font-size);
-}
 
 /* Buttons */
 
@@ -214,11 +192,11 @@ header {
 /* Footer */
 
 footer .h4 {
-    color: var(--teal);
+    color: var(--brand-primary-cyan);
 }
 
 footer .contact-link {
-    color: var(--green);
+    color: var(--brand-primary-green);
 }
 
 .social-media-icon {
