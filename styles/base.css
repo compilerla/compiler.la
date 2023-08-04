@@ -54,7 +54,7 @@ a {
     transition: 250ms;
 }
 
-li > a {
+li>a {
     text-decoration: none;
 }
 
@@ -189,7 +189,7 @@ h6 {
     background-color: var(--green);
 }
 
-.label {
+.pill {
     font-size: 0.75rem;
     font-family: "Source Code Pro Regular";
     font-weight: 600;
