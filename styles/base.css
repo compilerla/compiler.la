@@ -64,24 +64,24 @@ a:focus {
     text-decoration: underline;
 }
 
-ul.no-bullets {
-    padding-left: 0;
-}
-
-ul.no-bullets li {
-    list-style-type: none;
-    padding: 0;
-    margin: 16px 0;
+.certs li {
+    margin: 1rem 0;
 }
 
 @media (min-width: 992px) {
-    ul.no-bullets li {
+    .certs li {
         margin: inherit 0 0;
     }
 }
 
-li.certs {
-    padding-bottom: 0.75rem;
+.jobs li {
+    margin: 1rem 0;
+}
+
+@media (min-width: 992px) {
+    .jobs li {
+        margin: 0.5rem 0 0;
+    }
 }
 
 /*#region Font Family */
