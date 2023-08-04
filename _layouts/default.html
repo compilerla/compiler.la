@@ -1,3 +1,6 @@
+---
+large_logo: false
+---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,7 +41,12 @@
 
 <body>
     <header>
-        <a href="/"><img class="logo" src="/assets/compiler_logo_stacked.svg" alt="Compiler logo"></a>
+        {% if page.large_logo %}
+            {% assign logo_class = "logo-lg" %}
+        {% else %}
+            {% assign logo_class = "logo" %}
+        {% endif %}
+        <a href="/"><img class="{{ logo_class }}" src="/assets/compiler_logo_stacked.svg" alt="Compiler logo"></a>
     </header>
 
     <main>

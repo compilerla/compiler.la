@@ -205,13 +205,13 @@ h6 {
 
 :root {
     --header-margin-left: -5px;
-    --logo-width: 15rem;
+    --logo-lg-width: 15rem;
 }
 
 @media (min-width: 992px) {
     :root {
         --header-margin-left: -10px;
-        --logo-width: 20rem;
+        --logo-lg-width: 20rem;
     }
 }
 
@@ -220,8 +220,12 @@ header {
     /* account for padding within the Compiler logo*/
 }
 
+.logo-lg {
+    width: var(--logo-lg-width);
+}
+
 .logo {
-    width: var(--logo-width);
+    width: 5.5rem;
 }
 
 /* Main */
