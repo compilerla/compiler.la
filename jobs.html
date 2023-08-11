@@ -2,18 +2,28 @@
 layout: default
 title: Jobs with Compiler
 ---
-<h1>Jobs</h1>
+<div class="jobs container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2 mt-5">
+            <span class="pill rounded p-2">Careers</span>
+            <h1>Compiler is a woman-owned software consultancy that’s passionate about making government tech solutions
+                accessible for all.</h1>
 
-<h2>Accepting applications</h2>
-<ul id="open" class="mx-3"></ul>
+            <h2 class="mt-5 fs-5">Open roles</h2>
+            <ul id="open" class="list-unstyled text-decoration-none"></ul>
 
-<h2>Past opportunities</h2>
-<ul id="closed" class="mx-3"></ul>
+            <h2 class="mt-5 fs-5">Past roles</h2>
+            <ul id="closed" class="list-unstyled"></ul>
 
-<p class="mb-5">
-    Missed a past opportunity? <a href="http://eepurl.com/h6qTKL">Subscribe</a> to our mailing list, as we are always
-    looking for great candidates.
-</p>
+            <p class="my-5">
+                Missed a past opportunity? <a href="http://eepurl.com/h6qTKL">Subscribe</a> to our mailing list, as we
+                are always looking for great candidates.
+            </p>
+
+
+        </div>
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js" crossorigin="anonymous"></script>
 <script>
@@ -30,7 +40,7 @@ title: Jobs with Compiler
         const open_date = DateTime.fromISO(job.open_date).startOf("day");
         const close_date = DateTime.fromISO(job.close_date).endOf("day");
 
-        if(open_date <= now && close_date >= now) {
+        if (open_date <= now && close_date >= now) {
             open_jobs.push(job);
         }
         else {
