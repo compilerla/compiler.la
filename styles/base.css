@@ -102,10 +102,20 @@ h4,
     font-size: var(--button-text-font-size);
 }
 
-/*
-Overwrite Bootstrap's heading font-sizes
-https://stackoverflow.com/questions/5410066/what-are-the-default-font-sizes-in-pixels-for-the-html-heading-tags-h1-h2
-*/
+/* Headers */
+
+:root {
+    --h2-font-size: calc(32rem / 16);
+    --h2-font-weight: 500;
+    --h2-line-height: 120%;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --h2-font-size: calc(40rem / 16);
+    }
+}
+
 
 h1 {
     font-size: 2rem;
@@ -113,10 +123,13 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-h2 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+h2,
+.h2 {
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weight);
+    line-height: var(--h2-line-height);
+    letter-spacing: 0;
+    margin: 0;
 }
 
 h3 {
