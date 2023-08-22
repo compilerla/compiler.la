@@ -205,7 +205,7 @@ footer .contact-link {
 
 .social-media-icon {
     transition: 250ms;
-    width: calc(24rem / 16);
+    width: calc(32rem / 16);
 }
 
 .social-media-icon:hover,
