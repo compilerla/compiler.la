@@ -1,25 +1,16 @@
-/*#region Rules needed to show hamburger menu on Desktop */
-.navbar-header {
-    float: none;
+/* Header */
+
+header {
+    padding: 13px 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.16);
 }
 
-.navbar-toggle {
-    display: block;
+.logo {
+    width: calc(88rem / 16);
+    height: calc(46rem / 16);
 }
 
-.navbar-nav {
-    float: none !important;
-}
-
-.navbar-nav > li {
-    float: none;
-}
-
-.navbar-collapse.collapse.in {
-    display: block !important;
-}
-
-/*#endregion */
+/* Nav */
 
 :root {
     --modal-header-padding: 0 1rem;
@@ -34,6 +25,10 @@
 .modal-header {
     padding: var(--modal-header-padding);
     height: calc(72rem / 16); /* Match header height */
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
 }
 
 .navbar-toggler-icon {

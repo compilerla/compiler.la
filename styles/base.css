@@ -242,22 +242,6 @@ h6 {
     padding: 0.25rem 0.5rem;
 }
 
-/* Header */
-
-header {
-    padding: calc(13rem / 16) 0;
-    box-shadow: 0 calc(4rem / 16) calc(4rem / 16) 0 rgba(0, 0, 0, 0.16);
-}
-
-.logo {
-    width: calc(88rem / 16);
-    height: calc(46rem / 16);
-}
-
-.navbar {
-    --bs-navbar-padding-y: 0;
-}
-
 /* Home */
 
 :root {
