@@ -1,12 +1,11 @@
 @import url("./fonts.css");
 
 :root {
-    --green: #88B440;
     --white: #FFFFFF;
     --text-black: #1C1C1C;
+    --brand-primary-green: #88B440;
     --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
-    --brand-primary-black: #1C1C1C;
     --bs-light-rgb: 84, 84, 84; /* for the HR above Footer */
     --bs-light: #545454; /* brand/scales/gray/4 */
     --bs-primary: #88B440; /* Use with .text-primary */
@@ -26,7 +25,7 @@
 }
 
 body {
-    background-color: var(--text-black);
+    background-color: var(--brand-primary-black);
     color: var(--white);
     font-family: var(--bs-font-sans-serif);
     font-weight: normal;
@@ -54,7 +53,7 @@ li {
 }
 
 a {
-    color: var(--green);
+    color: var(--brand-primary-green);
     text-decoration: none;
     transition: 250ms;
 }
@@ -65,7 +64,7 @@ li>a {
 
 a:hover:not(.btn),
 a:focus:not(.btn) {
-    color: var(--green);
+    color: var(--brand-primary-green);
     text-decoration: underline;
 }
 
@@ -155,6 +154,18 @@ h6 {
 
 /* Buttons */
 
+:root {
+    --button-primary-default: var(--brand-primary-green);
+    --button-primary-hover: #A6D15F;
+    --button-primary-active: #698A31;
+    --button-primary-focus: var(--brand-primary-green);
+    --button-primary-disabled: #7D8084;
+    --button-outline-hover-bg: #2F440C;
+    --button-outline-hover-border: var(--brand-primary-green);
+    --button-outline-active-bg: #213008;
+    --button-outline-disabled-bg: transparent;
+}
+
 .btn {
     --bs-btn-padding-x: calc(1rem - 1px);
     --bs-btn-padding-y: calc(1rem - 1px);
@@ -166,40 +177,48 @@ h6 {
     --bs-btn-border-radius: 0;
     --bs-btn-box-shadow: none;
     --bs-btn-disabled-opacity: 1;
-    --bs-btn-focus-box-shadow: 0 0 0 2px #1C1C1C, 0 0 0 4px #88B440;
+    --bs-btn-focus-box-shadow: 0 0 0 2.5px var(--brand-primary-black), 0 0 0 4px var(--brand-primary-green);
 }
 
 .btn-primary {
-    --bs-btn-color: var(--text-black);
+    --bs-btn-color: var(--brand-primary-black);
     --bs-btn-bg: var(--button-primary-default);
     --bs-btn-border-color: var(--button-primary-default);
-    --bs-btn-hover-color: var(--text-black);
+    --bs-btn-hover-color: var(--brand-primary-black);
     --bs-btn-hover-bg: var(--button-primary-hover);
     --bs-btn-hover-border-color: var(--button-primary-hover);
     --bs-btn-focus-shadow-rgb: 49,132,253;
-    --bs-btn-active-color: var(--text-black);
+    --bs-btn-active-color: var(--brand-primary-black);
     --bs-btn-active-bg: var(--button-primary-active);
     --bs-btn-active-border-color: var(--button-primary-active);
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: var(--text-black);
+    --bs-btn-disabled-color: var(--brand-primary-black);
     --bs-btn-disabled-bg: var(--button-primary-disabled);
     --bs-btn-disabled-border-color: var(--button-primary-disabled);
 }
 
 .btn-outline-primary {
     --bs-btn-color: var(--white);
+    --bs-btn-bg: transparent;
     --bs-btn-border-color: var(--button-primary-default);
     --bs-btn-hover-color: var(--white);
-    --bs-btn-hover-bg:var(--button-primary-hover);
-    --bs-btn-hover-border-color: var(--button-primary-hover);
+    --bs-btn-hover-bg: var(--button-outline-hover-bg);
+    --bs-btn-hover-border-color: var(--button-outline-hover-border);
     --bs-btn-active-color: var(--white);
-    --bs-btn-active-bg:var(--button-primary-active);
-    --bs-btn-active-border-color: var(--button-primary-active);
+    --bs-btn-active-bg:var(--button-outline-active-bg);
+    --bs-btn-active-border-color: var(--button-outline-hover-border);
     --bs-btn-active-shadow: none;
-    --bs-btn-disabled-color: var(--text-black);
-    --bs-btn-disabled-bg: var(--button-primary-disabled);
+    --bs-btn-disabled-color: var(--button-primary-disabled);
+    --bs-btn-disabled-bg: var(--button-outline-disabled-bg);
     --bs-btn-disabled-border-color: var(--button-primary-disabled);
     --bs-gradient: none;
+}
+
+.btn-primary:focus,
+.btn-primary:focus-visible,
+.btn-outline-primary:focus,
+.btn-outline-primary:focus-visible {
+    background-color: var(--bs-btn-bg);
 }
 
 .pill {
