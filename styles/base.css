@@ -107,10 +107,6 @@ h4,
     font-size: var(--title-font-size);
 }
 
-.btn-link {
-    font-size: var(--button-text-font-size);
-}
-
 /* Headlines */
 
 :root {
