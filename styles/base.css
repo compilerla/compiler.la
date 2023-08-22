@@ -16,7 +16,7 @@
     --bs-info-rgb: 190,190,190;
     --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro Bold",monospace;
-    --focus-box-shadow: 0 0 0 calc(2.5rem / 16) var(--brand-primary-black), 0 0 0 calc(4rem / 16) var(--brand-primary-green)
+    --focus-box-shadow: 0 0 0 calc(2.5rem / 16) var(--brand-primary-black), 0 0 0 calc(4rem / 16) var(--brand-primary-green);
 }
 
 body {
