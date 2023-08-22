@@ -250,7 +250,12 @@ header {
 }
 
 .logo {
-    width: 5.5rem;
+    width: calc(88rem / 16);
+    height: calc(46rem / 16);
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
 }
 
 /* Home */
