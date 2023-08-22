@@ -62,10 +62,14 @@ li>a {
     text-decoration: none;
 }
 
-a:hover:not(.btn),
-a:focus:not(.btn) {
+a:hover:not(.btn) {
     color: var(--brand-primary-green);
     text-decoration: underline;
+}
+
+a:focus:not(.btn) {
+    outline: none;
+    box-shadow: 0 0 0 2.5px var(--brand-primary-black), 0 0 0 4px var(--brand-primary-green);
 }
 
 /*#region Font Family */
