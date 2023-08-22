@@ -38,7 +38,7 @@ li {
 }
 
 a {
-    color: var(--white);
+    color: var(--green);
     text-decoration: none;
     transition: 250ms;
 }
