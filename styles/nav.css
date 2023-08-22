@@ -28,7 +28,7 @@
 .navbar-toggler-icon {
     width: calc(32rem / 16);
     height: calc(24rem / 16);
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url('data:image/svg+xml,<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="4" width="32" height="2" fill="white"/><rect y="11" width="32" height="2" fill="white"/><rect y="18" width="32" height="2" fill="white"/></svg>');
 }
 
 .navbar-toggler {
@@ -40,25 +40,17 @@
 }
 
 .modal-content {
-    background-color: var(--off-black);
+    background-color: var(--background-black);
 }
 
 .btn-close {
     color: var(--white);
-    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/2em auto no-repeat;
+    background: transparent url('data:image/svg+xml,<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_1358_20250)"><rect x="26.2341" y="28.0208" width="32" height="2" transform="rotate(-135 26.2341 28.0208)" fill="white"/><rect x="3.60669" y="26.6066" width="32" height="2" transform="rotate(-45 3.60669 26.6066)" fill="white"/></g><defs><clipPath id="clip0_1358_20250"><rect width="32" height="32" fill="white"/></clipPath></defs></svg>') center/2rem auto no-repeat;
     border: 0;
     border-radius: .75rem;
     opacity: 1;
-    width: 4em;
-    height: 4em;
-}
-
-@media (min-width: 992px) {
-    .btn-close {
-        background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/2em auto no-repeat;
-        width: 6em;
-        height: 6em;
-    }
+    width: 2rem;
+    height: 2rem;
 }
 
 :root {
