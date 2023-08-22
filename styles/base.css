@@ -6,20 +6,14 @@
     --brand-primary-green: #88B440;
     --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
-    --bs-light-rgb: 84, 84, 84; /* for the HR above Footer */
-    --bs-light: #545454; /* brand/scales/gray/4 */
     --bs-primary: #88B440; /* Use with .text-primary */
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
     --bs-secondary-rgb: 81, 177, 199;
-    --button-primary-default: #88B440;
-    --button-primary-hover: #A6D15F;
-    --button-primary-active: #698A31;
-    --button-primary-focus: #88B440;
-    --button-primary-disabled: #7D8084;
+    --bs-light: #545454; /* Use with .border-light above Footer - /brand/scales/gray/4 */
     --bs-light-rgb: 84, 84, 84;
-    --bs-secondary-rgb: 190, 190, 190;
-    --bs-info-rgb: 190,190,190; /* text-gray #BEB3B3 */
+    --bs-info: #BEB3B3; /* Use with .text-info */
+    --bs-info-rgb: 190,190,190;
     --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro Bold",monospace;
 }
