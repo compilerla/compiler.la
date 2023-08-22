@@ -236,8 +236,8 @@ h6 {
 /* Header */
 
 header {
-    padding: 13px 0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.16);
+    padding: calc(13rem / 16) 0;
+    box-shadow: 0px calc(4rem / 16) calc(4rem / 16) 0px rgba(0, 0, 0, 0.16);
 }
 
 .logo {
@@ -247,12 +247,12 @@ header {
 /* Home */
 
 :root {
-    --home-pattern-padding-top: 102px;
+    --home-pattern-padding-top: calc(102rem / 16);
 }
 
 @media (min-width: 992px) {
     :root {
-        --home-pattern-padding-top: 168px;
+        --home-pattern-padding-top: calc(168rem / 16);
     }
 }
 
