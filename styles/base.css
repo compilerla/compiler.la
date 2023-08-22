@@ -182,20 +182,6 @@ h6 {
 
 /* Header */
 
-:root {
-    --logo-lg-width: 15rem;
-}
-
-@media (min-width: 992px) {
-    :root {
-        --logo-lg-width: 20rem;
-    }
-}
-
-.logo-lg {
-    width: var(--logo-lg-width);
-}
-
 .logo {
     width: 5.5rem;
 }
