@@ -52,10 +52,6 @@ a {
     transition: 250ms;
 }
 
-li>a {
-    text-decoration: none;
-}
-
 a:hover:not(.btn) {
     color: var(--brand-primary-green);
     text-decoration: underline;
@@ -90,13 +86,11 @@ h4,
 
 :root {
     --title-font-size: 1.75rem;
-    --button-text-font-size: 1.25rem;
 }
 
 @media (min-width: 992px) {
     :root {
         --title-font-size: 2rem;
-        --button-text-font-size: 1.5rem;
     }
 }
 
@@ -149,6 +143,8 @@ h5 {
 h6 {
     font-size: 0.67rem;
 }
+
+/*#endregion */
 
 /* Buttons */
 
@@ -279,11 +275,11 @@ header {
 }
 
 .brandmark {
-    width: 136.898px;
+    width: calc(136.898rem / 16);
 }
 
 @media (min-width: 992px) {
     .brandmark {
-        width: 181.676px;
+        width: calc(181.676rem / 16);
     }
 }
