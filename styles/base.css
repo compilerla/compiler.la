@@ -12,6 +12,7 @@
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
     --bs-secondary-rgb: 81, 177, 199;
+    --bs-info-rgb: 190,190,190; /* text-gray #BEB3B3 */
     --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro Bold",monospace;
 }
