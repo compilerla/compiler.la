@@ -1,23 +1,24 @@
 @import url("./fonts.css");
 
 :root {
-    --purple: #663190;
     --green: #88B440;
-    --teal: #01B4CB;
-    --navy: #223061;
-    --brand-primary-black: #1C1C1C;
-    --black: #000000;
     --white: #FFFFFF;
-    --bs-light-rgb: 84, 84, 84;
-    --bs-secondary-rgb: 190, 190, 190;
-    --bs-font-sans-serif: "Roboto, system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"";
+    --brand-primary-cyan: #51B1C7;
+    --brand-primary-black: #1C1C1C;
+    --bs-light-rgb: 84, 84, 84; /* for the HR above Footer */
+    --bs-light: #545454; /* brand/scales/gray/4 */
+    --bs-primary: #88B440; /* Use with .text-primary */
+    --bs-primary-rgb: 136, 180, 64;
+    --bs-secondary: #51B1C7; /* Use with .text-secondary */
+    --bs-secondary-rgb: 81, 177, 199;
+    --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro Bold",monospace;
 }
 
 body {
     background-color: var(--brand-primary-black);
     color: var(--white);
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: var(--bs-font-sans-serif);
     font-weight: normal;
 }
 
@@ -142,7 +143,7 @@ h6 {
 
 .primary-btn:hover {
     opacity: 70%;
-    color: var(--black)
+    color: var(--brand-primary-black)
 }
 
 .secondary-btn {
@@ -156,13 +157,13 @@ h6 {
 
 .secondary-btn:hover {
     opacity: 70%;
-    color: var(--black);
+    color: var(--brand-primary-black);
     background-color: var(--green);
 }
 
 .pill {
     font-size: 0.75rem;
-    font-family: "Source Code Pro Regular";
+    font-family: var(--bs-font-monospace);
     font-weight: 400;
     line-height: 120%;
     letter-spacing: 0.075rem;
@@ -195,17 +196,15 @@ h6 {
 
 /* Footer */
 
-footer .monospace {
-    color: var(--teal);
-}
-
-footer .contact-link {
-    color: var(--green);
-}
-
 .social-media-icon {
     transition: 250ms;
-    width: calc(32rem / 16);
+    width: calc(24rem / 16);
+}
+
+@media (min-width: 992px) {
+    .social-media-icon {
+        width: calc(32rem / 16);
+    }
 }
 
 .social-media-icon:hover,
