@@ -3,6 +3,7 @@
 :root {
     --green: #88B440;
     --white: #FFFFFF;
+    --text-black: #1C1C1C;
     --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
     --brand-primary-black: #1C1C1C;
@@ -12,7 +13,6 @@
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
     --bs-secondary-rgb: 81, 177, 199;
-    --text-black: #1C1C1C;
     --button-primary-default: #88B440;
     --button-primary-hover: #A6D15F;
     --button-primary-active: #698A31;
