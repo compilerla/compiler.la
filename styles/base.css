@@ -219,6 +219,7 @@ h6 {
 .btn-outline-primary:focus,
 .btn-outline-primary:focus-visible {
     background-color: var(--bs-btn-bg);
+    border-color: var(--bs-btn-border-color);
 }
 
 .pill {
