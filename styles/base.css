@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: var(--off-black);
+    background-color: var(--brand-primary-black);
     color: var(--white);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: normal;
