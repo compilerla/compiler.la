@@ -1,8 +1,8 @@
 /* Header */
 
 header {
-    padding: 13px 0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.16);
+    padding: calc(13rem / 16) 0;
+    box-shadow: 0 calc(4rem / 16) calc(4rem / 16) 0 rgba(0, 0, 0, 0.16);
 }
 
 .logo {
@@ -37,15 +37,8 @@ header {
     background-image: url('data:image/svg+xml,<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="4" width="32" height="2" fill="white"/><rect y="11" width="32" height="2" fill="white"/><rect y="18" width="32" height="2" fill="white"/></svg>');
 }
 
-.navbar-toggler:focus,
-.btn-close:focus {
-    outline: 1px solid var(--white) !important;
-    outline-offset: .5rem !important;
-    box-shadow: none !important;
-}
-
-.modal-content {
-    background-color: var(--background-black);
+.navbar-toggler-icon:hover {
+    background-image: url('data:image/svg+xml,<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="4" width="32" height="2" fill="%23545454"/><rect y="11" width="32" height="2" fill="%23545454"/><rect y="18" width="32" height="2" fill="%23545454"/></svg>');
 }
 
 .btn-close {
@@ -55,13 +48,28 @@ header {
     height: 2rem;
 }
 
+.btn-close:hover {
+    background: transparent url('data:image/svg+xml,<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_1358_20250)"><rect x="26.2341" y="28.0208" width="32" height="2" transform="rotate(-135 26.2341 28.0208)" fill="%23545454"/><rect x="3.60669" y="26.6066" width="32" height="2" transform="rotate(-45 3.60669 26.6066)" fill="%23545454"/></g><defs><clipPath id="clip0_1358_20250"><rect width="32" height="32" fill="%23545454"/></clipPath></defs></svg>') center/2rem auto no-repeat;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    outline: 1px solid var(--brand-primary-green) !important;
+    outline-offset: .25rem !important;
+    box-shadow: none !important;
+}
+
+.modal-content {
+    background-color: var(--text-black);
+}
+
 .nav-footer-pattern {
     background-image: url("/assets/illustrations/footer-sm.svg");
     background-repeat: repeat-x;
     width: 100vw;
     height: calc(116rem / 16);
     opacity: 20%;
-    margin: -10px;
+    margin: calc(-10rem / 16);
 }
 
 @media (min-width: 992px) {
