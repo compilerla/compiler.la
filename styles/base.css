@@ -2,8 +2,8 @@
 
 :root {
     --green: #88B440;
-    --brand-primary-black: #1C1C1C;
     --white: #FFFFFF;
+    --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
     --brand-primary-black: #1C1C1C;
     --bs-light-rgb: 84, 84, 84; /* for the HR above Footer */
@@ -12,13 +12,21 @@
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
     --bs-secondary-rgb: 81, 177, 199;
+    --text-black: #1C1C1C;
+    --button-primary-default: #88B440;
+    --button-primary-hover: #A6D15F;
+    --button-primary-active: #698A31;
+    --button-primary-focus: #88B440;
+    --button-primary-disabled: #7D8084;
+    --bs-light-rgb: 84, 84, 84;
+    --bs-secondary-rgb: 190, 190, 190;
     --bs-info-rgb: 190,190,190; /* text-gray #BEB3B3 */
     --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro Bold",monospace;
 }
 
 body {
-    background-color: var(--brand-primary-black);
+    background-color: var(--text-black);
     color: var(--white);
     font-family: var(--bs-font-sans-serif);
     font-weight: normal;
@@ -55,8 +63,8 @@ li>a {
     text-decoration: none;
 }
 
-a:hover,
-a:focus {
+a:hover:not(.btn),
+a:focus:not(.btn) {
     color: var(--green);
     text-decoration: underline;
 }
@@ -149,36 +157,53 @@ h6 {
     font-size: 0.67rem;
 }
 
-/*#endregion */
+/* Buttons */
 
-.primary-btn {
-    text-decoration: none;
-    border: 3px solid var(--green);
-    background-color: var(--green);
-    color: var(--brand-primary-black);
-    padding: 1rem;
-    margin-right: 15px;
-    margin-bottom: 10px;
+.btn {
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-padding-y: 1rem;
+    --bs-btn-font-family: var(--bs-font-monospace);
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 120%;
+    --bs-btn-border-width: 1px;
+    --bs-btn-border-radius: 0;
+    --bs-btn-box-shadow: none;
+    --bs-btn-disabled-opacity: 1;
+    --bs-btn-focus-box-shadow: 0 0 0 2px #1C1C1C, 0 0 0 4px #88B440;
 }
 
-.primary-btn:hover {
-    opacity: 70%;
-    color: var(--brand-primary-black)
+.btn-primary {
+    --bs-btn-color: var(--text-black);
+    --bs-btn-bg: var(--button-primary-default);
+    --bs-btn-border-color: var(--button-primary-default);
+    --bs-btn-hover-color: var(--text-black);
+    --bs-btn-hover-bg: var(--button-primary-hover);
+    --bs-btn-hover-border-color: var(--button-primary-hover);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: var(--text-black);
+    --bs-btn-active-bg: var(--button-primary-active);
+    --bs-btn-active-border-color: var(--button-primary-active);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--text-black);
+    --bs-btn-disabled-bg: var(--button-primary-disabled);
+    --bs-btn-disabled-border-color: var(--button-primary-disabled);
 }
 
-.secondary-btn {
-    text-decoration: none;
-    border: 3px solid var(--green);
-    color: var(--white);
-    padding: 1rem;
-    margin-right: 15px;
-    margin-bottom: 10px;
-}
-
-.secondary-btn:hover {
-    opacity: 70%;
-    color: var(--brand-primary-black);
-    background-color: var(--green);
+.btn-outline-primary {
+    --bs-btn-color: var(--white);
+    --bs-btn-border-color: var(--button-primary-default);
+    --bs-btn-hover-color: var(--white);
+    --bs-btn-hover-bg:var(--button-primary-hover);
+    --bs-btn-hover-border-color: var(--button-primary-hover);
+    --bs-btn-active-color: var(--white);
+    --bs-btn-active-bg:var(--button-primary-active);
+    --bs-btn-active-border-color: var(--button-primary-active);
+    --bs-btn-active-shadow: none;
+    --bs-btn-disabled-color: var(--text-black);
+    --bs-btn-disabled-bg: var(--button-primary-disabled);
+    --bs-btn-disabled-border-color: var(--button-primary-disabled);
+    --bs-gradient: none;
 }
 
 .pill {

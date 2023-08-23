@@ -8,14 +8,16 @@ title_prefix: "Jobs with Compiler:"
     <div class="offset-md-2 col-md-7 col-12 mt-5 pt-5 mb-5 pb-5">
       <h1 class="mt-4 pt-2">{{ page.title }}{% if page.type %} ({{ page.type }}){% endif %}</h1>
 
-      {{ content }} {% if page.apply_link %}
-      <a
-        class="d-inline-block monospace primary-btn"
-        id="apply"
-        href="{{ page.apply_link }}"
-      >
-        Apply Now
-      </a>
+      {{ content }}
+
+      {% if page.apply_link %}
+        <a
+          class="d-inline-block monospace btn btn-primary"
+          id="apply"
+          href="{{ page.apply_link }}"
+        >
+          Apply Now
+        </a>
       {% endif %}
 
       <p>
