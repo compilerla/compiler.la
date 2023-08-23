@@ -105,11 +105,15 @@ h4,
     --h2-font-size: calc(32rem / 16);
     --h2-font-weight: 500;
     --h2-line-height: 120%;
+    --h2-font-size: calc(24rem / 16);
+    --h2-font-weight: 700;
+    --h2-line-height: 120%;
 }
 
 @media (min-width: 992px) {
     :root {
         --h2-font-size: calc(40rem / 16);
+        --h3-font-size: calc(32rem / 16);
     }
 }
 
@@ -129,8 +133,14 @@ h2,
     margin: 0;
 }
 
-h3 {
-    font-size: 1.17rem;
+h3,
+.posting h2 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--h3-font-weight);
+    line-height: var(--h3-line-height);
+    letter-spacing: 0;
+    margin-top: calc(40rem / 16);
+    margin-bottom: 1rem;
 }
 
 h4 {
