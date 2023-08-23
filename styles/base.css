@@ -159,7 +159,7 @@ h6 {
     --button-primary-hover: #A6D15F;
     --button-primary-active: #698A31;
     --button-primary-focus: var(--brand-primary-green);
-    --button-primary-disabled: #7D8084;
+    --button-primary-disabled: #BBB;
     --button-outline-hover-bg: #2F440C;
     --button-outline-hover-border: var(--brand-primary-green);
     --button-outline-active-bg: #213008;
