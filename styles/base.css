@@ -22,7 +22,6 @@ body {
     font-weight: normal;
 }
 
-
 .container-fluid {
     --bs-gutter-x: 2rem; /* 32px total gutters, 16px on each side */
 }
@@ -30,6 +29,12 @@ body {
 @media (min-width: 992px) {
     .container-fluid {
         --bs-gutter-x: 3rem; /* 48px total gutters, 24px on each side */
+    }
+}
+
+@media (min-width: 1920px) {
+    .container-fluid {
+        max-width: 1320px;
     }
 }
 
