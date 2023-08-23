@@ -106,7 +106,7 @@ h4,
     --h2-font-size: calc(32rem / 16);
     --h2-font-weight: 500;
     --h2-line-height: 120%;
-    --h2-font-size: calc(24rem / 16);
+    --h3-font-size: calc(24rem / 16);
     --h2-font-weight: 700;
     --h2-line-height: 120%;
 }
