@@ -245,27 +245,6 @@ h6 {
 
 header {
     padding: calc(13rem / 16) 0;
-    box-shadow: 0 calc(4rem / 16) calc(4rem / 16) 0 rgba(0, 0, 0, 0.16);
-}
-
-.logo {
-    width: 5.5rem;
-}
-
-/* Home */
-
-:root {
-    --home-pattern-padding-top: calc(102rem / 16);
-}
-
-@media (min-width: 992px) {
-    :root {
-        --home-pattern-padding-top: calc(168rem / 16);
-    }
-}
-
-.home-pattern {
-    padding-top: var(--home-pattern-padding-top);
 }
 
 /* Footer */
