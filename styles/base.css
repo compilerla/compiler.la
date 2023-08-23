@@ -1,56 +1,52 @@
 @import url("./fonts.css");
 
 :root {
-    --purple: #663190;
     --green: #88B440;
-    --teal: #01B4CB;
-    --navy: #223061;
-    --brand-primary-black: #1C1C1C;
-    --black: #000000;
     --white: #FFFFFF;
+    --brand-primary-cyan: #51B1C7;
+    --brand-primary-black: #1C1C1C;
+    --bs-light-rgb: 84, 84, 84; /* for the HR above Footer */
+    --bs-light: #545454; /* brand/scales/gray/4 */
+    --bs-primary: #88B440; /* Use with .text-primary */
+    --bs-primary-rgb: 136, 180, 64;
+    --bs-secondary: #51B1C7; /* Use with .text-secondary */
+    --bs-secondary-rgb: 81, 177, 199;
+    --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: "Source Code Pro Bold",monospace;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-html,
 body {
-    height: 100%;
-    margin: 0;
+    background-color: var(--brand-primary-black);
+    color: var(--white);
+    font-family: var(--bs-font-sans-serif);
+    font-weight: normal;
 }
 
-:root {
-    --body-padding: 16px;
+.container-fluid {
+    --bs-gutter-x: 2rem; /* 32px total gutters, 16px on each side */
 }
 
 @media (min-width: 992px) {
-    :root {
-        --body-padding: 30px;
+    .container-fluid {
+        --bs-gutter-x: 3rem; /* 48px total gutters, 24px on each side */
     }
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-
-    padding: var(--body-padding);
-    background-color: var(--brand-primary-black);
-
-    color: var(--white);
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: normal;
+@media (min-width: 1920px) {
+    .container-fluid {
+        max-width: 1320px;
+    }
 }
 
 p,
 li {
-    line-height: 1.5rem;
+    line-height: 140%;
 }
 
 a {
     color: var(--green);
     text-decoration: none;
-    font-weight: 700;
+    transition: 250ms;
 }
 
 li>a {
@@ -63,40 +59,22 @@ a:focus {
     text-decoration: underline;
 }
 
-.certs li {
-    margin: 1rem 0;
-}
-
-@media (min-width: 992px) {
-    .certs li {
-        margin: inherit 0 0;
-    }
-}
-
-.jobs li {
-    margin: 1rem 0;
-}
-
-@media (min-width: 992px) {
-    .jobs li {
-        margin: 0.5rem 0 0;
-    }
-}
-
 /*#region Font Family */
 
 .monospace,
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3,
 h4,
-h5,
-h6 {
-    font-family: 'Source Code Pro Bold', 'Courier New', Courier, monospace;
+.h4 {
+    font-family: var(--bs-font-monospace);
 }
 
-.san-serif {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+.sans-serif {
+    font-family: var(--bs-font-sans-serif);
 }
 
 /*#endregion */
@@ -170,7 +148,7 @@ h6 {
 
 .primary-btn:hover {
     opacity: 70%;
-    color: var(--black)
+    color: var(--brand-primary-black)
 }
 
 .secondary-btn {
@@ -184,13 +162,13 @@ h6 {
 
 .secondary-btn:hover {
     opacity: 70%;
-    color: var(--black);
+    color: var(--brand-primary-black);
     background-color: var(--green);
 }
 
 .pill {
     font-size: 0.75rem;
-    font-family: "Source Code Pro Regular";
+    font-family: var(--bs-font-monospace);
     font-weight: 400;
     line-height: 120%;
     letter-spacing: 0.075rem;
@@ -204,20 +182,13 @@ h6 {
 /* Header */
 
 :root {
-    --header-margin-left: -5px;
     --logo-lg-width: 15rem;
 }
 
 @media (min-width: 992px) {
     :root {
-        --header-margin-left: -10px;
         --logo-lg-width: 20rem;
     }
-}
-
-header {
-    margin-left: var(--header-margin-left);
-    /* account for padding within the Compiler logo*/
 }
 
 .logo-lg {
@@ -228,92 +199,30 @@ header {
     width: 5.5rem;
 }
 
-/* Main */
-
-main {
-    flex: 1 0 auto;
-}
-
 /* Footer */
 
-.divider-line {
-    border-top: 1px solid #545454;
-    margin: 10px -16px 10px;
-}
-
-@media (min-width: 992px) {
-    .divider-line {
-        margin: 20px -30px 20px;
-    }
-
-}
-
-footer {
-    flex-shrink: 0;
-}
-
-:root {
-    --certs-div-padding-left: 0;
-}
-
-@media (min-width: 992px) {
-    :root {
-        --certs-div-padding-left: 16px;
-    }
-}
-
-footer .certs>div {
-    margin: 30px 0 0;
-    padding-left: var(--certs-div-padding-left);
-}
-
-footer .heading {
-    font-size: 1.5rem;
-    color: var(--teal);
-    margin: 0;
-}
-
-footer .contact-link {
-    font-size: 1.125rem;
-    color: var(--green);
-    margin: 0;
-}
-
-footer .address {
-    margin-top: 24px;
-}
-
 .social-media-icon {
-    opacity: 40%;
     transition: 250ms;
-    margin: 0 12px;
-    width: calc(28rem / 16);
+    width: calc(24rem / 16);
 }
 
 @media (min-width: 992px) {
     .social-media-icon {
-        margin: 0 24px;
-        width: 3rem;
+        width: calc(32rem / 16);
     }
-}
-
-.social-media-container a:first-child .social-media-icon {
-    margin-left: 0px;
 }
 
 .social-media-icon:hover,
 .social-media-icon:focus {
-    opacity: 100%;
+    opacity: 100% !important;
 }
 
 .brandmark {
-    width: 8rem;
-    margin-right: -15px;
-    margin-left: auto;
+    width: 136.898px;
 }
 
 @media (min-width: 992px) {
     .brandmark {
-        width: 17.5rem;
+        width: 181.676px;
     }
 }
