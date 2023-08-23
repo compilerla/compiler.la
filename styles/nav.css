@@ -1,6 +1,7 @@
 /* Header */
 
 header {
+<<<<<<< HEAD
     padding: 13px 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.16);
 }
@@ -8,6 +9,9 @@ header {
 .logo {
     width: calc(88rem / 16);
     height: calc(46rem / 16);
+=======
+    padding: calc(13rem / 16) 0;
+>>>>>>> b641a78 (fix(nav): use lighter hover color, use width/height, no box-shadow)
 }
 
 /* Nav */
@@ -37,6 +41,7 @@ header {
     background-image: url('data:image/svg+xml,<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="4" width="32" height="2" fill="white"/><rect y="11" width="32" height="2" fill="white"/><rect y="18" width="32" height="2" fill="white"/></svg>');
 }
 
+<<<<<<< HEAD
 .navbar-toggler:focus,
 .btn-close:focus {
     outline: 1px solid var(--white) !important;
@@ -46,6 +51,10 @@ header {
 
 .modal-content {
     background-color: var(--background-black);
+=======
+.navbar-toggler-icon:hover {
+    background-image: url('data:image/svg+xml,<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="4" width="32" height="2" fill="%23878787"/><rect y="11" width="32" height="2" fill="%23878787"/><rect y="18" width="32" height="2" fill="%23878787"/></svg>');
+>>>>>>> b641a78 (fix(nav): use lighter hover color, use width/height, no box-shadow)
 }
 
 .btn-close {
@@ -55,6 +64,24 @@ header {
     height: 2rem;
 }
 
+<<<<<<< HEAD
+=======
+.btn-close:hover {
+    background: transparent url('data:image/svg+xml,<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_1358_20250)"><rect x="26.2341" y="28.0208" width="32" height="2" transform="rotate(-135 26.2341 28.0208)" fill="%23878787"/><rect x="3.60669" y="26.6066" width="32" height="2" transform="rotate(-45 3.60669 26.6066)" fill="%23878787"/></g><defs><clipPath id="clip0_1358_20250"><rect width="32" height="32" fill="%23878787"/></clipPath></defs></svg>') center/2rem auto no-repeat;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    outline: 1px solid var(--brand-primary-green) !important;
+    outline-offset: .25rem !important;
+    box-shadow: none !important;
+}
+
+.modal-content {
+    background-color: var(--text-black);
+}
+
+>>>>>>> b641a78 (fix(nav): use lighter hover color, use width/height, no box-shadow)
 .nav-footer-pattern {
     background-image: url("/assets/illustrations/footer-sm.svg");
     background-repeat: repeat-x;
