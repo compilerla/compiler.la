@@ -2,12 +2,6 @@
 
 header {
     padding: calc(13rem / 16) 0;
-    box-shadow: 0 calc(4rem / 16) calc(4rem / 16) 0 rgba(0, 0, 0, 0.16);
-}
-
-.logo {
-    width: calc(88rem / 16);
-    height: calc(46rem / 16);
 }
 
 /* Nav */
@@ -38,7 +32,7 @@ header {
 }
 
 .navbar-toggler-icon:hover {
-    background-image: url('data:image/svg+xml,<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="4" width="32" height="2" fill="%23545454"/><rect y="11" width="32" height="2" fill="%23545454"/><rect y="18" width="32" height="2" fill="%23545454"/></svg>');
+    background-image: url('data:image/svg+xml,<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="4" width="32" height="2" fill="%23878787"/><rect y="11" width="32" height="2" fill="%23878787"/><rect y="18" width="32" height="2" fill="%23878787"/></svg>');
 }
 
 .btn-close {
@@ -49,7 +43,7 @@ header {
 }
 
 .btn-close:hover {
-    background: transparent url('data:image/svg+xml,<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_1358_20250)"><rect x="26.2341" y="28.0208" width="32" height="2" transform="rotate(-135 26.2341 28.0208)" fill="%23545454"/><rect x="3.60669" y="26.6066" width="32" height="2" transform="rotate(-45 3.60669 26.6066)" fill="%23545454"/></g><defs><clipPath id="clip0_1358_20250"><rect width="32" height="32" fill="%23545454"/></clipPath></defs></svg>') center/2rem auto no-repeat;
+    background: transparent url('data:image/svg+xml,<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_1358_20250)"><rect x="26.2341" y="28.0208" width="32" height="2" transform="rotate(-135 26.2341 28.0208)" fill="%23878787"/><rect x="3.60669" y="26.6066" width="32" height="2" transform="rotate(-45 3.60669 26.6066)" fill="%23878787"/></g><defs><clipPath id="clip0_1358_20250"><rect width="32" height="32" fill="%23878787"/></clipPath></defs></svg>') center/2rem auto no-repeat;
 }
 
 .navbar-toggler:focus,
