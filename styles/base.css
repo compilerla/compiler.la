@@ -85,22 +85,6 @@ h4,
 
 /*#endregion */
 
-/*#region Font Sizes */
-
-:root {
-    --title-font-size: 1.75rem;
-}
-
-@media (min-width: 992px) {
-    :root {
-        --title-font-size: 2rem;
-    }
-}
-
-.lg-link {
-    font-size: var(--title-font-size);
-}
-
 /* Headlines */
 
 :root {
