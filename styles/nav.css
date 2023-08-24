@@ -1,7 +1,7 @@
 /* Header */
 
 header {
-    padding: 13px 0;
+    padding: calc(13rem / 16) 0;
 }
 
 /* Nav */
@@ -63,7 +63,7 @@ header {
     width: 100vw;
     height: calc(116rem / 16);
     opacity: 20%;
-    margin: -10px;
+    margin: calc(-10rem / 16);
 }
 
 @media (min-width: 992px) {
