@@ -226,22 +226,6 @@ h6 {
     padding: 0.25rem 0.5rem;
 }
 
-/* Home */
-
-:root {
-    --home-pattern-padding-top: calc(102rem / 16);
-}
-
-@media (min-width: 992px) {
-    :root {
-        --home-pattern-padding-top: calc(168rem / 16);
-    }
-}
-
-.home-pattern {
-    padding-top: var(--home-pattern-padding-top);
-}
-
 /* Footer */
 
 .social-media-icon {
