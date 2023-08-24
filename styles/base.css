@@ -1,18 +1,22 @@
 @import url("./fonts.css");
 
 :root {
-    --green: #88B440;
     --white: #FFFFFF;
-    --brand-primary-cyan: #51B1C7;
+    --text-black: #1C1C1C;
+    --brand-primary-green: #88B440;
     --brand-primary-black: #1C1C1C;
-    --bs-light-rgb: 84, 84, 84; /* for the HR above Footer */
-    --bs-light: #545454; /* brand/scales/gray/4 */
+    --brand-primary-cyan: #51B1C7;
     --bs-primary: #88B440; /* Use with .text-primary */
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
     --bs-secondary-rgb: 81, 177, 199;
+    --bs-light: #545454; /* Use with .border-light above Footer - /brand/scales/gray/4 */
+    --bs-light-rgb: 84, 84, 84;
+    --bs-info: #BEB3B3; /* Use with .text-info */
+    --bs-info-rgb: 190,190,190;
     --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro Bold",monospace;
+    --focus-box-shadow: 0 0 0 calc(2.5rem / 16) var(--brand-primary-black), 0 0 0 calc(4rem / 16) var(--brand-primary-green);
 }
 
 body {
@@ -44,19 +48,20 @@ li {
 }
 
 a {
-    color: var(--green);
+    color: var(--brand-primary-green);
     text-decoration: none;
     transition: 250ms;
+    font-weight: 700;
 }
 
-li>a {
-    text-decoration: none;
-}
-
-a:hover,
-a:focus {
-    color: var(--green);
+a:hover:not(.btn) {
+    color: var(--brand-primary-green);
     text-decoration: underline;
+}
+
+a:focus:not(.btn) {
+    outline: none;
+    box-shadow: var(--focus-box-shadow);
 }
 
 /*#region Font Family */
@@ -83,13 +88,11 @@ h4,
 
 :root {
     --title-font-size: 1.75rem;
-    --button-text-font-size: 1.25rem;
 }
 
 @media (min-width: 992px) {
     :root {
         --title-font-size: 2rem;
-        --button-text-font-size: 1.5rem;
     }
 }
 
@@ -97,14 +100,24 @@ h4,
     font-size: var(--title-font-size);
 }
 
-.btn-link {
-    font-size: var(--button-text-font-size);
+/* Headlines */
+
+:root {
+    --h2-font-size: calc(32rem / 16);
+    --h2-font-weight: 500;
+    --h2-line-height: 120%;
+    --h3-font-size: calc(24rem / 16);
+    --h2-font-weight: 700;
+    --h2-line-height: 120%;
 }
 
-/*
-Overwrite Bootstrap's heading font-sizes
-https://stackoverflow.com/questions/5410066/what-are-the-default-font-sizes-in-pixels-for-the-html-heading-tags-h1-h2
-*/
+@media (min-width: 992px) {
+    :root {
+        --h2-font-size: calc(40rem / 16);
+        --h3-font-size: calc(32rem / 16);
+    }
+}
+
 
 h1 {
     font-size: 2rem;
@@ -112,14 +125,23 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-h2 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+h2,
+.h2 {
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weight);
+    line-height: var(--h2-line-height);
+    letter-spacing: 0;
+    margin: 0;
 }
 
-h3 {
-    font-size: 1.17rem;
+h3,
+.posting h2 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--h3-font-weight);
+    line-height: var(--h3-line-height);
+    letter-spacing: 0;
+    margin-top: calc(40rem / 16);
+    margin-bottom: 1rem;
 }
 
 h4 {
@@ -136,34 +158,74 @@ h6 {
 
 /*#endregion */
 
-.primary-btn {
-    text-decoration: none;
-    border: 3px solid var(--green);
-    background-color: var(--green);
-    color: var(--brand-primary-black);
-    padding: 1rem;
-    margin-right: 15px;
-    margin-bottom: 10px;
+/* Buttons */
+
+:root {
+    --button-primary-default: var(--brand-primary-green);
+    --button-primary-hover: #A6D15F;
+    --button-primary-active: #698A31;
+    --button-primary-focus: var(--brand-primary-green);
+    --button-primary-disabled: #BBB;
+    --button-outline-hover-bg: #2F440C;
+    --button-outline-hover-border: var(--brand-primary-green);
+    --button-outline-active-bg: #213008;
+    --button-outline-disabled-bg: transparent;
 }
 
-.primary-btn:hover {
-    opacity: 70%;
-    color: var(--brand-primary-black)
+.btn {
+    --bs-btn-padding-x: calc(1rem - 1px);
+    --bs-btn-padding-y: calc(1rem - 1px);
+    --bs-btn-font-family: var(--bs-font-monospace);
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1;
+    --bs-btn-border-width: calc(1rem / 16);
+    --bs-btn-border-radius: 0;
+    --bs-btn-box-shadow: none;
+    --bs-btn-disabled-opacity: 1;
+    --bs-btn-focus-box-shadow: var(--focus-box-shadow);
 }
 
-.secondary-btn {
-    text-decoration: none;
-    border: 3px solid var(--green);
-    color: var(--white);
-    padding: 1rem;
-    margin-right: 15px;
-    margin-bottom: 10px;
+.btn-primary {
+    --bs-btn-color: var(--brand-primary-black);
+    --bs-btn-bg: var(--button-primary-default);
+    --bs-btn-border-color: var(--button-primary-default);
+    --bs-btn-hover-color: var(--brand-primary-black);
+    --bs-btn-hover-bg: var(--button-primary-hover);
+    --bs-btn-hover-border-color: var(--button-primary-hover);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: var(--brand-primary-black);
+    --bs-btn-active-bg: var(--button-primary-active);
+    --bs-btn-active-border-color: var(--button-primary-active);
+    --bs-btn-active-shadow: inset 0 calc(3rem / 16) calc(5rem / 16) rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--brand-primary-black);
+    --bs-btn-disabled-bg: var(--button-primary-disabled);
+    --bs-btn-disabled-border-color: var(--button-primary-disabled);
 }
 
-.secondary-btn:hover {
-    opacity: 70%;
-    color: var(--brand-primary-black);
-    background-color: var(--green);
+.btn-outline-primary {
+    --bs-btn-color: var(--white);
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: var(--button-primary-default);
+    --bs-btn-hover-color: var(--white);
+    --bs-btn-hover-bg: var(--button-outline-hover-bg);
+    --bs-btn-hover-border-color: var(--button-outline-hover-border);
+    --bs-btn-active-color: var(--white);
+    --bs-btn-active-bg:var(--button-outline-active-bg);
+    --bs-btn-active-border-color: var(--button-outline-hover-border);
+    --bs-btn-active-shadow: none;
+    --bs-btn-disabled-color: var(--button-primary-disabled);
+    --bs-btn-disabled-bg: var(--button-outline-disabled-bg);
+    --bs-btn-disabled-border-color: var(--button-primary-disabled);
+    --bs-gradient: none;
+}
+
+.btn-primary:focus,
+.btn-primary:focus-visible,
+.btn-outline-primary:focus,
+.btn-outline-primary:focus-visible {
+    background-color: var(--bs-btn-bg);
+    border-color: var(--bs-btn-border-color);
 }
 
 .pill {
@@ -174,29 +236,15 @@ h6 {
     letter-spacing: 0.075rem;
     text-transform: uppercase;
     color: var(--white);
-    border: 0.2px solid var(--white);
+    border: calc(0.2rem / 16) solid var(--white);
     border-radius: 0.25rem;
     padding: 0.25rem 0.5rem;
 }
 
 /* Header */
 
-:root {
-    --logo-lg-width: 15rem;
-}
-
-@media (min-width: 992px) {
-    :root {
-        --logo-lg-width: 20rem;
-    }
-}
-
-.logo-lg {
-    width: var(--logo-lg-width);
-}
-
-.logo {
-    width: 5.5rem;
+header {
+    padding: calc(13rem / 16) 0;
 }
 
 /* Footer */
@@ -218,11 +266,11 @@ h6 {
 }
 
 .brandmark {
-    width: 136.898px;
+    width: calc(136.898rem / 16);
 }
 
 @media (min-width: 992px) {
     .brandmark {
-        width: 181.676px;
+        width: calc(181.676rem / 16);
     }
 }
