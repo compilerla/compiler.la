@@ -273,3 +273,11 @@ h6 {
         width: calc(181.676rem / 16);
     }
 }
+
+.btn-collapse[aria-expanded='false']::before {
+    content: "See more";
+}
+
+.btn-collapse[aria-expanded='true']::before {
+    content: "See less";
+}
