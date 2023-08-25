@@ -11,12 +11,15 @@
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
     --bs-secondary-rgb: 81, 177, 199;
+    --bs-info: #BEB3B3; /* Use with .text-info */
+    --bs-info-rgb: 190,190,190;
+    --bs-success: #DCEFF4; /* Use with .bg-success */
+    --bs-success-rgb: 220, 239, 244;
     --bs-light: #545454; /* Use with .border-light above Footer - /brand/scales/gray/4 */
     --bs-light-rgb: 84, 84, 84;
     --bs-dark: #1C1C1C; /* Use with .border-dark for About */
     --bs-dark-rgb: 28, 28, 28;
-    --bs-info: #BEB3B3; /* Use with .text-info */
-    --bs-info-rgb: 190,190,190;
+
     --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro",monospace;
     --focus-box-shadow: 0 0 0 calc(2.5rem / 16) var(--brand-primary-black), 0 0 0 calc(4rem / 16) var(--brand-primary-green);
