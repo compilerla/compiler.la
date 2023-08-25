@@ -282,7 +282,11 @@ h6 {
     content: "See less";
 }
 
-.background-fluid {
+.bg-w-100 {
     margin: 0 calc(var(--bs-gutter-x) * -.5);
     padding: 0 calc(var(--bs-gutter-x) * .5);
+}
+
+.h-100vh-minus-nav {
+    height: calc(100vh - 72px);
 }
