@@ -13,6 +13,8 @@
     --bs-secondary-rgb: 81, 177, 199;
     --bs-light: #545454; /* Use with .border-light above Footer - /brand/scales/gray/4 */
     --bs-light-rgb: 84, 84, 84;
+    --bs-dark: #1C1C1C; /* Use with .border-dark for About */
+    --bs-dark-rgb: 28, 28, 28;
     --bs-info: #BEB3B3; /* Use with .text-info */
     --bs-info-rgb: 190,190,190;
     --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -289,4 +291,17 @@ h6 {
 
 .h-100vh-minus-nav {
     height: calc(100vh - 72px);
+}
+
+.border-100 {
+    margin: 0 calc(var(--bs-gutter-x) * -.5);
+    padding: 0;
+}
+
+.border-19 {
+    --bs-border-width: 1.9px;
+}
+
+.border-black {
+    --bs-border-color: #000;
 }
