@@ -281,3 +281,8 @@ h6 {
 .btn-collapse[aria-expanded='true']::before {
     content: "See less";
 }
+
+.background-fluid {
+    margin: 0 calc(var(--bs-gutter-x) * -.5);
+    padding: 0 calc(var(--bs-gutter-x) * .5);
+}
