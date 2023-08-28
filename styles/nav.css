@@ -58,17 +58,10 @@ header {
 }
 
 .nav-footer-pattern {
-    background-image: url("/assets/illustrations/footer-sm.svg");
+    background-image: url("/assets/illustrations/footer.svg");
     background-repeat: repeat-x;
     width: 100vw;
     height: calc(116rem / 16);
     opacity: 20%;
-    margin: calc(-10rem / 16);
-}
-
-@media (min-width: 992px) {
-    .nav-footer-pattern {
-        background-image: url("/assets/illustrations/footer-lg.svg");
-        margin: 0;
-    }
+    margin: 0;
 }
