@@ -6,6 +6,7 @@
     --brand-primary-green: #88B440;
     --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
+    --brand-scale-gray-3: #878787;
     --bs-primary: #88B440; /* Use with .text-primary */
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
@@ -249,20 +250,41 @@ header {
 
 /* Footer */
 
-.social-media-icon {
-    transition: 250ms;
+.social-media-icon,
+.social-media-icon i {
     width: calc(24rem / 16);
+    height: calc(24rem / 16);
 }
 
 @media (min-width: 992px) {
-    .social-media-icon {
+    .social-media-icon,
+    .social-media-icon i {
         width: calc(32rem / 16);
+        height: calc(32rem / 16);
     }
 }
 
-.social-media-icon:hover,
-.social-media-icon:focus {
-    opacity: 100% !important;
+.social-media-icon i {
+    transition: 250ms;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    background-color: var(--white);
+    display: inline-block;
+}
+
+.social-media-icon:hover i,
+.social-media-icon:focus i{
+    background-color: var(--brand-scale-gray-3);
+}
+
+.social-media-icon .github {
+    -webkit-mask-image: url(/assets/social_media/github.svg);
+    mask-image: url(/assets/social_media/github.svg);
+}
+
+.social-media-icon .linkedin {
+    -webkit-mask-image: url(/assets/social_media/linkedin.svg);
+    mask-image: url(/assets/social_media/linkedin.svg);
 }
 
 .brandmark {
