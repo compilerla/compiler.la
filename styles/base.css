@@ -155,6 +155,10 @@ h6 {
     color: var(--brand-scales-green-5) !important;
 }
 
+.fs-7 {
+    font-size: calc(14rem / 16) !important;
+}
+
 /* Buttons */
 
 :root {

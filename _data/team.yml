@@ -1,0 +1,64 @@
+- name: Shelby Miller
+  title: Managing Partner
+  image: "shelby-miller.png"
+  classes: ""
+
+- name: Heather Spriggs
+  title: Controller
+  image: "heather-spriggs.png"
+  classes: ""
+
+- name: Machiko Yasuda
+  title: Software Engineer
+  image: "machiko-yasuda.png"
+  classes: ""
+
+- name: Scott Frazier
+  title: Managing Partner
+  image: "scott-frazier.png"
+  classes: ""
+
+- name: Laney Mangan
+  title: Associate Consultant, Customer Support Specialist
+  image: "laney-mangan.png"
+  classes: ""
+
+- name: Sarah Henry
+  title: UX Designer
+  image: "sarah-henry.png"
+  classes: "collapseMore collapse"
+
+- name: Vyki Englert
+  title: Managing Partner
+  image: "vyki-englert.png"
+  classes: "collapseMore collapse"
+
+- name: Olivia Ramacier
+  title: Associate Researcher, Customer Success Specialist
+  image: "olivia-ramacier.png"
+  classes: "collapseMore collapse"
+
+- name: Angela Tran
+  title: Software Engineer
+  image: "angela-tran.png"
+  classes: "collapseMore collapse"
+
+- name: Anthony Rollins
+  title: Managing Partner
+  image: "anthony-rollins.png"
+  classes: "collapseMore collapse"
+
+- name: Kathryn Sullivan
+  title: Associate Consultant, Account Manager
+  image: "kathryn-sullivan.png"
+  classes: "collapseMore collapse"
+
+- name: Meryl Green
+  title: Executive Assistant, Business Development
+  image: "meryl-green.png"
+  classes: "collapseMore collapse"
+
+- name: Kegan Maher
+  title: Managing Partner
+  image: "kegan-maher.png"
+  classes: "collapseMore collapse"

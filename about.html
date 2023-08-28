@@ -89,7 +89,7 @@ footer: d-none
             </div>
             <div class="offset-lg-2 col-lg-8 mb-md-4 text-center">
                 <h2 class="text-dark">Compiler is a world-class team and an excellent choice for software development services. Over a three-year period as a subcontractor and task lead, they proved to be well organized, dependable, and highly proficient in their fields. Through efficient workflows, concise documentation, and clear communication, their work processes and resulting work products consistently produce high client satisfaction. I strongly recommend the Compiler team to anyone seeking a skilled and dependable partner for their software development needs.</h2>
-                <span class="text-dark d-block mt-3">—Jeremy Dalton, VP Mobility Xentrans and Technical Project Manager for Cal-ITP</span>
+                <h3 class="fs-6 sans-serif text-dark d-block mt-3">—Jeremy Dalton, VP Mobility Xentrans and Technical Project Manager for Cal-ITP</h3>
             </div>
         </div>
     </div>
@@ -107,78 +107,28 @@ footer: d-none
         <div class="offset-lg-1 col-lg-8 mb-md-4">
             <span class="text-white pill border-0 ps-0 pb-md-5 mb-md-3 pb-4 mb-3 d-inline-block">Who we are</span>
             <h2 class="text-white">Meet the team</h2>
-            <span class="text-white">We're a small team of remote workers who believe and adovacate for better public services</span>
+            <span class="text-white">We're a small team of remote workers who believe and advocate for better public services</span>
         </div>
         <div class="row">
-            <div class="offset-lg-1 col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Shelby Miller</p>
-                <p class="text-white">Managing Partner</p>
-            </div>
-            <div class="col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Heather Spriggs</p>
-                <p class="text-white">Controller</p>
-            </div>
-            <div class="col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Machiko Yasuda</p>
-                <p class="text-white">Software Engineer</p>
-            </div>
-            <div class="col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Scott Frazier</p>
-                <p class="text-white">Managing Partner</p>
-            </div>
-            <div class="col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Laney Mangan</p>
-                <p class="text-white">Associate Consultant, Customer Support Specialist</p>
-            </div>
-            <div id="collapseExample" class="collapse offset-lg-1 col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Shelby Miller</p>
-                <p class="text-white">Managing Partner</p>
-            </div>
-            <div id="collapseExample" class="collapse col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Heather Spriggs</p>
-                <p class="text-white">Controller</p>
-            </div>
-            <div id="collapseExample" class="collapse col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Machiko Yasuda</p>
-                <p class="text-white">Software Engineer</p>
-            </div>
-            <div id="collapseExample" class="collapse col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Scott Frazier</p>
-                <p class="text-white">Managing Partner</p>
-            </div>
-            <div id="collapseExample" class="collapse col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Laney Mangan</p>
-                <p class="text-white">Associate Consultant, Customer Support Specialist</p>
-            </div>
-            <div id="collapseExample" class="collapse offset-lg-1 col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Shelby Miller</p>
-                <p class="text-white">Managing Partner</p>
-            </div>
-            <div id="collapseExample" class="collapse col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Heather Spriggs</p>
-                <p class="text-white">Controller</p>
-            </div>
-            <div id="collapseExample" class="collapse col-lg-2 col-md-3 col-6">
-                <span class="placeholder w-100"></span>
-                <p class="h4 text-white">Machiko Yasuda</p>
-                <p class="text-white">Software Engineer</p>
+            <div class="container">
+                <div class="offset-lg-1 col-lg-10">
+                    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5">
+                        {% for member in site.data.team %}
+                            <div class="{{ member.classes }}">
+                                <div class="bg-white rounded">
+                                    <img style="height: 184px" class="d-block mx-auto" src="/assets/team_members/{{ member.image }}" alt="Watercolor illustration of {{member.name}}">
+                                </div>
+                                <h4 class="pt-3 mb-1 d-inline-block text-white">{{ member.name }}</h4>
+                                <p class="fs-7 text-white">{{ member.title }}</p>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
             </div>
         </div>
           <div class="row">
             <dig class="offset-lg-1 col-lg-2">
-                <a class="btn btn-primary btn-collapse" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"></a>
+                <a class="btn btn-primary btn-collapse" data-bs-toggle="collapse" data-bs-target=".collapseMore" role="button" aria-expanded="false" aria-label="Toggle team members" aria-controls="collapseExample"></a>
             </dig>
           </div>
 
