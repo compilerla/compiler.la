@@ -94,12 +94,15 @@ h4,
 /* Headlines */
 
 :root {
+    --h1-font-size: calc(40rem / 16);
+    --h1-line-height: 120%;
     --h2-font-size: calc(32rem / 16);
     --h3-font-size: calc(24rem / 16);
 }
 
 @media (min-width: 992px) {
     :root {
+        --h1-font-size: calc(48rem / 16);
         --h2-font-size: calc(40rem / 16);
         --h3-font-size: calc(32rem / 16);
     }
@@ -107,9 +110,10 @@ h4,
 
 
 h1 {
-    font-size: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-size: var(--h1-font-size);
+    line-height: var(--h1-line-height);
+    letter-spacing: 0;
+    margin: 0;
 }
 
 h2,
