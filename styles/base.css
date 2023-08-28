@@ -7,6 +7,7 @@
     --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
     --brand-scale-gray-3: #878787;
+    --brand-scales-green-5: #5E7D2A;
     --bs-primary: #88B440; /* Use with .text-primary */
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
@@ -19,7 +20,6 @@
     --bs-light-rgb: 84, 84, 84;
     --bs-dark: #1C1C1C; /* Use with .border-dark for About */
     --bs-dark-rgb: 28, 28, 28;
-
     --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro",monospace;
     --focus-box-shadow: 0 0 0 calc(2.5rem / 16) var(--brand-primary-black), 0 0 0 calc(4rem / 16) var(--brand-primary-green);
@@ -150,6 +150,10 @@ h6 {
 }
 
 /*#endregion */
+
+.text-brand-scales-green-5 {
+    color: var(--brand-scales-green-5) !important;
+}
 
 /* Buttons */
 
@@ -305,8 +309,8 @@ h6 {
     padding: 0;
 }
 
-.border-19 {
-    --bs-border-width: 1.9px;
+.border-half {
+    --bs-border-width: 0.5px;
 }
 
 .border-black {
