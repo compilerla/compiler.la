@@ -308,3 +308,14 @@ h6 {
 .border-black {
     --bs-border-color: #000;
 }
+
+/* .list-circle::marker {
+    content: url(/assets/illustrations/circle.svg);
+} */
+
+.list-circle {
+    background: url(/assets/illustrations/circle.svg) no-repeat left center;
+    padding: 0.5rem 0 0.5rem 2.4rem;
+    list-style: none;
+    margin: 0;
+}
