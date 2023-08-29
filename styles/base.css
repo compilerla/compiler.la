@@ -419,6 +419,8 @@ header {
     delay-animation 8s linear infinite;
     animation: move-right 24s linear infinite,
     delay-animation 8s linear infinite;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
 }
 
 .animate-bike img {
@@ -428,3 +430,12 @@ header {
     -ms-transition: all 1s ease-in-out;
     transition-duration: 1s;
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-bike,
+    .animate-bike img
+    .animate-bus,
+    .animate-bus img {
+      animation: none;
+    }
+  }
