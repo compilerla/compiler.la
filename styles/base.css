@@ -1,4 +1,3 @@
-@import url("./fonts.css");
 @import url("./nav.css");
 
 :root {
@@ -17,7 +16,7 @@
     --bs-info: #BEB3B3; /* Use with .text-info */
     --bs-info-rgb: 190,190,190;
     --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    --bs-font-monospace: "Source Code Pro Bold",monospace;
+    --bs-font-monospace: "Source Code Pro",monospace;
     --focus-box-shadow: 0 0 0 calc(2.5rem / 16) var(--brand-primary-black), 0 0 0 calc(4rem / 16) var(--brand-primary-green);
 }
 
@@ -25,7 +24,7 @@ body {
     background-color: var(--brand-primary-black);
     color: var(--white);
     font-family: var(--bs-font-sans-serif);
-    font-weight: normal;
+    font-weight: 400;
 }
 
 .container-fluid {
@@ -163,7 +162,7 @@ h6 {
     --bs-btn-padding-y: calc(1rem - 1px);
     --bs-btn-font-family: var(--bs-font-monospace);
     --bs-btn-font-size: 1rem;
-    --bs-btn-font-weight: 400;
+    --bs-btn-font-weight: 600;
     --bs-btn-line-height: 1;
     --bs-btn-border-width: calc(1rem / 16);
     --bs-btn-border-radius: 0;
