@@ -349,7 +349,7 @@ header {
         right: 0;
     }
     to {
-        right: 95%;
+        right: 100%;
     }
 }
 @keyframes move-left
@@ -358,16 +358,16 @@ header {
         right: 0;
     }
     to {
-        right: 95%;
+        right: 100%;
     }
 }
 
 .animate-bus {
-    right: 95%;
+    right: 100%;
     bottom: 0;
     position: absolute;
-    -webkit-animation: move-left 10s;
-    animation: move-left 10s;
+    -webkit-animation: move-left 10s linear infinite;
+    animation: move-left 10s linear infinite;
 }
 
 .animate-bus img {
@@ -384,7 +384,7 @@ header {
         left: 0;
     }
     to {
-        left: 95%;
+        left: 100%;
     }
 }
 @keyframes move-right
@@ -393,16 +393,16 @@ header {
         left: 0;
     }
     to {
-        left: 95%;
+        left: 100%;
     }
 }
 
 .animate-bike {
-    left: 95%;
+    left: 100%;
     bottom: 0;
     position: absolute;
-    -webkit-animation: move-right 10s;
-    animation: move-right 10s;
+    -webkit-animation: move-right 10s linear infinite;
+    animation: move-right 10s linear infinite;
 }
 
 .animate-bike img {
