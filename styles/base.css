@@ -340,3 +340,40 @@ header {
     list-style: none;
     margin: 0;
 }
+
+/* About */
+
+@-webkit-keyframes move
+{
+    from {
+        right: 0;
+    }
+    to {
+        right: 95%;
+    }
+}
+@keyframes move
+{
+    from {
+        right: 0;
+    }
+    to {
+        right: 95%;
+    }
+}
+
+.animate-bus {
+    right: 95%;
+    bottom: 0;
+    position: absolute;
+    -webkit-animation: move 5s;
+    animation: move 5s;
+}
+
+.animate-bus img {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition-duration: 1s;
+}
