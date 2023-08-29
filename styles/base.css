@@ -366,8 +366,8 @@ header {
     right: 100%;
     bottom: 0;
     position: absolute;
-    -webkit-animation: move-left 10s linear infinite;
-    animation: move-left 10s linear infinite;
+    -webkit-animation: move-left 8s linear infinite;
+    animation: move-left 8s linear infinite;
 }
 
 .animate-bus img {
@@ -401,8 +401,8 @@ header {
     left: 100%;
     bottom: 0;
     position: absolute;
-    -webkit-animation: move-right 10s linear infinite;
-    animation: move-right 10s linear infinite;
+    -webkit-animation: move-right 8s linear infinite;
+    animation: move-right 8s linear infinite;
 }
 
 .animate-bike img {
