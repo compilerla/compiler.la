@@ -432,10 +432,16 @@ header {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .animate-bike,
-    .animate-bike img
     .animate-bus,
-    .animate-bus img {
+    .animate-bike {
       animation: none;
+    }
+
+    .animate-bus {
+        right: 0 !important;
+    }
+
+    .animate-bike {
+        left: 0 !important;
     }
   }
