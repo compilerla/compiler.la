@@ -243,8 +243,6 @@ h6 {
     padding: 0.25rem 0.5rem;
 }
 
-<<<<<<< HEAD
-=======
 /* Header */
 
 header {
@@ -256,7 +254,6 @@ header {
 }
 
 
->>>>>>> 7431716 (chore: document new classes)
 /* Footer */
 
 .social-media-icon,
@@ -384,11 +381,13 @@ header {
     delay-animation 8s ease-in-out infinite;
 }
 
-.animate-bus img {
+.animate-bus img,
+.animate-bike img {
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
     transition-duration: 1s;
 }
 
@@ -429,14 +428,6 @@ header {
     -webkit-animation-delay: 3s;
 }
 
-.animate-bike img {
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
-    transition-duration: 1s;
-}
-
 @media (prefers-reduced-motion: reduce) {
     .animate-bus,
     .animate-bike {
@@ -450,4 +441,4 @@ header {
     .animate-bike {
         left: 0 !important;
     }
-  }
+}
