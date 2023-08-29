@@ -1,4 +1,5 @@
 @import url("./fonts.css");
+@import url("./nav.css");
 
 :root {
     --white: #FFFFFF;
@@ -84,22 +85,6 @@ h4,
 }
 
 /*#endregion */
-
-/*#region Font Sizes */
-
-:root {
-    --title-font-size: 1.75rem;
-}
-
-@media (min-width: 992px) {
-    :root {
-        --title-font-size: 2rem;
-    }
-}
-
-.lg-link {
-    font-size: var(--title-font-size);
-}
 
 /* Headlines */
 
@@ -240,12 +225,6 @@ h6 {
     border: calc(0.2rem / 16) solid var(--white);
     border-radius: 0.25rem;
     padding: 0.25rem 0.5rem;
-}
-
-/* Header */
-
-header {
-    padding: calc(13rem / 16) 0;
 }
 
 /* Footer */
