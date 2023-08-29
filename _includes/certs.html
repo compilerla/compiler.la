@@ -1,6 +1,6 @@
 {% for cert in site.data.certs %}
 <div class="pe-lg-5 pt-lg-5 mt-lg-1 pb-5">
-    <span class="h4 text-secondary pb-md-2">{{ cert.name }}</span>
+    <h2 class="h4 text-secondary pb-md-2">{{ cert.name }}</h2>
     <ul class="list-unstyled">
         {% for value in cert.values %}
         <li class="mt-3">{{ value }}</li>
