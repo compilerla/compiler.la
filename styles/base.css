@@ -343,7 +343,7 @@ header {
 
 /* About */
 
-@-webkit-keyframes move
+@-webkit-keyframes move-left
 {
     from {
         right: 0;
@@ -352,7 +352,7 @@ header {
         right: 95%;
     }
 }
-@keyframes move
+@keyframes move-left
 {
     from {
         right: 0;
@@ -366,11 +366,46 @@ header {
     right: 95%;
     bottom: 0;
     position: absolute;
-    -webkit-animation: move 5s;
-    animation: move 5s;
+    -webkit-animation: move-left 10s;
+    animation: move-left 10s;
 }
 
 .animate-bus img {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition-duration: 1s;
+}
+
+@-webkit-keyframes move-right
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 95%;
+    }
+}
+@keyframes move-right
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 95%;
+    }
+}
+
+.animate-bike {
+    left: 95%;
+    bottom: 0;
+    position: absolute;
+    -webkit-animation: move-right 10s;
+    animation: move-right 10s;
+}
+
+.animate-bike img {
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
