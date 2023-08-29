@@ -346,25 +346,31 @@ header {
 @-webkit-keyframes move-left
 {
     0% {
-        right: -20%;
+        right: -8%;
+    }
+    60% {
+        right: 60%
     }
     80% {
         right: 100%;
     }
     100% {
-        right: 120%
+        right: 150%
     }
 }
 @keyframes move-left
 {
     0% {
-        right: -20%;
+        right: -8%;
+    }
+    60% {
+        right: 60%
     }
     80% {
         right: 100%;
     }
     100% {
-        right: 120%
+        right: 150%
     }
 }
 
@@ -372,10 +378,10 @@ header {
     right: 100%;
     bottom: 0;
     position: absolute;
-    -webkit-animation: move-left 24s linear infinite,
-    delay-animation 8s linear infinite;
-    animation: move-left 24s linear infinite,
-    delay-animation 8s linear infinite;
+    -webkit-animation: move-left 24s ease-in-out infinite,
+    delay-animation 8s ease-in-out infinite;
+    animation: move-left 24s ease-in-out infinite,
+    delay-animation 8s ease-in-out infinite;
 }
 
 .animate-bus img {
@@ -389,7 +395,7 @@ header {
 @-webkit-keyframes move-right
 {
     0% {
-        left: -20%;
+        left: -8%;
     }
     80% {
         left: 100%;
@@ -401,7 +407,7 @@ header {
 @keyframes move-right
 {
     0% {
-        left: -20%;
+        left: -8%;
     }
     80% {
         left: 100%;
