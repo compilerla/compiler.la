@@ -345,52 +345,38 @@ header {
 
 @-webkit-keyframes move-left
 {
-    0% {
-        right: -8%;
+    37.5%, 65% {
+        right: 65%;
     }
-    60% {
-        right: 60%
-    }
-    80% {
-        right: 100%;
-    }
-    100% {
-        right: 150%
+    75%, 100% {
+        right: 120%;
     }
 }
 @keyframes move-left
 {
-    0% {
-        right: -8%;
+    37.5%, 65% {
+        right: 65%;
     }
-    60% {
-        right: 60%
-    }
-    80% {
-        right: 100%;
-    }
-    100% {
-        right: 150%
+    75%, 100% {
+        right: 120%;
     }
 }
 
 .animate-bus {
-    right: 100%;
+    right: -50px;
     bottom: 0;
     position: absolute;
-    -webkit-animation: move-left 24s ease-in-out infinite,
-    delay-animation 8s ease-in-out infinite;
-    animation: move-left 24s ease-in-out infinite,
-    delay-animation 8s ease-in-out infinite;
+    -webkit-animation: move-left 28s linear infinite;
+    animation: move-left 28s linear infinite;
 }
 
 .animate-bus img,
 .animate-bike img {
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    transition: all 1s linear;
     transition-duration: 1s;
 }
 
