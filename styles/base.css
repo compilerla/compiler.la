@@ -257,8 +257,8 @@ header {
 
 .h-100vh-minus-nav {
     height: calc(100vh - 72px);
+    min-height: 760px;
 }
-
 
 /* Footer */
 
