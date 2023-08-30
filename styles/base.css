@@ -7,7 +7,6 @@
     --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
     --brand-scale-gray-3: #878787;
-    --brand-scales-green-5: #5E7D2A;
     --bs-primary: #88B440; /* Use with .text-primary */
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
@@ -70,6 +69,20 @@ a:focus:not(.btn) {
     outline: none;
     box-shadow: var(--focus-box-shadow);
 }
+
+.bg-white a {
+    color: var(--brand-primary-black);
+}
+
+.bg-white a:hover:not(.btn) {
+    color: var(--brand-primary-black);
+}
+
+.bg-white a:focus:not(.btn) {
+    outline: none;
+    box-shadow: 0 0 0 calc(2.5rem / 16) var(--white), 0 0 0 calc(4rem / 16) var(--brand-primary-black);
+}
+
 
 /*#region Font Family */
 
@@ -304,10 +317,6 @@ header {
 }
 
 /* Utility Classes  */
-
-.text-brand-scales-green-5 {
-    color: var(--brand-scales-green-5) !important;
-}
 
 .fs-7 { /* Font size smaller than 1rem */
     font-size: calc(14rem / 16) !important;
