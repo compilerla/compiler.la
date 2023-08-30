@@ -107,19 +107,19 @@ description: We build open-source, human-centered, secure, agile solutions to su
 
 <div class="row">
     <div class="container my-5 py-5">
-        <div class="offset-lg-1 col-lg-8 mb-md-4">
+        <div class="offset-lg-1 col-lg-8">
             <span class="text-white pill border-0 ps-0 pb-md-5 mb-md-3 pb-4 mb-3 d-inline-block">Who we are</span>
-            <h2 class="text-white">Meet the team</h2>
-            <span class="text-white">We're a small team of remote workers who believe and advocate for better public services</span>
+            <h2 class="text-white mb-2">Meet the team</h2>
+            <span class="text-white">We’re a small team of remote workers who believe and advocate for better public services</span>
         </div>
         <div class="row">
             <div class="container">
-                <div class="offset-lg-1 col-lg-10">
+                <div class="offset-lg-1 col-lg-10 pt-md-4 mt-md-3 pt-4">
                     <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5">
                         {% for member in site.data.team %}
                             <div class="{{ member.classes }}">
                                 <div class="bg-white rounded">
-                                    <img style="height: 184px" class="d-block mx-auto" src="/assets/team_members/{{ member.image }}" alt="Watercolor illustration of {{member.name}}">
+                                    <img class="img-fluid d-block mx-auto" src="/assets/team_members/{{ member.image }}" alt="Watercolor illustration of {{member.name}}">
                                 </div>
                                 <h3 class="h4 pt-3 mb-1 d-inline-block text-white">{{ member.name }}</h3>
                                 <p class="fs-7 text-white">{{ member.title }}</p>
