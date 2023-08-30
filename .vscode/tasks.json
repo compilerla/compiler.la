@@ -8,7 +8,7 @@
             "detail": "jekyll serve --force_polling --livereload",
             "type": "shell",
             "linux": {
-                "command": "jekyll serve --force_polling --livereload"
+                "command": "bundle exec jekyll serve --force_polling --livereload"
             },
             "group": {
                 "kind": "build",
