@@ -55,14 +55,14 @@ li {
 
 a {
     color: var(--brand-primary-green);
-    text-decoration: none;
+    text-decoration: underline;
     transition: 250ms;
     font-weight: 500;
 }
 
 a:hover:not(.btn) {
     color: var(--brand-primary-green);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:focus:not(.btn) {
@@ -226,6 +226,12 @@ h4,
 .btn-outline-primary:focus-visible {
     background-color: var(--bs-btn-bg);
     border-color: var(--bs-btn-border-color);
+}
+
+@media (max-width: 991px) {
+    .btn {
+        width: 100%;
+    }
 }
 
 .bg-white .btn-primary {
