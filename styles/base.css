@@ -268,7 +268,7 @@ header {
 }
 
 .h-100vh-minus-nav {
-    height: calc(100vh - 72px);
+    height: calc(100vh - 88px); /* 72px height nav + 16 px */
     min-height: 760px;
 }
 
