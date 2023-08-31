@@ -356,29 +356,29 @@ header {
 
 @-webkit-keyframes move-left
 {
-    37.5%, 65% {
-        right: 65%;
+    27.27%, 45.45% {
+        right: 60%;
     }
-    75%, 100% {
-        right: 120%;
+    63.63%, 100% {
+        right: calc(100vw + 62px);
     }
 }
 @keyframes move-left
 {
-    37.5%, 65% {
-        right: 65%;
+    27.27%, 45.45% {
+        right: 60%;
     }
-    75%, 100% {
-        right: 120%;
+    63.63%, 100% {
+        right: calc(100vw + 62px);
     }
 }
 
 .animate-bus {
-    right: -50px;
+    right: -62px;
     bottom: 0;
     position: absolute;
-    -webkit-animation: move-left 28s linear infinite;
-    animation: move-left 28s linear infinite;
+    -webkit-animation: move-left 22s linear infinite;
+    animation: move-left 22s linear infinite;
 }
 
 .animate-bus img,
@@ -403,6 +403,7 @@ header {
         left: 120%;
     }
 }
+
 @keyframes move-right
 {
     0% {
