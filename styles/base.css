@@ -269,7 +269,13 @@ header {
 
 .h-100vh-minus-nav {
     height: calc(100vh - 88px); /* 72px height nav + 16 px */
-    min-height: 760px;
+    min-height: 600px;
+}
+
+@media (max-width: 992px) {
+    .h-100vh-minus-nav {
+        min-height: 760px;
+    }
 }
 
 /* Footer */
