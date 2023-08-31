@@ -11,13 +11,18 @@
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
     --bs-secondary-rgb: 81, 177, 199;
-    --bs-light: #545454; /* Use with .border-light above Footer - /brand/scales/gray/4 */
-    --bs-light-rgb: 84, 84, 84;
     --bs-info: #BEB3B3; /* Use with .text-info */
     --bs-info-rgb: 190,190,190;
+    --bs-success: #DCEFF4; /* Use with .bg-success */
+    --bs-success-rgb: 220, 239, 244;
+    --bs-light: #545454; /* Use with .border-light above Footer - /brand/scales/gray/4 */
+    --bs-light-rgb: 84, 84, 84;
+    --bs-dark: #1C1C1C; /* Use with .border-dark for About */
+    --bs-dark-rgb: 28, 28, 28;
     --bs-font-sans-serif: "Roboto", system-ui,-apple-system,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: "Source Code Pro",monospace;
     --focus-box-shadow: 0 0 0 calc(2.5rem / 16) var(--brand-primary-black), 0 0 0 calc(4rem / 16) var(--brand-primary-green);
+    --bs-border-radius: calc(14rem / 16); /* For team illos */
 }
 
 body {
@@ -50,20 +55,35 @@ li {
 
 a {
     color: var(--brand-primary-green);
-    text-decoration: none;
+    text-decoration: underline;
     transition: 250ms;
     font-weight: 500;
 }
 
 a:hover:not(.btn) {
     color: var(--brand-primary-green);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:focus:not(.btn) {
     outline: none;
+    text-decoration: none;
     box-shadow: var(--focus-box-shadow);
 }
+
+.bg-white a {
+    color: var(--brand-primary-black);
+}
+
+.bg-white a:hover:not(.btn) {
+    color: var(--brand-primary-black);
+}
+
+.bg-white a:focus:not(.btn) {
+    outline: none;
+    box-shadow: 0 0 0 calc(2.5rem / 16) var(--white), 0 0 0 calc(4rem / 16) var(--brand-primary-black);
+}
+
 
 /*#region Font Family */
 
@@ -89,12 +109,15 @@ h4,
 /* Headlines */
 
 :root {
+    --h1-font-size: calc(40rem / 16);
+    --h1-line-height: 120%;
     --h2-font-size: calc(32rem / 16);
     --h3-font-size: calc(24rem / 16);
 }
 
 @media (min-width: 992px) {
     :root {
+        --h1-font-size: calc(48rem / 16);
         --h2-font-size: calc(40rem / 16);
         --h3-font-size: calc(32rem / 16);
     }
@@ -102,9 +125,11 @@ h4,
 
 
 h1 {
-    font-size: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-size: var(--h1-font-size);
+    font-weight: 700;
+    line-height: var(--h1-line-height);
+    letter-spacing: 0;
+    margin: 0;
 }
 
 h2,
@@ -127,17 +152,9 @@ h3,
 
 h4,
 .h4 {
-    font-size: 1rem;
+    font-size: 1rem !important;
     font-weight: 600;
     line-height: 130%;
-}
-
-h5 {
-    font-size: 0.83rem;
-}
-
-h6 {
-    font-size: 0.67rem;
 }
 
 /*#endregion */
@@ -212,10 +229,29 @@ h6 {
     border-color: var(--bs-btn-border-color);
 }
 
+@media (max-width: 991px) {
+    .btn {
+        width: 100%;
+    }
+}
+
+.bg-white .btn-primary {
+    --bs-btn-focus-box-shadow: 0 0 0 calc(2.5rem / 16) var(--white), 0 0 0 calc(4rem / 16) var(--brand-primary-green);
+}
+
+.btn-collapse[aria-expanded='false']::before {
+    content: "See more";
+}
+
+.btn-collapse[aria-expanded='true']::before {
+    content: "See less";
+}
+/* Pills */
+
 .pill {
     font-size: 0.75rem;
     font-family: var(--bs-font-monospace);
-    font-weight: 400;
+    font-weight: 600;
     line-height: 120%;
     letter-spacing: 0.075rem;
     text-transform: uppercase;
@@ -223,6 +259,23 @@ h6 {
     border: calc(0.2rem / 16) solid var(--white);
     border-radius: 0.25rem;
     padding: 0.25rem 0.5rem;
+}
+
+/* Header */
+
+header {
+    padding: calc(13rem / 16) 0;
+}
+
+.h-100vh-minus-nav {
+    height: calc(100vh - 88px); /* 72px height nav + 16 px */
+    min-height: 600px;
+}
+
+@media (max-width: 992px) {
+    .h-100vh-minus-nav {
+        min-height: 760px;
+    }
 }
 
 /* Footer */
@@ -271,5 +324,128 @@ h6 {
 @media (min-width: 992px) {
     .brandmark {
         width: calc(181.676rem / 16);
+    }
+}
+
+/* Utility Classes  */
+
+.fs-7 { /* Font size smaller than 1rem */
+    font-size: calc(14rem / 16) !important;
+}
+
+.bg-w-100 { /* Full-width background color, goes beyond gutter */
+    margin: 0 calc(var(--bs-gutter-x) * -.5);
+    padding: 0 calc(var(--bs-gutter-x) * .5);
+}
+
+.border-100 { /* Full-width border, goes beyond gutter */
+    margin: 0 calc(var(--bs-gutter-x) * -.5);
+    padding: 0;
+}
+
+.border-half {
+    --bs-border-width: 0.5px;
+}
+
+.border-black {
+    --bs-border-color: #000;
+}
+
+.list-circle {
+    background: url(/assets/illustrations/circle.svg) no-repeat left center;
+    padding: 0.5rem 0 0.5rem 2.4rem;
+    list-style: none;
+    margin: 0;
+}
+
+/* About */
+
+@-webkit-keyframes move-left
+{
+    27.27%, 45.45% {
+        right: 60%;
+    }
+    63.63%, 100% {
+        right: calc(100vw + 62px);
+    }
+}
+@keyframes move-left
+{
+    27.27%, 45.45% {
+        right: 60%;
+    }
+    63.63%, 100% {
+        right: calc(100vw + 62px);
+    }
+}
+
+.animate-bus {
+    right: -62px;
+    bottom: 0;
+    position: absolute;
+    -webkit-animation: move-left 22s linear infinite;
+    animation: move-left 22s linear infinite;
+}
+
+.animate-bus img,
+.animate-bike img {
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    transition: all 1s linear;
+    transition-duration: 1s;
+}
+
+@-webkit-keyframes move-right
+{
+    0% {
+        left: -8%;
+    }
+    80% {
+        left: 100%;
+    }
+    100% {
+        left: 120%;
+    }
+}
+
+@keyframes move-right
+{
+    0% {
+        left: -8%;
+    }
+    80% {
+        left: 100%;
+    }
+    100% {
+        left: 120%;
+    }
+}
+
+.animate-bike {
+    left: 100%;
+    bottom: 0;
+    position: absolute;
+    -webkit-animation: move-right 24s linear infinite,
+    delay-animation 8s linear infinite;
+    animation: move-right 24s linear infinite,
+    delay-animation 8s linear infinite;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-bus,
+    .animate-bike {
+      animation: none;
+    }
+
+    .animate-bus {
+        right: 0 !important;
+    }
+
+    .animate-bike {
+        left: 0 !important;
     }
 }
