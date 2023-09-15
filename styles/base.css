@@ -283,7 +283,7 @@ header {
 .credit {
     color: var(--text-grey);
     font-family: var(--bs-font-monospace);
-    font-size: 12px;
+    font-size: calc(12rem / 16);
     font-style: normal;
     font-weight: 800;
     line-height: 120%;
