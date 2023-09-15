@@ -3,6 +3,7 @@
 :root {
     --white: #FFFFFF;
     --text-black: #1C1C1C;
+    --text-grey: #BEBEBE;
     --brand-primary-green: #88B440;
     --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
@@ -276,6 +277,18 @@ header {
     .h-100vh-minus-nav {
         min-height: 760px;
     }
+}
+
+/* Credit */
+.credit {
+    color: var(--text-grey);
+    font-family: var(--bs-font-monospace);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
 }
 
 /* Footer */
