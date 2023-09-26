@@ -3,70 +3,68 @@ layout: default
 title_prefix: "Jobs with Compiler:"
 ---
 
-<div class="container posting">
-  <div class="row">
-    <div class="offset-md-2 col-md-7 col-12 mt-5 pt-5 mb-5 pb-5">
-      <h1 class="h2 mt-4 pt-2 mb-5 pb-2">{{ page.title }}{% if page.type %} ({{ page.type }}){% endif %}</h1>
+<div class="row posting">
+    <div class="offset-lg-1 col-lg-7 mt-5 pt-5 mb-5 pb-5">
+        <h1 class="h2 mt-4 pt-2 mb-5 pb-2">{{ page.title }}{% if page.type %} ({{ page.type }}){% endif %}</h1>
 
-      {{ content }} {% if page.apply_link %}
-      <a
+        {{ content }} {% if page.apply_link %}
+        <a
         class="d-inline-block monospace primary-btn"
         id="apply"
         href="{{ page.apply_link }}"
-      >
+        >
         Apply Now
-      </a>
-      {% endif %}
+    </a>
+    {% endif %}
 
-      <p>
+    <p>
         <em>
-          In keeping with our beliefs and goals, no employee or applicant will face
-          discrimination or harassment based on race, color, ancestry, national
-          origin, religion, education, age, gender identity, sexual orientation,
-          marital domestic partner status, familial status, disability status, or
-          veteran status.
+            In keeping with our beliefs and goals, no employee or applicant will face
+            discrimination or harassment based on race, color, ancestry, national
+            origin, religion, education, age, gender identity, sexual orientation,
+            marital domestic partner status, familial status, disability status, or
+            veteran status.
         </em>
-      </p>
-      <p>
+    </p>
+    <p>
         <em>
-          We will consider for employment qualified applicants with arrest and
-          conviction records.
-          <a
+            We will consider for employment qualified applicants with arrest and
+            conviction records.
+            <a
             href="https://bantheboxcampaign.org"
             target="_blank"
             rel="noopener noreferrer"
-          >
+            >
             #banthebox
-          </a>
-        </em>
-      </p>
+        </a>
+    </em>
+</p>
 
-      <div>
-        <a class="monospace lg-link" href="/jobs">Back to Jobs</a>
-      </div>
-    </div>
-  </div>
+<div>
+    <a class="monospace lg-link" href="/jobs">Back to Jobs</a>
+</div>
+</div>
 </div>
 
 <script
-  src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"
-  crossorigin="anonymous"
+src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"
+crossorigin="anonymous"
 ></script>
 <script>
-  // override default Timezone for California
-  luxon.Settings.defaultZone = "America/Los_Angeles";
-  const DateTime = luxon.DateTime;
-  const now = DateTime.now();
+    // override default Timezone for California
+    luxon.Settings.defaultZone = "America/Los_Angeles";
+    const DateTime = luxon.DateTime;
+    const now = DateTime.now();
 
-  const job = {% include job-json.html job=page %};
-  const open_date = DateTime.fromISO(job.open_date).startOf("day");
-  const close_date = DateTime.fromISO(job.close_date).endOf("day");
+    const job = {% include job-json.html job=page %};
+    const open_date = DateTime.fromISO(job.open_date).startOf("day");
+    const close_date = DateTime.fromISO(job.close_date).endOf("day");
 
-  if(open_date > now || close_date < now) {
-    const apply = document.getElementById("apply");
-    if (apply) {
-      apply.classList.add("btn", "disabled");
-      apply.setAttribute("aria-disabled", "true");
+    if(open_date > now || close_date < now) {
+        const apply = document.getElementById("apply");
+        if (apply) {
+            apply.classList.add("btn", "disabled");
+            apply.setAttribute("aria-disabled", "true");
+        }
     }
-  }
 </script>
