@@ -11,7 +11,7 @@
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
     --bs-secondary-rgb: 81, 177, 199;
-    --bs-info: #BEB3B3; /* Use with .text-info */
+    --bs-info: #BEBEBE; /* Use with .text-info */
     --bs-info-rgb: 190,190,190;
     --bs-success: #DCEFF4; /* Use with .bg-success */
     --bs-success-rgb: 220, 239, 244;
@@ -61,7 +61,6 @@ body {
 main.container-fluid > .row:first-child {
     margin: var(--main-container-first-row-margin);
 }
-
 
 p,
 li {
@@ -121,7 +120,7 @@ h4,
 
 /*#endregion */
 
-/* Headlines */
+/* Headlines + Non-headline type */
 
 :root {
     --h1-font-size: calc(40rem / 16);
@@ -170,6 +169,14 @@ h4,
     font-size: 1rem !important;
     font-weight: 600;
     line-height: 130%;
+}
+
+.secondary-xs {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130% /* TODO: 140% on mobile */
 }
 
 /*#endregion */
@@ -349,6 +356,10 @@ header {
     font-size: calc(14rem / 16) !important;
 }
 
+.fw-boldest {
+    font-weight: 800;
+}
+
 .bg-w-100 { /* Full-width background color, goes beyond gutter */
     margin: 0 calc(var(--bs-gutter-x) * -.5);
     padding: 0 calc(var(--bs-gutter-x) * .5);
@@ -467,6 +478,12 @@ header {
 }
 
 /* Blog */
+
+@media (max-width: 992px) {
+    .blog.row {
+        --bs-gutter-x: 0;
+    }
+}
 
 .post-preview {
     margin-top: 80px;
