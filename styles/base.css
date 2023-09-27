@@ -48,6 +48,20 @@ body {
     }
 }
 
+:root {
+    --baseline-padding: 104px 0;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --baseline-padding: 114px 0;
+    }
+}
+
+main.container-fluid .row.baseline-padding{
+    margin: var(--baseline-padding);
+}
+
 p,
 li {
     line-height: 140%;
