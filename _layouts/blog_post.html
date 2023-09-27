@@ -4,21 +4,22 @@ layout: default
 
 <article>
     <div class="row">
+        <div class="">
+            <a class="text-uppercase" href="/blog">Back</a>
+        </div>
         <div class="col-md-6 d-flex offset-md-3 text-center flex-column justify-content-center">
             <h1>{{ page.title }}</h1>
             <p>by {{ page.author }}</p>
         </div>
     </div>
     <div class="bg-w-100 position-relative bg-white">
-        <div class="col-md-6 offset-md-3 text-black">
-            {{ content }}
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-black">
+                {{ content }}
+            </div>
+            <div class="">
+                <a class="text-uppercase" href="/blog">Back to blog</a>
+            </div>
         </div>
     </div>
 </article>
-
-<div class="row">
-    <div class="col-md-6 offset-md-3">
-        <h3>Read more from us</h3>
-        <h4><a href="/blog/">Back to blog</a></h4>
-    </div>
-</div>
