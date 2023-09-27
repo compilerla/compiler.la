@@ -17,12 +17,8 @@ description: Compiler blog tagline
                 <a class="h3 post-title text-white text-decoration-underline d-inline-block mb-2" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                     {{ post.title }}
                 </a>
-                <p class="font-monospace fw-boldest text-info mb-4">By
-                    {% if post.author %}
-                        {{ post.author }}
-                    {% else %}
-                        {{ site.author }}
-                    {% endif %}
+                <p class="font-monospace fw-boldest text-info mb-4">
+                    By {{ post.author }}
                 </p>
                 <p class="post-subtitle text-info mb-3">{{ post.excerpt }}</p>
                 <p class="text-info">{{ post.date | date: '%B %d, %Y' }}</p>
