@@ -3,32 +3,31 @@ layout: default
 description: Compiler blog tagline
 ---
 
-<div class="col-md-10 offset-md-1">
-    <span class="pill">About Us</span>
-    <h1>Our blog</h1>
-    <h6>Tagline goes here</h6>
-    <span class="placeholder col-12"></span>
+<div class="row">
+    <div class="col-md-10 offset-md-1">
+        <span class="pill">Blog</span>
+        <h1>Our blog</h1>
+        <h6>An inside look at Compiler’s internal projects, interests and our client projects.</h6>
+        <span class="placeholder col-12"></span>
+    </div>
 </div>
 
 <div class="col-md-6 offset-md-3">
     <!-- Home Post List -->
     {% for post in site.posts limit : 4 %}
-
-    <article class="post-preview">
-        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-        </a>
-        <p class="post-meta">By
-            {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-        </p>
-        <p class="post-subtitle">{{ post.excerpt }}</p>
-        <p>{{ post.date | date: '%B %d, %Y' }}</p>
-
-    </article>
-
+        <article class="post-preview">
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                <h2 class="post-title">{{ post.title }}</h2>
+            </a>
+            <p class="post-meta">By
+                {% if post.author %}
+                    {{ post.author }}
+                {% else %}
+                    {{ site.author }}
+                {% endif %}
+            </p>
+            <p class="post-subtitle">{{ post.excerpt }}</p>
+            <p>{{ post.date | date: '%B %d, %Y' }}</p>
+        </article>
     {% endfor %}
 </div>
