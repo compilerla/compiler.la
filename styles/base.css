@@ -48,6 +48,21 @@ body {
     }
 }
 
+:root {
+    --main-container-first-row-margin: 104px 0;
+}
+
+@media (min-width: 992px) {
+    :root {
+        --main-container-first-row-margin: 114px 0;
+    }
+}
+
+main.container-fluid > .row:first-child {
+    margin: var(--main-container-first-row-margin);
+}
+
+
 p,
 li {
     line-height: 140%;
@@ -246,6 +261,7 @@ h4,
 .btn-collapse[aria-expanded='true']::before {
     content: "See less";
 }
+
 /* Pills */
 
 .pill {
@@ -447,5 +463,22 @@ header {
 
     .animate-bike {
         left: 0 !important;
+    }
+}
+
+/* Blog */
+
+.post-preview {
+    margin-top: 80px;
+}
+
+.post-preview:first-of-type {
+    margin-top: 48px;
+}
+
+@media (min-width: 992px) {
+    .post-preview,
+    .post-preview:first-of-type {
+        margin-top: 104px;
     }
 }

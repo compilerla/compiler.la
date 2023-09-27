@@ -5,29 +5,28 @@ description: Compiler blog tagline
 
 <div class="row">
     <div class="col-md-10 offset-md-1">
-        <span class="pill">Blog</span>
-        <h1>Our blog</h1>
-        <h6>An inside look at Compiler’s internal projects, interests and our client projects.</h6>
-        <span class="placeholder col-12"></span>
+        <span class="pill d-inline-block mb-4">Blog</span>
+        <h1 class="mb-2">Our blog</h1>
+        <h6 class="pb-4 mb-3">An inside look at Compiler’s internal projects, interests and our client projects.</h6>
+        <img class="mw-100 mh-100" src="/assets/compiler-team-photo-for-blog.jpg" alt="A photograph of some Compiler teammates overlooking the Pacific Ocean.">
     </div>
-</div>
-
-<div class="col-md-6 offset-md-3">
-    <!-- Home Post List -->
-    {% for post in site.posts limit : 4 %}
-        <article class="post-preview">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                <h2 class="post-title">{{ post.title }}</h2>
-            </a>
-            <p class="post-meta">By
-                {% if post.author %}
-                    {{ post.author }}
-                {% else %}
-                    {{ site.author }}
-                {% endif %}
-            </p>
-            <p class="post-subtitle">{{ post.excerpt }}</p>
-            <p>{{ post.date | date: '%B %d, %Y' }}</p>
-        </article>
-    {% endfor %}
+    <div class="col-md-6 offset-md-3">
+        <!-- Home Post List -->
+        {% for post in site.posts limit : 4 %}
+            <article class="post-preview">
+                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                    <h2 class="post-title">{{ post.title }}</h2>
+                </a>
+                <p class="post-meta">By
+                    {% if post.author %}
+                        {{ post.author }}
+                    {% else %}
+                        {{ site.author }}
+                    {% endif %}
+                </p>
+                <p class="post-subtitle">{{ post.excerpt }}</p>
+                <p>{{ post.date | date: '%B %d, %Y' }}</p>
+            </article>
+        {% endfor %}
+    </div>
 </div>
