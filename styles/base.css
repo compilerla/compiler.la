@@ -127,6 +127,9 @@ h4,
     --h1-line-height: 120%;
     --h2-font-size: calc(32rem / 16);
     --h3-font-size: calc(24rem / 16);
+    --h-sm-font-size: calc(20rem / 16);
+    --h-sm-font-weight: 700;
+    --h-sm-line-height: 130%;
 }
 
 @media (min-width: 992px) {
@@ -134,6 +137,9 @@ h4,
         --h1-font-size: calc(48rem / 16);
         --h2-font-size: calc(40rem / 16);
         --h3-font-size: calc(32rem / 16);
+        --h-sm-font-size: calc(24rem / 16);
+        --h-sm-font-weight: 800;
+        --h-sm-line-height: 120%;
     }
 }
 
@@ -171,12 +177,20 @@ h4,
     line-height: 130%;
 }
 
-.secondary-xs {
+.h-sm,
+.blog_post h2 {
+    font-size: var(--h-sm-font-size);
+    font-weight: var(--h-sm-font-weight);
+    line-height: var(--h-sm-line-height);
+}
+
+.secondary-xs,
+.blog_post h3 {
     font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 130% /* TODO: 140% on mobile */
+    line-height: 130%; /* TODO: 140% on mobile */
 }
 
 /*#endregion */
@@ -518,4 +532,17 @@ header {
     padding-top: 8px;
     padding-bottom: 12px;
     letter-spacing: 1.2px;
+}
+
+.blog_post h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.blog_post p:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.blog_post p:last-child {
+    margin-bottom: 0;
 }
