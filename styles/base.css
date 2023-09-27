@@ -58,7 +58,7 @@ body {
     }
 }
 
-main.container-fluid .row.baseline-padding{
+main.container-fluid > .row:first-child {
     margin: var(--baseline-padding);
 }
 
