@@ -130,6 +130,9 @@ h4,
     --h-sm-font-size: calc(20rem / 16);
     --h-sm-font-weight: 700;
     --h-sm-line-height: 130%;
+    --blockquote-font-size: calc(18rem / 16);
+    --blockquote-line-height: 120%;
+    --blockquote-margin: calc(40rem / 16);
 }
 
 @media (min-width: 992px) {
@@ -140,6 +143,9 @@ h4,
         --h-sm-font-size: calc(24rem / 16);
         --h-sm-font-weight: 800;
         --h-sm-line-height: 120%;
+        --blockquote-font-size: calc(20rem / 16);
+        --blockquote-line-height: 140%;
+        --blockquote-margin: calc(56rem / 16);
     }
 }
 
@@ -191,6 +197,19 @@ h4,
     font-style: normal;
     font-weight: 500;
     line-height: 130%; /* TODO: 140% on mobile */
+}
+
+blockquote {
+    border-left: 0.5rem solid var(--brand-primary-green);
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    margin: var(--blockquote-margin) 0;
+}
+
+blockquote p {
+    font-family: var(--bs-font-monospace);
+    font-size: var(--blockquote-font-size);
+    font-weight: 800;
+    line-height: var(--blockquote-line-height);
 }
 
 /*#endregion */
@@ -545,4 +564,15 @@ header {
 
 .blog_post p:last-child {
     margin-bottom: 0;
+}
+
+.blog_post img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blog_post figcaption {
+    font-size: calc(14rem / 16);
+    font-weight: 500;
+    line-height: 150%;
 }
