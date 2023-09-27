@@ -352,14 +352,6 @@ header {
 
 /* Utility Classes  */
 
-.fs-7 { /* Font size smaller than 1rem */
-    font-size: calc(14rem / 16) !important;
-}
-
-.fw-boldest {
-    font-weight: 800;
-}
-
 .bg-w-100 { /* Full-width background color, goes beyond gutter */
     margin: 0 calc(var(--bs-gutter-x) * -.5);
     padding: 0 calc(var(--bs-gutter-x) * .5);
@@ -378,11 +370,33 @@ header {
     --bs-border-color: #000;
 }
 
+.fs-7 { /* Font size smaller than 1rem */
+    font-size: calc(14rem / 16) !important;
+}
+
+.fs-8 { /* Font size smaller than 1rem */
+    font-size: calc(12rem / 16) !important;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-boldest {
+    font-weight: 800;
+}
+
 .list-circle {
     background: url(/assets/illustrations/circle.svg) no-repeat left center;
     padding: 0.5rem 0 0.5rem 2.4rem;
     list-style: none;
     margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .py-md-8 {
+        padding: 120px 0 !important;
+    }
 }
 
 /* About */
@@ -498,4 +512,10 @@ header {
     .post-preview:first-of-type {
         margin-top: 104px;
     }
+}
+
+.back-row {
+    padding-top: 8px;
+    padding-bottom: 12px;
+    letter-spacing: 1.2px;
 }

@@ -1,25 +1,28 @@
 ---
 layout: default
 ---
+<div class="back-row bg-w-100 border-top border-bottom border-light">
+    <a class="text-info fs-8 fw-boldest font-monospace text-uppercase" href="/blog">Back</a>
+</div>
 
 <article>
     <div class="row">
-        <div class="">
-            <a class="text-uppercase" href="/blog">Back</a>
-        </div>
-        <div class="col-md-6 d-flex offset-md-3 text-center flex-column justify-content-center">
-            <h1>{{ page.title }}</h1>
-            <p>by {{ page.author }}</p>
+        <div class="col-md-6 d-flex offset-md-3 text-center flex-column justify-content-center py-md-5 my-md-5 my-2">
+            <h1 class="d-inline-block mb-3">{{ page.title }}</h1>
+            <span class="secondary-xs">{{ post.subtitle }}</span>
+            <span class="fs-7 fw-500 text-primary pt-4 mt-3">By {{ page.author }}</span>
+            <span class="fs-7 text-info">{{ page.date | date: '%B %d, %Y' }}</span>
         </div>
     </div>
     <div class="bg-w-100 position-relative bg-white">
         <div class="row">
-            <div class="col-md-6 offset-md-3 text-black">
+            <div class="col-md-6 offset-md-3 text-black py-md-8 my-md-0 py-5 my-2">
                 {{ content }}
-            </div>
-            <div class="">
-                <a class="text-uppercase" href="/blog">Back to blog</a>
             </div>
         </div>
     </div>
 </article>
+
+<div class="back-row bg-w-100 bg-white border-top border-bottom border-light">
+    <a class="fs-8 fw-boldest font-monospace text-uppercase" href="/blog">Back to blog</a>
+</div>
