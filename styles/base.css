@@ -560,6 +560,7 @@ header {
     letter-spacing: 1.2px;
 }
 
+.blog_post h2,
 .blog_post h3 {
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
