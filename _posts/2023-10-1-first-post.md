@@ -9,12 +9,20 @@ date:   2023-09-01 19:03:13 +0200
 categories: compiler
 ---
 
-## How to write a blog post for Compiler
+## First things first
+
+Before you start drafting your post, make sure you get your post filename and [front matter](https://jekyllrb.com/docs/front-matter/) together.
+
+### How to save and name a post
+
+Click [on this GitHub New File link](https://github.com/compilerla/compiler.la/new/main/_posts) to create an empty file in the `_posts` folder and name it according to this naming convention: `YEAR-MONTH-name-of-post.md`. Year and month should be 4 and 2 digits, respectfully. This post’s name is `2023-10-first-post.md`
+
 ### How to write front matter
 
-Before you start drafting your post, make sure you get your post [front matter](https://jekyllrb.com/docs/front-matter/) together. As the Jekyll doc states, "the front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines."
+Now you’re ready to tackle the front matter. As the Jekyll doc states, "the front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines."
 
-It begins and ends with `---`, and has the keys (like `layout`) separated from each key's values (like `blog_post`) with a colon (`:`). Here is an example from this post:
+It begins and ends with `---`, and has the keys (like `layout`) separated from each key’s values (like `blog_post`) with a colon (`:`). Here is an example from this post:
+
 ```
 ---
 layout: blog_post
@@ -28,22 +36,27 @@ categories: compiler
 ---
 ```
 
-| layout     | blog_post                                                                                                                                                                                        | required                                                             |
+You can copy and paste the code snippet above to the top of your post. You will have to change some of the values, and this table will show you what key/value pairs to change, and what to keep the same:
+
+| Key     | Value                                                                                                                                                                                        | notes                                                             |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| `title`      | come up with your own                                                                                                                                                          | required                                                             |
-| `subtitle`   | come up with your own                                                                                                                          | optional                                                             |
-| `permalink`  | `blog/2023/come-up-with-your-own`                                                                                                                                                  | `blog/YEAR/come-up-with-your-own`                                                  |
+| `layout`     | `blog_post`                                                                                                                                                                                      | required - do not change                                                            |
+| `title`      | Appears on post page. Come up with your own.                                                                                                                                                          | required                                                             |
+| `subtitle`   | Appears on post page. Come up with your own.                                                                                                                          | optional                                                             |
+| `permalink`  | `blog/2023/come-up-with-your-own`                                                                                                                                                  | required - `blog/YEAR/come-up-with-your-own`                                                  |
 | `author`     | Your Name                                                                                                                                                                                     | can include multiple people, like "Laney Mangan and Olivia Ramacier" |
-| `excerpt`    | This is a little teaser of what’s to come. It will appear on the main /blog page. | required                                                             |
-| `date`      | 2023-09-01 19:03:13 +0200                                                                                                                                                                        | if it's in the future, it won't be published                         |
+| `excerpt`    | Appears on main blog page. Come up with your own. | required                                                             |
+| `date`      | 2023-09-01 19:03:13 +0200                                                                                                                                                                        | if it’s in the future, it won’t be published                         |
 | `categories` | compiler                                                                                                                                                                                         | required                                                             |
 
 
-Once you've written the front matter, you're ready to dive into the main part - writing.
+<p class="pt-3">It can be difficult to write a succinct title and/or subtitle. Feel free to ask an editor for help.
 
-### Writing and formatting the post itself
+Once you’ve written the front matter, you’re ready to dive into the main part - writing.</p>
 
-If this is your first time writing for the web, you will need to take a few minutes to familiarize yourself [Markdown syntax](https://www.markdownguide.org/basic-syntax/). Don't worry - you do not need to memorize it or understand all of it. You only need what you will be using.
+## Writing and formatting the post itself
+
+If this is your first time writing for the web, you will need to take a few minutes to familiarize yourself [Markdown syntax](https://www.markdownguide.org/basic-syntax/). Don’t worry - you do not need to memorize it or understand all of it. You only need what you will be using.
 
 What writing in Markdown entails is writing a bit of code. Instead of using a graphical content editor like you are used to in Google Docs or your e-mail composer, you will have to write a bit of code to make a word **bold** (like this: `**bold**`) or *italics* (like this: `_italics_`). Developers tend to like writing in Markdown, because it allows people to write and format without having to use a mouse and click on icons. The resulting files tend to be easier to store and display on the web as well.
 
@@ -100,7 +113,7 @@ If you need help with any of these steps, ask for help from a developer in the #
     <figcaption>This is a caption underneath an image. Photograph by BYLINE</figcaption>
 </figure>
 
-If you'd like your visual to take half the width of the post, instead of the full-width, follow these steps:
+If you’d like your visual to take half the width of the post, instead of the full-width, follow these steps:
 
 1. Follow steps 1-4 from the section above. **Note**: The caption also has to be 1/2 as long.
 1. Add the following code to your post, where you want the visual to appear. Fill in the filename, caption and byline with your own information:
@@ -119,8 +132,8 @@ The visual will now appear in half the width.
 
 ## Give your most important point some visual flair
 
-Now that you're at the end of this writing adventure, think back and ask yourself: If readers only remember one sentence, or one idea, what would you want that to be? What was the greatest revalation, the biggest thing that surprised you, in your writing process? Or perhaps it's the single-most shocking statistic. Find a sentence that reflects that idea. Give that sentence it's own paragraph. Add a `>` in front of that sentence.
+Now that you’re at the end of this writing adventure, think back and ask yourself: If readers only remember one sentence, or one idea, what would you want that to be? What was the greatest revalation, the biggest thing that surprised you, in your writing process? Or perhaps it’s the single-most shocking statistic. Find a sentence that reflects that idea. Give that sentence it’s own paragraph. Add a `>` in front of that sentence.
 
 > Always end your post with an empty line.
 
-While there’s no character limit, design recommends 150 characters. The shorter the better! Editorial-wise, the sentence is best placed around the middle portion of your post - you don't want to leave the reader waiting _too_ long for your greatest epiphany.
+While there’s no character limit, design recommends 150 characters. The shorter the better! Editorial-wise, the sentence is best placed around the middle portion of your post - you don’t want to leave the reader waiting _too_ long for your greatest epiphany.
