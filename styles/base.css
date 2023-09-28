@@ -433,6 +433,10 @@ header {
     .py-md-8 {
         padding: 120px 0 !important;
     }
+
+    .w-md-50 {
+        width: 50% !important;
+    }
 }
 
 /* About */
