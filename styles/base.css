@@ -557,6 +557,28 @@ header {
     letter-spacing: 1.2px;
 }
 
+.back-row a:before {
+    content: " ";
+    margin-right: 0.5rem;
+    vertical-align: sub;
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+}
+
+.back-row a:before {
+    background: no-repeat url("/assets/blog/go-back.svg");
+    background-size: contain;
+}
+
+.back-row:last-of-type a:before {
+    background: var(--brand-primary-green);
+    mask-image: url("/assets/blog/go-back.svg"), linear-gradient(transparent, transparent);
+    mask-position: center center;
+    -webkit-mask-image: url("/assets/blog/go-back.svg"), linear-gradient(transparent, transparent);
+    -webkit-mask-position: center center;
+}
+
 .blog_post h2,
 .blog_post h3 {
     margin-top: 0.5rem;
