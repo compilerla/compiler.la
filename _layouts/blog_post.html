@@ -11,7 +11,7 @@ layout: default
             <h1 class="d-inline-block mb-3">{{ page.title }}</h1>
             <span class="secondary-xs">{{ page.subtitle }}</span>
             <span class="fs-7 fw-500 text-primary pt-4 mt-3">By {{ page.author }}</span>
-            <span class="fs-7 text-info">{{ page.date | date: '%B %d, %Y' }}</span>
+            <time class="fs-7 text-info" datetime="{{ page.date }}">{{ page.date | date: '%B %d, %Y' }}</time>
         </div>
     </div>
     <div class="bg-w-100 position-relative bg-white">
