@@ -5,7 +5,7 @@ subtitle: "Follow these instructions to learn how to write a blog post, include 
 permalink: "blog/2023/blog-readme"
 author: Laney Mangan
 excerpt: "Learn how to write a blog post, include images, blockquotes and more."
-date:   2023-09-01 19:03:13 +0200
+date:   2023-09-24 19:03:13 +0200
 categories: compiler
 ---
 
@@ -15,7 +15,7 @@ Before you start drafting your post, make sure you get your post filename and [f
 
 ### How to save and name a post
 
-Click [on this GitHub New File link](https://github.com/compilerla/compiler.la/new/main/_posts) to create an empty file in the `_posts` folder and name it according to this naming convention: `YEAR-MONTH-name-of-post.md`. Year and month should be 4 and 2 digits, respectfully. This post’s name is `2023-10-first-post.md`
+Click [on this GitHub New File link](https://github.com/compilerla/compiler.la/new/main/_posts) to create an empty file in the `_posts` folder and name it according to this naming convention: `YEAR-MONTH-DATE-name-of-post.md`. Year should be 4 digits, while month and date should be 2 digits, respectfully. This post’s name is `2023-09-01-first-post.md`
 
 ### How to write front matter
 
