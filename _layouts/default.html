@@ -6,13 +6,18 @@
     {% assign title = layout.title_prefix | append: " " | append: page.title %}
     {% else if page.title %}
     {% assign title = page.title %}
+    <meta name="og:title" content="{{ page.title }}">
     {% endif %}
 
     <title>{{ title | default: "Compiler"}} </title>
 
     <meta charset="UTF-8">
+
     {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
+    <meta name="og:description" content="{{ page.description }}">
+    {% endif %}
+    {% if page.image %}
+    <meta name="og:image" content="{{ page.image }}">
     {% endif %}
     {% if page.date %}
     <meta property="article:published_time" content="{{ page.date | date: '%Y-%M-%d' }}" />
