@@ -131,6 +131,7 @@ h4,
     --h-sm-font-size: calc(20rem / 16);
     --h-sm-font-weight: 700;
     --h-sm-line-height: 130%;
+    --xs-line-height: 140%;
     --blockquote-font-size: calc(18rem / 16);
     --blockquote-line-height: 120%;
     --blockquote-margin: calc(40rem / 16);
@@ -144,6 +145,7 @@ h4,
         --h-sm-font-size: calc(24rem / 16);
         --h-sm-font-weight: 800;
         --h-sm-line-height: 120%;
+        --xs-line-height: 130%;
         --blockquote-font-size: calc(20rem / 16);
         --blockquote-line-height: 140%;
         --blockquote-margin: calc(56rem / 16);
@@ -197,7 +199,7 @@ h4,
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 130%; /* TODO: 140% on mobile */
+    line-height: var(--xs-line-height)
 }
 
 blockquote {
@@ -431,7 +433,7 @@ header {
 
 @media screen and (min-width: 992px) {
     .py-md-8 {
-        padding: 120px 0 !important;
+        padding: calc(120rem / 16) 0 !important;
     }
 
     .w-md-50 {
@@ -540,23 +542,23 @@ header {
 }
 
 .post-preview {
-    margin-top: 80px;
+    margin-top: calc(80rem / 16);
 }
 
 .post-preview:first-of-type {
-    margin-top: 48px;
+    margin-top: calc(48rem / 16);
 }
 
 @media (min-width: 992px) {
     .post-preview,
     .post-preview:first-of-type {
-        margin-top: 104px;
+        margin-top: calc(10rem / 16)x;
     }
 }
 
 .back-row {
-    padding-top: 8px;
-    padding-bottom: 12px;
+    padding-top: 0.5rem;
+    padding-bottom: calc(12rem / 16);
     letter-spacing: 1.2px;
 }
 
@@ -565,8 +567,8 @@ header {
     margin-right: 0.5rem;
     vertical-align: sub;
     display: inline-block;
-    width: 8px;
-    height: 12px;
+    width: 0.5rem;
+    height: calc(12rem / 16);
 }
 
 .back-row a:before {
