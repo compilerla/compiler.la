@@ -14,6 +14,9 @@
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     {% endif %}
+    {% if page.date %}
+    <meta property="article:published_time" content="{{ page.date | date: '%Y-%M-%d' }}" />
+    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="/favicon.ico" sizes="any">
