@@ -607,4 +607,5 @@ header {
     font-size: calc(14rem / 16);
     font-weight: 500;
     line-height: 150%;
+    color: var(--bs-light);
 }
