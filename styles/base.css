@@ -102,7 +102,8 @@ a:focus:not(.btn) {
 
 /*#region Font Family */
 
-.monospace,
+.font-monospace,
+.primary-monospace,
 h1,
 .h1,
 h2,
@@ -193,7 +194,7 @@ h4,
     line-height: var(--h-sm-line-height);
 }
 
-.secondary-xs,
+.secondary-sans-serif-xs,
 .blog_post h3 {
     font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
