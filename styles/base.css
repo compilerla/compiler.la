@@ -49,17 +49,17 @@ body {
 }
 
 :root {
-    --main-container-first-row-margin: 104px 0;
+    --main-container-first-row-vertical-margin: 104px;
 }
 
 @media (min-width: 992px) {
     :root {
-        --main-container-first-row-margin: 114px 0;
+        --main-container-first-row-vertical-margin: 114px;
     }
 }
 
 main.container-fluid > .row:first-child {
-    margin: var(--main-container-first-row-margin);
+    margin: var(--main-container-first-row-vertical-margin) 0;
 }
 
 p,
@@ -384,7 +384,7 @@ header {
 
 .animate-bus {
     right: -62px;
-    bottom: 0;
+    bottom: calc(-1 * var(--main-container-first-row-vertical-margin));
     position: absolute;
     -webkit-animation: move-left 22s linear infinite;
     animation: move-left 22s linear infinite;
