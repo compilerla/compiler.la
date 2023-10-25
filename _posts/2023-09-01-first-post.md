@@ -3,7 +3,6 @@ layout: blog_post
 title: "How to write a Compiler blog post"
 subtitle: "Follow these instructions to learn how to write a blog post, include images, blockquotes and more."
 description: "Follow these instructions to learn how to write a blog post, include images, blockquotes and more."
-permalink: "blog/2023/blog-readme"
 author: Laney Mangan
 excerpt: "Learn how to write a blog post, include images, blockquotes and more."
 date:   2023-09-24 19:03:13 +0200
