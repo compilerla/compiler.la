@@ -3,6 +3,7 @@
 :root {
     --white: #FFFFFF;
     --text-black: #1C1C1C;
+    --text-grey: #BEBEBE;
     --brand-primary-green: #88B440;
     --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
@@ -11,7 +12,7 @@
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
     --bs-secondary-rgb: 81, 177, 199;
-    --bs-info: #BEB3B3; /* Use with .text-info */
+    --bs-info: #BEBEBE; /* Use with .text-info */
     --bs-info-rgb: 190,190,190;
     --bs-success: #DCEFF4; /* Use with .bg-success */
     --bs-success-rgb: 220, 239, 244;
@@ -334,6 +335,11 @@ header {
 
 .fs-7 { /* Font size smaller than 1rem */
     font-size: calc(14rem / 16) !important;
+}
+
+.fs-8 {
+    font-size: calc(12rem / 16) !important;
+    letter-spacing: 1.2px !important;
 }
 
 .bg-w-100 { /* Full-width background color, goes beyond gutter */
