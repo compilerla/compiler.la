@@ -4,4 +4,4 @@ collections:
     permalink: /:collection/:name
   posts:
     output: true
-    permalink: /:collection/:year/:title:output_ext
+    permalink: /blog/:year/:title:output_ext
