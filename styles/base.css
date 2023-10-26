@@ -8,6 +8,7 @@
     --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
     --brand-scale-gray-3: #878787;
+    --brand-scale-gray-4: #545454;
     --bs-primary: #88B440; /* Use with .text-primary */
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
@@ -172,7 +173,8 @@ h2,
 
 h3,
 .h3,
-.posting h2 {
+.posting h2,
+.blog_post h2 {
     font-size: var(--h3-font-size);
     font-weight: 700;
     line-height: 120%;
@@ -187,8 +189,7 @@ h4,
     line-height: 130%;
 }
 
-.h-sm,
-.blog_post h2 {
+.h-sm {
     font-size: var(--h-sm-font-size);
     font-weight: var(--h-sm-font-weight);
     line-height: var(--h-sm-line-height);
@@ -609,5 +610,5 @@ header {
     font-size: calc(14rem / 16);
     font-weight: 500;
     line-height: 150%;
-    color: var(--bs-light);
+    color: var(--brand-scale-gray-4);
 }
