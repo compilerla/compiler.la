@@ -598,6 +598,15 @@ header {
     line-height: var(--xs-line-height)
 }
 
+.blog_post h5 {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--brand-scale-gray-4);
+    margin: -1.5rem 0 1.5rem 0;
+    line-height: 1;
+}
+
 .blog_post p:not(:last-child) {
     margin-bottom: 1.5rem;
 }

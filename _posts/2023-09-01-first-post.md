@@ -9,7 +9,8 @@ date:   2023-09-24 19:03:13 +0200
 categories: compiler
 ---
 
-## First things first
+## First thing’s first
+##### Let’s imagine you have a subheader paired with this section
 
 Before you start drafting your post, make sure you get your post filename and [front matter](https://jekyllrb.com/docs/front-matter/) together.
 
