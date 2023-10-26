@@ -621,4 +621,5 @@ header {
     font-weight: 500;
     line-height: 150%;
     color: var(--brand-scale-gray-4);
+    margin-bottom: 1.5rem;
 }
