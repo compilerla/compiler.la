@@ -378,15 +378,6 @@ header {
 
 /* Utility Classes  */
 
-.fs-7 { /* Font size smaller than 1rem */
-    font-size: calc(14rem / 16) !important;
-}
-
-.fs-8 {
-    font-size: calc(12rem / 16) !important;
-    letter-spacing: 1.2px !important;
-}
-
 .fw-boldest {
     font-weight: 800;
 }
@@ -413,7 +404,12 @@ header {
     font-size: calc(14rem / 16) !important;
 }
 
-.fs-8 { /* Font size smaller than 1rem */
+.fs-8 {
+    font-size: calc(12rem / 16) !important;
+    letter-spacing: 1.2px !important;
+}
+
+.fine-print { /* Font size smaller than 1rem */
     font-size: calc(12rem / 16) !important;
 }
 
@@ -555,6 +551,11 @@ header {
     .post-preview:first-of-type {
         margin-top: calc(10rem / 16)x;
     }
+}
+
+.post-title:hover,
+.post-title:focus {
+    text-decoration: none !important;
 }
 
 .back-row {
