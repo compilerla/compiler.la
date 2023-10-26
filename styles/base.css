@@ -50,34 +50,19 @@ body {
 }
 
 :root {
-<<<<<<< HEAD
     --main-container-first-row-vertical-margin: 104px;
-=======
-    --main-container-first-row-margin: 104px 0;
->>>>>>> 9bcdf7e (feat(blog): add image, post preview gap)
 }
 
 @media (min-width: 992px) {
     :root {
-<<<<<<< HEAD
         --main-container-first-row-vertical-margin: 114px;
-=======
-        --main-container-first-row-margin: 114px 0;
->>>>>>> 9bcdf7e (feat(blog): add image, post preview gap)
     }
 }
 
 main.container-fluid > .row:first-child {
-<<<<<<< HEAD
     margin: var(--main-container-first-row-vertical-margin) 0;
 }
 
-=======
-    margin: var(--main-container-first-row-margin);
-}
-
-
->>>>>>> 9bcdf7e (feat(blog): add image, post preview gap)
 p,
 li {
     line-height: 140%;
@@ -136,7 +121,7 @@ h4,
 
 /*#endregion */
 
-/* Headlines */
+/* Headlines + Non-headline type */
 
 :root {
     --h1-font-size: calc(40rem / 16);
@@ -185,6 +170,14 @@ h4,
     font-size: 1rem !important;
     font-weight: 600;
     line-height: 130%;
+}
+
+.secondary-xs {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130% /* TODO: 140% on mobile */
 }
 
 /*#endregion */
@@ -353,9 +346,14 @@ header {
     font-size: calc(14rem / 16) !important;
 }
 
+<<<<<<< HEAD
 .fs-8 {
     font-size: calc(12rem / 16) !important;
     letter-spacing: 1.2px !important;
+=======
+.fw-boldest {
+    font-weight: 800;
+>>>>>>> 15184ad (feat(blog): fix mobile gutter)
 }
 
 .bg-w-100 { /* Full-width background color, goes beyond gutter */
@@ -476,6 +474,12 @@ header {
 }
 
 /* Blog */
+
+@media (max-width: 992px) {
+    .blog.row {
+        --bs-gutter-x: 0;
+    }
+}
 
 .post-preview {
     margin-top: 80px;
