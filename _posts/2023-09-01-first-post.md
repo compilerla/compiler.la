@@ -132,7 +132,7 @@ If you’d like your visual to take half the width of the post, instead of the f
 
 ## Give your most important point some visual flair
 
-Now that you’re at the end of this writing adventure, think back and ask yourself: If readers only remember one sentence, or one idea, what would you want that to be? What was the greatest revalation, the biggest thing that surprised you, in your writing process? Or perhaps it’s the single-most shocking statistic. Find a sentence that reflects that idea. Give that sentence it’s own paragraph. Add a `>` in front of that sentence.
+Now that you’re at the end of this writing adventure, think back and ask yourself: If readers only remember one sentence, or one idea, what would you want that to be? What was the greatest revalation, the biggest thing that surprised you, in your writing process? Or perhaps it’s the single-most shocking statistic. Find a sentence that reflects that idea. Give that sentence its own paragraph. Add a `>` in front of that sentence.
 
 > Always end your post with an empty line.
 
