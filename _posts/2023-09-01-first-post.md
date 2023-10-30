@@ -27,11 +27,12 @@ It begins and ends with `---`, and has the keys (like `layout`) separated from e
 ```
 ---
 layout: blog_post
-title: "Do’s and don’ts of open source software"
-subtitle: "This is an optional subtitle specific to this page lorem ipsum dolor"
+title: "How to write a Compiler blog post"
+subtitle: "Follow these instructions to learn how to write a blog post, include images, blockquotes and more."
+description: "Follow these instructions to learn how to write a blog post, include images, blockquotes and more."
 author: Laney Mangan
-excerpt: "This is a little teaser of what’s to come. There are a lot of cool things to learn and discover in this blog post! Let’s talk about just a few. Let’s lorem ipsum dolor a bit further, shall we?"
-date:   2023-09-01 19:03:13 +0200
+excerpt: "Learn how to write a blog post, include images, blockquotes and more."
+date:   2023-09-24 19:03:13 +0200
 categories: compiler
 ---
 ```
@@ -43,7 +44,8 @@ You can copy and paste the code snippet above to the top of your post. You will 
 | `layout`     | `blog_post`                                                                                                                                                                                      | required - do not change                                                            |
 | `title`      | Appears on post page. Come up with your own.                                                                                                                                                          | required                                                             |
 | `subtitle`   | Appears on post page. Come up with your own.                                                                                                                          | optional                                                             |
-| `author`     | Your Name                                                                                                                                                                                     | can include multiple people, like "Laney Mangan and Olivia Ramacier" |
+| `description`   | Appears on social media, Slack link previews.                                                                                                                          | required
+| `author`     | Your Name                                                                                                                                                                                     | First and last name. Can include multiple people, like "Laney Mangan and Olivia Ramacier" |
 | `excerpt`    | Appears on main blog page. Come up with your own. | required                                                             |
 | `date`      | 2023-09-01 19:03:13 +0200                                                                                                                                                                        | if it’s in the future, it won’t be published                         |
 | `categories` | compiler                                                                                                                                                                                         | required                                                             |
@@ -109,16 +111,17 @@ If you need help with any of these steps, ask for help from a developer in the #
 
 <figure class="m-0 w-100 w-md-50 float-md-start pe-md-4">
     <img src="/assets/blog/compiler-team-photo-for-blog.jpg" alt="This is a caption underneath an image." />
-    <figcaption>This is a caption underneath an image. Photograph by BYLINE</figcaption>
+    <figcaption>This is a caption underneath an image. Photograph by FIRST LAST</figcaption>
 </figure>
 
 If you’d like your visual to take half the width of the post, instead of the full-width, follow these steps:
 
-1. Follow steps 1-4 from the section above. **Note**: The caption also has to be 1/2 as long.
-1. Add the following code to your post, where you want the visual to appear. Fill in the filename, caption and byline with your own information:
+1. Follow steps 1-4 from the section above.
+1. Add the following code to your post, where you want the visual to appear. Fill in the filename, caption and byline with your own information.
+1. Use `float-md-start` to align the photograph to the left, and `float-md-end` to align the photograph to the right.
 
 ```
-<figure class="m-0 w-100 w-md-50 float-md-start pe-md-4">
+<figure class="m-0 w-100 w-md-50 float-md-end pe-md-4">
     <img
         class="w-50 h-50"
         src="/assets/blog/YOUR-FILENAME-HERE.jpg"
