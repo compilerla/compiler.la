@@ -29,7 +29,6 @@ It begins and ends with `---`, and has the keys (like `layout`) separated from e
 layout: blog_post
 title: "Do’s and don’ts of open source software"
 subtitle: "This is an optional subtitle specific to this page lorem ipsum dolor"
-permalink: "blog/2023/dos-and-donts-of-open-source-software"
 author: Laney Mangan
 excerpt: "This is a little teaser of what’s to come. There are a lot of cool things to learn and discover in this blog post! Let’s talk about just a few. Let’s lorem ipsum dolor a bit further, shall we?"
 date:   2023-09-01 19:03:13 +0200
