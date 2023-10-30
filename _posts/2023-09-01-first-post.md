@@ -109,28 +109,26 @@ If you need help with any of these steps, ask for help from a developer in the #
 
 ### How to include a half-width visual
 
-<figure class="m-0 w-100 w-md-50 float-md-start pe-md-4">
-    <img src="/assets/blog/compiler-team-photo-for-blog.jpg" alt="This is a caption underneath an image." />
-    <figcaption>This is a caption underneath an image. Photograph by FIRST LAST</figcaption>
-</figure>
-
 If you’d like your visual to take half the width of the post, instead of the full-width, follow these steps:
 
 1. Follow steps 1-4 from the section above.
 1. Add the following code to your post, where you want the visual to appear. Fill in the filename, caption and byline with your own information.
 1. Use `float-md-start` to align the photograph to the left, and `float-md-end` to align the photograph to the right.
 
+<figure class="m-0 w-100 w-md-50 float-md-start pe-md-4">
+    <img src="/assets/blog/compiler-team-photo-for-blog.jpg" alt="This is a caption underneath an image." />
+    <figcaption>This is a caption underneath an image. Photograph by FIRST LAST</figcaption>
+</figure>
+
 ```
-<figure class="m-0 w-100 w-md-50 float-md-end pe-md-4">
-    <img
-        class="w-50 h-50"
-        src="/assets/blog/YOUR-FILENAME-HERE.jpg"
-        alt="Shorter caption." />
-    <figcaption>Shorter caption. Photograph by FIRST LAST.</figcaption>
+<figure
+    class="m-0 w-100 w-md-50 float-md-start pe-md-4">
+    <img class="w-50 h-50"
+        src="/assets/blog/FILENAME-HERE.jpg"
+        alt="Short caption." />
+    <figcaption>Short caption. Photograph by FIRST LAST.</figcaption>
 </figure>
 ```
-
-The visual will now appear in half the width.
 
 ## Give your most important point some visual flair
 
