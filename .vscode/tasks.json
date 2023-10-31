@@ -22,6 +22,26 @@
                 "showReuseMessage": true,
                 "clear": false
             }
+        },
+        {
+            "label": "Jekyll: Build Dev with Drafts",
+            "detail": "jekyll serve --force_polling --livereload --drafts",
+            "type": "shell",
+            "linux": {
+                "command": "bundle exec jekyll serve --force_polling --livereload --drafts"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
         }
     ]
 }
