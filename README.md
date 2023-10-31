@@ -30,6 +30,8 @@ This is a [Jekyll][jekyll] static site. Development is done within a container-b
 
 Once inside the devcontainer in VS Code, you can press `Ctrl/Cmd+Shift+B` to run the `Jekyll: Build Dev` [task](https://code.visualstudio.com/docs/editor/tasks) defined in [`.vscode/tasks.json`][vscode-task-config-file], which builds the site and starts the Jekyll development server. The site will then be running at <http://localhost:4000>. Auto rebuild/reload will be active and will watch the site files for changes.
 
+> To run the blog in drafts-mode, run `Jekyll: Bulid Dev with Drafts`
+
 ## VS Code with devcontainers
 
 ### Install the `Remote - Containers` extension

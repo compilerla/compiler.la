@@ -8,6 +8,7 @@
     --brand-primary-black: #1C1C1C;
     --brand-primary-cyan: #51B1C7;
     --brand-scale-gray-3: #878787;
+    --brand-scale-gray-4: #545454;
     --bs-primary: #88B440; /* Use with .text-primary */
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
@@ -102,7 +103,8 @@ a:focus:not(.btn) {
 
 /*#region Font Family */
 
-.monospace,
+.font-monospace,
+.primary-monospace,
 h1,
 .h1,
 h2,
@@ -121,13 +123,20 @@ h4,
 
 /*#endregion */
 
-/* Headlines */
+/* Headlines + Non-headline type */
 
 :root {
     --h1-font-size: calc(40rem / 16);
     --h1-line-height: 120%;
     --h2-font-size: calc(32rem / 16);
     --h3-font-size: calc(24rem / 16);
+    --h-sm-font-size: calc(20rem / 16);
+    --h-sm-font-weight: 700;
+    --h-sm-line-height: 130%;
+    --xs-line-height: 140%;
+    --blockquote-font-size: calc(18rem / 16);
+    --blockquote-line-height: 120%;
+    --blockquote-margin: calc(40rem / 16);
 }
 
 @media (min-width: 992px) {
@@ -135,6 +144,13 @@ h4,
         --h1-font-size: calc(48rem / 16);
         --h2-font-size: calc(40rem / 16);
         --h3-font-size: calc(32rem / 16);
+        --h-sm-font-size: calc(24rem / 16);
+        --h-sm-font-weight: 800;
+        --h-sm-line-height: 120%;
+        --xs-line-height: 130%;
+        --blockquote-font-size: calc(20rem / 16);
+        --blockquote-line-height: 140%;
+        --blockquote-margin: calc(56rem / 16);
     }
 }
 
@@ -157,7 +173,8 @@ h2,
 
 h3,
 .h3,
-.posting h2 {
+.posting h2,
+.blog_post h2 {
     font-size: var(--h3-font-size);
     font-weight: 700;
     line-height: 120%;
@@ -170,6 +187,33 @@ h4,
     font-size: 1rem !important;
     font-weight: 600;
     line-height: 130%;
+}
+
+.h-sm {
+    font-size: var(--h-sm-font-size);
+    font-weight: var(--h-sm-font-weight);
+    line-height: var(--h-sm-line-height);
+}
+
+.secondary-sans-serif-xs {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: var(--xs-line-height)
+}
+
+blockquote {
+    border-left: 0.5rem solid var(--brand-primary-green);
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    margin: var(--blockquote-margin) 0;
+}
+
+blockquote p {
+    font-family: var(--bs-font-monospace);
+    font-size: var(--blockquote-font-size);
+    font-weight: 800;
+    line-height: var(--blockquote-line-height);
 }
 
 /*#endregion */
@@ -261,6 +305,7 @@ h4,
 .btn-collapse[aria-expanded='true']::before {
     content: "See less";
 }
+
 /* Pills */
 
 .pill {
@@ -333,13 +378,8 @@ header {
 
 /* Utility Classes  */
 
-.fs-7 { /* Font size smaller than 1rem */
-    font-size: calc(14rem / 16) !important;
-}
-
-.fs-8 {
-    font-size: calc(12rem / 16) !important;
-    letter-spacing: 1.2px !important;
+.fw-boldest {
+    font-weight: 800;
 }
 
 .bg-w-100 { /* Full-width background color, goes beyond gutter */
@@ -360,11 +400,38 @@ header {
     --bs-border-color: #000;
 }
 
+.fs-7 { /* Font size smaller than 1rem */
+    font-size: calc(14rem / 16) !important;
+}
+
+.fs-8 {
+    font-size: calc(12rem / 16) !important;
+    letter-spacing: 1.2px !important;
+}
+
+.fine-print { /* Font size smaller than 1rem */
+    font-size: calc(12rem / 16) !important;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-boldest {
+    font-weight: 800;
+}
+
 .list-circle {
     background: url(/assets/illustrations/circle.svg) no-repeat left center;
     padding: 0.5rem 0 0.5rem 2.4rem;
     list-style: none;
     margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .w-md-50 {
+        width: 50% !important;
+    }
 }
 
 /* About */
@@ -457,4 +524,139 @@ header {
     .animate-bike {
         left: 0 !important;
     }
+}
+
+/* Blog */
+
+@media (max-width: 992px) {
+    .blog.row {
+        --bs-gutter-x: 0;
+    }
+}
+
+.post-preview {
+    margin-top: calc(80rem / 16);
+}
+
+.post-preview:first-of-type {
+    margin-top: calc(48rem / 16);
+}
+
+@media (min-width: 992px) {
+    .post-preview,
+    .post-preview:first-of-type {
+        margin-top: calc(10rem / 16)x;
+    }
+}
+
+.post-title:hover,
+.post-title:focus {
+    text-decoration: none !important;
+}
+
+.back-row {
+    padding-top: 0.5rem;
+    padding-bottom: calc(12rem / 16);
+    letter-spacing: 1.2px;
+}
+
+.back-row a:before {
+    content: " ";
+    margin-right: 0.5rem;
+    vertical-align: sub;
+    display: inline-block;
+    width: 0.5rem;
+    height: calc(12rem / 16);
+}
+
+.back-row a:before {
+    background: no-repeat url("/assets/blog/go-back.svg");
+    background-size: contain;
+}
+
+.back-row:last-of-type a:before {
+    background: var(--brand-primary-green);
+    mask-image: url("/assets/blog/go-back.svg"), linear-gradient(transparent, transparent);
+    mask-position: center center;
+    -webkit-mask-image: url("/assets/blog/go-back.svg"), linear-gradient(transparent, transparent);
+    -webkit-mask-position: center center;
+}
+
+@media (max-width: 992px) {
+    :root {
+        --blog-post-h2-padding-top: 3.5rem;
+    }
+    .blog_post .blog_wrapper {
+        padding-bottom: calc(56rem / 16) !important;
+    }
+}
+
+@media (min-width: 992px) {
+    :root {
+        --blog-post-h2-padding-top: 6rem;
+    }
+    .blog_post .blog_wrapper {
+        padding-bottom: calc(120rem / 16) !important;
+    }
+}
+
+.blog_post h2 {
+    padding: var(--blog-post-h2-padding-top) 0 2rem 0;
+}
+
+.blog_post p + h2 {
+    padding-top: 56px;
+}
+
+.blog_post h3 {
+    font-family: var(--bs-font-monospace);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--xs-line-height)
+}
+
+.blog_post h5 {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--brand-scale-gray-4);
+    margin: -1.5rem 0 1.5rem 0;
+    line-height: 1;
+}
+
+.blog_post p:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.blog_post p:last-child {
+    margin-bottom: 0;
+}
+
+.blog_post .language-plaintext code {
+    font-weight: 700;
+    margin: 2.5rem 0;
+}
+
+.blog_post img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blog_post figcaption {
+    font-size: calc(14rem / 16);
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--brand-scale-gray-4);
+    margin-bottom: 1.5rem;
+}
+
+.blog_post table {
+    margin: 0 1.5rem;
+}
+
+.blog_post table td,
+.blog_post table th {
+    padding: 0.75rem;
+    display: table-cell;
 }

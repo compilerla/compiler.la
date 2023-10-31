@@ -2,3 +2,6 @@ collections:
   jobs:
     output: true
     permalink: /:collection/:name
+  posts:
+    output: true
+    permalink: /blog/:year/:title:output_ext
