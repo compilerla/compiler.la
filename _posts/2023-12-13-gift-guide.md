@@ -23,8 +23,8 @@ For 3 years I lived down the block from the shop that sells these shirts, and I 
 <figure>
     <img
         src="/assets/blog/MTAshirt.jpg"
-        alt="image of a t-shirt with the an image of two trains, the MTA logo, and the slogan "We move New York"" />
-    <figcaption>image of a t-shirt with the an image of two trains, the MTA logo, and the slogan "We move New York". Photograph courtesy of OnlyNY.</figcaption>
+        alt="image of a t-shirt with the an image of two trains, the MTA logo, and the slogan “We move New York”" />
+    <figcaption>image of a t-shirt with the an image of two trains, the MTA logo, and the slogan “We move New York”. Photograph courtesy of OnlyNY.</figcaption>
 </figure>
 
 ## [3. Go Metro Map Mug](https://shop.metro.net/collections/best-sellers/products/go-metro-map-mug)
@@ -37,22 +37,22 @@ For the person in your life who can never seem to remember when to make their tr
 ## [4. The People’s Transit Poster](https://transit.supply/collections/prints/products/san-francisco-the-peoples-transit-print)
 Growing up my grandma had a poster like this but instead of railcars, it was dogs. My cousins and I would play a game where we’d all pick out our favorite one (and then pretend we were those dogs - but let’s pretend I didn’t just tell you that). That game is so much harder with this poster. Which one is my favorite, you ask? 1887! No, 1939! No, 1969. It’s too hard!! Pop this baby in a frame and you’re guaranteed to win “best gift” at the SF white elephant party this year.
 <figure>
-    <img src="assets/blog/SFposter.jpg" alt="An image of a poster with 16 railcars with the date they were made underneath and the text "The People's Transit"" />
-    <figcaption>An image of a poster with 16 railcars with the date they were made underneath and the text "The People's Transit". Photograph courtesy of Transit Supply.</figcaption>
+    <img src="assets/blog/SFposter.jpg" alt="An image of a poster with 16 railcars with the date they were made underneath and the text “The People's Transit”" />
+    <figcaption>An image of a poster with 16 railcars with the date they were made underneath and the text “The People's Transit”. Photograph courtesy of Transit Supply.</figcaption>
 </figure>
 
 ## [5. Public Transit is Bussin’ T-Shirt](https://www.raygunsite.com/products/public-transit-is-bussin)
 For that teenager in your life who thinks taking the train is “high-key cheugy”. Maybe this will change their mind. They might not get the pun right away, but baby steps, amirite??
 <figure>
-    <img src="assets/blog/Bussin.jpg" alt="An image of a t-shirt that says "Public Transit is Bussin'"" />
-    <figcaption>An image of a t-shirt that says "Public Transit is Bussin'". Photograph courtesy of Raygun.</figcaption>
+    <img src="assets/blog/Bussin.jpg" alt="An image of a t-shirt that says “Public Transit is Bussin'”" />
+    <figcaption>An image of a t-shirt that says “Public Transit is Bussin'”. Photograph courtesy of Raygun.</figcaption>
 </figure>
 
 ## [6. NYC Parks T-shirt](https://onlyny.com/collections/tees/products/nyc-parks-logo-t-shirt-1?variant=40115599802452)
 Not exactly transit-related but let’s face it, this shirt is just plain cute and that’s that. We love parks and that’s that.
 <figure>
-    <img src="assets/blog/parkshirt.jpg" alt="An image of a t-shirt with a maple leaf and the text "City of New York Parks & Recreation"" />
-    <figcaption>An image of a t-shirt with a maple leaf and the text "City of New York Parks & Recreation". Photograph courtesy of OnlyNY.</figcaption>
+    <img src="assets/blog/parkshirt.jpg" alt="An image of a t-shirt with a maple leaf and the text “City of New York Parks & Recreation”" />
+    <figcaption>An image of a t-shirt with a maple leaf and the text “City of New York Parks & Recreation”. Photograph courtesy of OnlyNY.</figcaption>
 </figure>
 
 ## [7. Massachusetts Bay Transportation Authority Ring](https://www.etsy.com/listing/1084779169/massachusetts-bay-transportation?click_key=64ea237715a3dbd3437ea84b096768bbf6321f2c%3A1084779169&click_sum=ac5bc353&ref=user_profile&frs=1)
