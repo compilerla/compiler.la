@@ -30,7 +30,7 @@ For 3 years I lived down the block from the shop that sells these shirts, and I 
 ## [3. Go Metro Map Mug](https://shop.metro.net/collections/best-sellers/products/go-metro-map-mug)
 For the person in your life who can never seem to remember when to make their transfer. As for when new lines are added? Put it on eBay and call it “retro”. Then suggest your friend get a boring ol’ non-mug map.
 <figure>
-    <img src="/assets/blog/white-glossy-mug-white-11oz-handle-on-right.jpeg" alt="An image of a white mug with an illustration of a Los Angeles Metro light rail map." />
+    <img src="/assets/blog/white-glossy-mug-white-11oz-handle-on-right.jpg" alt="An image of a white mug with an illustration of a Los Angeles Metro light rail map." />
     <figcaption>An image of a white mug with an illustration of a Los Angeles Metro light rail map. Photograph courtesy of Metro.</figcaption>
 </figure>
 
