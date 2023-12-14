@@ -15,7 +15,7 @@ Whoever says “I have enough ornaments, I don’t need any more” is lying! Th
     <img
         src="/assets/blog/ornament.jpeg"
         alt="image of a christmas tree ornament with a cartoon train surrounded by snowflakes" />
-    <figcaption>image of a christmas tree ornament with a cartoon train surrounded by snowflakes. Photograph courtesy of Metro.</figcaption>
+    <figcaption>An image of a christmas tree ornament with a cartoon train surrounded by snowflakes. Photograph courtesy of Metro.</figcaption>
 </figure>
 
 ## [2. NYC MTA Token T-shirt](https://onlyny.com/collections/tees/products/mta-token-t-shirt?variant=40202854039636)
@@ -24,7 +24,7 @@ For 3 years I lived down the block from the shop that sells these shirts, and I 
     <img
         src="/assets/blog/MTAshirt.jpeg"
         alt="image of a t-shirt with the an image of two trains, the MTA logo, and the slogan “We move New York”" />
-    <figcaption>image of a t-shirt with the an image of two trains, the MTA logo, and the slogan “We move New York”. Photograph courtesy of OnlyNY.</figcaption>
+    <figcaption>An image of a t-shirt with the an image of two trains, the MTA logo, and the slogan “We move New York”. Photograph courtesy of OnlyNY.</figcaption>
 </figure>
 
 ## [3. Go Metro Map Mug](https://shop.metro.net/collections/best-sellers/products/go-metro-map-mug)
