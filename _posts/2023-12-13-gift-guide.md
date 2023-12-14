@@ -8,4 +8,4 @@ excerpt: "Learn how to write a blog post, include images, blockquotes and more."
 date:   2023-09-24 19:03:13 +0200
 categories: compiler
 ---
-!(white mug)[/assets/blog/white-glossy-mug-white-11oz-handle-on-right.jpg]
+!(white mug)[assets/blog/white-glossy-mug-white-11oz-handle-on-right.jpg]
