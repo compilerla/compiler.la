@@ -19,7 +19,7 @@ Whoever says “I have enough ornaments, I don’t need any more” is lying! Th
 </figure>
 
 ## [2. NYC MTA Token T-shirt](https://onlyny.com/collections/tees/products/mta-token-t-shirt?variant=40202854039636)
-For 3 years I lived down the block from the shop that sells these shirts, and I somehow never bought one. At the time I called it willpower but now I call it regret. *places order*
+For 3 years I lived down the block from the shop that sells these shirts, and I somehow never bought one. At the time I called it willpower but now I call it regret. * places order *
 <figure>
     <img
         src="/assets/blog/MTAshirt.jpg"
