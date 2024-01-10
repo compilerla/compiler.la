@@ -5,7 +5,7 @@ subtitle: "Searching for that perfect gift for the public service enthusiast in 
 <br><br><p><em>P.S. If you didn’t make the holiday cut off this year, we think these make great gifts year-round!</em></p>"
 description: "Searching for that perfect gift for the public service enthusiast in your life? Compiler’s got you covered!"
 author: Compiler Staff
-excerpt: "8 of our favorite transit-related goodies"
+excerpt: "Eight of our favorite transit-related goodies"
 date:   2023-12-15 19:03:13 +0200
 categories: compiler
 ---
