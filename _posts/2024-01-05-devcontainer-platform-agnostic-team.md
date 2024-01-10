@@ -15,8 +15,12 @@ How do we make that work? The secret (or rather, the very open source method) li
 
 By using Dev Containers, we’re able to all be in the same and replicable developer and debugging environment – down to the code editor and all of its myriad of extensions. The benefits go beyond just developer environment, though: we’re able to better test front-end web app user experiences to find platform-specific bugs, better serve our client tech teams - who often use Windows, and also recruit engineers from a greater range of professional backgrounds. In this post, I aim to share how the Compiler Engineering team uses Docker with VS Code Dev Containers to maintain our development environment, along with its benefits and some of the challenges.
 
-
 ## The technical nuts and bolts: How to get it all set up
+
+<figure>
+    <img src="/assets/blog/2024/2024-1-vscode-devcontainer-post-screenshot-1.jpg" alt="A meta look at my code editor with Devcontainers running this website locally: VS Code on the left and the browser on the right. Within the VS Code app, the file editor is on top, while the bottom is a multi-tab pane with a Terminal - for reading logs, running command line tools like Git - along with a pane showing currently running ports, the debug console and test runner." />
+    <figcaption>A meta look at my code editor with Devcontainers running this website locally: VS Code on the left and the browser on the right. Within the VS Code app, the file editor is on top, while the bottom is a multi-tab pane with a Terminal - for reading logs, running command line tools like Git - along with a pane showing currently running ports, the debug console and test runner.</figcaption>
+</figure>
 
 On the previous engineering teams I was a part of, my first few days of work consisted of installing a lot of coding libraries, languages and tools to manage all of that onto my personal machine. For Node, Ruby or Python engineers on Mac, like I was, that might mean installing a slew of dependencies from Homebrew, Node, npm, Ruby Version Manager, Bundler, Postgres, Git and getting all the versions of each, to then be able to get the app’s various dependencies up and running for development. Then, you’d install your favorite coding editor and maybe even a custom Terminal emulator app.
 
