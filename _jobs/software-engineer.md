@@ -41,9 +41,9 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 - Per company policy, this position has no formal educational requirements
 
-## Start date
+## Start Date
 
-Approximately Monday, April 1st, 2024
+- Approximately Monday, April 1st, 2024
 
 ## Compensation
 
