@@ -36,11 +36,11 @@ We are looking for a Software Engineer to support a range of new and ongoing cli
 
 ## Position type
 
-Full-time (~30 hours/week) W2 employment
+Full-time (30 hours/week) W2 employment
 
 ## Start date
 
-Approximately Tuesday, August 3rd, 2021
+Approximately Monday, April 1st, 2024
 
 ## Compensation
 
