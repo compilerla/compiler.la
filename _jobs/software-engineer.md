@@ -62,4 +62,8 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Los Angeles-based staff have the opportunity to work from our office at the Los Angeles Cleantech Incubator (LACI) in downtown Los Angeles, CA
 - Flexible working hours; expect an overlap with the Pacific timezone. The current team is spread across Pacific, Central, and Eastern timezones in the US
 
-All applicants will receive an acknowledgement that their application has been received within 24 hours of successful submission. Those candidates selected for further consideration will be contacted to schedule an interview for the week of June 21st, 2021.
+## To Apply
+
+- Applications accepted XXX Y, 2024 - XXX Z, 2024
+- Using the linked form, please briefly introduce yourself and upload your resume
+- Cover letters are not expected, and extra weight in scoring will not be given to those that include them
