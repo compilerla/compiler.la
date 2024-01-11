@@ -47,18 +47,13 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 ## Compensation
 
-Expected salary range is $100,000 - $120,000 annually based on qualifications and experience
-Paid time off: 15 days paid time off (PTO) and 10 sick days annually, federal holidays + Juneteenth, and holiday closure between December 23 and January 1
-Medical, dental, and vision insurance benefits
-
-## Location
-
-100% remote; the current team is spread across Pacific and Eastern time zones in the US.
-
-## Application process
-
-Remote work is expected and hours are flexible. QTPOC applicants are welcome. To apply, send resume, brief intro and preferences for working (days and hours, time zone, etc.) to [careers@compiler.la](mailto:careers@compiler.la). Or, apply at http://compiler.freshteam.com/jobs. Cover letters are in no way expected and we do not give extra weight in scoring to those that write them.
-
-Applications will be accepted until Friday, June 18th, 2021.
+- Expected salary range is $100,000 - $120,000 annually based on qualifications and experience
+- Paid time off: fifteen (15) days paid time off (PTO) and ten (10) sick days annually, federal holidays, and annual holiday closure between December 23 and January 1
+- 100% Company-paid medical, dental, and vision insurance premiums for employees; 50% Company-paid insurance premiums for employees’ dependents
+- 100% Company-paid short- and long-term disability insurance
+- Discretionary budget for home office and/or professional development
+- Company 401k contribution
+- Company-paid in-person retreats twice a year
+- Company-provided laptop
 
 All applicants will receive an acknowledgement that their application has been received within 24 hours of successful submission. Those candidates selected for further consideration will be contacted to schedule an interview for the week of June 21st, 2021.
