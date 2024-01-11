@@ -10,7 +10,7 @@ Compiler is a small, woman-owned software consultancy. Compiler helps service-or
 
 Our team specializes in building software applications around data for operations support and performance management including: data standards development, data engineering, data cleaning, extract transform and load (ETL) workflows, custom application programming interface (API) development and integration, data integration, data pipelines, data analytics, and data science. Our team’s subject matter expertise in transportation, housing, and homelessness provides depth and quality to the services we design and the applications we build.
 
-Our clients have included: City of Los Angeles, City of West Hollywood, CicLAvia, LA2050, Caltrans, County of Los Angeles, and the California Community Foundation. Our recent work includes building and integrating payment and digital services technologies for public transportation agencies using Docker, Python/Django/Flask, and Azure.
+Our clients have included: City of Los Angeles, City of West Hollywood, CicLAvia, LA2050, Caltrans, County of Los Angeles, Southern Calfornia Association of Governments, and the California Community Foundation. Our recent work includes building and integrating payment and digital services technologies for public transportation agencies using Docker, Python/Django/Flask, and Azure.
 
 We are looking for a Software Engineer to support a range of new and ongoing client projects. You’ll report directly to Kegan Maher and collaborate with a small team of designers and engineers. You’ll have access to additional external support for data privacy, data security, accessibility, and internationalization as well as modern tools to help you get your work done in a remote environment.
 
