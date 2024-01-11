@@ -37,9 +37,9 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - A personal and professional commitment to bring anti-racist principles into your work
 - Preference given to candidates located in California, and specifically Los Angeles
 
-## Position type
+## Education
 
-Full-time (30 hours/week) W2 employment
+- Per company policy, this position has no formal educational requirements
 
 ## Start date
 
