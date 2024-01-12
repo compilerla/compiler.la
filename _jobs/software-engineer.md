@@ -23,7 +23,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Document your work, including asynchronous communications, to inform internal and client teams
 - Coordinate with product, design, and engineering to deliver delightful products and services
 - Pair program, code review, contribute to architecture decisions, help create standard patterns and practices for development and DevOps
-- Self-direct and time-manage across multiple client projects with varying levels of complexity, demand, and constraint
+- Self-direct and time-manage across multiple client and internal projects with varying levels of complexity, demand, and constraint
 
 ## Preferred Qualifications
 
