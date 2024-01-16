@@ -21,7 +21,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Design and build open source software that streamlines the delivery of public services with a focus on equity and active harm reduction
 - Interact with clients to iteratively gather requirements, refine scope, and demo progress
 - Document your work, including asynchronous communications, to inform internal and client teams
-- Coordinate with product, design, and engineering to deliver delightful products and services
+- Coordinate with product, design, and engineering to deliver delightful products and services that meet current Web Content Accessibility Guidelines (WCAG)
 - Pair program, code review, contribute to architecture decisions, help create standard patterns and practices for development and DevOps
 - Self-direct and time-manage across multiple client and internal projects with varying levels of complexity, demand, and constraint
 
