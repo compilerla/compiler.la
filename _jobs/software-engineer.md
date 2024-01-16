@@ -29,6 +29,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 - Experience working with or in proximity to government
 - Experience using modern, high-level programming languages such as Python and JavaScript to build web applications, API services, or similar
+- Experience developing performant and accessible front-end components that meet WCAG standards, using advanced HTML and CSS
 - Experience using Docker and containers to manage reproducible environments
 - Experience deploying and managing production applications and services in cloud environments such as Azure and GCP, preferably with Infrastructure as Code systems such as Terraform
 - Experience collaborating with product managers, UI/UX designers, remote teams, along with client technical teams
