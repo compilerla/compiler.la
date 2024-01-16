@@ -31,7 +31,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Experience using modern, high-level programming languages such as Python and JavaScript to build web applications, API services, or similar
 - Experience using Docker and containers to manage reproducible environments
 - Experience deploying and managing production applications and services in cloud environments such as Azure and GCP, preferably with Infrastructure as Code systems such as Terraform
-- Experience collaborating with product managers, UI/UX designers, and remote teams
+- Experience collaborating with product managers, UI/UX designers, remote teams, along with client technical teams
 - Knowledge of Git / GitHub-based development workflows and open source project management
 - A love of public transportation
 - A personal and professional commitment to bring anti-racist principles into your work
