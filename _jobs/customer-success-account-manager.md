@@ -58,7 +58,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 ## Start Date
 
-- Late June - July 2023
+- April 2024
 
 ## Compensation
 
