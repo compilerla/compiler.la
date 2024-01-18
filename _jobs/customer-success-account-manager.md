@@ -41,6 +41,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Ability to incorporate individual tasks and requests into a cohesive customer success strategy
 - Comfortable collecting and sharing feedback from customers to improve existing processes
 - A personal and professional commitment to bringing anti-racist principles to your work
+- Candidate should be located in California
 
 ## Preferred Qualifications
 
