@@ -50,7 +50,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Willingness to learn and adapt to new productivity tools and applications (GitHub, ClickUp, Hubspot, etc.)
 - Experience working with or in proximity to government
 - Experience working as a consultant
-- Preference given to candidates located in California, specifically Los Angeles
+- Preference given to candidates located in Los Angeles
 - A love of public transit
 
 ## Education
