@@ -78,6 +78,6 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 ## To Apply
 
-- Applications accepted May 5, 2023 - May 19, 2023
+- Applications accepted January 24, 2024 - February 07, 2024
 - Using the linked form, please briefly introduce yourself and upload your resume
 - Cover letters are not expected, and extra weight in scoring will not be given to those that include them
