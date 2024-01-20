@@ -64,7 +64,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 - This position is 100% remote
 - Los Angeles-based staff have the opportunity to work from our office at the Los Angeles Cleantech Incubator (LACI) in downtown Los Angeles, CA
-- Flexible working hours; expect an overlap with the Pacific timezone. The current team is spread across Pacific, Central, and Eastern timezones in the US
+- Flexible working hours; expect an overlap with the Pacific time zone. The current team is spread across Pacific, Central, and Eastern time zones in the US
 
 ## To Apply
 
