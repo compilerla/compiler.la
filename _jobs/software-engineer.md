@@ -29,6 +29,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 - Minimum of 3 years of full-time, paid software development experience working on production code in a team environment
 - Experience using modern, high-level programming languages such as Python or JavaScript to build web applications, API services, or similar
+- Must be currently legally authorized to work in the United States (ie: US citizen, green card holder, etc.)
 
 ## Preferred Qualifications
 
