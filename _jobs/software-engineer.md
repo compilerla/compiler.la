@@ -1,8 +1,8 @@
 ---
 layout: job_post
 title: Software Engineer
-open_date: 2021-06-01
-close_date: 2021-06-18
+open_date: 2024-01-24
+close_date: 2024-02-08
 type: W-2
 ---
 
