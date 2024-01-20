@@ -25,10 +25,14 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Pair program, code review, contribute to architecture decisions, help create standard patterns and practices for development and DevOps
 - Self-direct and time-manage across multiple client and internal projects with varying levels of complexity, demand, and constraint
 
+## Required Qualifications
+
+- Minimum of 3 years of full-time, paid software development experience working on production code in a team environment
+- Experience using modern, high-level programming languages such as Python or JavaScript to build web applications, API services, or similar
+
 ## Preferred Qualifications
 
 - Experience working with or in proximity to government
-- Experience using modern, high-level programming languages such as Python and JavaScript to build web applications, API services, or similar
 - Experience developing performant and accessible front-end components that meet WCAG standards, using advanced HTML and CSS
 - Experience maintaining databases for web application usage
 - Experience integrating production applications with third-party APIs that provide services such as authentication or user enrollment into external systems
