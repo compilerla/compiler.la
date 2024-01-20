@@ -59,10 +59,11 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Paid time off: fifteen (15) days paid time off (PTO) and ten (10) sick days annually, federal holidays, and annual holiday closure between December 23 and January 1
 - 100% Company-paid medical, dental, and vision insurance premiums for employees; 50% Company-paid insurance premiums for employees’ dependents
 - 100% Company-paid short- and long-term disability insurance
-- Discretionary budget for home office and/or professional development
+- Paid parental leave
 - Company 401k contribution
 - Company-paid in-person retreats twice a year
 - Company-provided laptop
+- Discretionary budget for home office and/or professional development
 
 ## Location and Work Hours
 
