@@ -74,6 +74,6 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 ## To Apply
 
-- Applications accepted XXX Y, 2024 - XXX Z, 2024
+- Applications accepted Wednesday January 24, 2024 - Thursday February 8, 2024
 - Using the linked form, please briefly introduce yourself and upload your resume
 - Cover letters are not expected, and extra weight in scoring will not be given to those that include them
