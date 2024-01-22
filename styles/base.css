@@ -604,7 +604,8 @@ header {
     padding: var(--blog-post-h2-padding-top) 0 2rem 0;
 }
 
-.blog_post p + h2 {
+.blog_post p + h2,
+.blog_wrapper p:first-child {
     padding-top: 56px;
 }
 
