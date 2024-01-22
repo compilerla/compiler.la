@@ -5,7 +5,7 @@ subtitle: "Learn from the Compiler Engineering team, which has been using VS Cod
 description: "Learn from the Compiler Engineering team, which has been using VS Code Dev Containers daily across Windows, Linux and Mac on all of their projects."
 author: Machiko Yasuda
 excerpt: "Learn from the Compiler Engineering team, which has been using VS Code Dev Containers daily across Windows, Linux and Mac on all of their projects."
-date:   2024-01-05 19:03:13 +0200
+date:   2024-01-24 00:00:00 +0200
 categories: compiler, engineering
 ---
 
