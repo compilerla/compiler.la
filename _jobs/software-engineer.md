@@ -2,7 +2,7 @@
 layout: job_post
 title: Software Engineer
 open_date: 2024-01-24
-close_date: 2024-02-08
+close_date: 2024-02-07
 type: W-2
 ---
 
@@ -74,6 +74,6 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 ## To Apply
 
-- Applications accepted Wednesday January 24, 2024 - Thursday February 8, 2024
+- Applications accepted Wednesday January 24, 2024 - Wednesday February 7, 2024
 - Using the linked form, please briefly introduce yourself and upload your resume
 - Cover letters are not expected, and extra weight in scoring will not be given to those that include them
