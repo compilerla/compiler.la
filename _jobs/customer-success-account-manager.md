@@ -69,6 +69,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Paid parental leave
 - 100% company-paid medical, dental, and vision insurance premiums for employees; 50% company-paid insurance premiums for employees’ dependents
 - 100% company-paid short- and long-term disability insurance
+- Company-paid in-person retreats twice a year
 - Discretionary budget for home office and/or professional development
 - 401k contribution
 - Company-provided laptop
