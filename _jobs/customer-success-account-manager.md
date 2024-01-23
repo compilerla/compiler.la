@@ -2,8 +2,8 @@
 layout: job_post
 title: Associate Consultant, Customer Success Account Manager
 open_date: 2024-01-24
-close_date: 2024-02-08
-apply_link: https://forms.clickup.com/8631512/f/87d6r-6640/V5BBPCBTCXDAB3S7O4
+close_date: 2024-02-07
+apply_link: https://forms.clickup.com/8631512/f/87d6r-12274/F6QK4NSPJUYEXPMRLZ?Job%20Role=Account%20Manager
 type: W-2
 ---
 
