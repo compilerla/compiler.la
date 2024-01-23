@@ -42,6 +42,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Comfortable collecting and sharing feedback from customers to improve existing processes
 - A personal and professional commitment to bringing anti-racist principles to your work
 - Candidate should be located in California
+- Must be currently legally authorized to work in the United States (ie: US citizen, green card holder, etc.)
 
 ## Preferred Qualifications
 
