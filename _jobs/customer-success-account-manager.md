@@ -13,7 +13,7 @@ Our team specializes in building software applications around data for operation
 
 Our clients have included: City of Los Angeles, City of West Hollywood, CicLAvia, LA2050, Caltrans, County of Los Angeles, and the California Community Foundation.
 
-**About Cal-ITP**: Supported by the California State Transportation Agency (CalSTA) and the California Department of Transportation (Caltrans) through a grant from the California Transit and Intercity Rail Capital Program (TIRCP), the [California Integrated Travel Project (Cal-ITP)](https://www.calitp.org/) is a statewide solution to make travel simpler and cost-effective for everyone. Review our [2021 Accomplishments report](https://www.calitp.org/assets/Cal-ITP.2021.Accomplishments.Report.pdf) to learn more about our work.
+**About Cal-ITP**: Supported by the California State Transportation Agency (CalSTA) and the California Department of Transportation (Caltrans) through a grant from the California Transit and Intercity Rail Capital Program (TIRCP), the [California Integrated Travel Project (Cal-ITP)](https://www.calitp.org/) is a statewide solution to make travel simpler and cost-effective for everyone. Review the [2021 Accomplishments report](https://www.calitp.org/assets/Cal-ITP.2021.Accomplishments.Report.pdf) to learn more about our work.
 
 ## Role
 
