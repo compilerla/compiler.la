@@ -29,6 +29,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 - Minimum of 3 years of full-time, paid software development experience working on production code in a team environment
 - Experience using modern, high-level programming languages such as Python or JavaScript to build web applications, API services, or similar
+- A personal and professional commitment to bring anti-racist principles into your work
 - Must be currently legally authorized to work in the United States (ie: US citizen, green card holder, etc.)
 
 ## Preferred Qualifications
@@ -43,7 +44,6 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Experience collaborating with product managers, UI/UX designers, remote teams, along with client technical teams
 - Knowledge of Git / GitHub-based development workflows and open source project management
 - A love of public transportation
-- A personal and professional commitment to bring anti-racist principles into your work
 - Preference given to candidates located in California, and specifically Los Angeles
 
 ## Education
