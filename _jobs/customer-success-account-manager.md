@@ -66,6 +66,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 - $70,000 annually based on qualifications and experience
 - Paid time off: fifteen (15) days paid time off (PTO) and ten (10) sick days annually, federal holidays, and annual holiday closure between December 23 and January 1
+- Paid parental leave
 - 100% company-paid medical, dental, and vision insurance premiums for employees; 50% company-paid insurance premiums for employees’ dependents
 - 100% company-paid short- and long-term disability insurance
 - Discretionary budget for home office and/or professional development
