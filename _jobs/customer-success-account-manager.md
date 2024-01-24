@@ -1,9 +1,9 @@
 ---
 layout: job_post
 title: Associate Consultant, Customer Success Account Manager
-open_date: 2023-05-05
-close_date: 2023-05-19
-apply_link: https://forms.clickup.com/8631512/f/87d6r-6640/V5BBPCBTCXDAB3S7O4
+open_date: 2024-01-24
+close_date: 2024-02-07
+apply_link: https://forms.clickup.com/8631512/f/87d6r-12274/F6QK4NSPJUYEXPMRLZ?Job%20Role=Account%20Manager
 type: W-2
 ---
 
@@ -13,7 +13,7 @@ Our team specializes in building software applications around data for operation
 
 Our clients have included: City of Los Angeles, City of West Hollywood, CicLAvia, LA2050, Caltrans, County of Los Angeles, and the California Community Foundation.
 
-**About Cal-ITP**: Supported by the California State Transportation Agency (CalSTA) and the California Department of Transportation (Caltrans) through a grant from the California Transit and Intercity Rail Capital Program (TIRCP), the [California Integrated Travel Project (Cal-ITP)](https://www.calitp.org/) is a statewide solution to make travel simpler and cost-effective for everyone. Review our [2021 Accomplishments report](https://www.calitp.org/assets/Cal-ITP.2021.Accomplishments.Report.pdf) to learn more about our work.
+**About Cal-ITP**: Supported by the California State Transportation Agency (CalSTA) and the California Department of Transportation (Caltrans) through a grant from the California Transit and Intercity Rail Capital Program (TIRCP), the [California Integrated Travel Project (Cal-ITP)](https://www.calitp.org/) is a statewide solution to make travel simpler and cost-effective for everyone. Review the [2021 Accomplishments report](https://www.calitp.org/assets/Cal-ITP.2021.Accomplishments.Report.pdf) to learn more about our work.
 
 ## Role
 
@@ -31,7 +31,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 - **Reactive Customer Engagement** You will field all incoming inquiries from the agencies assigned to you, as well as general inquiries or questions from transit agencies without an assigned account manager. This may include communication via email, the CRM, or video conference. You will be expected to develop a general understanding of all current Cal-ITP products and services, as well as an ability to confidently triage and route tickets to the appropriate technical specialist on the Cal-ITP team. You should be comfortable engaging with colleagues and technical specialists to get the appropriate answers to your customers’ questions. You may be asked to attend or moderate virtual meetings with technical specialists. You will document all interactions in the CRM.
 
-- **Building the Customer Success Program at Cal-ITP** You will be an active participant in developing and improving the Customer Success program at Cal-ITP. You will provide input on the strengths and challenges of the current program, collect feedback from the agencies you work with to share internally, and participate in efforts to improve and document Cal-ITP’s approach to customer success. You should be comfortable raising issues you’ve seen your agencies face and participating in identifying scalable solutions to those problems.
+- **Implementing the Account Manager program** Over 2023, the Customer Success team has built a robust program to manage and solve many of our customers' (transit agencies) needs. In the Summer of 2023, the team rolled out the account manager program to over 189 agencies in California. In this role, you will actively participate in implementing the account manager program developed by the Customer Success team at Cal-ITP. As a Customer Success team member, you will participate in efforts to improve and document processes for the account manager program. You should be comfortable raising issues you’ve seen your agencies face and participating in identifying scalable solutions to those problems.
 
 ## Required Qualifications
 
@@ -41,6 +41,8 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Ability to incorporate individual tasks and requests into a cohesive customer success strategy
 - Comfortable collecting and sharing feedback from customers to improve existing processes
 - A personal and professional commitment to bringing anti-racist principles to your work
+- Candidate should be located in California
+- Must be currently legally authorized to work in the United States (ie: US citizen, green card holder, etc.)
 
 ## Preferred Qualifications
 
@@ -49,7 +51,7 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 - Willingness to learn and adapt to new productivity tools and applications (GitHub, ClickUp, Hubspot, etc.)
 - Experience working with or in proximity to government
 - Experience working as a consultant
-- Preference given to candidates located in California, specifically Los Angeles
+- Preference given to candidates located in Los Angeles
 - A love of public transit
 
 ## Education
@@ -58,14 +60,16 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 ## Start Date
 
-- Late June - July 2023
+- April 2024
 
 ## Compensation
 
 - $70,000 annually based on qualifications and experience
 - Paid time off: fifteen (15) days paid time off (PTO) and ten (10) sick days annually, federal holidays, and annual holiday closure between December 23 and January 1
+- Paid parental leave
 - 100% company-paid medical, dental, and vision insurance premiums for employees; 50% company-paid insurance premiums for employees’ dependents
 - 100% company-paid short- and long-term disability insurance
+- Company-paid in-person retreats twice a year
 - Discretionary budget for home office and/or professional development
 - 401k contribution
 - Company-provided laptop
@@ -78,6 +82,6 @@ This is a full-time, salaried position (W-2) with benefits. Full-time employment
 
 ## To Apply
 
-- Applications accepted May 5, 2023 - May 19, 2023
+- Applications accepted January 24, 2024 - February 07, 2024
 - Using the linked form, please briefly introduce yourself and upload your resume
 - Cover letters are not expected, and extra weight in scoring will not be given to those that include them
