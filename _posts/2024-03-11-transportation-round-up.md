@@ -5,7 +5,7 @@ subtitle: "Our favorite transit stories from the past year"
 description: "Our favorite transit stories from the past year"
 author: Laney Mangan
 excerpt: " "
-date:   202X-XX-XX 19:03:13 +0200
+date:   2024-03-11 19:03:13 +0200
 categories: compiler
 ---
 ---
