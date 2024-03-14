@@ -3,8 +3,8 @@ layout: blog_post
 title: "The Compiler Team's Transportation Round-up"
 subtitle: "Our favorite transit stories from the past year"
 description: "Our favorite transit stories from the past year"
-author: Laney Mangan
-excerpt: " "
+author: The Compiler Team
+excerpt: "The Compiler team's favorite transit stories from the past year"
 date:   2024-03-11 19:03:13 +0200
 categories: compiler
 ---
@@ -14,7 +14,8 @@ is important. Shoot, did I just speak for all of my colleagues? Oh well. Public 
 it’s good for our communities and our earth. It’s one of the most convenient, affordable, and efficient ways of shuffling
 people through their lives. So, like I said, we think public transportation is important; but we also know it to be occasionally
 frustrating, sometimes surprising, often exciting, and at times, an all-around adventure. So, we took some time to reflect on our
-most notable transit adventures from the past year. Read on to see what the Compiler team has to say about their recent travels.
+most notable transit adventures from the past year. Read on for a few of the Compiler team's recent travel stories.
+
 
 **Jess**
 
@@ -39,14 +40,15 @@ They started phasing in new cars in 2018, and the primary line I ride has had a 
 the last few years, so I never quite knew if I would be riding an old or new car until it showed up. I was very excited
 when the last new car was put into service. And it looks like BART managed to complete this project well under budget! Kudos to them!
 
-**Angela**
+** **
 
 I took the Staten Island Ferry, for FREE, in NYC. It was an awesome way to see the skyline, bridges and the Statue of Liberty.
 
 **Shelby**
 
+*Remember when we said public transportation can sometimes be frustrating–yeah. Transit fails are also worth reminiscing on.*
 
-*[Remember when we said public transportation can sometimes be frustrating–yeah. Transit fails are also worth reminiscing on]*
+
 In July, I got on the wrong bus multiple times in LA, and once ended up in maybe Chinatown? I gave up and called a Lyft. I also,
 at one point, was on the phone with our colleague Kegan while literally running to catch the (wrong) DASH bus at the big train station.
 
@@ -68,12 +70,11 @@ that I reached the #1 position in Transit App for that line for the month!
 **Sarah**
 
 Over the winter holiday, my side of the family all decided to meet in Tampa, Florida. To get there from Ft. Lauderdale, I took
-a train with my then four-month old, Stetson. We had a coach seat on the way there, but on the way back we upgraded to a roomette
-and that ended up being an amazing way to travel with a baby. Stetson spent a lot of time immersed in the honored tradition
+a train with my then four-month old, Stetson. We had a coach seat on the way there, but on the way back we upgraded to a roomette that ended up being an amazing way to travel with a baby. Stetson spent a lot of time immersed in the honored tradition
 of watching the world go by. He took a nap in my arms during lunch in the dining car and played with some toys after
 we converted the roomette from seats to a bed. His stroller just fit on the top bunk. We rolled back into Ft. Lauderdale
 ready for bedtime.
-[PIC]
+
 
 **Last but not least, welcome to Vyki’s Taiwan Corner**
 
@@ -90,4 +91,10 @@ Taiwan transportation so that we can all be inspired.*
 - YouBike bike share
 - Toilets for everybody
 - Real-time GTFS? How about Real-time train station bathroom occupancy
-[PIC]
+
+<figure>
+    <img
+        src="/assets/blog/Taiwan-min.jpg"
+        alt="BTS train driving over a bridge in Taiwan with the city in the background" />
+    <figcaption>BTS train driving over a bridge in Taiwan with the city in the background. Photograph by Vyki Englert.</figcaption>
+</figure>
