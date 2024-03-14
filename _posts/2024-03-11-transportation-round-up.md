@@ -17,7 +17,7 @@ frustrating, sometimes surprising, often exciting, and at times, an all-around a
 most notable transit adventures from the past year. Read on for a few of the Compiler team's recent travel stories.
 
 
-## <img src="/assets/blog/jessica-sullivan.jpg" class="align-center w-25" alt="Watercolor illustration of Jessica Sullivan"> Jess
+## <img src="/assets/blog/jessica-sullivan.png" class="align-center w-25" alt="Watercolor illustration of Jessica Sullivan"> Jess
 
 I took my two COVID babies on public transit for the first time! We took a round-trip journey on the San Diego trolley to
 Old Town and enjoyed a really amazing sunset over Mission Bay on the way home. They thought it was the coolest "choo choo" in the world.
@@ -40,9 +40,6 @@ They started phasing in new cars in 2018, and the primary line I ride has had a 
 the last few years, so I never quite knew if I would be riding an old or new car until it showed up. I was very excited
 when the last new car was put into service. And it looks like BART managed to complete this project well under budget! Kudos to them!
 
-** **
-
-I took the Staten Island Ferry, for FREE, in NYC. It was an awesome way to see the skyline, bridges and the Statue of Liberty.
 
 ## <img src="/assets/team_members/shelby-miller.png" class="align-center w-25" alt="Watercolor illustration of Shelby Miller"> Shelby
 
@@ -76,7 +73,7 @@ we converted the roomette from seats to a bed. His stroller just fit on the top 
 ready for bedtime.
 
 ## <img src="/assets/team_members/vyki-englert.png" class="align-center w-25" alt="Watercolor illustration of Vyki Englert"> Vyki
-**Last but not least, welcome to Vyki’s Taiwan Corner**
+**Last but not least, welcome to *Vyki’s Taiwan Corner***
 
 *Vyki spent some time last year traveling through Taiwan by bike, train, and bus. She collected a list of her favorite aspects of
 Taiwan transportation so that we can all be inspired.*
