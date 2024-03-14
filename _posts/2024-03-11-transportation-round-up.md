@@ -8,7 +8,7 @@ excerpt: "The Compiler team's favorite transit stories from the past year"
 date:   2024-03-11 19:03:13 +0200
 categories: compiler
 ---
----
+
 I won’t speak for all of my Compiler colleagues, but I will say that 100% of us think that public transportation
 is important. Shoot, did I just speak for all of my colleagues? Oh well. Public transportation is a vital community service;
 it’s good for our communities and our earth. It’s one of the most convenient, affordable, and efficient ways of shuffling
@@ -43,7 +43,7 @@ when the last new car was put into service. And it looks like BART managed to co
 
 ## <img src="/assets/team_members/shelby-miller.png" class="align-center w-25" alt="Watercolor illustration of Shelby Miller"> Shelby
 
-*Remember when we said public transportation can sometimes be frustrating–yeah. Transit fails are also worth reminiscing on.*
+*Remember when we said public transportation can occasionally be frustrating–yeah. Transit fails are also worth reminiscing on.*
 
 
 In July, I got on the wrong bus multiple times in LA, and once ended up in maybe Chinatown? I gave up and called a Lyft. I also,
