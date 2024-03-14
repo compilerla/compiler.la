@@ -17,13 +17,13 @@ frustrating, sometimes surprising, often exciting, and at times, an all-around a
 most notable transit adventures from the past year. Read on for a few of the Compiler team's recent travel stories.
 
 
-**Jess**
+## <img src="/assets/blog/jessica-sullivan.jpg" class="align-center w-25" alt="Watercolor illustration of Jessica Sullivan"> Jess
 
 I took my two COVID babies on public transit for the first time! We took a round-trip journey on the San Diego trolley to
 Old Town and enjoyed a really amazing sunset over Mission Bay on the way home. They thought it was the coolest "choo choo" in the world.
 
 
-**Machiko**
+## <img src="/assets/team_members/machiko-yasuda.png" class="align-center w-25" alt="Watercolor illustration of Machiko Yasuda"> Machiko
 
 I love taking the Hollywood Bowl Park & Ride bus - I took it exactly four times last year during the summer Bowl season.
 The ticket buying process is seamless -- you buy a ticket online as you are buying your Bowl tickets. There are 14 Park & Ride
@@ -32,7 +32,7 @@ your e-ticket to the friendly attendants at the bus stop and get in the bus. The
 those with disabilities, and they make sure you find your bus on the way home. I would definitely go to more concerts and
 venues if they had the same kind of Park & Ride shuttle service like the Bowl's.
 
-**Olivia**
+## <img src="/assets/team_members/olivia-ramacier.png" class="align-center w-25" alt="Watercolor illustration of Olivia Ramacier"> Olivia
 
 BART (Bay Area Rapid Transit) officially had all service running on new train cars, retiring all old train cars.
 The new train cars are so clean and much quieter than the old cars, making for a much more enjoyable rider experience.
@@ -44,7 +44,7 @@ when the last new car was put into service. And it looks like BART managed to co
 
 I took the Staten Island Ferry, for FREE, in NYC. It was an awesome way to see the skyline, bridges and the Statue of Liberty.
 
-**Shelby**
+## <img src="/assets/team_members/shelby-miller.png" class="align-center w-25" alt="Watercolor illustration of Shelby Miller"> Shelby
 
 *Remember when we said public transportation can sometimes be frustrating–yeah. Transit fails are also worth reminiscing on.*
 
@@ -62,12 +62,12 @@ we needed to leave our apartment as to not wake everyone else in the building, s
 around Sac in the dark, and got to watch the Sac RT trains, which the kids loved. They got really good at spotting them and
 shouting "TRAINNNNN!" when they saw them.
 
-**Kegan**
+## <img src="/assets/team_members/kegan-maher.png" class="align-center w-25" alt="Watercolor illustration of Kegan Maher"> Kegan
 
 I rode the local T1 train line in the greater Sydney, Australia region so much in December 2023 (really only 3 weeks out of the month)
 that I reached the #1 position in Transit App for that line for the month!
 
-**Sarah**
+## <img src="/assets/team_members/sarah-henry.png" class="align-center w-25" alt="Watercolor illustration of Sarah Henry"> Sarah
 
 Over the winter holiday, my side of the family all decided to meet in Tampa, Florida. To get there from Ft. Lauderdale, I took
 a train with my then four-month old, Stetson. We had a coach seat on the way there, but on the way back we upgraded to a roomette that ended up being an amazing way to travel with a baby. Stetson spent a lot of time immersed in the honored tradition
@@ -75,7 +75,7 @@ of watching the world go by. He took a nap in my arms during lunch in the dining
 we converted the roomette from seats to a bed. His stroller just fit on the top bunk. We rolled back into Ft. Lauderdale
 ready for bedtime.
 
-
+## <img src="/assets/team_members/vyki-englert.png" class="align-center w-25" alt="Watercolor illustration of Vyki Englert"> Vyki
 **Last but not least, welcome to Vyki’s Taiwan Corner**
 
 *Vyki spent some time last year traveling through Taiwan by bike, train, and bus. She collected a list of her favorite aspects of
