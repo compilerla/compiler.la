@@ -10,14 +10,14 @@ categories: compiler
 ---
 
 
-We first put together a list like this in the summer of 2021, when we received 242 applicants for our first-ever hire, a senior software engineer. 
-Every time we hire, we receive an incredible batch of applications from a wide variety of individuals with an outpouring of interest from folks 
-who, for the most part, have not had exposure to the ideas of “civic technology” or “public interest technology” or “government technology” as fields. 
+We first put together a list like this in the summer of 2021, when we received 242 applicants for our first-ever hire, a senior software engineer.
+Every time we hire, we receive an incredible batch of applications from a wide variety of individuals with an outpouring of interest from folks
+who, for the most part, have not had exposure to the ideas of “civic technology” or “public interest technology” or “government technology” as fields.
 
-We can’t tell you how excited we are that there are so many people out there who are curious about working for or with 
-the government. The gov tech / civic tech / public interest tech space is a big one and helping others traverse this big space is important to us. 
-So, we’ve decided to not only continue sharing this list with our applicants but to move it out of a Google Doc and into a publicly accessible blog 
-post. We hope to publish an updated version as part of each round of hiring. 
+We can’t tell you how excited we are that there are so many people out there who are curious about working for or with
+the government. The gov tech / civic tech / public interest tech space is a big one and helping others traverse this big space is important to us.
+So, we’ve decided to not only continue sharing this list with our applicants but to move it out of a Google Doc and into a publicly accessible blog
+post. We hope to publish an updated version as part of each round of hiring.
 
 Below we’ve outlined some of our favorite agencies, companies, and resources to help you navigate a career in this nascent industry.
 
@@ -30,7 +30,7 @@ Below we’ve outlined some of our favorite agencies, companies, and resources t
 
 [Bill Hunt’s Civic Tech Jobs Board](https://billhunt.dev/jobs/): Personally curated by Bill Hunt; worth keeping an eye on.
 
-[TechCA](https://techca.org/jobs/#!board/Jobs): Mostly leadership-level technology jobs at state agencies or vendor companies. 
+[TechCA](https://techca.org/jobs/#!board/Jobs): Mostly leadership-level technology jobs at state agencies or vendor companies.
 
 [#PublicSectorJobBoard](https://www.linkedin.com/newsletters/publicsectorjobboard-7054097497383690241/): A weekly LinkedIn Newsletter curated by Rebecca Heywood.
 
@@ -40,7 +40,7 @@ Below we’ve outlined some of our favorite agencies, companies, and resources t
 
 ## Apprenticeships
 
-*If you’re new to your career –especially if you’re a recent college or boot 
+*If you’re new to your career –especially if you’re a recent college or boot
 camp graduate– apprenticeship programs might be an excellent fit for you. Here are a few that we know of...*
 
 [8th Light Apprenticeships](https://8thlight.com/careers/)
@@ -52,9 +52,9 @@ camp graduate– apprenticeship programs might be an excellent fit for you. Here
 [Federal Transit Administration Diversity in Federal Transit Internship Program (DFT)](https://twc.edu/programs/FTA.DFT)
 
 ## Fellowships
-*We keep a running [list of fellowships that are offered within the civic tech](https://docs.google.com/spreadsheets/d/1VpYIEC7MhA_6VVORk5S9CDuccx_tEvFVefeDTilenXQ/edit#gid=0) 
-space. Please note we only track the name and URL and some of these programs 
-may not be active.* 
+*We keep a running [list of fellowships that are offered within the civic tech](https://docs.google.com/spreadsheets/d/1VpYIEC7MhA_6VVORk5S9CDuccx_tEvFVefeDTilenXQ/edit#gid=0)
+space. Please note we only track the name and URL and some of these programs
+may not be active.*
 
 ## For-profit Civic Tech Companies / Consultancies
 [DataMade](https://datamade.us/): Chicago-based, lots of experience in working with criminal justice data and journalists
@@ -65,31 +65,31 @@ may not be active.*
 
 [Ministry of Velocity](https://www.ministryofvelocity.com/): San Francisco-based software agency (which is now a cooperative!)
 
-[OpenTechStrategies](https://opentechstrategies.com/): A consulting firm dedicated to helping open source thrive through not just code but strategy, policy, and community management. 
+[OpenTechStrategies](https://opentechstrategies.com/): A consulting firm dedicated to helping open source thrive through not just code but strategy, policy, and community management.
 
-[Jarvus](https://jarv.us/): Philadelphia-based software consulting company. 
+[Jarvus](https://jarv.us/): Philadelphia-based software consulting company.
 
-[Water UX](http://www.waterux.com/): Los Angeles-based and as you might have guessed from the name a consultancy that uses “design and technology to change what is possible for water innovation.” 
+[Water UX](http://www.waterux.com/): Los Angeles-based and as you might have guessed from the name a consultancy that uses “design and technology to change what is possible for water innovation.”
 
 [Truss](https://truss.works/): Headquartered in San Francisco this team has probably built services you’ve used!
 
-[The So Company](https://www.thesocompany.com/): Los Angeles-based, veteran-owned, with expertise in websites and content. 
+[The So Company](https://www.thesocompany.com/): Los Angeles-based, veteran-owned, with expertise in websites and content.
 
-[Moore Boeck](https://www.mooreboeck.com/): Los Angeles-based space nerds. 
+[Moore Boeck](https://www.mooreboeck.com/): Los Angeles-based space nerds.
 
-[Torchbox](https://torchbox.com/): Focuses on serving the non-profit sector. 
+[Torchbox](https://torchbox.com/): Focuses on serving the non-profit sector.
 
-[Nava](https://www.navapbc.com): Some of the folks behind the famous healthcare.gov rescue. 
+[Nava](https://www.navapbc.com): Some of the folks behind the famous healthcare.gov rescue.
 
-[Green River](https://www.greenriver.com/): A small consultancy based in Vermont they are behind the open source OpenPath product which helps the obscure government bodies called Continuums of Care better serve individuals experiencing homelessness while meeting complex congressionally defined reporting requirements in HMIS. 
+[Green River](https://www.greenriver.com/): A small consultancy based in Vermont they are behind the open source OpenPath product which helps the obscure government bodies called Continuums of Care better serve individuals experiencing homelessness while meeting complex congressionally defined reporting requirements in HMIS.
 
-[Zeal](https://www.codingzeal.com/): A consultancy based in Medford Oregon, these are some of the kindest humans we’ve met. 
+[Zeal](https://www.codingzeal.com/): A consultancy based in Medford Oregon, these are some of the kindest humans we’ve met.
 
 ## Non-profit Organizations
 
 [CA Policy Lab](https://www.capolicylab.org/career/): data-heavy policy research team
 
-[Mobility Data](https://careers.mobilitydata.org/): Developing and supporting data standards for transit and more. 
+[Mobility Data](https://careers.mobilitydata.org/): Developing and supporting data standards for transit and more.
 
 [Open Mobility Foundation](https://www.openmobilityfoundation.org/careers/): Steward of the Mobility Data Specification and Curb Data Specification.
 
@@ -99,22 +99,22 @@ may not be active.*
 
 [mRelief](https://www.mrelief.com/): Builds apps and services to help individuals sign up for food stamps
 
-[Transit App](https://manifesto.transitapp.com/jobs): A real-time transit arrivals board in your pocket. 
+[Transit App](https://manifesto.transitapp.com/jobs): A real-time transit arrivals board in your pocket.
 
 ## Government Agencies with Digital Services Teams
 
 *“Digital Services” is loosely defined as agile teams that work similarly to a software
 consultancy shop. They are deployed to work directly with subject matter experts in
 other parts of the agency to assist in solving problems while using agile methodologies
-and human-centered design. The most famous of these is probably the federal team, 
-18F, but states, counties, and cities are starting to launch their own. Below is a 
+and human-centered design. The most famous of these is probably the federal team,
+18F, but states, counties, and cities are starting to launch their own. Below is a
 list of some of our favorites.*
 
 *Note: federal jobs you often have to put together a federal resume which can easily
-run 20 pages and take you a few weeks to assemble; there are really great 
-instructions on 18F’s website. If you’re interested, start working on that 
-resume now -- when jobs get posted they are usually only open for a few days 
-and that’s not enough time for you to put your resume in the necessary format.* 
+run 20 pages and take you a few weeks to assemble; there are really great
+instructions on 18F’s website. If you’re interested, start working on that
+resume now -- when jobs get posted they are usually only open for a few days
+and that’s not enough time for you to put your resume in the necessary format.*
 
 [18F](https://18f.gsa.gov/join/)
 
@@ -136,38 +136,38 @@ and that’s not enough time for you to put your resume in the necessary format.
 
 [NYC Planning Labs](https://labs.planning.nyc.gov/)
 
-[San Francisco Digital Services](https://digitalservices.sfgov.org/) 
+[San Francisco Digital Services](https://digitalservices.sfgov.org/)
 
 [Colorado Digital Service](https://oit.colorado.gov/colorado-digital-service)
 
 
 ## Canada
 
-*Don’t forget to check out our friends up north!* 
+*Don’t forget to check out our friends up north!*
 [Ontario Digital Services](https://www.ontario.ca/page/ontario-digital-service)
 
-## Government Jobs Boards 
+## Government Jobs Boards
 
-*Some of the great programming positions aren’t tied to big, new, splashy, digital 
-services teams; they often get syndicated on government career websites. 
-Some of these agencies are getting better at having their open positions posted 
-more broadly on sites like LinkedIn. As these jobs aren’t distributed widely, 
-sometimes they don’t get many applicants. These positions can also have 
+*Some of the great programming positions aren’t tied to big, new, splashy, digital
+services teams; they often get syndicated on government career websites.
+Some of these agencies are getting better at having their open positions posted
+more broadly on sites like LinkedIn. As these jobs aren’t distributed widely,
+sometimes they don’t get many applicants. These positions can also have
 less obvious titles. For example, in the County of Los Angeles, programmers often
-have the title Business Analyst. We suggest you broadly browse these job boards 
+have the title Business Analyst. We suggest you broadly browse these job boards
 and notice what kinds of titles are used to describe the skills you have.*
 
-*Some of these jobs require you to pass an “exam” or “test” -- don’t stress too 
-much, do a bit of research. Sometimes these are like standardized multichoice 
+*Some of these jobs require you to pass an “exam” or “test” -- don’t stress too
+much, do a bit of research. Sometimes these are like standardized multichoice
 exams you take with a pencil in a proctored room, while others are just a long-form
-written version of your resume, submitted via an online form. Do note that if 
-the position requires you to have passed an exam, you will need to do so before 
-you submit your application or they will auto-reject your application.* 
+written version of your resume, submitted via an online form. Do note that if
+the position requires you to have passed an exam, you will need to do so before
+you submit your application or they will auto-reject your application.*
 
-[State of CA: CalCareers](https://www.calcareers.ca.gov/): This site has so many jobs! You can create an account and get really specific email 
-notifications sent to you when a position opens that you might be qualified for or 
-within an agency you might be excited about working with. 
-  - CalCareers is confusing to learn how to navigate – [ODI has a really good guide](https://innovation.ca.gov/join-us/applying-civil-service-job/ ) to the state application process. 
+[State of CA: CalCareers](https://www.calcareers.ca.gov/): This site has so many jobs! You can create an account and get really specific email
+notifications sent to you when a position opens that you might be qualified for or
+within an agency you might be excited about working with.
+  - CalCareers is confusing to learn how to navigate – [ODI has a really good guide](https://innovation.ca.gov/join-us/applying-civil-service-job/ ) to the state application process.
 
 [Government Jobs](https://www.governmentjobs.com/):
 private syndicate of gov jobs
@@ -191,4 +191,4 @@ If you’re interested in justice-related work, definitely [sign up for this ema
 list.](https://justicetech.substack.com/) It always has good jobs listed, too.
 
 
-### **And of course, last but not least, [sign up for notifications to hear when Compiler is hiring again.](https://compiler.us14.list-manage.com/subscribe?u=83dad32003c2669592d5c0b95&id=c5d6b636b2)** 
+### **And of course, last but not least, [sign up for notifications to hear when Compiler is hiring again.](https://compiler.us14.list-manage.com/subscribe?u=83dad32003c2669592d5c0b95&id=c5d6b636b2)**
