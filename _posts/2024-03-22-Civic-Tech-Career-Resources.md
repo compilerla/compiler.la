@@ -4,7 +4,7 @@ title: "Civic Tech Career Resources"
 subtitle: "TBD"
 description: "TBD"
 author: Vyki Englert and the Compiler Team
-excerpt: "Learn how to write a blog post, include images, blockquotes and more."
+excerpt: "TBD"
 date:   2024-03-22 19:03:13 +0200
 categories: compiler
 ---
@@ -185,10 +185,5 @@ of Transportation”)*
 - Sign up for email notifications via the [Transportation Diversity Council’s (TDC)](https://tdc-ntl.org/blog/category/job-postings/) website.
 - Check out the [FTA’s job website](https://www.transit.dot.gov/jobs) for more information on applying for jobs and links to early career programs
 - [FTA has several early career programs](https://www.transit.dot.gov/about/jobs/early-career-programs)
-
-## Justice Tech
-If you’re interested in justice-related work, definitely [sign up for this email
-list.](https://justicetech.substack.com/) It always has good jobs listed, too.
-
 
 ### **And of course, last but not least, [sign up for notifications to hear when Compiler is hiring again.](https://compiler.us14.list-manage.com/subscribe?u=83dad32003c2669592d5c0b95&id=c5d6b636b2)**
