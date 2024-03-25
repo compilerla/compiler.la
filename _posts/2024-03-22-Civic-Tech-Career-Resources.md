@@ -1,14 +1,13 @@
 ---
 layout: blog_post
 title: "Civic Tech Career Resources"
-subtitle: "TBD"
-description: "TBD"
+subtitle: "Our most used resources for navigating a career in Civic Tech"
+description: "Our most used resources for navigating a career in Civic Tech"
 author: Vyki Englert and the Compiler Team
-excerpt: "TBD"
-date:   2024-03-22 19:03:13 +0200
+excerpt: "Our most used resources for navigating a career in Civic Tech"
+date:   2024-03-25
 categories: compiler
 ---
-
 
 We first put together a list like this in the summer of 2021, when we received 242 applicants for our first-ever hire, a senior software engineer.
 Every time we hire, we receive an incredible batch of applications from a wide variety of individuals with an outpouring of interest from folks
@@ -39,9 +38,8 @@ Below we’ve outlined some of our favorite agencies, companies, and resources t
 [WTS International Jobs Board](https://careers.wtsinternational.org/jobseekers/): Non-profit organization dedicated to advancing women in transportation.
 
 ## Apprenticeships
-
-*If you’re new to your career –especially if you’re a recent college or boot
-camp graduate– apprenticeship programs might be an excellent fit for you. Here are a few that we know of...*
+If you’re new to your career –especially if you’re a recent college or boot
+camp graduate– apprenticeship programs might be an excellent fit for you. Here are a few that we know of...
 
 [8th Light Apprenticeships](https://8thlight.com/careers/)
 
@@ -52,16 +50,16 @@ camp graduate– apprenticeship programs might be an excellent fit for you. Here
 [Federal Transit Administration Diversity in Federal Transit Internship Program (DFT)](https://twc.edu/programs/FTA.DFT)
 
 ## Fellowships
-*We keep a running [list of fellowships that are offered within the civic tech](https://docs.google.com/spreadsheets/d/1VpYIEC7MhA_6VVORk5S9CDuccx_tEvFVefeDTilenXQ/edit#gid=0)
-space. Please note we only track the name and URL and some of these programs
+We keep a running [list of fellowships that are offered within the civic tech](https://docs.google.com/spreadsheets/d/1VpYIEC7MhA_6VVORk5S9CDuccx_tEvFVefeDTilenXQ/edit#gid=0)
+space. *Please note we only track the name and URL and some of these programs
 may not be active.*
 
 ## For-profit Civic Tech Companies / Consultancies
-[DataMade](https://datamade.us/): Chicago-based, lots of experience in working with criminal justice data and journalists
+[DataMade](https://datamade.us/): Chicago-based, lots of experience in working with criminal justice data and journalists.
 
-[Jemurai](https://jemurai.com/): Chicago-based security firm, a delightful bunch of humans in our experience
+[Jemurai](https://jemurai.com/): A security firm with a delightful bunch of humans, in our experience.
 
-[California Data Collaborative](http://californiadatacollaborative.org/): (non-profit) Los Angeles-based water data collaborative
+[California Data Collaborative](http://californiadatacollaborative.org/): (non-profit) Los Angeles-based water data collaborative.
 
 [Ministry of Velocity](https://www.ministryofvelocity.com/): San Francisco-based software agency (which is now a cooperative!)
 
@@ -71,7 +69,7 @@ may not be active.*
 
 [Water UX](http://www.waterux.com/): Los Angeles-based and as you might have guessed from the name a consultancy that uses “design and technology to change what is possible for water innovation.”
 
-[Truss](https://truss.works/): Headquartered in San Francisco this team has probably built services you’ve used!
+[Truss](https://truss.works/): Headquartered in San Francisco; this team has probably built services you’ve used!
 
 [The So Company](https://www.thesocompany.com/): Los Angeles-based, veteran-owned, with expertise in websites and content.
 
@@ -87,7 +85,7 @@ may not be active.*
 
 ## Non-profit Organizations
 
-[CA Policy Lab](https://www.capolicylab.org/career/): data-heavy policy research team
+[CA Policy Lab](https://www.capolicylab.org/career/): Data-heavy policy research team.
 
 [Mobility Data](https://careers.mobilitydata.org/): Developing and supporting data standards for transit and more.
 
@@ -97,18 +95,18 @@ may not be active.*
 
 ## Product Companies
 
-[mRelief](https://www.mrelief.com/): Builds apps and services to help individuals sign up for food stamps
+[mRelief](https://www.mrelief.com/): Builds apps and services to help individuals sign up for food stamps.
 
 [Transit App](https://manifesto.transitapp.com/jobs): A real-time transit arrivals board in your pocket.
 
 ## Government Agencies with Digital Services Teams
 
-*“Digital Services” is loosely defined as agile teams that work similarly to a software
+“Digital Services” is loosely defined as agile teams that work similarly to a software
 consultancy shop. They are deployed to work directly with subject matter experts in
 other parts of the agency to assist in solving problems while using agile methodologies
 and human-centered design. The most famous of these is probably the federal team,
 18F, but states, counties, and cities are starting to launch their own. Below is a
-list of some of our favorites.*
+list of some of our favorites.
 
 *Note: federal jobs you often have to put together a federal resume which can easily
 run 20 pages and take you a few weeks to assemble; there are really great
@@ -143,26 +141,26 @@ and that’s not enough time for you to put your resume in the necessary format.
 
 ## Canada
 
-*Don’t forget to check out our friends up north!*
+Don’t forget to check out our friends up north!
 [Ontario Digital Services](https://www.ontario.ca/page/ontario-digital-service)
 
 ## Government Jobs Boards
 
-*Some of the great programming positions aren’t tied to big, new, splashy, digital
+Some of the great programming positions aren’t tied to big, new, splashy, digital
 services teams; they often get syndicated on government career websites.
 Some of these agencies are getting better at having their open positions posted
 more broadly on sites like LinkedIn. As these jobs aren’t distributed widely,
 sometimes they don’t get many applicants. These positions can also have
 less obvious titles. For example, in the County of Los Angeles, programmers often
 have the title Business Analyst. We suggest you broadly browse these job boards
-and notice what kinds of titles are used to describe the skills you have.*
+and notice what kinds of titles are used to describe the skills you have.
 
-*Some of these jobs require you to pass an “exam” or “test” -- don’t stress too
+Some of these jobs require you to pass an “exam” or “test” -- don’t stress too
 much, do a bit of research. Sometimes these are like standardized multichoice
 exams you take with a pencil in a proctored room, while others are just a long-form
 written version of your resume, submitted via an online form. Do note that if
 the position requires you to have passed an exam, you will need to do so before
-you submit your application or they will auto-reject your application.*
+you submit your application or they will auto-reject your application.
 
 [State of CA: CalCareers](https://www.calcareers.ca.gov/): This site has so many jobs! You can create an account and get really specific email
 notifications sent to you when a position opens that you might be qualified for or
@@ -170,14 +168,14 @@ within an agency you might be excited about working with.
   - CalCareers is confusing to learn how to navigate – [ODI has a really good guide](https://innovation.ca.gov/join-us/applying-civil-service-job/ ) to the state application process.
 
 [Government Jobs](https://www.governmentjobs.com/):
-private syndicate of gov jobs
+Private syndicate of gov jobs.
 
 [USA Jobs](https://www.usajobs.gov/):
-syndicate of most federal jobs
+Syndicate of most federal jobs.
 
 ## Public Transit Agencies
 **US Department of Transportation**:
-this [USAjobs.gov link filters for jobs at DOT](https://dot.usajobs.gov/search/results/?d=TD&p=1)
+This [USAjobs.gov link filters for jobs at DOT](https://dot.usajobs.gov/search/results/?d=TD&p=1)
 
 **Federal Transit Administration** *(“FTA is one of 10 modal agencies of the US Department
 of Transportation”)*
