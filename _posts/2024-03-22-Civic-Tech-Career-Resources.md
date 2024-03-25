@@ -156,9 +156,9 @@ have the title Business Analyst. We suggest you broadly browse these job boards
 and notice what kinds of titles are used to describe the skills you have.
 
 Some of these jobs require you to pass an “exam” or “test” -- don’t stress too
-much, do a bit of research. Sometimes these are like standardized multichoice
+much; do a bit of research. Sometimes these are standardized, multiple choice
 exams you take with a pencil in a proctored room, while others are just a long-form
-written version of your resume, submitted via an online form. Do note that if
+written version of your resume submitted via an online form. Do note that if
 the position requires you to have passed an exam, you will need to do so before
 you submit your application or they will auto-reject your application.
 
@@ -184,4 +184,4 @@ of Transportation”)*
 - Check out the [FTA’s job website](https://www.transit.dot.gov/jobs) for more information on applying for jobs and links to early career programs
 - [FTA has several early career programs](https://www.transit.dot.gov/about/jobs/early-career-programs)
 
-### **And of course, last but not least, [sign up for notifications to hear when Compiler is hiring again.](https://compiler.us14.list-manage.com/subscribe?u=83dad32003c2669592d5c0b95&id=c5d6b636b2)**
+## **And of course, last but not least, [sign up for notifications to hear when Compiler is hiring again.](https://compiler.us14.list-manage.com/subscribe?u=83dad32003c2669592d5c0b95&id=c5d6b636b2)**
