@@ -5,7 +5,7 @@ subtitle: "Our most used resources for navigating a career in Civic Tech"
 description: "Our most used resources for navigating a career in Civic Tech"
 author: Vyki Englert and the Compiler Team
 excerpt: "Our most used resources for navigating a career in Civic Tech"
-date:   2024-03-25
+date:   2024-03-29
 categories: compiler
 ---
 
@@ -20,7 +20,7 @@ post. We hope to publish an updated version as part of each round of hiring.
 
 Below we’ve outlined some of our favorite agencies, companies, and resources to help you navigate a career in this nascent industry.
 
-## Jobs Boards that lean toward civic tech ##
+## Job Boards that lean toward civic tech ##
 [LA2050.org/jobs](https://la2050.org/jobs): This job board is fantastic. It focuses on jobs in the greater Los Angeles region.
 
 [Tech Jobs for Good](https://techjobsforgood.com/): We’ve hired more than one candidate from this niche job board, it’s one of the only ones we currently pay to post on. You can also follow their account on [LinkedIn](https://www.linkedin.com/company/tech-jobs-for-good/).
