@@ -59,5 +59,4 @@ You’ll collaborate with a small team of designers and engineers. You’ll have
 
 ## To Apply
 
-Send resume, brief intro email and preferences for working (hours, time zone, etc) to [careers@compiler.la](mailto:careers@compiler.la) by April 12, 2024.
-Cover letters are not expected and extra weight in scoring will not be given to those that include them.
+Please apply using this form [https://forms.clickup.com/8631512/f/87d6r-14154/EYTB48KL0KYX71LH1Q?Job%20Role=UX%2FUI%20Designer]. We look forward to hearing from you! 
