@@ -12,7 +12,7 @@ Our team specializes in building software applications around data for operation
 
 Our clients have included: City of Los Angeles, City of West Hollywood, CicLAvia, LA2050, Caltrans, County of Los Angeles, and the California Community Foundation.
 
-**About Cal-ITP:** Supported by the California State Transportation Agency (CalSTA) and the California Department of Transportation (Caltrans) through a grant from the California Transit and Intercity Rail Capital Program (TIRCP), the California Integrated Travel Project (Cal-ITP) is a statewide solution to make travel simpler and cost-effective for everyone. 
+**About Cal-ITP:** Supported by the California State Transportation Agency (CalSTA) and the California Department of Transportation (Caltrans) through a grant from the California Transit and Intercity Rail Capital Program (TIRCP), the California Integrated Travel Project (Cal-ITP) is a statewide solution to make travel simpler and cost-effective for everyone.
 
 **Overview:** The Senior Consultant UX/UI Designer and Researcher leads user research and design for two major portfolio projects, the CA Mobility Marketplace (camobilitymarketplace.org) and the Cal-ITP homepage (calitp.org) in collaboration with the senior product manager. Responsibilities will include designing and executing user research efforts, user testing execution and synthesis, delivering design mockups for web applications, and collaborating with the engineering team on best practices in building inclusive and accessible solutions.
 
@@ -24,10 +24,10 @@ You’ll collaborate with a small team of designers and engineers. You’ll have
 
 - Identify and select appropriate methodologies for projects
 - Lead UX Design and Research on products
-- Lead planning of and/or execute user research and user testing, as needed 
+- Lead planning of and/or execute user research and user testing, as needed
 - Document your work including creating synthesis presentations for asynchronous communications with the team and client after executing user research or user testing efforts
 - Design and facilitate design workshops with team, stakeholders, and/or clients as needed
-- Collaborate with external stakeholders to collect design requirements and feedback 
+- Collaborate with external stakeholders to collect design requirements and feedback
 - Ensuring that design processes and outputs are both inclusive and accessible
 - Coordinate with product, design, and engineering to deliver complex products
 
@@ -40,7 +40,7 @@ You’ll collaborate with a small team of designers and engineers. You’ll have
 - Experience in inclusive and accessible design
 - Ability to work independently and self-direct towards goals not tasks
 - Experience collaborating with product managers
-- Familiarity with digital tools such as; GitHub, Figma, Google Cloud, Dovetail, and User Testing 
+- Familiarity with digital tools such as; GitHub, Figma, Google Cloud, Dovetail, and User Testing
 - A love of public transportation
 - A personal and professional commitment to bring anti-racist principles into design practices
 - This position has no formal educational requirements
