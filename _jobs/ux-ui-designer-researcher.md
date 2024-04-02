@@ -4,6 +4,7 @@ title: Senior Consultant, UX/UI Designer and Researcher
 open_date: 2024-04-03
 close_date: 2024-04-12
 type: Contract
+apply_link: https://forms.clickup.com/8631512/f/87d6r-14154/EYTB48KL0KYX71LH1Q?Job%20Role=UX%2FUI%20Designer
 ---
 
 **About Compiler:** Compiler is a small, woman-owned software consultancy. Compiler helps service-oriented government agencies build open source, human-centered, secure, agile solutions to support the delivery of government services that increase equity of opportunity.
@@ -59,4 +60,6 @@ You’ll collaborate with a small team of designers and engineers. You’ll have
 
 ## To Apply
 
-Please apply using [this form](https://forms.clickup.com/8631512/f/87d6r-14154/EYTB48KL0KYX71LH1Q?Job%20Role=UX%2FUI%20Designer). We look forward to hearing from you!
+- Applications accepted Wednesday April 3, 2024 - Friday April 12, 2024
+- Using the linked form, please briefly introduce yourself and upload your resume
+- Cover letters are not expected, and extra weight in scoring will not be given to those that include them
