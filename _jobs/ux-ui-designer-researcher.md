@@ -59,4 +59,4 @@ You’ll collaborate with a small team of designers and engineers. You’ll have
 
 ## To Apply
 
-Please apply using this form [https://forms.clickup.com/8631512/f/87d6r-14154/EYTB48KL0KYX71LH1Q?Job%20Role=UX%2FUI%20Designer]. We look forward to hearing from you!
+Please apply using [this form](https://forms.clickup.com/8631512/f/87d6r-14154/EYTB48KL0KYX71LH1Q?Job%20Role=UX%2FUI%20Designer). We look forward to hearing from you!
