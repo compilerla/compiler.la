@@ -14,7 +14,7 @@ Our clients have included: City of Los Angeles, City of West Hollywood, CicLAvia
 
 **About Cal-ITP:** Supported by the California State Transportation Agency (CalSTA) and the California Department of Transportation (Caltrans) through a grant from the California Transit and Intercity Rail Capital Program (TIRCP), the California Integrated Travel Project (Cal-ITP) is a statewide solution to make travel simpler and cost-effective for everyone.
 
-**Overview:** The Senior Consultant UX/UI Designer and Researcher leads user research and design for two major portfolio projects, the CA Mobility Marketplace (camobilitymarketplace.org) and the Cal-ITP homepage (calitp.org) in collaboration with the senior product manager. Responsibilities will include designing and executing user research efforts, user testing execution and synthesis, delivering design mockups for web applications, and collaborating with the engineering team on best practices in building inclusive and accessible solutions.
+**Overview:** The Senior Consultant UX/UI Designer and Researcher leads user research and design for two major portfolio projects, the CA Mobility Marketplace ([camobilitymarketplace.org](https://camobilitymarketplace.org)) and the Cal-ITP homepage ([calitp.org](https://calitp.org)) in collaboration with the senior product manager. Responsibilities will include designing and executing user research efforts, user testing execution and synthesis, delivering design mockups for web applications, and collaborating with the engineering team on best practices in building inclusive and accessible solutions.
 
 This is a part-time contract position.
 
