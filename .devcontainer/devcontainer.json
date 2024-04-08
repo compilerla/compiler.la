@@ -2,7 +2,7 @@
   "name": "compiler.la",
   "dockerComposeFile": "docker-compose.yaml",
   "service": "site",
-  "workspaceFolder": "/srv/jekyll",
+  "workspaceFolder": "/home/compiler/site",
   "postAttachCommand": ["/bin/bash", ".devcontainer/postAttach.sh"],
   "customizations": {
     "vscode": {
