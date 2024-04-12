@@ -1,9 +1,9 @@
-version: '3'
+version: "3"
 services:
   site:
     build:
       context: ..
       dockerfile: .devcontainer/Dockerfile
     volumes:
-      - ..:/srv/jekyll
+      - ..:/home/compiler/site
     command: sleep infinity

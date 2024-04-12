@@ -5,3 +5,4 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:title:output_ext
+source: ./src
