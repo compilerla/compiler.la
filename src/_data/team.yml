@@ -57,3 +57,23 @@
   title: Product Manager
   image: "marissa-rosemblat.png"
   classes: "collapseMore collapse"
+
+- name: Adam Linder
+  title: Account Manager
+  image: "adam-linder.png"
+  classes: "collapseMore collapse"
+
+- name: Nina Dinh
+  title: Account Manager
+  image: "nina-dinh.png"
+  classes: "collapseMore collapse"
+
+- name: Marie Araneta
+  title: Account Manager
+  image: "marie-araneta.png"
+  classes: "collapseMore collapse"
+
+- name: Luis Alvergue
+  title: Senior Software Engineer
+  image: "luis-alvergue.png"
+  classes: "collapseMore collapse"
