@@ -22,11 +22,11 @@ California is an employee-friendly state, perhaps the friendliest in the United 
 
 Was short-term disability insurance (STDI) an option? For some birthing parents, yes, STDI is an option, though imperfect. STDI provides a percentage of wage replacement benefits. The claim process is cumbersome, especially when juggling responsibilities associated with a newborn. And only the birthing parent is eligible for the benefit. And, and! I was already pregnant, and thus, had a “pre-existing condition” that would not be covered under a new plan. COOL.
 
-None of the above, established and “typical” benefits, worked for the situation Compiler faced. The company needed to create its own parental leave program from scratch and wanted to do so in a way that treated all of its employees, regardless of their residence, excellently and with dignity. 
+None of the above, established and “typical” benefits, worked for the situation Compiler faced. The company needed to create its own parental leave program from scratch and wanted to do so in a way that treated all of its employees, regardless of their residence, excellently and with dignity.
 
 Like most folks starting a project they are novices in, I Googled. I read articles from Kaiser Family Foundation, the Center for American Progress, Think Babies, and even watched an episode of Full Frontal with Samantha Bee on the topic of paid parental leave. SHRM, the Society for Human Resources Management was a great resource for sample policies and language. I also read articles from California’s Employment Development Department because Compiler is a California-based LLC. I researched information to inform both the company’s future parental leave policy and the policy I’d be the first recipient of. The sheer volume of information, however, was overwhelming, especially for a small, young company with employees in multiple states.
 
-Fortunately, Compiler is a member of a PEO (professional employer organization). I reached out to them, and they provided sample leave policies, guidance, and support, but frequently emphasized the importance of seeking legal counsel. 
+Fortunately, Compiler is a member of a PEO (professional employer organization). I reached out to them, and they provided sample leave policies, guidance, and support, but frequently emphasized the importance of seeking legal counsel.
 
 After reading multiple sample policies and language from SHRM, the PEO, and elsewhere, I took my favorite parts from each and patched them together to create Compiler’s first draft of a parental leave policy. Of highest importance was, and is:
 
@@ -54,6 +54,6 @@ Compiler’s three policies are:
 
 The three-policy approach was unexpected and unlike the sample policies I read and the drafts proposed. But in speaking with our attorneys, I began to understand the reasoning. The three policies complement one another, and when either of Compiler’s Leave policies are utilized by an employee, the Wage Replacement automatically kicks in.
 
-After months of collaboration and revisions, guidance from Compiler’s attorneys, resources from our PEO, and a steady commitment to create a meaningful parental leave plan, Compiler’s first parental leave policies were officially adopted in September 2023. 
+After months of collaboration and revisions, guidance from Compiler’s attorneys, resources from our PEO, and a steady commitment to create a meaningful parental leave plan, Compiler’s first parental leave policies were officially adopted in September 2023.
 
 Compiler’s work seeks to enable joyful and dignified lives. Through human-centered policy, we design services and solutions that are equitable and accessible. It is paramount to Compiler’s culture that these beliefs and actions be extended to employees in addition to our clients. We very much want to be a great place to work. We want people to feel cared for. We celebrate the “life” in “work-life balance.” For these reasons, it was clear the company needed to support its employees during enormous times of personal change – welcoming a new baby or child into their family.
