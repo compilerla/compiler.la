@@ -14,6 +14,13 @@ In early May 2021, I excitedly looked forward to joining the Compiler team as it
 
 The week before I started the job, I bewilderedly looked down at two lines on a home pregnancy test; I was pregnant. Frankly, I didn’t believe it. Yes, my husband and I had started trying for a second baby. We were open to getting pregnant, but given prior experience, I was surprised that it happened so quickly. My thoughts went to the job I hadn’t even started yet at Compiler: this isn’t how I planned to start; Compiler doesn’t have parental leave. How are they going to take the news?!
 
+<figure>
+    <img
+        src="/assets/blog/FirstRetreat.jpg"
+        alt="The first 5 Compiler Employees stand side-by-side in front of a garden of pink flowers" />
+    <figcaption>Photograph by CM Creative.</figcaption>
+</figure>
+
 Unsure if the pregnancy would last, I started the job and kept my pregnancy quiet. Weeks later, more confident that “yep, we’re having another baby,” I nervously told Vyki on a video call. Her response? “Whoa! You said you wanted another baby! Okay, your next major assignment is to write Compiler’s parental leave policy!” And thus began a two-year, eye-opening, mind-boggling, rewarding endeavor.
 
 Compiler is a California-based LLC. By the end of 2021, it was only 5 employees large, thus not making it a “covered employer” under FMLA, the federal Family Medical Leave Act that is commonly, and incorrectly, thought to be how parental leave is provided to Americans. First, FMLA provides job-protected, unpaid wages. Not receiving wages is unacceptable for most people, so FMLA isn’t a solution. Second, “employees are eligible for leave if they have worked for their employer for at least 12 months” – oops, not me! And third, employees “work at a location where the company employs 50 or more employees within 75 miles.” Again, Compiler had 5 employees in three states, so FMLA would not extend to our employees for multiple reasons.
