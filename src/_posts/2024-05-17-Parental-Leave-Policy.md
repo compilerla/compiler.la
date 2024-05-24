@@ -16,7 +16,7 @@ The week before I started the job, I bewilderedly looked down at two lines on a 
 
 <figure>
     <img
-        src="/src/assets/blog/FirstRetreat.jpg"
+        src="/assets/blog/FirstRetreat.jpg"
         alt="The first 5 Compiler Employees stand side-by-side in front of a garden of pink flowers" />
     <figcaption>Photograph by CM Creative.</figcaption>
 </figure>
@@ -51,7 +51,7 @@ Compiler and I verbally agreed to the above parental leave scenario, and I went 
 
 <figure>
     <img
-        src="/src/assets/blog/shelby_baby.jpeg"
+        src="/assets/blog/shelby_baby.jpeg"
         alt="Shelby sitting on a bed, holding her newborn baby while her partner and other child reach out to touch the baby's hand" />
     <figcaption>Photograph provided by Shelby Miller.</figcaption>
 </figure>
