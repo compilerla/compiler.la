@@ -16,10 +16,11 @@ The week before I started the job, I bewilderedly looked down at two lines on a 
 
 <figure>
     <img
-        src="/assets/blog/FirstRetreat.jpg"
+        src="/src/assets/blog/FirstRetreat.jpg"
         alt="The first 5 Compiler Employees stand side-by-side in front of a garden of pink flowers" />
     <figcaption>Photograph by CM Creative.</figcaption>
 </figure>
+
 
 Unsure if the pregnancy would last, I started the job and kept my pregnancy quiet. Weeks later, more confident that “yep, we’re having another baby,” I nervously told Vyki on a video call. Her response? “Whoa! You said you wanted another baby! Okay, your next major assignment is to write Compiler’s parental leave policy!” And thus began a two-year, eye-opening, mind-boggling, rewarding endeavor.
 
@@ -50,10 +51,11 @@ Compiler and I verbally agreed to the above parental leave scenario, and I went 
 
 <figure>
     <img
-        src="/assets/blog/FirstRetreat.jpg"
-        alt="The first 5 Compiler Employees stand side-by-side in front of a garden of pink flowers" />
-    <figcaption>Photograph by CM Creative.</figcaption>
+        src="/src/assets/blog/shelby_baby.jpeg"
+        alt="Shelby sitting on a bed, holding her newborn baby while her partner and other child reach out to touch the baby's hand" />
+    <figcaption>Photograph provided by Shelby Miller.</figcaption>
 </figure>
+
 
 At this time, Compiler provided non-contributory (i.e. the company pays the premium) STDI to all employees. A reason for doing so was “this can help the birthing parent (and anyone else experiencing a short-term disability) with wage replacement in addition to what Compiler will pay as part of the parental leave because we know we can’t yet pay 100% of the employee’s wages.” All full-time employees receive non-contributory STDI and LTDI as soon as they’re hired – no tenure requirement. Do you see that’s a common theme for us? Waiting for benefits stinks.
 
