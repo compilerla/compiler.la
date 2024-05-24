@@ -42,11 +42,18 @@ There be no tenure requirement; leave and wage replacement be available immediat
 - Leave be at least 12 weeks long, the amount of time as the “fourth trimester”
 - Provide at least 50% of the employee’s regular wages during the course of the leave
 
-There was a lot happening at Compiler leading up to my due date. Many spreadsheets and forecasts and models were created to estimate how much Compiler could afford to pay someone to be away from work for X, Y, or Z number of weeks. It was tense. Compiler was a young company, and frankly, Vyki was not yet totally bought into paid parental leave, and was understandably cautious about the financial impacts. I loosely dreamed of a lofty 3-6 month leave at 100% of my pay. I quietly presented that as one of several options the company could adopt, but ultimately, and understandably, we started more modestly.
+There was a lot happening at Compiler leading up to my due date. Many spreadsheets and forecasts and models were created to estimate how much Compiler could afford to pay someone to be away from work for X, Y, or Z number of weeks. I felt tense. Compiler was a young company, and I feared Vyki was not yet totally bought into paid parental leave. She was understandably cautious about the financial impacts. I loosely dreamed of a lofty 3-6 month leave at 100% of my pay. I quietly presented that as one of several options the company could adopt, but ultimately, and understandably, we started more modestly.
 
 A common decision-making criterion used at Compiler is “let’s not provide something that we eventually need to take back. It’s better to start small and grow outward.” So that’s what we did. In my case, I enjoyed a 12-week parental leave at 50% pay. Because I live in Florida, a state with no parental leave whatsoever, there were no state funds in addition to my 50% pay from Compiler, and as explained above, no STDI benefits to supplement, either. I was grateful for the 12 weeks and 50% pay, and motivated to increase that amount of time and percentage in the future.
 
 Compiler and I verbally agreed to the above parental leave scenario, and I went on leave without an official parental leave policy being adopted. It wasn’t until April 2023, when Compiler had grown from five employees in three states to ten employees in five states, that we were reinvigorated to formally adopt a parental leave plan because a newer employee announced her pregnancy.
+
+<figure>
+    <img
+        src="/assets/blog/FirstRetreat.jpg"
+        alt="The first 5 Compiler Employees stand side-by-side in front of a garden of pink flowers" />
+    <figcaption>Photograph by CM Creative.</figcaption>
+</figure>
 
 At this time, Compiler provided non-contributory (i.e. the company pays the premium) STDI to all employees. A reason for doing so was “this can help the birthing parent (and anyone else experiencing a short-term disability) with wage replacement in addition to what Compiler will pay as part of the parental leave because we know we can’t yet pay 100% of the employee’s wages.” All full-time employees receive non-contributory STDI and LTDI as soon as they’re hired – no tenure requirement. Do you see that’s a common theme for us? Waiting for benefits stinks.
 
@@ -54,10 +61,12 @@ The patched-together first draft of the parental leave policy was dusted off, an
 
 Through the Spring and Summer, Scott and I traded emails and calls with the attorneys. They needed to know how many employees Compiler had in each state so they could determine which state requirements Compiler must legally abide by. It was determined that California’s policies were the most family- and employee-friendly and, therefore, all employees would receive those benefits. The way to do this was to create three separate policies, rather than one, so that Compiler’s policies mimicked the setup of California’s three policies (Pregnancy Disability Leave, California Family Rights Act, and Disability Insurance and/or Paid Family Leave).
 
-Compiler’s three policies are:
-- Pregnancy Disability Leave and Accommodation
-- Parental Leave (AKA Baby Bonding Leave)
-- Wage Replacement During Pregnancy Disability Leave and/or Parental Bonding Leave (AKA Wage Replacement)
+
+>Compiler’s three policies are:
+>- Pregnancy Disability Leave and Accommodation
+>- Parental Leave (AKA Baby Bonding Leave)
+>- Wage Replacement During Pregnancy Disability Leave and/or Parental Bonding Leave (AKA Wage Replacement)
+
 
 The three-policy approach was unexpected and unlike the sample policies I read and the drafts proposed. But in speaking with our attorneys, I began to understand the reasoning. The three policies complement one another, and when either of Compiler’s Leave policies are utilized by an employee, the Wage Replacement automatically kicks in.
 
