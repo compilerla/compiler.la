@@ -7,15 +7,15 @@ author: Vyki Englert, Scott Frazier, Nina Dinh, Marie Araneta
 excerpt: "Lessons learned from 2024 LA Transportation Camp."
 date:   2022-06-13 19:03:13 +0200
 categories: compiler
-—
+---
 
 Recently, four members of the Compiler team had the opportunity to attend the latest edition of UCLA’s Transportation Camp LA. Shout out to Juan Matute and the
 wonderful team at UCLA Institute for Transportation Studies for bringing together folks from advocacy, academia, and both the public and private sectors on a Saturday
 to explore what transit means to us and our broader community. Each of our team members got to participate in a variety of breakouts and we wanted to share our experiences.
 
-##Nina Dinh
+## Nina Dinh
 
-My favorite session, led by Nina Kin and Eric Dasmalchi, was titled What does your ideal Trip Planner look like?
+My favorite session, led by Nina Kin and Eric Dasmalchi, was titled "What does your ideal Trip Planner look like?"
 
 I was enticed by the title alone because I have always sensed there was a need for improvement with trip planners, but I had a tough time identifying tangible ideas.
 I hoped to hear ideas from others and I certainly did!
@@ -28,9 +28,9 @@ the way even though that may not be the most efficient route.
 
 I enjoyed hearing about Metro’s goal to consolidate their apps, and this session was a way to brainstorm. It was cool meeting the folks creating Catenary maps as well!
 
-##Marie Araneta
+## Marie Araneta
 
-During Transportation Camp 2024, I attended several interesting sessions, but the one that stood out to me the most was Phoebe Chiu’s presentation on “Public Art and Artists
+I attended several interesting sessions, but the one that stood out to me the most was Phoebe Chiu’s presentation on “Public Art and Artists
 in Residency on Transit/Street Furniture.” I found this session particularly compelling because it focused on using art as a catalyst for positive change in public transportation.
 Phoebe showcased various examples of how art has influenced public transportation infrastructure, such as a TAP card design contest at UCLA, slow street initiatives in Oakland
 and Los Angeles, and art installations at transportation facilities.
@@ -45,7 +45,7 @@ a Mexican artist whose performance art installations provoke discussions on the 
 #commutersofla transit series, in which they utilize bus shelters for community art installations. Witnessing how art could be seamlessly integrated into transportation
 initiatives in impactful ways has left me feeling inspired to seek out further opportunities for merging art and public transit.
 
-##Vyki Englert
+## Vyki Englert
 
 This was definitely not my first unconference, but it was the first in many years. I was able to lead a session on Transportation Demand Management (TDM) in the City of
 Los Angeles: What is it? Why does it matter? How do we unstick it? With about 20 folks in the room, we dove into the available materials on the City of LA Planning:
@@ -70,7 +70,7 @@ We agreed that a key need is developing shared messaging around why this is impo
 While we didn’t walk out of the room with any specific homework, I’m excited to continue these conversations with the folks I met last week. TDM is an important tool on
 our path to becoming a climate-resilient city.
 
-##Scott Frazier
+## Scott Frazier
 
 I have so much to say about this event, but I will try to keep it brief. Unlike Vyki, this was my first unconference. The first thing that was impressed upon me when I
 entered the main room was that there are lots of folks who are so passionate about transportation issues that they will spend an entire Saturday talking about them.
