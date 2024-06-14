@@ -9,7 +9,7 @@ date:   2022-06-13 19:03:13 +0200
 categories: compiler
 ---
 
-Recently, four members of the Compiler team had the opportunity to attend the latest edition of [UCLA’s Transportation Camp LA](https://www.its.ucla.edu/). Shout out 
+Recently, four members of the Compiler team had the opportunity to attend the latest edition of [UCLA’s Transportation Camp LA](https://www.its.ucla.edu/). Shout out
 to Juan Matute and the wonderful team at UCLA Institute for Transportation Studies for bringing together folks from advocacy, academia, and both the public and private sectors on a Saturday
 to explore what transit means to us and our broader community. Each of our team members got to participate in a variety of breakouts and we wanted to share our experiences.
 
