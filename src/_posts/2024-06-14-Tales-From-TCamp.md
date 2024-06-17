@@ -5,7 +5,7 @@ subtitle: "Lessons learned from 2024 LA Transportation Camp."
 description: "Lessons learned from 2024 LA Transportation Camp."
 author: Vyki Englert, Scott Frazier, Nina Dinh, Marie Araneta
 excerpt: "Lessons learned from 2024 LA Transportation Camp."
-date:   2022-06-13 19:03:13 +0200
+date: 2024-06-13 19:03:13 +0200
 categories: compiler
 ---
 
