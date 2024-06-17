@@ -13,7 +13,7 @@ Recently, four members of the Compiler team had the opportunity to attend the la
 to Juan Matute and the wonderful team at UCLA Institute for Transportation Studies for bringing together folks from advocacy, academia, and both the public and private sectors on a Saturday
 to explore what transit means to us and our broader community. Each of our team members got to participate in a variety of breakouts and we wanted to share our experiences.
 
-## Nina Dinh
+<img src="src/assets/team_members/nina-dinh.png" class="align-center w-25" alt="Watercolor illustration of Nina Dinh"> Nina
 
 My favorite session, led by Nina Kin and Eric Dasmalchi, was titled "What does your ideal Trip Planner look like?"
 
@@ -28,7 +28,7 @@ the way even though that may not be the most efficient route.
 
 I enjoyed hearing about Metro’s goal to consolidate their apps, and this session was a way to brainstorm. It was cool meeting the folks creating Catenary maps as well!
 
-## Marie Araneta
+## <img src="/assets/team_members/marie-araneta.png" class="align-center w-25" alt="Watercolor illustration of Marie Araneta"> Marie
 
 I attended several interesting sessions, but the one that stood out to me the most was Phoebe Chiu’s presentation on “Public Art and Artists
 in Residency on Transit/Street Furniture.” I found this session particularly compelling because it focused on using art as a catalyst for positive change in public transportation.
