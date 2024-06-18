@@ -1,10 +1,10 @@
 ---
 layout: blog_post
 title: "Tales from Transportation Camp"
-subtitle: "Lessons learned from 2024 LA Transportation Camp."
-description: "Lessons learned from 2024 LA Transportation Camp."
+subtitle: "The Compiler Team's key takeaways from UCLA's 2024 Transportation Camp LA."
+description: "The Compiler Team's key takeaways from UCLA's 2024 Transportation Camp LA."
 author: Vyki Englert, Scott Frazier, Nina Dinh, Marie Araneta
-excerpt: "Lessons learned from 2024 LA Transportation Camp."
+excerpt: "The Compiler Team's key takeaways from UCLA's 2024 Transportation Camp LA."
 date: 2024-06-13 19:03:13 +0200
 categories: compiler
 ---
