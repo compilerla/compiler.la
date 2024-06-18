@@ -13,7 +13,7 @@ Recently, four members of the Compiler team had the opportunity to attend the la
 to Juan Matute and the wonderful team at UCLA Institute for Transportation Studies for bringing together folks from advocacy, academia, and both the public and private sectors on a Saturday
 to explore what transit means to us and our broader community. Each of our team members got to participate in a variety of breakouts and we wanted to share our experiences.
 
-## <img src="/assets/team_members/nina-dinh.png" class="align-center w-25" alt="Watercolor illustration of Nina Dinh"> Nina
+## <img src="/src/assets/team_members/nina-dinh.png" class="align-center w-25" alt="Watercolor illustration of Nina Dinh"> Nina
 
 My favorite session, led by Nina Kin and Eric Dasmalchi, was titled "What does your ideal Trip Planner look like?"
 
@@ -45,7 +45,7 @@ a Mexican artist whose performance art installations provoke discussions on the 
 #commutersofla transit series](http://www.outfrontjcdecaux.com/), in which they utilize bus shelters for community art installations. Witnessing how art could be seamlessly integrated into transportation
 initiatives in impactful ways has left me feeling inspired to seek out further opportunities for merging art and public transit.
 
-## <img src="/assets/team_members/vyki-englert.png" class="align-center w-25" alt="Watercolor illustration of Vyki Englert"> Vyki
+## <img src="/src/assets/team_members/vyki-englert.png" class="align-center w-25" alt="Watercolor illustration of Vyki Englert"> Vyki
 
 This was definitely not my first unconference, but it was the first in many years. I was able to lead a session on Transportation Demand Management (TDM) in the City of
 Los Angeles: What is it? Why does it matter? How do we unstick it? With about 20 folks in the room, we dove into the available materials on the City of LA Planning:
@@ -69,7 +69,7 @@ We agreed that a key need is developing shared messaging around why this is impo
 While we didn’t walk out of the room with any specific homework, I’m excited to continue these conversations with the folks I met last week. TDM is an important tool on
 our path to becoming a climate-resilient city.
 
-## <img src="/assets/team_members/scott-frazier.png" class="align-center w-25" alt="Watercolor illustration of Scott Frazier"> Scott
+## <img src="/src/assets/team_members/scott-frazier.png" class="align-center w-25" alt="Watercolor illustration of Scott Frazier"> Scott
 
 I have so much to say about this event, but I will try to keep it brief. Unlike Vyki, this was my first unconference. The first thing that was impressed upon me when I
 entered the main room was that there are lots of folks who are so passionate about transportation issues that they will spend an entire Saturday talking about them.
