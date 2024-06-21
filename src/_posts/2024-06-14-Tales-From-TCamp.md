@@ -48,8 +48,8 @@ initiatives in impactful ways has left me feeling inspired to seek out further o
 ## <img src="/assets/team_members/vyki-englert.png" class="align-center w-25" alt="Watercolor illustration of Vyki Englert"> Vyki
 
 This was definitely not my first unconference, but it was the first in many years. I was able to lead a session on Transportation Demand Management (TDM) in the City of
-Los Angeles: What is it? Why does it matter? How do we unstick it? With about 20 folks in the room, we dove into the available materials on the City of LA Planning:
-Mobility Initiatives website and reviewed their published timeline. City staff presented a report with a draft ordinance and program guidelines, which was recommended
+Los Angeles: What is it? Why does it matter? How do we unstick it? With about 20 folks in the room, we dove into the available materials on the [City of LA Planning:
+Mobility Initiatives website](https://planning.lacity.gov/plans-policies/initiatives-policies/mobility) and reviewed their published timeline. City staff presented a report with a draft ordinance and program guidelines, which was recommended
 for approval by the Planning Commission in September 2022. Maybe you remember [what happened in October 2022?](https://www.latimes.com/california/story/2022-10-09/city-council-leaked-audio-nury-martinez-kevin-de-leon-gil-cedillo#:~:text=Racist%20remarks%20in%20leaked%20audio,recording%20reviewed%20by%20The%20Times.) Since then we’ve seen a lot of turnover, both in city staff
 working on the project and our elected officials – and no one seems to be sure who owns this initiative now. Officially the city website says it’s with the city
 attorney and expected to be voted on by council in spring 2023; it’s now summer 2024.
