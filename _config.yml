@@ -5,9 +5,15 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:title:output_ext
+description: |
+  Software built by humans, for humans, in LA.
+  Compiler is a woman-owned software consultancy that’s passionate about making
+  government tech solutions easy-to-use and accessible for all.
 feed:
   excerpt_only: true
   path: /blog/feed.xml
 plugins:
   - jekyll-feed
 source: ./src
+title: Compiler
+url: https://compiler.la
