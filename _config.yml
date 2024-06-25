@@ -6,6 +6,7 @@ collections:
     output: true
     permalink: /blog/:year/:title:output_ext
 feed:
+  excerpt_only: true
   path: /blog/feed.xml
 plugins:
   - jekyll-feed
