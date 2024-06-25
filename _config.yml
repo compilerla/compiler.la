@@ -5,6 +5,8 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:title:output_ext
+feed:
+  path: /blog/feed.xml
 plugins:
   - jekyll-feed
 source: ./src
