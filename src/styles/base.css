@@ -9,6 +9,7 @@
     --brand-primary-cyan: #51B1C7;
     --brand-scale-gray-3: #878787;
     --brand-scale-gray-4: #545454;
+    --brand-scale-green-1: #E7F0D9;
     --bs-primary: #88B440; /* Use with .text-primary */
     --bs-primary-rgb: 136, 180, 64;
     --bs-secondary: #51B1C7; /* Use with .text-secondary */
@@ -385,6 +386,10 @@ header {
 .bg-w-100 { /* Full-width background color, goes beyond gutter */
     margin: 0 calc(var(--bs-gutter-x) * -.5);
     padding: 0 calc(var(--bs-gutter-x) * .5);
+}
+
+.bg-brand-scale-green-1 {
+    background: var(--brand-scale-green-1);
 }
 
 .border-100 { /* Full-width border, goes beyond gutter */
