@@ -14,5 +14,7 @@ feed:
 plugins:
   - jekyll-feed
 source: ./src
-title: Compiler
+# title is used by jekyll-feed when generating the blog Atom feed
+# it isn't currently used elsewhere
+title: Compiler’s Blog
 url: https://compiler.la
