@@ -10,7 +10,6 @@ description: |
   Compiler is a woman-owned software consultancy that’s passionate about making
   government tech solutions easy-to-use and accessible for all.
 feed:
-  excerpt_only: true
   path: /blog/feed.xml
 plugins:
   - jekyll-feed
