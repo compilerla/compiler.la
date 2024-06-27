@@ -6,9 +6,11 @@ subtitle: "Searching for that perfect gift for the public service enthusiast in 
 description: "Searching for that perfect gift for the public service enthusiast in your life? Compiler’s got you covered!"
 author: Compiler Staff
 excerpt: "Eight of our favorite transit-related goodies"
-date:   2023-12-15 19:03:13 +0200
-categories: compiler
+date: 2023-12-15 19:03:13 +0200
+categories:
+  - compiler
 ---
+
 ## [1. Light Rail Snow Globe Ornament](https://shop.metro.net/collections/holiday-shop/products/light-rail-snow-globe-ornaments)
 Whoever says “I have enough ornaments, I don’t need any more” is lying! They’re lying. They want more. And they absolutely want one with an adorable little train chugging her way through a winter wonderland. (If they weren’t lying, and they don’t want this, please send it to us).
 <figure>

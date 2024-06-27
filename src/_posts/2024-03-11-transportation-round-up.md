@@ -5,8 +5,9 @@ subtitle: "Our favorite transit stories from the past year"
 description: "Our favorite transit stories from the past year"
 author: The Compiler Team
 excerpt: "The Compiler team's favorite transit stories from the past year"
-date:   2024-03-14
-categories: compiler
+date: 2024-03-14
+categories:
+  - compiler
 ---
 
 I won’t speak for all of my Compiler colleagues, but I will say that 100% of us think that public transportation

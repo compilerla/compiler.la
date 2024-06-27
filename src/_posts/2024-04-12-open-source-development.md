@@ -6,7 +6,9 @@ description: "Learn from the Compiler Team about the benefits of open source dev
 author: Milo Green
 excerpt: "Learn from the Compiler Team about the benefits of open source"
 date: 2024-04-12 00:00:00 +0200
-categories: compiler, engineering
+categories:
+  - compiler
+  - engineering
 ---
 
 <figure>

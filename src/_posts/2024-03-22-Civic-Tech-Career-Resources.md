@@ -5,8 +5,9 @@ subtitle: "Our most used resources for navigating a career in Civic Tech"
 description: "Our most used resources for navigating a career in Civic Tech"
 author: Vyki Englert and the Compiler Team
 excerpt: "Our most used resources for navigating a career in Civic Tech"
-date:   2024-03-29
-categories: compiler
+date: 2024-03-29
+categories:
+  - compiler
 ---
 
 We first put together a list like this in the summer of 2021, when we received 242 applicants for our first-ever hire, a senior software engineer.
