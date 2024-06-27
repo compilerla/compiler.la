@@ -1,79 +1,63 @@
-- name: Shelby Miller
-  title: Managing Partner
-  image: "shelby-miller.png"
-  classes: ""
-
-- name: Machiko Yasuda
-  title: Senior Software Engineer
-  image: "machiko-yasuda.png"
-  classes: ""
-
-- name: Scott Frazier
-  title: Managing Partner
-  image: "scott-frazier.png"
-  classes: ""
-
-- name: Laney Mangan
-  title: Associate Consultant, Customer Support Specialist
-  image: "laney-mangan.png"
-  classes: ""
-
-- name: Sarah Henry
-  title: UX Designer
-  image: "sarah-henry.png"
-  classes: ""
-
-- name: Vyki Englert
-  title: Managing Partner
-  image: "vyki-englert.png"
-  classes: "collapseMore collapse"
-
-- name: Olivia Ramacier
-  title: Associate Researcher, Customer Success Specialist
-  image: "olivia-ramacier.png"
-  classes: "collapseMore collapse"
+- name: Adam Linder
+  title: Account Manager
+  image: "adam-linder.png"
 
 - name: Angela Tran
   title: Senior Software Engineer
   image: "angela-tran.png"
-  classes: "collapseMore collapse"
 
 - name: Anthony Rollins
   title: Managing Partner
   image: "anthony-rollins.png"
-  classes: "collapseMore collapse"
-
-- name: Milo Green
-  title: Executive Assistant, Business Development
-  image: "milo-green.png"
-  classes: "collapseMore collapse"
 
 - name: Kegan Maher
   title: Managing Partner
   image: "kegan-maher.png"
-  classes: "collapseMore collapse"
 
-- name: Marissa Rosemblat
-  title: Product Manager
-  image: "marissa-rosemblat.png"
-  classes: "collapseMore collapse"
-
-- name: Adam Linder
-  title: Account Manager
-  image: "adam-linder.png"
-  classes: "collapseMore collapse"
-
-- name: Nina Dinh
-  title: Account Manager
-  image: "nina-dinh.png"
-  classes: "collapseMore collapse"
-
-- name: Marie Araneta
-  title: Account Manager
-  image: "marie-araneta.png"
-  classes: "collapseMore collapse"
+- name: Laney Mangan
+  title: Associate Consultant, Customer Support Specialist
+  image: "laney-mangan.png"
 
 - name: Luis Alvergue
   title: Senior Software Engineer
   image: "luis-alvergue.png"
-  classes: "collapseMore collapse"
+
+- name: Machiko Yasuda
+  title: Senior Software Engineer
+  image: "machiko-yasuda.png"
+
+- name: Marie Araneta
+  title: Account Manager
+  image: "marie-araneta.png"
+
+- name: Marissa Rosemblat
+  title: Product Manager
+  image: "marissa-rosemblat.png"
+
+- name: Milo Green
+  title: Executive Assistant, Business Development
+  image: "milo-green.png"
+
+- name: Nina Dinh
+  title: Account Manager
+  image: "nina-dinh.png"
+
+- name: Olivia Ramacier
+  title: Associate Researcher, Customer Success Specialist
+  image: "olivia-ramacier.png"
+
+- name: Sarah Henry
+  title: UX Designer
+  image: "sarah-henry.png"
+
+- name: Scott Frazier
+  title: Managing Partner
+  image: "scott-frazier.png"
+
+- name: Shelby Miller
+  title: Managing Partner
+  image: "shelby-miller.png"
+
+- name: Vyki Englert
+  title: Managing Partner
+  image: "vyki-englert.png"

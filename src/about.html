@@ -67,7 +67,7 @@ description: We build open-source, human-centered, secure, agile solutions to su
                     <span class="text-white pill border-0 ps-0 pb-md-5 mb-md-3 pb-4 mb-3 d-inline-block">Our philosophy</span>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
-                    <h2 class="text-white mb-3 mb-md-4">Empower government workers </h1>
+                    <h2 class="text-white mb-3 mb-md-4">Empower government workers</h2>
                     <p class="mb-4 pb-2">Through service design, human-centered policy, and intentional technology choices, we make government services equitable and accessible for all.</p>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -117,9 +117,12 @@ description: We build open-source, human-centered, secure, agile solutions to su
                 <div class="offset-lg-1 col-lg-10 pt-md-4 mt-md-3 pt-4">
                     <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5">
                         {% for member in site.data.team %}
-                            <div class="{{ member.classes }}">
+                            <div class="team-member">
                                 <div class="bg-white rounded">
-                                    <img class="img-fluid d-block mx-auto" src="/assets/team_members/{{ member.image }}" alt="Watercolor illustration of {{member.name}}">
+                                    <img
+                                        class="img-fluid d-block mx-auto"
+                                        src="/assets/team_members/{{ member.image }}"
+                                        alt="Watercolor illustration of {{member.name}}">
                                 </div>
                                 <h3 class="h4 pt-3 mb-1 d-inline-block text-white">{{ member.name }}</h3>
                                 <p class="fs-7 text-white">{{ member.title }}</p>
@@ -150,3 +153,27 @@ description: We build open-source, human-centered, secure, agile solutions to su
         </div>
     </div>
 </section>
+
+<script>
+    const randomizeTeam = function() {
+        // get an array of all team members
+        let members = [...document.querySelectorAll(".team-member")];
+        let currentIndex = members.length;
+        // and shuffle
+        while (currentIndex != 0) {
+            let shuffleIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+            [members[currentIndex], members[shuffleIndex]] = [members[shuffleIndex], members[currentIndex]];
+        }
+        // then override the flex order with new shuffled index
+        // hiding all but the first 5
+        members.forEach((m, i) => {
+            m.style.order = i;
+            if (i > 4) {
+                m.classList.add("collapse", "collapseMore");
+            }
+        })
+    };
+
+    randomizeTeam();
+</script>
