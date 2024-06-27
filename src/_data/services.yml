@@ -1,3 +1,19 @@
 - name: Software development
   id: software-development
   description: Agile web application development and support with data publishing needs and tools for data analysts.
+
+- name: Human-centered design
+  id: human-centered-design
+  description: User-centered design that incorporates accessibility requirements and multiple language support.
+
+- name: Data Standards development
+  id: data-standards-development
+  description: Collaborate with agencies and stakeholders to create equity and transparency through developing standards.
+
+- name: Project management
+  id: project-management
+  description: Ensure timely and efficient delivery of project goals and objectives.
+
+- name: Program development
+  id: program-development
+  description: Build teams and services from the ground up within the government.
