@@ -10,10 +10,11 @@ description: |
   Compiler is a woman-owned software consultancy that’s passionate about making
   government tech solutions easy-to-use and accessible for all.
 feed:
-  excerpt_only: true
   path: /blog/feed.xml
 plugins:
   - jekyll-feed
 source: ./src
-title: Compiler
+# title is used by jekyll-feed when generating the blog Atom feed
+# it isn't currently used elsewhere
+title: Compiler’s Blog
 url: https://compiler.la
