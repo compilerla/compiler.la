@@ -23,30 +23,30 @@ title: Our Work
 
       <div class="row">
         <div class="accordion" id="our-services-accordion">
+          {% for service in site.data.services %}
           <div class="accordion-item">
-            <h2 class="accordion-header" id="our-services-software-development">
+            <h2 class="accordion-header" id="our-services-{{ service.id }}">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapse-software-development"
+                data-bs-target="#collapse-{{ service.id  }}"
                 aria-expanded="false"
-                aria-controls="collapse-software-development"
+                aria-controls="collapse-{{ service.id }}"
               >
-                Software Development
+                {{ service.name }}
               </button>
             </h2>
             <div
-              id="collapse-software-development"
+              id="collapse-{{ service.id }}"
               class="accordion-collapse collapse"
-              aria-labelledby="our-services-software-development"
+              aria-labelledby="our-services-{{ service.id }}"
               data-bs-parent="#our-services-accordion"
             >
-              <div class="accordion-body">
-                Agile web application development and support with data publishing needs and tools for data analysts.
-              </div>
+              <div class="accordion-body">{{ service.description }}</div>
             </div>
           </div>
+          {% endfor %}
         </div>
       </div>
     </div>
