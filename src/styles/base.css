@@ -687,3 +687,11 @@ header {
     padding: 0.75rem;
     display: table-cell;
 }
+
+/* Our Work */
+
+.sign {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
