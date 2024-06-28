@@ -97,7 +97,7 @@ title: Our Work
               <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
                 {% for tag in featured_work.tags %}
                 <div class="col">
-                  <span class="pill pill-tag">{{ tag }}</span>
+                  <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
                 </div>
                 {% endfor %}
               </div>
