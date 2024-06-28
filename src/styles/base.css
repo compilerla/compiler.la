@@ -460,9 +460,14 @@ header {
     margin: 0;
 }
 
+
 @media screen and (min-width: 992px) {
     .w-md-50 {
         width: 50% !important;
+    }
+
+    .mb-lg-6 {
+        margin-bottom: calc(96rem / 16) !important;
     }
 }
 
