@@ -343,6 +343,12 @@ blockquote p {
     padding: 0.25rem 0.5rem;
 }
 
+.pill-tag {
+    font-weight: 800;
+    color: var(--brand-primary-black);
+    background-color: var(--button-primary-default);
+}
+
 /* Header */
 
 header {
