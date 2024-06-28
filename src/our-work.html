@@ -16,7 +16,47 @@ title: Our Work
   <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
   <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
 
-  <!-- What We Do -->
+  <div class="container my-5 py-md-5 py-4">
+    <div class="offset-lg-1 col-lg-10 mb-md-4">
+      <span class="text-dark pill border-0 ps-0 pb-md-5 mb-md-3 pb-4 mb-3 d-inline-block">What we do</span>
+      <h2 class="text-dark mb-4">Our services</h2>
+
+      <div class="row pb-5 mb-5">
+        <div class="accordion" id="our-services-accordion">
+          {% for service in site.data.services %}
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="our-services-{{ service.id }}">
+              <button
+                class="accordion-button fw-boldest collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-{{ service.id  }}"
+                aria-expanded="false"
+                aria-controls="collapse-{{ service.id }}"
+              >
+                {{ service.name }}
+              </button>
+            </h2>
+            <div
+              id="collapse-{{ service.id }}"
+              class="accordion-collapse collapse"
+              aria-labelledby="our-services-{{ service.id }}"
+              data-bs-parent="#our-services-accordion"
+            >
+              <div class="accordion-body">{{ service.description }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="position-relative">
+    <span class="sign">
+      <img alt="" src="/assets/illustrations/sign.svg" />
+    </span>
+  </div>
 
   <hr class="border border-100 border-black border-half opacity-100 mb-1" />
   <hr class="border border-100 border-black border-half opacity-100 mb-1" />
