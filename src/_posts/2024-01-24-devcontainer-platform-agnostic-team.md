@@ -5,8 +5,10 @@ subtitle: "Learn from the Compiler Engineering team, which has been using VS Cod
 description: "Learn from the Compiler Engineering team, which has been using VS Code Dev Containers daily across Windows, Linux and Mac on all of their projects."
 author: Machiko Yasuda
 excerpt: "Learn from the Compiler Engineering team, which has been using VS Code Dev Containers daily across Windows, Linux and Mac on all of their projects."
-date:   2024-01-24 00:00:00 +0200
-categories: compiler, engineering
+date: 2024-01-24 00:00:00 +0200
+categories:
+  - compiler
+  - engineering
 ---
 
 The Compiler Engineering team - although quite small in teammates - has engineers working on the three main operating systems in use today: Windows, Linux and Mac. That's a very different team set-up than I've personally ever worked on over the last decade in the private sector tech world - which, for me, exclusively used Apple machines. 

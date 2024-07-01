@@ -5,10 +5,10 @@ subtitle: "How a small, scrappy, California-based LLC created parental leave and
 description: "How a small, scrappy, California-based LLC created parental leave and wage replacement policies for its remote, multi-state team."
 author: Shelby Miller
 excerpt: "How a small, scrappy, California-based LLC created parental leave and wage replacement policies for its remote, multi-state team."
-date:   2024-05-17 19:03:13 +0200
-categories: compiler
+date: 2024-05-17 19:03:13 +0200
+categories:
+  - compiler
 ---
-
 
 In early May 2021, I excitedly looked forward to joining the Compiler team as its third Managing Partner (and only parent) later that month. Vyki Englert, Compiler’s co-founder, and I have known each other since our early 20s and worked together previously at a data-sharing startup. During that time, I told myself “When Vyki inevitably starts her own company, I want to work with her there.” We talked many times before I officially committed to joining Compiler. I shared that my husband and I planned to add to our family, “hopefully soon-ish, but you never know how that’s going to go, and in my case, it may take a while for a pregnancy to stick.”
 
