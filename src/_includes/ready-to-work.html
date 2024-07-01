@@ -1,0 +1,10 @@
+<div class="container my-5 py-5">
+  <div class="offset-lg-2 col-lg-8 text-center">
+    {% assign h3-text = "Ready to work together?" %} {% if include.h3-class %}
+    <h3 class="{{include.h3-class}}">{{h3-text}}</h3>
+    {% else %}
+    <h3>{{h3-text}}</h3>
+    {% endif %}
+    <a class="btn btn-primary text-center d-inline-block mt-2" target="_blank" href="mailto:hello@compiler.la">Contact us</a>
+  </div>
+</div>
