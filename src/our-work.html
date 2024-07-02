@@ -145,8 +145,8 @@ title: Our Work
         {% endfor %}
       </div>
 
-      <div class="row row-cols-1 row-cols-lg-2 g-4">
-        {% for featured_work in site.data.featured_work limit: 2 %}
+      <div class="row row-cols-1 row-cols-lg-2 g-4 mt-0">
+        {% for featured_work in site.data.featured_work limit: 2 offset: 4 %}
         <div class="col">
           <div class="card h-100 text-dark border-0">
             <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">

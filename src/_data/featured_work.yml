@@ -32,3 +32,17 @@
     - Project Management
     - Human-centered Design
     - Software Development
+
+- title: Upgrade Scenario Planning Model (SPM)
+  description: Collaborated with a diverse team to update and enhance the SPM transportation model by developing database queries and a user interface for the Southern California Association of Governments (SCAG).
+  outcome: Increased the efficiency of a PostGIS spatial query processing millions of geographic points by 70%, allowing end users to receive faster feedback and a friendlier user experience for faster data analysis.
+  tags:
+    - Software Development
+    - Human-centered Design
+
+- title: Product Schedule
+  description: Managed a research project to evaluate how well scheduling software solutions met the needs of small and rural California transit agencies. Research included conducting 30+ hours of onsite interviews with 4 agencies.
+  outcome: Deliver a research report to CalTrans summarizing research results and recommending actionable next steps to solution providers and CalTrans to provide agencies with vital scheduling resources.
+  tags:
+    - Project Management
+    - Program Development
