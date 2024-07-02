@@ -14,3 +14,21 @@
     Five vendors are capable of reading or writing ODS feeds in their software offerings. This standard is available to transit agencies to improve their scheduled transit operations. ODS v2 is in development.
   tags:
     - Data standards development
+
+- title: Data + Donuts
+  image: /assets/our_work/datadonuts.png
+  image_alt_text: An image of a logo containing a donut, where the top half displays a pie chart, and the words “Data plus sign Donuts.”
+  description: In collaboration with government partners, Compiler produced and managed monthly community events, Data + Donuts since 2017—past speakers; LA Metro, California Department of Technology (CDT), SCAG and Caltrans.
+  outcome: Successfully relaunched Data + Donuts in person after the pandemic in June 2023. We have been hosting events ever since and livestreaming them for a larger audience for those who don’t want to attend in person.
+  tags:
+    - Project Management
+
+- title: Benefits
+  image: /assets/our_work/benefits.png
+  image_alt_text: An image showing the home screen of a website called Cal-ITP Benefits, where a hand is holding a credit card using a contactless payment reader.
+  description: Developed Cal-ITP Benefits, a digital tool letting transit riders verify eligibility for a reduced fare and link the discount to their bank card so they automatically get their discount when tapping-to-pay.
+  outcome: Benefits launched at MST (Monterey Salinas Transit, CA) and two additional agencies in 2023. Currently supports Senior and Veteran discounts. Future discounts include ADA and low-income.
+  tags:
+    - Project Management
+    - Human-centered Design
+    - Software Development
