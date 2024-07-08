@@ -90,25 +90,29 @@ title: Our Work
     </div>
 
     <div class="offset-lg-1 col-lg-10 mb-md-4">
-      <div class="row row-cols-md-1 row-cols-lg-2 g-4">
+      <div class="row row-cols-1 row-cols-lg-2 g-4">
         {% for featured_work in site.data.featured_work limit: 2 %}
         <div class="col">
           <div class="card h-100 text-dark">
-            <div class="card-body p-4 m-2 pb-5 mb-3 px-lg-5 mx-lg-3 pt-lg-5 mt-lg-5 pb-lg-4 mb-lg-6">
-              {% if featured_work.tags %}
-              <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
-                {% for tag in featured_work.tags %}
-                <div class="col">
-                  <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
+            <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
+              <div class="not-outcome" style="min-height: 70%">
+                {% if featured_work.tags %}
+                <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
+                  {% for tag in featured_work.tags %}
+                  <div class="col">
+                    <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
+                  </div>
+                  {% endfor %}
                 </div>
-                {% endfor %}
+                {% endif %}
+                <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
+                <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
               </div>
-              {% endif %}
-              <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
-              <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
 
-              <h4 class="pill fs-8 p-0 mb-3 mb-lg-2 text-dark fw-boldest">Outcome</h4>
-              <p class="card-text">{{ featured_work.outcome }}</p>
+              <div class="outcome">
+                <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
+                <p class="card-text">{{ featured_work.outcome }}</p>
+              </div>
             </div>
           </div>
         </div>
