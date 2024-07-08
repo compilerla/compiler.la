@@ -95,7 +95,7 @@ title: Our Work
         <div class="col">
           <div class="card h-100 text-dark">
             <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
-              <div class="not-outcome" style="min-height: 70%">
+              <div class="min-h-70">
                 {% if featured_work.tags %}
                 <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
                   {% for tag in featured_work.tags %}
@@ -109,7 +109,7 @@ title: Our Work
                 <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
               </div>
 
-              <div class="outcome">
+              <div>
                 <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
                 <p class="card-text">{{ featured_work.outcome }}</p>
               </div>
