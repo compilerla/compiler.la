@@ -460,6 +460,9 @@ header {
     margin: 0;
 }
 
+.min-h-70 {
+    min-height: 70%;
+}
 
 @media screen and (min-width: 992px) {
     .w-md-50 {
