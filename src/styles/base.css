@@ -468,17 +468,9 @@ header {
     min-height: 40%;
 }
 
-.min-h-70 {
-    min-height: 70%;
-}
-
 @media screen and (min-width: 992px) {
     .w-md-50 {
         width: 50% !important;
-    }
-
-    .mb-lg-6 {
-        margin-bottom: calc(96rem / 16) !important;
     }
 }
 
