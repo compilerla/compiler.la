@@ -328,6 +328,14 @@ blockquote p {
     content: "See less";
 }
 
+.btn-collapse-projects[aria-expanded='false']::before {
+    content: "See more projects";
+}
+
+.btn-collapse-projects[aria-expanded='true']::before {
+    content: "See fewer projects";
+}
+
 /* Pills */
 
 .pill {

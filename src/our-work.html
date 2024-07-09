@@ -122,8 +122,10 @@ title: Our Work
       </div>
 
       <div class="row row-cols-1 g-4 mt-0">
-        {% for featured_work in site.data.featured_work limit: 2 offset: 2 %}
-        <div class="col">
+        {% for featured_work in site.data.featured_work limit: 2 offset: 2 %} {% if forloop.index0 == 0 %} {% assign class = "col"
+        %} {% else %} {% assign class = "col collapseMore collapse" %} {% endif %}
+
+        <div class="{{ class }}">
           <div class="card h-100 text-dark border-0">
             <img src="{{ featured_work.image }}" class="card-img-top" alt="{{ featured_work.image_alt_text }}" />
             <div class="card-body px-4 mx-2 p-lg-5 m-lg-2 mb-5 mb-lg-4">
@@ -149,7 +151,7 @@ title: Our Work
 
       <div class="row row-cols-1 row-cols-lg-2 g-4 mt-0">
         {% for featured_work in site.data.featured_work limit: 2 offset: 4 %}
-        <div class="col">
+        <div class="col collapseMore collapse">
           <div class="card h-100 text-dark border-0">
             <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
               <div class="min-h-40">
@@ -176,6 +178,20 @@ title: Our Work
           </div>
         </div>
         {% endfor %}
+      </div>
+      <div class="row pt-4 mt-lg-3">
+        <div class="col-lg-3">
+          <a
+            class="btn btn-primary btn-collapse-projects"
+            href="#"
+            data-bs-toggle="collapse"
+            data-bs-target=".collapseMore"
+            role="button"
+            aria-expanded="false"
+            aria-label="Toggle projects"
+            aria-controls="collapseMore"
+          ></a>
+        </div>
       </div>
     </div>
   </div>
