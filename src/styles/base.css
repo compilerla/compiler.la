@@ -343,6 +343,12 @@ blockquote p {
     padding: 0.25rem 0.5rem;
 }
 
+.pill-tag {
+    font-weight: 800;
+    color: var(--brand-primary-black);
+    background-color: var(--button-primary-default);
+}
+
 /* Header */
 
 header {
@@ -454,9 +460,17 @@ header {
     margin: 0;
 }
 
+.min-h-70 {
+    min-height: 70%;
+}
+
 @media screen and (min-width: 992px) {
     .w-md-50 {
         width: 50% !important;
+    }
+
+    .mb-lg-6 {
+        margin-bottom: calc(96rem / 16) !important;
     }
 }
 

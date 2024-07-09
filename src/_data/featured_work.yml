@@ -1,0 +1,16 @@
+- title: Customer Success Strategy
+  description: |
+    Implemented a new Customer Success program, including setting up a Customer Relationship Management (CRM) platform and assigning Account Managers to work with California Transit Agencies.
+  outcome: |
+    Launched a tiered system to provide 189 California transit agencies with a Customer Success Account Manager after successfully demoing a cohort program. CRM activity increased by 62% in 2023.
+  tags:
+    - Project management
+    - Program development
+
+- title: Operational Data Standard (ODS)
+  description: |
+    Convened the Operational Data Standards (ODS) working group to draft ODS v1, an open standard for describing scheduled transit operations by building on GTFS to include personnel and non-revenue service data.
+  outcome: |
+    Five vendors are capable of reading or writing ODS feeds in their software offerings. This standard is available to transit agencies to improve their scheduled transit operations. ODS v2 is in development.
+  tags:
+    - Data standards development

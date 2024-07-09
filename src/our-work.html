@@ -79,7 +79,47 @@ title: Our Work
 </section>
 
 <section class="bg-w-100">
-  <!-- What We've Done -->
+  <div class="container my-5 py-md-5 py-4">
+    <div class="offset-lg-1 col-lg-7">
+      <span class="pill border-0 ps-0 pb-md-5 mb-md-3 pb-4 mb-3 d-inline-block">What we've done</span>
+      <h2 class="mb-4">Featured work</h2>
+      <p class="pb-5 mb-0 pb-lg-2 mb-lg-5">
+        Explore our list of projects ranging from local, regional, and state governments. We curate a variety of technology and
+        delivery solutions for our clients and have lasting successful outcomes.
+      </p>
+    </div>
+
+    <div class="offset-lg-1 col-lg-10 mb-md-4">
+      <div class="row row-cols-1 row-cols-lg-2 g-4">
+        {% for featured_work in site.data.featured_work limit: 2 %}
+        <div class="col">
+          <div class="card h-100 text-dark">
+            <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
+              <div class="min-h-70">
+                {% if featured_work.tags %}
+                <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
+                  {% for tag in featured_work.tags %}
+                  <div class="col">
+                    <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
+                  </div>
+                  {% endfor %}
+                </div>
+                {% endif %}
+                <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
+                <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
+              </div>
+
+              <div>
+                <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
+                <p class="card-text">{{ featured_work.outcome }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="bg-w-100 bg-brand-scale-green-1">
