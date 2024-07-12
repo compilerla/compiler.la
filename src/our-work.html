@@ -13,7 +13,10 @@ title: Our Work
         to ensure their success.
       </p>
       <a class="btn btn-primary me-lg-3 mb-3 mb-lg-0" href="mailto:hello@compiler.la">Contact us</a>
-      <a class="btn btn-outline-primary" target="_blank" href="/capabilities">Capabilities statement</a>
+      <a
+        class="btn btn-outline-primary"
+        target="_blank"
+        href="/capabilities">Capabilities Statement</a>
     </div>
   </div>
 </section>
@@ -36,28 +39,26 @@ title: Our Work
         <div class="row pb-5 mb-5">
           <div class="accordion" id="our-services-accordion">
             {% for service in site.data.services %}
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="our-services-{{ service.id }}">
-                <button
-                  class="accordion-button fw-boldest collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapse-{{ service.id  }}"
-                  aria-expanded="false"
-                  aria-controls="collapse-{{ service.id }}"
-                >
-                  {{ service.name }}
-                </button>
-              </h2>
-              <div
-                id="collapse-{{ service.id }}"
-                class="accordion-collapse collapse"
-                aria-labelledby="our-services-{{ service.id }}"
-                data-bs-parent="#our-services-accordion"
-              >
-                <div class="accordion-body">{{ service.description }}</div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="our-services-{{ service.id }}">
+                  <button
+                    class="accordion-button fw-boldest collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse-{{ service.id  }}"
+                    aria-expanded="false"
+                    aria-controls="collapse-{{ service.id }}">
+                    {{ service.name }}
+                  </button>
+                </h2>
+                <div
+                  id="collapse-{{ service.id }}"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="our-services-{{ service.id }}"
+                  data-bs-parent="#our-services-accordion">
+                  <div class="accordion-body">{{ service.description }}</div>
+                </div>
               </div>
-            </div>
             {% endfor %}
           </div>
         </div>
@@ -95,91 +96,98 @@ title: Our Work
       <div class="offset-lg-1 col-lg-10 mb-md-4">
         <div class="row row-cols-1 row-cols-lg-2 g-4">
           {% for featured_work in site.data.featured_work limit: 2 %}
-          <div class="col">
-            <div class="card h-100 text-dark border-0">
-              <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
-                <div class="min-h-40">
-                  {% if featured_work.tags %}
-                  <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
-                    {% for tag in featured_work.tags %}
-                    <div class="col">
-                      <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
-                    </div>
-                    {% endfor %}
+            <div class="col">
+              <div class="card h-100 text-dark border-0">
+                <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
+                  <div class="min-h-40">
+                    {% if featured_work.tags %}
+                      <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
+                        {% for tag in featured_work.tags %}
+                          <div class="col">
+                            <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
+                          </div>
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                    <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
                   </div>
-                  {% endif %}
-                  <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
-                </div>
-                <div class="min-h-35">
-                  <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
-                </div>
+                  <div class="min-h-35">
+                    <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
+                  </div>
 
-                <div>
-                  <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
-                  <p class="card-text">{{ featured_work.outcome }}</p>
+                  <div>
+                    <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
+                    <p class="card-text">{{ featured_work.outcome }}</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
           {% endfor %}
         </div>
 
         <div class="row row-cols-1 g-4 mt-0">
-          {% for featured_work in site.data.featured_work limit: 2 offset: 2 %} {% if forloop.index0 == 0 %} {% assign class =
-          "col" %} {% else %} {% assign class = "col collapseMore collapse" %} {% endif %}
+          {% for featured_work in site.data.featured_work limit: 2 offset: 2 %}
+            {% if forloop.index0 == 0 %}
+              {% assign class = "col" %}
+            {% else %}
+              {% assign class = "col collapseMore collapse" %}
+            {% endif %}
 
-          <div class="{{ class }}">
-            <div class="card h-100 text-dark border-0">
-              <img src="{{ featured_work.image }}" class="card-img-top" alt="{{ featured_work.image_alt_text }}" />
-              <div class="card-body px-4 mx-2 p-lg-5 m-lg-2 mb-5 mb-lg-4">
-                {% if featured_work.tags %}
-                <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
-                  {% for tag in featured_work.tags %}
-                  <div class="col">
-                    <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
-                  </div>
-                  {% endfor %}
+            <div class="{{ class }}">
+              <div class="card h-100 text-dark border-0">
+                <img
+                  src="{{ featured_work.image }}"
+                  class="card-img-top"
+                  alt="{{ featured_work.image_alt_text }}" />
+                <div class="card-body px-4 mx-2 p-lg-5 m-lg-2 mb-5 mb-lg-4">
+                  {% if featured_work.tags %}
+                    <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
+                      {% for tag in featured_work.tags %}
+                        <div class="col">
+                          <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
+                        </div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                  <h3 class="card-title fw-boldest pt-5 mt-3 mb-4 mt-lg-2">{{ featured_work.title }}</h3>
+                  <p class="card-text pb-2 mb-4 pb-lg-0">{{ featured_work.description }}</p>
+
+                  <h4 class="pill fs-8 p-0 mb-3 text-dark fw-boldest">Outcome</h4>
+                  <p class="card-text">{{ featured_work.outcome }}</p>
                 </div>
-                {% endif %}
-                <h3 class="card-title fw-boldest pt-5 mt-3 mb-4 mt-lg-2">{{ featured_work.title }}</h3>
-                <p class="card-text pb-2 mb-4 pb-lg-0">{{ featured_work.description }}</p>
-
-                <h4 class="pill fs-8 p-0 mb-3 text-dark fw-boldest">Outcome</h4>
-                <p class="card-text">{{ featured_work.outcome }}</p>
               </div>
             </div>
-          </div>
           {% endfor %}
         </div>
 
         <div class="row row-cols-1 row-cols-lg-2 g-4 mt-0">
           {% for featured_work in site.data.featured_work limit: 2 offset: 4 %}
-          <div class="col collapseMore collapse">
-            <div class="card h-100 text-dark border-0">
-              <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
-                <div class="min-h-40">
-                  {% if featured_work.tags %}
-                  <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
-                    {% for tag in featured_work.tags %}
-                    <div class="col">
-                      <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
-                    </div>
-                    {% endfor %}
+            <div class="col collapseMore collapse">
+              <div class="card h-100 text-dark border-0">
+                <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
+                  <div class="min-h-40">
+                    {% if featured_work.tags %}
+                      <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
+                        {% for tag in featured_work.tags %}
+                          <div class="col">
+                            <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
+                          </div>
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                    <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
                   </div>
-                  {% endif %}
-                  <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
-                </div>
-                <div class="min-h-35">
-                  <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
-                </div>
+                  <div class="min-h-35">
+                    <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
+                  </div>
 
-                <div>
-                  <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
-                  <p class="card-text">{{ featured_work.outcome }}</p>
+                  <div>
+                    <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
+                    <p class="card-text">{{ featured_work.outcome }}</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
           {% endfor %}
         </div>
         <div class="row pt-4 mt-lg-3">
@@ -192,8 +200,7 @@ title: Our Work
               role="button"
               aria-expanded="false"
               aria-label="Toggle projects"
-              aria-controls="collapseMore"
-            ></a>
+              aria-controls="collapseMore"></a>
           </div>
         </div>
       </div>
