@@ -1,0 +1,48 @@
+- title: Customer Success Strategy
+  description: |
+    Implemented a new Customer Success program, including setting up a Customer Relationship Management (CRM) platform and assigning Account Managers to work with California Transit Agencies.
+  outcome: |
+    Launched a tiered system to provide 189 California transit agencies with a Customer Success Account Manager after successfully demoing a cohort program. CRM activity increased by 62% in 2023.
+  tags:
+    - Project management
+    - Program development
+
+- title: Operational Data Standard (ODS)
+  description: |
+    Convened the Operational Data Standards (ODS) working group to draft ODS v1, an open standard for describing scheduled transit operations by building on GTFS to include personnel and non-revenue service data.
+  outcome: |
+    Five vendors are capable of reading or writing ODS feeds in their software offerings. This standard is available to transit agencies to improve their scheduled transit operations. ODS v2 is in development.
+  tags:
+    - Data standards development
+
+- title: Data + Donuts
+  image: /assets/our_work/datadonuts.png
+  image_alt_text: An image of a logo containing a donut, where the top half displays a pie chart, and the words “Data plus sign Donuts.”
+  description: In collaboration with government partners, Compiler produced and managed monthly community events, Data + Donuts since 2017. Past speakers have included technology and policy leaders from LA Metro, California Department of Technology (CDT), the Southern California Association of Governments (SCAG), and Caltrans.
+  outcome: Successfully relaunched Data + Donuts in person after the pandemic in June 2023. We have been hosting events ever since and livestreaming them for a larger audience for those who don’t want to attend in person.
+  tags:
+    - Project Management
+
+- title: Benefits
+  image: /assets/our_work/benefits.png
+  image_alt_text: An image showing the home screen of a website called Cal-ITP Benefits, where a hand is holding a credit card using a contactless payment reader.
+  description: Designed and developed a web application that allows transit riders to digitally verify their identity, check their eligibility for reduced transit fares, and enroll their credit or debit card to automatically receive a reduced fare on transit when they tap-to-pay.
+  outcome: Monterey-Salinas Transit (MST) was the first transit operator in California to adopt the Benefits app in 2022. Santa Barbara Metropolitan Transit District (SBMTD) launched in 2023, and several more operators are expected to launch in 2024. The app supports benefits enrollment for older adults, veterans, and CalFresh cardholders. Future enrollment options include Medicare cardholders and persons with disabilities.
+  tags:
+    - Project Management
+    - Human-centered Design
+    - Software Development
+
+- title: Upgrade Scenario Planning Model (SPM)
+  description: Collaborated with a diverse team to update and enhance the SPM transportation model by developing database queries and a user interface for SCAG.
+  outcome: Increased the efficiency of a PostGIS spatial query processing millions of geographic points by 70%, allowing end users to receive faster feedback and a friendlier user experience for faster data analysis.
+  tags:
+    - Software Development
+    - Human-centered Design
+
+- title: Product Schedule
+  description: Managed a research project to evaluate how well scheduling software solutions met the needs of small and rural California transit agencies. Research included conducting 30+ hours of onsite interviews with 4 agencies.
+  outcome: Delivered a research report to Caltrans summarizing research results and recommending actionable next steps to solution providers and Caltrans to provide agencies with vital scheduling resources.
+  tags:
+    - Project Management
+    - Program Development

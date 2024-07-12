@@ -1,0 +1,237 @@
+---
+layout: default
+title: Our Work
+---
+
+<section class="row position-relative">
+  <div class="container">
+    <div class="offset-lg-1 col-lg-7 py-5 my-5 py-md-0 my-md-0">
+      <span class="pill">Our Work</span>
+      <h1 class="mt-4 mb-3">Building solutions that empower government services</h1>
+      <p class="mb-4 text-white">
+        We are committed to building open-source, accessible solutions to elevate government workers through teaching and training
+        to ensure their success.
+      </p>
+      <a class="btn btn-primary me-lg-3 mb-3 mb-lg-0" href="mailto:hello@compiler.la">Contact us</a>
+      <a
+        class="btn btn-outline-primary"
+        target="_blank"
+        href="/capabilities">Capabilities Statement</a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-w-100 position-relative bg-white">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+
+  <div class="row">
+    <div class="container my-5 py-md-5 py-4">
+      <div class="offset-lg-1 col-lg-10 mb-md-4">
+        <span class="text-dark pill border-0 ps-0 pb-md-5 mb-md-3 pb-4 mb-3 d-inline-block">What we do</span>
+        <h2 class="text-dark mb-4">Our services</h2>
+
+        <div class="row pb-5 mb-5">
+          <div class="accordion" id="our-services-accordion">
+            {% for service in site.data.services %}
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="our-services-{{ service.id }}">
+                  <button
+                    class="accordion-button fw-boldest collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse-{{ service.id  }}"
+                    aria-expanded="false"
+                    aria-controls="collapse-{{ service.id }}">
+                    {{ service.name }}
+                  </button>
+                </h2>
+                <div
+                  id="collapse-{{ service.id }}"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="our-services-{{ service.id }}"
+                  data-bs-parent="#our-services-accordion">
+                  <div class="accordion-body">{{ service.description }}</div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="position-relative">
+    <span class="sign">
+      <img alt="" src="/assets/illustrations/sign.svg" />
+    </span>
+  </div>
+
+  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
+</section>
+
+<section class="bg-w-100">
+  <div class="row">
+    <div class="container my-5 py-md-5 py-4">
+      <div class="offset-lg-1 col-lg-7">
+        <span class="pill border-0 ps-0 pb-md-5 mb-md-3 pb-4 mb-3 d-inline-block">What we've done</span>
+        <h2 class="mb-4">Featured work</h2>
+        <p class="pb-5 mb-0 pb-lg-2 mb-lg-5">
+          Explore our list of projects ranging from local, regional, and state governments. We curate a variety of technology and
+          delivery solutions for our clients and have lasting successful outcomes.
+        </p>
+      </div>
+
+      <div class="offset-lg-1 col-lg-10 mb-md-4">
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+          {% for featured_work in site.data.featured_work limit: 2 %}
+            <div class="col">
+              <div class="card h-100 text-dark border-0">
+                <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
+                  <div class="min-h-40">
+                    {% if featured_work.tags %}
+                      <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
+                        {% for tag in featured_work.tags %}
+                          <div class="col">
+                            <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
+                          </div>
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                    <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
+                  </div>
+                  <div class="min-h-35">
+                    <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
+                  </div>
+
+                  <div>
+                    <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
+                    <p class="card-text">{{ featured_work.outcome }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="row row-cols-1 g-4 mt-0">
+          {% for featured_work in site.data.featured_work limit: 2 offset: 2 %}
+            {% if forloop.index0 == 0 %}
+              {% assign class = "col" %}
+            {% else %}
+              {% assign class = "col collapseMore collapse" %}
+            {% endif %}
+
+            <div class="{{ class }}">
+              <div class="card h-100 text-dark border-0">
+                <img
+                  src="{{ featured_work.image }}"
+                  class="card-img-top"
+                  alt="{{ featured_work.image_alt_text }}" />
+                <div class="card-body px-4 mx-2 p-lg-5 m-lg-2 mb-5 mb-lg-4">
+                  {% if featured_work.tags %}
+                    <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
+                      {% for tag in featured_work.tags %}
+                        <div class="col">
+                          <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
+                        </div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                  <h3 class="card-title fw-boldest pt-5 mt-3 mb-4 mt-lg-2">{{ featured_work.title }}</h3>
+                  <p class="card-text pb-2 mb-4 pb-lg-0">{{ featured_work.description }}</p>
+
+                  <h4 class="pill fs-8 p-0 mb-3 text-dark fw-boldest">Outcome</h4>
+                  <p class="card-text">{{ featured_work.outcome }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-2 g-4 mt-0">
+          {% for featured_work in site.data.featured_work limit: 2 offset: 4 %}
+            <div class="col collapseMore collapse">
+              <div class="card h-100 text-dark border-0">
+                <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
+                  <div class="min-h-40">
+                    {% if featured_work.tags %}
+                      <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
+                        {% for tag in featured_work.tags %}
+                          <div class="col">
+                            <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
+                          </div>
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                    <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
+                  </div>
+                  <div class="min-h-35">
+                    <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
+                  </div>
+
+                  <div>
+                    <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
+                    <p class="card-text">{{ featured_work.outcome }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="row pt-4 mt-lg-3">
+          <div class="col-lg-3">
+            <a
+              class="btn btn-primary btn-collapse-projects"
+              href="#"
+              data-bs-toggle="collapse"
+              data-bs-target=".collapseMore"
+              role="button"
+              aria-expanded="false"
+              aria-label="Toggle projects"
+              aria-controls="collapseMore"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-w-100 bg-brand-scale-green-1">
+  <div class="row">
+    <div class="container my-5 py-5">
+      <div class="offset-lg-2 col-lg-8 mt-md-4 text-center">
+        <span class="text-dark pill border-0 d-inline-block px-0 pb-4 mb-3">Testimonials</span>
+      </div>
+      <div class="offset-lg-2 col-lg-8 mb-md-4 text-center">
+        <h2 class="text-dark">
+          Compiler is collaborative and adaptable. Their proficiency in their field was critical to establishing an efficient
+          workflow for analysts. Throughout their work, they care about the end-user experience.
+        </h2>
+        <h3 class="fs-6 fw-normal sans-serif text-dark d-block mt-3">
+          —JungA Uhm, Principal Modeler, Southern California Association of Governments
+        </h3>
+      </div>
+    </div>
+  </div>
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+</section>
+
+<section class="row">{% include ready-to-work.html %}</section>
