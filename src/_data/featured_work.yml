@@ -26,8 +26,8 @@
 - title: Benefits
   image: /assets/our_work/benefits.png
   image_alt_text: An image showing the home screen of a website called Cal-ITP Benefits, where a hand is holding a credit card using a contactless payment reader.
-  description: Developed Cal-ITP Benefits, a digital tool letting transit riders verify eligibility for a reduced fare and link the discount to their bank card so they automatically get their discount when tapping to pay.
-  outcome: Benefits launched at MST (Monterey Salinas Transit, CA) and two additional agencies in 2023. Currently supports Senior and Veteran discounts. Future discounts include ADA and low-income.
+  description: Designed and developed a web application that allows transit riders to digitally verify their identity, check their eligibility for reduced transit fares, and enroll their credit or debit card to automatically receive a reduced fare on transit when they tap-to-pay.
+  outcome: Monterey-Salinas Transit (MST) was the first transit operator in California to adopt the Benefits app in 2022. Santa Barbara Metropolitan Transit District (SBMTD) launched in 2023, and several more operators are expected to launch in 2024. The app supports benefits enrollment for older adults, veterans, and CalFresh cardholders. Future enrollment options include Medicare cardholders and persons with disabilities.
   tags:
     - Project Management
     - Human-centered Design
