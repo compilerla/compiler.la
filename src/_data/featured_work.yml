@@ -18,7 +18,7 @@
 - title: Data + Donuts
   image: /assets/our_work/datadonuts.png
   image_alt_text: An image of a logo containing a donut, where the top half displays a pie chart, and the words “Data plus sign Donuts.”
-  description: In collaboration with government partners, Compiler produced and managed monthly community events, Data + Donuts since 2017—past speakers; LA Metro, California Department of Technology (CDT), SCAG and Caltrans.
+  description: In collaboration with government partners, Compiler produced and managed monthly community events, Data + Donuts since 2017. Past speakers have included technology and policy leaders from LA Metro, California Department of Technology (CDT), the Southern California Association of Governments (SCAG), and Caltrans.
   outcome: Successfully relaunched Data + Donuts in person after the pandemic in June 2023. We have been hosting events ever since and livestreaming them for a larger audience for those who don’t want to attend in person.
   tags:
     - Project Management
@@ -34,7 +34,7 @@
     - Software Development
 
 - title: Upgrade Scenario Planning Model (SPM)
-  description: Collaborated with a diverse team to update and enhance the SPM transportation model by developing database queries and a user interface for the Southern California Association of Governments (SCAG).
+  description: Collaborated with a diverse team to update and enhance the SPM transportation model by developing database queries and a user interface for SCAG.
   outcome: Increased the efficiency of a PostGIS spatial query processing millions of geographic points by 70%, allowing end users to receive faster feedback and a friendlier user experience for faster data analysis.
   tags:
     - Software Development
