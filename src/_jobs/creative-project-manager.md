@@ -53,4 +53,4 @@ Support of Outreach Team
 
 ## To Apply
 
-- Send resume, brief intro and preferences for working (hours, time zone, etc) to Jeremy Dalton (jeremy@method.city) by 5pm PST Friday May 15th 2021.
+- Send resume, brief intro and preferences for working (hours, time zone, etc) to Jeremy Dalton by 5pm PST Friday May 15th 2021.
