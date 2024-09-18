@@ -6,7 +6,7 @@ description: "TBD"
 author: Laney Mangan
 excerpt: "TBD"
 date:   2024-09-20 19:03:13 +0200
-categories: 
+categories:
 - compiler
 ---
 
@@ -37,7 +37,7 @@ I've definitely grown professionally here at Compiler through observing good exa
 A book I'd recommend is "Four Thousand Weeks" by Oliver Burkeman. There are lots of books about methods and systems for using your time well, but this book instead challenges the assumption that time is even a resource to be used at all. I like that it explores an idea that can shift your entire perspective.
 
 ### Podcast you recommend?
-A podcast I'd recommend is "Don't Ask Tig." It's a comedy, advice podcast that I would listen to during a difficult time when I wasn't feeling very well, and it just made me laugh a lot. 
+A podcast I'd recommend is "Don't Ask Tig." It's a comedy, advice podcast that I would listen to during a difficult time when I wasn't feeling very well, and it just made me laugh a lot.
 
 ### What do you love about living where you live? What are some of your favorite local spots to visit?
 Where I currently live, I love that I can easily walk to a lot of things that I enjoy: there are lots of local restaurants and shops as well as the public library and a DART train station (the light-rail system in Dallas). One of my favorite spots to visit in Dallas is the Angelika Film Center right off SMU/Mockingbird Station.
@@ -47,13 +47,3 @@ The best trip in recent memory was when I went to Broken Bow, OK with my family.
 
 ### What’s your favorite memory from working with Compiler?
 One of my favorite memories from working with Compiler is when we took an Amtrak train to Monterey, CA. Although there were quite a few unexpected events, and we arrived much later than we had planned, I really did enjoy taking the scenic route and having that unique experience with the team.
-
-
-
-
-
-
-
-
-
-
