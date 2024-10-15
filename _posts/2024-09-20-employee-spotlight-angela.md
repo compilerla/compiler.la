@@ -10,7 +10,12 @@ categories:
 - compiler
 ---
 
-
+<figure>
+    <img
+        src="/assets/blog/angela-handwriting.jpg"
+        alt="Your caption goes here." />
+    <figcaption>Your caption goes here. Photograph by FIRST LAST.</figcaption>
+</figure>
 
 ### What is your role at Compiler?
 I’m a Senior Software Engineer
