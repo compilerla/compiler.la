@@ -11,7 +11,7 @@ categories:
   - engineering
 ---
 
-In my [last post](/2024/devcontainer-platform-agnostic-team), I talked about how the Compiler Engineering team uses VS Code Dev Containers for all of our projects, allowing all of us (even product managers!) to work from the same developer environment across various platforms - Mac, Linux and Windows. Whether it's a full-stack web app, a command-line utility or a simple static site, the tools necessary and steps to get started are always the same - allowing us both consistency in process but also flexibility in the actual code.
+In my [last post](/blog/2024/devcontainer-platform-agnostic-team), I talked about how the Compiler Engineering team uses VS Code Dev Containers for all of our projects, allowing all of us (even product managers!) to work from the same developer environment across various platforms - Mac, Linux and Windows. Whether it's a full-stack web app, a command-line utility or a simple static site, the tools necessary and steps to get started are always the same - allowing us both consistency in process but also flexibility in the actual code.
 
 In this post, I want to take it a step further and talk about how we apply these similar philosophies to the way we build static sites.
 
@@ -29,7 +29,7 @@ The stack:
 - Netlify for Deploy Previews and hosting
 - GitHub for custom Issue templates, GitHub Actions
 - Bootstrap with CSS variables
-- VS Code Dev Containers [for all the reasons mentioned here](/2024/devcontainer-platform-agnostic-team)
+- VS Code Dev Containers [for all the reasons mentioned here](/blog/2024/devcontainer-platform-agnostic-team)
 
 Yes, we are still using the [now 16-year old static site framework](https://jekyllrb.com/docs/history/), [Jekyll](https://jekyllrb.com/), written in Ruby, and the 14-year old CSS and JavaScript library, [Bootstrap](https://getbootstrap.com/docs/5.3/about/overview/). I use the word _still_ because I've been using these tools since I first started coding professionally 11 years ago. We deliberately made the decision to stick with Jekyll and Bootstrap because we want these sites to be easy for other teams or developers to work on.
 
