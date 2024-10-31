@@ -13,7 +13,7 @@ title: Compiler’s Blog
     </div>
     <div class="col-md-6 offset-md-3">
         <!-- Home Post List -->
-        {% for post in site.posts limit : 4 %}
+        {% for post in site.posts %}
             <article class="post-preview">
                 <a class="h3 post-title text-white text-decoration-underline d-inline-block mb-2" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                     {{ post.title }}
