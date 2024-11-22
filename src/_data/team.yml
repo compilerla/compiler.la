@@ -30,10 +30,6 @@
   title: Account Manager
   image: "marie-araneta.png"
 
-- name: Marissa Rosemblat
-  title: Product Manager
-  image: "marissa-rosemblat.png"
-
 - name: Milo Green
   title: Executive Assistant, Business Development
   image: "milo-green.png"
@@ -45,10 +41,6 @@
 - name: Olivia Ramacier
   title: Associate Researcher, Customer Success Specialist
   image: "olivia-ramacier.png"
-
-- name: Sarah Henry
-  title: UX Designer
-  image: "sarah-henry.png"
 
 - name: Scott Frazier
   title: Managing Partner
