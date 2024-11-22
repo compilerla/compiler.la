@@ -2,6 +2,10 @@
   title: Account Manager
   image: "adam-linder.png"
 
+- name: Andy Walker
+  title: Product Manager
+  image: "andy-walker.png"
+
 - name: Angela Tran
   title: Senior Software Engineer
   image: "angela-tran.png"
@@ -17,6 +21,10 @@
 - name: Laney Mangan
   title: Associate Consultant, Customer Support Specialist
   image: "laney-mangan.png"
+
+- name: Leela Singh
+  title: Senior Project Manager
+  image: "leela-singh.png"
 
 - name: Luis Alvergue
   title: Senior Software Engineer
