@@ -11,8 +11,6 @@ categories:
   - engineering
 ---
 
-# How Compiler approaches static sites
-
 In my last post, I talked about [how Compiler uses VS Code Dev Containers for our Engineering team](https://compiler.la/blog/2024/devcontainer-platform-agnostic-team), allowing all of us (even product managers!) across various platforms - Mac, Linux and Windows - to work from the same environment. Even if you did not read it, no worries, I’ll summarize it for you: Our team sets up _all_ of our projects in VS Code Dev Containers so that we all access every project in the same way, across platforms. Whether it’s a full-stack web app, a command-line utility or a simple static site, the tools necessary and steps to get started are always the same - allowing us both consistency in process and flexibility in the actual code.
 
 In this post, I want to take it a step further and talk about how we apply these similar philosophies to the way we build static sites.
