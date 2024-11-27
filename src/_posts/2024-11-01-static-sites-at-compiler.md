@@ -54,6 +54,11 @@ This site itself is coded and developed in the public on GitHub. Several months 
 
 ## A quick case study: Map edition.
 
+<figure>
+    <img src="/assets/blog/2024/2024-11-provider-map.jpg" alt="A map of California counties, labeled by how many transit providers in each county. A table of transit agency name, GTFS links and other data." />
+    <figcaption>The Cal-ITP Mobility Marketplace Provider Map is powered by weekly pull requests from a GitHub bot, configured by a custom GitHub Actions job.</figcaption>
+</figure>
+
 One of the strengths of this stack is that it allows you to set up a simple site quickly, but you can also configure it to do a lot more if you put more coding time into it. I wanted to end this post with our most complex example on another Cal-ITP site, Mobility Marketplace, and its [map of over 230+ transportation providers in California](https://www.camobilitymarketplace.org/provider-map) that automatically gets updated weekly with the latest data from a Google Cloud data warehouse.
 
 Every Monday, a pull request created by a GitHub workflow appears in my notifications, updating a single CSV file [like this](https://github.com/cal-itp/mobility-marketplace/pull/586). Sometimes the CSV has a few URLs updated, and other times, important IDs are changed. I click on the [Netlify Preview link of the map to confirm the changes](https://deploy-preview-576--cal-itp-mobility-marketplace.netlify.app/provider-map), and click Approve.
