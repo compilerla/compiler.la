@@ -5,7 +5,7 @@ subtitle: "Learn how the Engineering team combines older and reliable static sit
 description: "Learn how the Engineering team combines older and reliable static site frameworks with new build tools and an open source approach to craft memorable and functional content-driven sites."
 author: Machiko Yasuda
 excerpt: "Learn how the Engineering team combines older and reliable static site frameworks with new build tools and an open source approach to craft memorable and functional content-driven sites."
-date: 2024-10-30 00:00:00 +0200
+date: 2024-12-3 00:00:00 +0200
 categories:
   - compiler
   - engineering
