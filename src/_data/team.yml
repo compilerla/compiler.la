@@ -2,6 +2,10 @@
   title: Account Manager
   image: "adam-linder.png"
 
+- name: Andy Walker
+  title: Product Manager
+  image: "andy-walker.png"
+
 - name: Angela Tran
   title: Senior Software Engineer
   image: "angela-tran.png"
@@ -18,6 +22,10 @@
   title: Associate Consultant, Customer Support Specialist
   image: "laney-mangan.png"
 
+- name: Leela Singh
+  title: Senior Project Manager
+  image: "leela-singh.png"
+
 - name: Luis Alvergue
   title: Senior Software Engineer
   image: "luis-alvergue.png"
@@ -30,10 +38,6 @@
   title: Account Manager
   image: "marie-araneta.png"
 
-- name: Marissa Rosemblat
-  title: Product Manager
-  image: "marissa-rosemblat.png"
-
 - name: Milo Green
   title: Executive Assistant, Business Development
   image: "milo-green.png"
@@ -45,10 +49,6 @@
 - name: Olivia Ramacier
   title: Associate Researcher, Customer Success Specialist
   image: "olivia-ramacier.png"
-
-- name: Sarah Henry
-  title: UX Designer
-  image: "sarah-henry.png"
 
 - name: Scott Frazier
   title: Managing Partner
