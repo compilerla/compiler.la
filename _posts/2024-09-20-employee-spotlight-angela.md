@@ -17,6 +17,10 @@ categories:
     <figcaption>Your caption goes here. Photograph by FIRST LAST.</figcaption>
 </figure>
 
+Before we dive into our interview with Angela, we want to officially kick off our new Employee Spotlight series. We here at Compiler are immensely proud of our team and we want to publicly celebrate that by giving our readers a peek behind the curtain. This will be the first of many interviews we will share about the unique contributions, skills, and interests of each of our team members. 
+
+So, first up–meet Angela! Angela has been with Compiler since the early days. As Compiler’s fifth employee, she has helped build the Compiler engineering practices. Managing Partner, Kegan Maher, has worked with Angela from day one. “Angela combines sharp intellect with unyielding reliability, always ready to take on new and often difficult responsibilities” says Kegan, “Her genuine compassion and care for the team exemplify her outstanding contribution to our collective success.” Kegan is not alone in these thoughts, Angela is a deeply valued member of our team. Read on to get to know more about Angela. 
+
 ### What is your role at Compiler?
 I’m a Senior Software Engineer
 
