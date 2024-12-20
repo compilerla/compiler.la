@@ -1,11 +1,11 @@
 ---
 layout: blog_post
 title: "Employee Spotlight: Angela"
-subtitle: "TBD"
-description: "TBD"
+subtitle: "Get to know our Compiler team member, Angela Tran."
+description: "Get to know our Compiler team member, Angela Tran."
 author: Laney Mangan
-excerpt: "TBD"
-date: 2024-09-20 19:03:13 +0200
+excerpt: "Get to know our Compiler team member, Angela Tran."
+date: 2024-12-20 00:00:00 +0000
 categories:
   - compiler
 ---
