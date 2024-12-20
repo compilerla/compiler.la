@@ -17,10 +17,8 @@ So, first up–meet Angela! Angela has been with Compiler since the early days. 
 ---
 
 <figure>
-    <img
-        src="/assets/blog/angela-handwriting.jpg"
-        alt="Angela's name in her own handwriting." />
-    <figcaption>Angela's name in her own handwriting.</figcaption>
+    <img src="/assets/team_members/angela-tran.png" alt="Watercolor illustration of Angela Tran." />
+    <img src="/assets/blog/angela-handwriting.jpg" alt="Angela's name in her own handwriting." width="350" />
 </figure>
 
 ### What is your role at Compiler?
