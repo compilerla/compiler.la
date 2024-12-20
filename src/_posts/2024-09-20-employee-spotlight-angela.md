@@ -33,6 +33,11 @@ I’ve been with Compiler since October 2021, so about 2.5 years.
 
 The train for going somewhere far. Bicycle for the pure joy!
 
+<figure>
+  <img src="/assets/blog/2024/2024-12-bike-on-dart-train.jpg" alt="Bicycle inside a light-rail train.">
+  <figcaption>Angela's bike on a DART train going along DART's Blue Line. Photograph by Angela Tran.</figcaption>
+</figure>
+
 ### Who or what inspired you to pursue the career you have today?
 
 I had a really hard time figuring out what career path to follow as a young adult because I felt pulled in many directions. It's obvious now looking back that even from an early age, what I really enjoyed was finding patterns and helping people by making things work. In my last year of college, I realized there could be a lot of opportunities to do both of those in software engineering, and it was the first time I felt really confident about a career choice.
