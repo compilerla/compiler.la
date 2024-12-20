@@ -13,8 +13,8 @@ categories:
 <figure>
     <img
         src="/assets/blog/angela-handwriting.jpg"
-        alt="Your caption goes here." />
-    <figcaption>Your caption goes here. Photograph by FIRST LAST.</figcaption>
+        alt="Angela's name in her own handwriting." />
+    <figcaption>Angela's name in her own handwriting.</figcaption>
 </figure>
 
 Before we dive into our interview with Angela, we want to officially kick off our new Employee Spotlight series. We here at Compiler are immensely proud of our team and we want to publicly celebrate that by giving our readers a peek behind the curtain. This will be the first of many interviews we will share about the unique contributions, skills, and interests of each of our team members.
