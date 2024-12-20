@@ -23,15 +23,15 @@ So, first up–meet Angela! Angela has been with Compiler since the early days. 
 
 ### What is your role at Compiler?
 
-I’m a Senior Software Engineer
+I’m a Senior Software Engineer, working mainly on the Cal-ITP Benefits project.
 
 ### How long have you been with Compiler?
 
-I’ve been with Compiler since October 2021, so about 2.5 years.
+I’ve been with Compiler since October 2021, so we're at over 3 years now!
 
 ### What is your favorite mode of transportation and why?
 
-The train for going somewhere far. Bicycle for the pure joy!
+I really enjoy taking the train if I need to go somewhere far. This might sound odd, but I find it rather calming to just sit and ride through the scenery even if it might take longer.
 
 <figure>
   <img src="/assets/blog/2024/2024-12-bike-on-dart-train.jpg" alt="Bicycle inside a light-rail train.">
@@ -48,19 +48,21 @@ My first memory of choosing to take public transit is when I was in college. The
 
 ### How do you like to spend your free time? What are some (or one) of your hobbies?
 
-In my free time, I like going on walks, exploring new bike paths, tracking my spending, and playing music.
+In my free time, I like exploring new bike paths, tracking my spending, and of course, playing music. I've really gotten into learning drums these past few years, which I've always wanted to do, and it's been so much fun.
 
 ### How have you grown professionally while on our team?
 
-I've definitely grown professionally here at Compiler through observing good examples of giving and receiving feedback and then being able to practice them myself.
+I think I've grown in a lot of ways here at Compiler. One that especially comes to mind is my growth in working more openly and incrementally, which I think helps us all work together better. I've also seen really great examples of giving and receiving feedback and then have been able to practice them myself.
 
 ### Book you recommend?
 
-A book I'd recommend is "Four Thousand Weeks" by Oliver Burkeman. There are lots of books about methods and systems for using your time well, but this book instead challenges the assumption that time is even a resource to be used at all. I like that it explores an idea that can shift your entire perspective.
+This past year, I read "Four Thousand Weeks" by Oliver Burkeman, and it helped a lot with my perspective on time. There are lots of books about methods and systems for using your time well, but this book instead challenges the assumption that time is even a resource to be used at all. I like that it explores an idea that can shift your entire perspective.
 
 ### Podcast you recommend?
 
-A podcast I'd recommend is "Don't Ask Tig." It's a comedy, advice podcast that I would listen to during a difficult time when I wasn't feeling very well, and it just made me laugh a lot.
+"Don't Ask Tig" is a comedy, advice podcast that I would listen to during a difficult time when I wasn't feeling very well, and it just made me laugh a lot. They don't make new episodes anymore, but I still go back and listen when I'm needing something lighthearted.
+
+I also love a particular episode of the Think podcast / radio show (hosted here in Dallas!) -- [Why so many people love the suburbs](https://think.kera.org/2024/05/09/why-so-many-people-love-the-suburbs/).
 
 ### What do you love about living where you live? What are some of your favorite local spots to visit?
 
