@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <a class="d-inline-block" href="/"
     ><img width="88" height="46" src="/assets/compiler_logo_stacked.svg" alt="Compiler logo"
   /></a>
@@ -13,7 +13,18 @@
   >
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="modal fade" tabindex="-1" id="navbarToggler" aria-label="menu">
+  <div class="d-none d-lg-block container-fluid">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end">
+      {% for nav_item in site.data.nav %}
+      <li class="nav-item">
+        <a class="nav-link" href="{{ nav_item.path }}" {% if nav_item.target %} target="{{ nav_item.target }}" {% endif %}
+          >{{ nav_item.name }}</a
+        >
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="d-lg-none modal fade" tabindex="-1" id="navbarToggler" aria-label="menu">
     <div class="modal-dialog modal-fullscreen">
       <div class="modal-content">
         <div class="modal-header border-0 d-flex justify-content-end">
