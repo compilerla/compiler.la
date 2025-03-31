@@ -27,24 +27,22 @@
         <div class="modal-body">
           <div class="d-flex align-items-center h-100 offset-lg-2 col-lg-10">
             <ul class="list-unstyled">
+              {% for nav_item in site.data.nav %}
               <li>
-                <a class="h2 text-white d-inline-block mb-4 pb-2 pb-lg-0" href="/">Home</a>
+                <a
+                  class="h2 text-white d-inline-block{% unless forloop.last %} mb-4 pb-2 pb-lg-0{% endunless %}"
+                  {%
+                  if
+                  nav_item.target
+                  %}target="{{ nav_item.target }}"
+                  {%
+                  endif
+                  %}
+                  href="{{ nav_item.path }}"
+                  >{{ nav_item.name }}</a
+                >
               </li>
-              <li>
-                <a class="h2 text-white d-inline-block mb-4 pb-2 pb-lg-0" href="/about">About</a>
-              </li>
-              <li>
-                <a class="h2 text-white d-inline-block mb-4 pb-2 pb-lg-0" href="/our-work">Our Work</a>
-              </li>
-              <li>
-                <a class="h2 text-white d-inline-block mb-4 pb-2 pb-lg-0" href="/jobs">Jobs</a>
-              </li>
-              <li>
-                <a class="h2 text-white d-inline-block mb-4 pb-2 pb-lg-0" href="/blog">Blog</a>
-              </li>
-              <li>
-                <a class="h2 text-white d-inline-block" target="_blank" href="/capabilities">Capabilities Statement</a>
-              </li>
+              {% endfor %}
             </ul>
           </div>
         </div>
