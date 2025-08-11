@@ -31,7 +31,10 @@ I used to work in reality television, and then scripted television production af
 
 🤪 - I like that it's happy, whimsical, and an appropriate response to most things in this world.
 
-<img src="/assets/blog/2025/2025-08-adam-3.jpg" alt="Photo of Adam Linder." width="350">
+<figure>
+  <img src="/assets/blog/2025/2025-08-adam-3.jpg" alt="Photo of Adam Linder outside of the Little Tokyo Metro Station in LA." width="350">
+  <figcaption>Photograph by Lex Ryan.</figcaption>
+</figure>
 
 ### What Compiler philosophy do you resonate with the most? Why?
 
@@ -45,7 +48,10 @@ Since starting at Compiler I have learned so much! My mind has exploded with tra
 
 In 2016, I created a map of the Los Angeles MetroRail and "expanded" the map to show the dreams of what our system could look like if the sales tax measure slated to be on the ballot would pass that Fall. I placed my image in tandem with the current network and created a "blinking gif." That gif went viral! It was written up in local newspapers and I was even interviewed by NPR in regards to the traction it was seeing. Once that sales tax measure passed, I was contacted by the then Mayor's office and asked if I'd be interested in a potential job with them. Having _just_ started on a hit television show, I turned them down... Over the next four years I learned many lessons about life and the world around me, and after all that I still ended up working in transit! Some things truly are just meant to be.
 
-<img src="/assets/blog/2025/2025-08-adam-la-metrorail-measure-m.jpg" alt="">
+<figure>
+  <img src="/assets/blog/2025/2025-08-adam-la-metrorail-measure-m.jpg" alt="An image of the Los Angeles MetroRail 'Dream Map' created by Adam">
+  <figcaption>Image provided by Adam Linder.</figcaption>
+</figure>
 
 ### How do you like to spend your free time?
 
@@ -55,4 +61,7 @@ If I have any free time, you can catch me on the Los Angeles MetroRail. When I f
 
 EXPANDING TRANSIT! It is my number one passion, let's be honest. I truly believe there are so many social causes that are remedied by social programs, and the ability to expand those programs begins and ends with transit. I believe wealth inequality is the greatest plague to mankind, and providing access to jobs and culture to all can physically bridge the gap between the rich and the poor.
 
-<img src="/assets/blog/2025/2025-08-adam-1.jpg" alt="Photo of Adam Linder.">
+<figure>
+<img src="/assets/blog/2025/2025-08-adam-1.jpg" alt="Photo of Adam Linder outside of a Metro station wearing a 'Cars Ruin Cities' shirt and an 'LA' hat.">
+<figcaption>The photo that started it all! This photo of Adam in his 'Cars Ruin Cities' shirt was taken by Compiler Founder, Vyki Englert, right before the two of them met for the first time. She liked his shirt, told him so, and the rest is history! Photograph by Vyki Englert.</figcaption>
+</figure>
