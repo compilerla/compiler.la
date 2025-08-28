@@ -21,7 +21,7 @@ Meet Adam! Adam joined the Compiler team in April of 2024 as our Customer Succes
 
 ### How would you describe your role at Compiler?
 
-I would say that my job is to make long term connections with the businesses that provide things we need to make riding the bus or train easier for people! My hope is that by becoming friends with these people we can work together for fun new projects that help people out!
+I would say that my job is to make long-term connections with the businesses that provide things we need to make riding the bus or train easier for people! My hope is that by becoming friends with these people we can work together for fun new projects that help people out!
 
 ### Who or what inspired you to pursue the career you have today?
 
@@ -46,16 +46,21 @@ Since starting at Compiler I have learned so much! My mind has exploded with tra
 
 ### Which accomplishments are you most proud of?
 
-In 2016, I created a map of the Los Angeles MetroRail and "expanded" the map to show the dreams of what our system could look like if the sales tax measure slated to be on the ballot would pass that Fall. I placed my image in tandem with the current network and created a "blinking gif." That gif went viral! It was written up in local newspapers and I was even interviewed by NPR in regards to the traction it was seeing. Once that sales tax measure passed, I was contacted by the then Mayor's office and asked if I'd be interested in a potential job with them. Having _just_ started on a hit television show, I turned them down... Over the next four years I learned many lessons about life and the world around me, and after all that I still ended up working in transit! Some things truly are just meant to be.
+<figure>
+  <img src="/assets/blog/2025/2025-08-adam-linder-expanded-blinking-gif.gif" alt="An image of the Los Angeles MetroRail 'Dream Map' created by Adam">
+  <figcaption>An image of the Los Angeles Metro Rail, as a blinking gif, provided by Adam Linder.</figcaption>
+</figure>
+
+In 2016, I created a map of the Los Angeles Metro Rail and “expanded” the map to show the dreams of what our system could look like if the sales tax measure slated to be on the ballot would pass that Fall. I placed my image in tandem with the current network and created a “blinking gif.” That gif went viral! It was written up in local newspapers and I was even [interviewed by NPR](https://laist.com/shows/take-two/this-dream-metro-map-made-curbedla-drool) in regards to the traction it was seeing. Once that sales tax measure passed, I was contacted by the then Mayor's office and asked if I'd be interested in a potential job with them. Having _just_ started on a hit television show, I turned them down... Over the next four years I learned many lessons about life and the world around me, and after all that I still ended up working in transit! Some things truly are just meant to be.
 
 <figure>
   <img src="/assets/blog/2025/2025-08-adam-la-metrorail-measure-m.jpg" alt="An image of the Los Angeles MetroRail 'Dream Map' created by Adam">
-  <figcaption>Image provided by Adam Linder.</figcaption>
+  <figcaption>An image of the Los Angeles Metro Rail 'Dream Map' provided by Adam Linder.</figcaption>
 </figure>
 
 ### How do you like to spend your free time?
 
-If I have any free time, you can catch me on the Los Angeles MetroRail. When I first moved to LA I was so desperate to discover big city life, an escape from my Texan suburban roots. I discovered the Metro Red Line was my ticket from the San Fernando Valley all the way into Hollywood and beyond, into Downtown LA. I've hit the pavement walking all across Los Angeles just discovering new corners, small businesses, new cultures and cuisines. Anyone is welcome to join me any day!
+If I have any free time, you can catch me on the Los Angeles Metro Rail. When I first moved to LA I was so desperate to discover big city life, an escape from my Texan suburban roots. I discovered the Metro Red Line was my ticket from the San Fernando Valley all the way into Hollywood and beyond, into Downtown LA. I've hit the pavement walking all across Los Angeles just discovering new corners, small businesses, new cultures and cuisines. Anyone is welcome to join me any day!
 
 ### What’s a cause that you are passionate about?
 
