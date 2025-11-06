@@ -22,7 +22,7 @@ The current version of the website is challenging to navigate for the primary in
 
 Compiler is seeking an illustrator or designer to collaboratively create a series of images that will communicate the program vision and values of Cal-ITP alongside information intended to help transit agencies in adopting new technologies that better serve transit riders in California. The illustrations will be decorative or explanatory in nature and should convey a friendly, inclusive, and accessible tone.
 
-We are excited to partner with an illustrator on a unique visual language, however given the short timeline this project is more firm in its immediate scope the following deliverables are requested:
+We are excited to partner with an illustrator on a unique visual language, however given the short timeline this project is more firm in its immediate scope. The following deliverables are requested:
 
 - A “hero” illustration for the Home page (there is some flexibility with this one)
 - A 404 page error illustration featuring a bus or a similar “Out of Service”/transit-oriented visual
