@@ -14,6 +14,14 @@
   title: Managing Partner
   image: "anthony-rollins.png"
 
+- name: Christine Bath
+  title: Senior UI/UX Designer
+  image: "christine-bath.png"
+
+- name: John Gravois
+  title: Senior Software Engineer
+  image: "john-gravois.png"
+
 - name: Kegan Maher
   title: Managing Partner
   image: "kegan-maher.png"
@@ -30,10 +38,6 @@
   title: Senior Software Engineer
   image: "luis-alvergue.png"
 
-- name: Machiko Yasuda
-  title: Senior Software Engineer
-  image: "machiko-yasuda.png"
-
 - name: Marie Araneta
   title: Account Manager
   image: "marie-araneta.png"
@@ -49,6 +53,10 @@
 - name: Olivia Ramacier
   title: Associate Researcher, Customer Success Specialist
   image: "olivia-ramacier.png"
+
+- name: Scott Cranfill
+  title: Senior Software Engineer
+  image: "scott-cranfill.png"
 
 - name: Scott Frazier
   title: Managing Partner
