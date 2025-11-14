@@ -2,7 +2,7 @@
 layout: job_post
 title: Illustrator
 open_date: 2025-11-06
-close_date: 2025-11-30
+close_date: 2025-11-13
 type: Contract
 apply_link: https://forms.clickup.com/8631512/f/87d6r-26734/HE5IY1T2PAN9MDAXEP?Job%20Role=xxxxx
 ---
