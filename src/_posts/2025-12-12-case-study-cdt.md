@@ -18,7 +18,7 @@ To meet this urgent need, CDT engaged Compiler to support its Digital Identity (
 
 Having recently partnered with CDT on [the Cal-ITP Benefits project](https://benefits.calitp.org/help), Compiler was already familiar with the agency’s infrastructure and workflows, allowing us to mobilize within days. Our team provided both technical implementation and strategic support, ensuring that CDT’s digital recovery systems could operate reliably during an emergency while laying the groundwork for a more resilient statewide digital ecosystem in the face of future disasters.
 
-**The Challenge**
+## The Challenge
 
 CDT needed to quickly expand its digital infrastructure to support a new use case for identity verification and automate eligibility for recipients of the vital records fee waivers. With thousands displaced and essential services under pressure, the challenge was to stand up a secure online process, without overburdening existing systems or slowing down emergency response.
 
@@ -26,7 +26,7 @@ Our goal was to leverage the CA Digital IDentity Framework to facilitate safe an
 
 Working alongside CDT, the CDPH, and the Office of Data and Innovation (ODI), Compiler helped design a solution that would integrate with existing infrastructure while providing a smoother, faster experience for residents seeking free replacement vital records.
 
-**Our Approach**
+## Our Approach
 
 Compiler and CDT adopted a phased, collaborative approach focused on rapid deployment and human-centered design.
 
@@ -38,7 +38,7 @@ Compiler and CDT adopted a phased, collaborative approach focused on rapid deplo
 
 Beyond technical delivery, Compiler served as a strategic partner, advising CDT on architecture, user experience, workflow design, and long-term budget planning to ensure this emergency response could evolve into a sustainable, scalable service model.
 
-**The Results**
+## The Results
 
 Together with CDT, Compiler delivered a secure, user-friendly application that enables disaster-affected Californians to request vital records online, reducing barriers to recovery and strengthening the state's capacity for digital emergency response.
 
