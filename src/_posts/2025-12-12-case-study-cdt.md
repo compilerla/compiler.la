@@ -57,5 +57,5 @@ This work demonstrated how agile, mission-driven technology partnerships can mak
 
 **Learn More:**
 
-- Sprint Board: [github.com/orgs/compilerla/projects/6/views/12](http://github.com/orgs/compilerla/projects/6/views/12)
+- Sprint Board: [github.com/orgs/compilerla/projects/6/views/12](https://github.com/orgs/compilerla/projects/6/views/12)
 - Code Repository: [github.com/Office-of-Digital-Services/cdt-ods-disaster-recovery](https://github.com/Office-of-Digital-Services/cdt-ods-disaster-recovery)
