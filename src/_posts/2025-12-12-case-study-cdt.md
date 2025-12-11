@@ -38,6 +38,11 @@ Compiler and CDT adopted a phased, collaborative approach focused on rapid deplo
 
 Beyond technical delivery, Compiler served as a strategic partner, advising CDT on architecture, user experience, workflow design, and long-term budget planning to ensure this emergency response could evolve into a sustainable, scalable service model.
 
+<figure>
+    <img src="/assets/" alt="" />
+    <figcaption></figcaption>
+</figure>
+
 ## The Results
 
 Together with CDT, Compiler delivered a secure, user-friendly application that enables disaster-affected Californians to request vital records online, reducing barriers to recovery and strengthening the state's capacity for digital emergency response.
