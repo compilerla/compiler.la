@@ -30,11 +30,11 @@ Working alongside CDT, the CDPH, and the Office of Data and Innovation (ODI), Co
 
 Compiler and CDT adopted a phased, collaborative approach focused on rapid deployment and human-centered design.
 
-* **Stakeholder Alignment:** We brought together CDT, CDPH, and ODI to align on shared goals and workflows across infrastructure, service delivery, and user experience.
-* **Rapid Prototyping:** Within days, we developed a prototype using the CA IdG to validate technical assumptions and demonstrate feasibility.
-* **Discovery & Research:** We mapped the existing request process, identifying pain points such as inconsistent eligibility checks and offline requirements. Highlighted friction points around access to printers and the delays associated with the required notarization of paper forms.
-* **Agile Development:** Working in two-week sprints, Compiler and CDT launched the Birth Records Request Flow in June 2025, followed by Marriage Records in September and Death Records in October.
-* **Operations & Roadmap:** After launch, we helped establish monitoring and analytics, and authored a report highlighting learnings and opportunities for readiness for future disaster deployments.
+- **Stakeholder Alignment:** We brought together CDT, CDPH, and ODI to align on shared goals and workflows across infrastructure, service delivery, and user experience.
+- **Rapid Prototyping:** Within days, we developed a prototype using the CA IdG to validate technical assumptions and demonstrate feasibility.
+- **Discovery & Research:** We mapped the existing request process, identifying pain points such as inconsistent eligibility checks and offline requirements. Highlighted friction points around access to printers and the delays associated with the required notarization of paper forms.
+- **Agile Development:** Working in two-week sprints, Compiler and CDT launched the Birth Records Request Flow in June 2025, followed by Marriage Records in September and Death Records in October.
+- **Operations & Roadmap:** After launch, we helped establish monitoring and analytics, and authored a report highlighting learnings and opportunities for readiness for future disaster deployments.
 
 Beyond technical delivery, Compiler served as a strategic partner, advising CDT on architecture, user experience, workflow design, and long-term budget planning to ensure this emergency response could evolve into a sustainable, scalable service model.
 
@@ -44,13 +44,13 @@ Together with CDT, Compiler delivered a secure, user-friendly application that e
 
 Key outcomes included:
 
-* **Reduced time to apply from weeks to days:** Residents impacted by the fire can now use the new online application to submit in minutes. The previous process required mailing completed paper forms and a notary’s signature, which could take weeks for residents who are already struggling to get back on their feet. Additionally, applicants no longer need to take on the costs for printing, mailing, and notary services.
-* **Reduced time to process applications:** Auditing process and interviewing front-line staff informed the design of form fields to guide applicants to successfully submit compliant forms – staff no longer need to return to applicants to get clarifying information, which previously slowed down the review process. Time savings were also realized by moving from handwritten forms to clearly legible typed answers.
-* **Reduced to time deploy:** Building on top of the California Identity Gateway (IdG), this is the second-ever production app to leverage the California Digital Identity Framework. Built as an open source application, designed with reusable, scalable architecture, creating a foundation for both future disaster recovery applications and everyday modern digital services. This use case added address verification as a new eligibility verification type, expanding the capabilities of the CA IdG. Actionable learnings were deliverable as a report to strengthen readiness for future disaster deployments.
+- **Reduced time to apply from weeks to days:** Residents impacted by the fire can now use the new online application to submit in minutes. The previous process required mailing completed paper forms and a notary’s signature, which could take weeks for residents who are already struggling to get back on their feet. Additionally, applicants no longer need to take on the costs for printing, mailing, and notary services.
+- **Reduced time to process applications:** Auditing process and interviewing front-line staff informed the design of form fields to guide applicants to successfully submit compliant forms – staff no longer need to return to applicants to get clarifying information, which previously slowed down the review process. Time savings were also realized by moving from handwritten forms to clearly legible typed answers.
+- **Reduced to time deploy:** Building on top of the California Identity Gateway (IdG), this is the second-ever production app to leverage the California Digital Identity Framework. Built as an open source application, designed with reusable, scalable architecture, creating a foundation for both future disaster recovery applications and everyday modern digital services. This use case added address verification as a new eligibility verification type, expanding the capabilities of the CA IdG. Actionable learnings were deliverable as a report to strengthen readiness for future disaster deployments.
 
 This work demonstrated how agile, mission-driven technology partnerships can make government digital services more resilient, especially when residents need them most.
 
 **Learn More:**
 
-* Sprint Board: [github.com/orgs/compilerla/projects/6/views/12](http://github.com/orgs/compilerla/projects/6/views/12)
-* Code Repository: [github.com/Office-of-Digital-Services/cdt-ods-disaster-recovery](https://github.com/Office-of-Digital-Services/cdt-ods-disaster-recovery)
+- Sprint Board: [github.com/orgs/compilerla/projects/6/views/12](http://github.com/orgs/compilerla/projects/6/views/12)
+- Code Repository: [github.com/Office-of-Digital-Services/cdt-ods-disaster-recovery](https://github.com/Office-of-Digital-Services/cdt-ods-disaster-recovery)
