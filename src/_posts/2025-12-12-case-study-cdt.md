@@ -1,6 +1,14 @@
-# **`Case Study: Strengthening California’s Digital Disaster Recovery`**
-
-# **Supporting the California Department of Technology During the 2025 Wildfire Emergency**
+---
+layout: blog_post
+title: "Case Study: Strengthening California’s Digital Disaster Recovery"
+subtitle: "Supporting the California Department of Technology During the 2025 Wildfire Emergency"
+description: "Supporting the California Department of Technology During the 2025 Wildfire Emergency"
+author: Milo Green
+excerpt: "Supporting the California Department of Technology During the 2025 Wildfire Emergency"
+date: 2025-12-12 00:00:00 +0000
+categories:
+  - compiler
+---
 
 In January 2025, a series of catastrophic wildfires swept across Los Angeles, devastating communities and disrupting essential public services. More than 15,000 structures were destroyed, hundreds of thousands of residents were forced to evacuate, and at least 31 lives were lost. As the state mobilized to respond, the California Department of Technology (CDT) moved quickly to ensure residents could still access vital digital services during the crisis.
 
