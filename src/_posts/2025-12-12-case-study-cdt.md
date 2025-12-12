@@ -39,8 +39,7 @@ Compiler and CDT adopted a phased, collaborative approach focused on rapid deplo
 Beyond technical delivery, Compiler served as a strategic partner, advising CDT on architecture, user experience, workflow design, and long-term budget planning to ensure this emergency response could evolve into a sustainable, scalable service model.
 
 <figure>
-    <img src="/assets/blog/2025/cdrc-app.png" alt="" />
-    <figcaption></figcaption>
+    <img src="/assets/blog/2025/cdrc-app.png" alt="The digital form for requesting a new birth certificate on CA.gov, displayed on a desktop, a laptop, and a mobile device." />
 </figure>
 
 ## The Results
