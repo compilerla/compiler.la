@@ -31,7 +31,7 @@ Working alongside CDT, the CDPH, and the Office of Data and Innovation (ODI), Co
 Compiler and CDT adopted a phased, collaborative approach focused on rapid deployment and human-centered design.
 
 - **Stakeholder Alignment:** We brought together CDT, CDPH, and ODI to align on shared goals and workflows across infrastructure, service delivery, and user experience.
-- **Rapid Prototyping:** Within days, we developed a prototype using the CA IdG to validate technical assumptions and demonstrate feasibility.
+- **Rapid Prototyping:** Within days, we developed a prototype using the [California Identity Gateway (IdG)](https://digitalidstrategy.cdt.ca.gov/primary-elements.html) to validate technical assumptions and demonstrate feasibility.
 - **Discovery & Research:** We mapped the existing request process, identifying pain points such as inconsistent eligibility checks and offline requirements. Highlighted friction points around access to printers and the delays associated with the required notarization of paper forms.
 - **Agile Development:** Working in two-week sprints, Compiler and CDT launched the Birth Records Request Flow in June 2025, followed by Marriage Records in September and Death Records in October.
 - **Operations & Roadmap:** After launch, we helped establish monitoring and analytics, and authored a report highlighting learnings and opportunities for readiness for future disaster deployments.
