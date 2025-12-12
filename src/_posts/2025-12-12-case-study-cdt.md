@@ -22,7 +22,7 @@ Having recently partnered with CDT on [the Cal-ITP Benefits project](https://ben
 
 CDT needed to quickly expand its digital infrastructure to support a new use case for identity verification and automate eligibility for recipients of the vital records fee waivers. With thousands displaced and essential services under pressure, the challenge was to stand up a secure online process, without overburdening existing systems or slowing down emergency response.
 
-Our goal was to leverage the CA Digital IDentity Framework to facilitate safe and secure online service delivery. More specifically, we were to develop an application that would allow a disaster-affected Californian to complete their application for a free replacement birth certificate, marriage certificate, or death certificate issued by the California Department of Public Health (CDPH) completely online. Prior to this project, CDPH only accepted notarized paper applications from disaster-impacted residents.
+Our goal was to leverage the CA Digital Identity Framework to facilitate safe and secure online service delivery. More specifically, we were to develop an application that would allow a disaster-affected Californian to complete their application for a free replacement birth certificate, marriage certificate, or death certificate issued by the California Department of Public Health (CDPH) completely online. Prior to this project, CDPH only accepted notarized paper applications from disaster-impacted residents.
 
 Working alongside CDT, the CDPH, and the Office of Data and Innovation (ODI), Compiler helped design a solution that would integrate with existing infrastructure while providing a smoother, faster experience for residents seeking free replacement vital records.
 
