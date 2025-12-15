@@ -36,7 +36,7 @@ Compiler and CDT adopted a phased, collaborative approach focused on rapid deplo
 - **Agile Development:** Working in two-week sprints, Compiler and CDT launched the Birth Records Request Flow in June 2025, followed by Marriage Records in September and Death Records in October.
 - **Operations & Roadmap:** After launch, we helped establish monitoring and analytics, and authored a report highlighting learnings and opportunities for readiness for future disaster deployments.
 
-Beyond technical delivery, Compiler served as a strategic partner, advising CDT on architecture, user experience, workflow design, and long-term budget planning to ensure this emergency response could evolve into a sustainable, scalable service model.
+Beyond technical delivery, Compiler served as a strategic partner, advising CDT on architecture, user experience, workflow design, and long-term planning to ensure this emergency response could evolve into a sustainable, scalable service model.
 
 <figure>
     <img src="/assets/blog/2025/cdrc-app.png" alt="The digital form for requesting a new birth certificate on CA.gov, displayed on a desktop, a laptop, and a mobile device." />
@@ -50,7 +50,7 @@ Key outcomes included:
 
 - **Reduced time to apply from weeks to days:** Residents impacted by the fire can now use the new online application to submit in minutes. The previous process required mailing completed paper forms and a notary’s signature, which could take weeks for residents who are already struggling to get back on their feet. Additionally, applicants no longer need to take on the costs for printing, mailing, and notary services.
 - **Reduced time to process applications:** Auditing process and interviewing front-line staff informed the design of form fields to guide applicants to successfully submit compliant forms – staff no longer need to return to applicants to get clarifying information, which previously slowed down the review process. Time savings were also realized by moving from handwritten forms to clearly legible typed answers.
-- **Reduced to time deploy:** Building on top of the California Identity Gateway (IdG), this is the second-ever production app to leverage the California Digital Identity Framework. Built as an open source application, designed with reusable, scalable architecture, creating a foundation for both future disaster recovery applications and everyday modern digital services. This use case added address verification as a new eligibility verification type, expanding the capabilities of the CA IdG. Actionable learnings were deliverable as a report to strengthen readiness for future disaster deployments.
+- **Reduced time to deploy:** Building on top of the California Identity Gateway (IdG), this is the second-ever production app to leverage the California Digital Identity Framework. Built as an open source application, designed with reusable, scalable architecture, creating a foundation for both future disaster recovery applications and everyday modern digital services. This use case added address verification as a new eligibility verification type, expanding the capabilities of the CA IdG. Actionable learnings were deliverable as a report to strengthen readiness for future disaster deployments.
 
 This work demonstrated how agile, mission-driven technology partnerships can make government digital services more resilient, especially when residents need them most.
 
