@@ -5,7 +5,7 @@ subtitle: "Supporting the California Department of Technology During the 2025 Wi
 description: "Supporting the California Department of Technology During the 2025 Wildfire Emergency"
 author: Milo Green
 excerpt: "Supporting the California Department of Technology During the 2025 Wildfire Emergency"
-date: 2025-12-12 00:00:00 +0000
+date: 2025-12-15 00:00:00 +0000
 categories:
   - compiler
 ---
