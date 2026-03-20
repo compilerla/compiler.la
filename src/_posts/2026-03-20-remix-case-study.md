@@ -117,10 +117,10 @@ Behind every transit program are human beings trying to serve their community. A
 
 We’re optimistic that with continued support for research projects that bridge the gap between agencies and technology solutions, we can further move the needle on the data quality that riders depend on every day. We are confident that this, in turn, will translate to a substantially improved rider experience and increased access to transit services that work better for everyone.
 
-If you’d like to learn more about Compiler’s human-centered research practices or partner with us on a new project, we’d love to talk. Email hello@compiler.la to get started.
+If you’d like to learn more about Compiler’s human-centered research practices or partner with us on a new project, we’d love to talk. Email [hello@compiler.la](mailto:hello@compiler.la) to get started.
 
 ## About Compiler
 
 _Compiler is a woman-owned software consultancy. We are cyclists, pedestrians, and bus-riders and we are passionate about solving technology challenges that support a climate-resilient future. Reach out to learn more about how we can help you make sure your technology spend provides the best outcomes for your staff and users._
 
-_This project was completed under the [Technology, Digital and Data Consulting (TDDC) Master Service Agreement (MSA)](https://www.dgs.ca.gov/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/IT-Consulting-MSA-5167010) \- TDDC MSA 5-22-70-25-341._
+_This project was completed under the [Technology, Digital and Data Consulting (TDDC) Master Service Agreement (MSA)](https://www.dgs.ca.gov/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/IT-Consulting-MSA-5167010) - TDDC MSA 5-22-70-25-341._
