@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: TBD
+title: "How Compiler Research Transformed Scheduling for Smaller Transit Agencies"
 subtitle: "Learn how Compiler transformed smaller transit agency scheduling with a research-backed pilot of Remix by Via."
 description: "Learn how Compiler transformed smaller transit agency scheduling with a research-backed pilot of Remix by Via."
 author:
