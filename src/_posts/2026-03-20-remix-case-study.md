@@ -56,7 +56,7 @@ Our primary goal was to understand from staff at these agencies the specific cha
 After the Compiler team spoke with and interviewed the staff at the smaller transit agencies, we discovered four key themes that highlighted why they were struggling with scheduling.
 
 **Scheduling software is cost-prohibitive for small agencies**
-Most small agencies only change schedules one to two times per year, and staff may only need to perform a couple of required tasks per year using the software. Because of this, staff may need refresher training to perform tasks that they only do once a year. “I probably logged in about 6-7 times over the course of four months. Maybe took an hour for the big schedule change and a few minutes here and there for minor updates,” reported a team member from one of our partner agencies.
+Most small agencies only change schedules one to two times per year, and staff may only need to perform a couple of required tasks per year using the software. Because of this, staff may need refresher training to perform tasks that they only do once a year. “I probably logged in [to Remix] about 6-7 times over the course of four months. Maybe took an hour for the big schedule change and a few minutes here and there for minor updates,” said Whitney from SBCAG.
 
 **It’s hard to produce high-quality, accurate GTFS using manual processes**
 There’s a higher risk of manual error when using a process that begins in Excel and then imports into multiple tools. Also, GTFS terminology may be different across various tools, so it can be hard to keep track of the process and quality. Similarly, GTFS validation errors are complex to troubleshoot.
