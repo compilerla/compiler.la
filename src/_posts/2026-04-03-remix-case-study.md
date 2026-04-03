@@ -60,16 +60,16 @@ Our primary goal was to understand from staff at these agencies the specific cha
 
 After the Compiler team spoke with and interviewed the staff at the smaller transit agencies, we discovered four key themes that highlighted why they were struggling with scheduling.
 
-**Scheduling software is cost-prohibitive for small agencies**
+**Scheduling software is cost-prohibitive for small agencies**\
 Most small agencies only change schedules one to two times per year, and staff may only need to perform a couple of required tasks per year using the software. Because of this, staff may need refresher training to perform tasks that they only do once a year. “I probably logged in [to Remix] about 6-7 times over the course of four months. Maybe took an hour for the big schedule change and a few minutes here and there for minor updates,” said Whitney from SBCAG.
 
-**It’s hard to produce high-quality, accurate GTFS using manual processes**
+**It’s hard to produce high-quality, accurate GTFS using manual processes**\
 There’s a higher risk of manual error when using a process that begins in Excel and then imports into multiple tools. Also, GTFS terminology may be different across various tools, so it can be hard to keep track of the process and quality. Similarly, GTFS validation errors are complex to troubleshoot.
 
-**Well-designed, interoperable software can improve efficiency**
+**Well-designed, interoperable software can improve efficiency**\
 The team found that staff can complete scheduling and operational tasks more quickly and efficiently thanks to automation, and they gain new insights when they can visualize their routes and operations. “We’re trying to better understand what our contractor is doing. I thought it was really helpful to visualize our current route path because we don't really have a good way to do that in any of our existing software,” reported Claire from VCTC. Staff save time when they can do multiple scheduling tasks within one tool instead of cobbling together data using several programs.
 
-**Good help and customer support is critical for lower-usage tools**
+**Good help and customer support is critical for lower-usage tools**\
 Staff often need to search for information that they only access biannually, and they may lose time if they have to contact support in asynchronous workflows. Because of this, support requests without prompt response times or clear SLAs may cause users to abandon the task at hand or use workarounds.
 
 ## Implementing Remix by Via for a free-trial pilot
