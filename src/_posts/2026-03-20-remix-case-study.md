@@ -112,6 +112,11 @@ In-house Caltrans staff will focus on data quality, while the Compiler-staffed c
 
 The Compiler customer success team is proactively promoting the program to ensure eligible agencies are aware of this beneficial opportunity. Our team supports agencies every step of the way, — managing the intake and application process, connecting accepted agencies with the appropriate Remix resources and contacts, and providing streamlined support as they use Remix for their scheduling and operational needs.
 
+<figure>
+    <img src="/assets/blog/2026/compiler-cs-team.jpg" alt="Five members of the Compiler Customer Success team pose smiling in front of a wall of greenery." />
+    <figcaption>Our Customer Success team is standing by to help agencies onboard onto Remix. Photograph by <a href="https://lexryan.co/">Lex Ryan</a>.</figcaption>
+</figure>
+
 Internally, this program works through close coordination and collaboration across multiple partners. The Compiler-staffed customer success team collaborates with the Caltrans transit data quality team, Remix vendor representatives, and Remix program and project managers to provide a quality experience for the agencies.
 
 This is a direct win for the small agencies in California. Additionally as Remix is now available on the [State of CA Software Licensing Program (SLP)](https://www.dgs.ca.gov/PD/About/Page-Content/PD-Branch-Intro-Accordion-List/Acquisitions/Software-Licensing-Program) any state or local government can view published prices and purchase using this contract vehicle.
