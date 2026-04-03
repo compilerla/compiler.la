@@ -16,7 +16,7 @@ But it’s not just commuters who struggle with the effects of scheduling. Small
 
 ## Overview: The challenges smaller transit operators face in keeping schedules up to date
 
-On behalf of the [California Integrated Travel Project (Cal-ITP)](http://calitp.org), our research team at Compiler asked this important question to local transit agencies across California in an effort to find a solution for scheduling issues.
+On behalf of the [California Integrated Travel Project (Cal-ITP)](https://calitp.org), our research team at Compiler asked this important question to local transit agencies across California in an effort to find a solution for scheduling issues.
 
 Immediately, we found a pattern: The smaller an agency was, the more likely it was to still be creating its schedules by hand. Because smaller agencies often don’t have extra money for things like scheduling software, they instead get stuck with the tedious, time-consuming process of manually building their schedules using spreadsheets. This time-intensive and error-prone process can result in inaccurate schedules that become the frustration of many bus riders.
 
