@@ -40,6 +40,11 @@ To better understand the challenges smaller agencies are facing, Compiler conduc
 - Simi Valley Transit
 - Merced The Bus
 
+<figure>
+    <img src="/assets/blog/2026/vctc.jpg" alt="Five members of the VCTC team pose in their office in front of a blue wall with the text &quot;Keeping Ventura County Moving.&quot;" />
+    <figcaption>The VCTC team at our on-site visit during the Remix Pilot.</figcaption>
+</figure>
+
 These agencies ranged in size from nine to 50+ vehicles and covered various types of routes, from local to commuter. They consisted of a mix of urban and rural agencies, and all had varying degrees of familiarity with the end-to-end GTFS process and were all looking to streamline scheduling operations and GTFS management.
 
 ### Auditing each agency’s current situation
