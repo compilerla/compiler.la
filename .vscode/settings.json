@@ -6,8 +6,5 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "editor.tabSize": 2,
-  "files.associations": {
-    "*.html": "liquid"
-  }
+  "editor.tabSize": 2
 }

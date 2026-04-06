@@ -23,3 +23,12 @@ repos:
       - id: check-yaml
         args: ["--unsafe"]
       - id: check-added-large-files
+
+  # # TODO: we'll enable this after an initial autoformatting run is complete
+  # - repo: https://github.com/JoC0de/pre-commit-prettier
+  #   rev: v3.8.1
+  #   hooks:
+  #     - id: prettier
+  #       types_or: [css, html, liquid, markdown, yaml]
+  #       # it would be ideal to run this on 'pre-commit' too. we just havent figured out how to do it yet
+  #       stages: [commit-msg]
