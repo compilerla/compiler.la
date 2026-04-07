@@ -2,7 +2,6 @@
 layout: default
 title: Our Work
 ---
-
 <section class="row position-relative">
   <div class="container">
     <div class="offset-lg-1 col-lg-7 py-5 my-5 py-md-0 my-md-0">
@@ -16,19 +15,21 @@ title: Our Work
       <a
         class="btn btn-outline-primary"
         target="_blank"
-        href="/capabilities">Capabilities Statement</a>
+        href="/capabilities"
+        >Capabilities Statement</a
+      >
     </div>
   </div>
 </section>
 
 <section class="bg-w-100 position-relative bg-white">
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
 
   <div class="row">
     <div class="container my-5 py-md-5 py-4">
@@ -47,7 +48,8 @@ title: Our Work
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse-{{ service.id  }}"
                     aria-expanded="false"
-                    aria-controls="collapse-{{ service.id }}">
+                    aria-controls="collapse-{{ service.id }}"
+                  >
                     {{ service.name }}
                   </button>
                 </h2>
@@ -55,7 +57,8 @@ title: Our Work
                   id="collapse-{{ service.id }}"
                   class="accordion-collapse collapse"
                   aria-labelledby="our-services-{{ service.id }}"
-                  data-bs-parent="#our-services-accordion">
+                  data-bs-parent="#our-services-accordion"
+                >
                   <div class="accordion-body">{{ service.description }}</div>
                 </div>
               </div>
@@ -68,17 +71,17 @@ title: Our Work
 
   <div class="position-relative">
     <span class="sign">
-      <img alt="" src="/assets/illustrations/sign.svg" />
+      <img alt="" src="/assets/illustrations/sign.svg">
     </span>
   </div>
 
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
 </section>
 
 <section class="bg-w-100">
@@ -128,9 +131,9 @@ title: Our Work
         <div class="row row-cols-1 g-4 mt-0">
           {% for featured_work in site.data.featured_work limit: 2 offset: 2 %}
             {% if forloop.index0 == 0 %}
-              {% assign class = "col" %}
+              {% assign class = 'col' %}
             {% else %}
-              {% assign class = "col collapseMore collapse" %}
+              {% assign class = 'col collapseMore collapse' %}
             {% endif %}
 
             <div class="{{ class }}">
@@ -138,7 +141,8 @@ title: Our Work
                 <img
                   src="{{ featured_work.image }}"
                   class="card-img-top"
-                  alt="{{ featured_work.image_alt_text }}" />
+                  alt="{{ featured_work.image_alt_text }}"
+                >
                 <div class="card-body px-4 mx-2 p-lg-5 m-lg-2 mb-5 mb-lg-4">
                   {% if featured_work.tags %}
                     <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
@@ -200,7 +204,8 @@ title: Our Work
               role="button"
               aria-expanded="false"
               aria-label="Toggle projects"
-              aria-controls="collapseMore"></a>
+              aria-controls="collapseMore"
+            ></a>
           </div>
         </div>
       </div>
@@ -225,13 +230,13 @@ title: Our Work
       </div>
     </div>
   </div>
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
 </section>
 
 <section class="row">{% include ready-to-work.html %}</section>

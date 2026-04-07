@@ -22,10 +22,11 @@ I was enticed by the title alone because I have always sensed there was a need f
 I hoped to hear ideas from others and I certainly did!
 
 Two that really aligned with me:
+
 - Data on the walkability of the area. I like seeing how long the walk will take me from point A to B, but the experience of that walk varies greatly depending on how
-maintained the sidewalk is, if cars are going at high speeds next to me, or if the lighting is poor.
+  maintained the sidewalk is, if cars are going at high speeds next to me, or if the lighting is poor.
 - Better detouring capability; apps like Google and Transit have a hard time accounting for detours. If I hop off the rail, it tends to assume I want to walk the rest of
-the way even though that may not be the most efficient route.
+  the way even though that may not be the most efficient route.
 
 I enjoyed hearing about Metro’s goal to consolidate their apps, and this session was a way to brainstorm. It was cool meeting the folks creating Catenary maps as well!
 
@@ -62,6 +63,7 @@ We started with the assumption that TDM is good and that one of the best example
 Santa Monica’s program gives employers and developers an outcome-based goal for reducing single-occupancy vehicles.
 
 Together we workshopped:
+
 - Challenges: this is really wonky, how do you get folks excited about it?
 - Strategy + Tactics: tie TDM to a successful car-free Olympics, find new champions for TDM on the City Council who can get it agendized
 - Potential allies: Move LA, Parking Reform Network, Investing in Place, LA28

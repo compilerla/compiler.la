@@ -5,11 +5,12 @@ subtitle: "Follow these instructions to learn how to write a blog post, include 
 description: "Follow these instructions to learn how to write a blog post, include images, blockquotes and more."
 author: Laney Mangan
 excerpt: "Learn how to write a blog post, include images, blockquotes and more."
-date:   2023-09-24 19:03:13 +0200
+date: 2023-09-24 19:03:13 +0200
 categories: compiler
 ---
 
 ## First thing’s first
+
 ##### Let’s imagine you have a subheader paired with this section
 
 Before you start drafting your post, make sure you get your post filename and [front matter](https://jekyllrb.com/docs/front-matter/) together.
@@ -39,17 +40,16 @@ categories: compiler
 
 You can copy and paste the code snippet above to the top of your post. You will have to change some of the values, and this table will show you what key/value pairs to change, and what to keep the same:
 
-| Key     | Value                                                                                                                                                                                        | notes                                                             |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| `layout`     | `blog_post`                                                                                                                                                                                      | required - do not change                                                            |
-| `title`      | Appears on post page. Come up with your own.                                                                                                                                                          | required                                                             |
-| `subtitle`   | Appears on post page. Come up with your own.                                                                                                                          | optional                                                             |
-| `description`   | Appears on social media, Slack link previews.                                                                                                                          | required
-| `author`     | Your Name                                                                                                                                                                                     | First and last name. Can include multiple people, like "Laney Mangan and Olivia Ramacier" |
-| `excerpt`    | Appears on main blog page. Come up with your own. | required                                                             |
-| `date`      | 2023-09-01 19:03:13 +0200                                                                                                                                                                        | if it’s in the future, it won’t be published                         |
-| `categories` | compiler                                                                                                                                                                                         | required                                                             |
-
+| Key           | Value                                             | notes                                                                                     |
+| ------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `layout`      | `blog_post`                                       | required - do not change                                                                  |
+| `title`       | Appears on post page. Come up with your own.      | required                                                                                  |
+| `subtitle`    | Appears on post page. Come up with your own.      | optional                                                                                  |
+| `description` | Appears on social media, Slack link previews.     | required                                                                                  |
+| `author`      | Your Name                                         | First and last name. Can include multiple people, like "Laney Mangan and Olivia Ramacier" |
+| `excerpt`     | Appears on main blog page. Come up with your own. | required                                                                                  |
+| `date`        | 2023-09-01 19:03:13 +0200                         | if it’s in the future, it won’t be published                                              |
+| `categories`  | compiler                                          | required                                                                                  |
 
 <p class="pt-3">It can be difficult to write a succinct title and/or subtitle. Feel free to ask an editor for help.
 
@@ -59,9 +59,10 @@ Once you’ve written the front matter, you’re ready to dive into the main par
 
 If this is your first time writing for the web, you will need to take a few minutes to familiarize yourself [Markdown syntax](https://www.markdownguide.org/basic-syntax/). Don’t worry - you do not need to memorize it or understand all of it. You only need what you will be using.
 
-What writing in Markdown entails is writing a bit of code. Instead of using a graphical content editor like you are used to in Google Docs or your e-mail composer, you will have to write a bit of code to make a word **bold** (like this: `**bold**`) or *italics* (like this: `_italics_`). Developers tend to like writing in Markdown, because it allows people to write and format without having to use a mouse and click on icons. The resulting files tend to be easier to store and display on the web as well.
+What writing in Markdown entails is writing a bit of code. Instead of using a graphical content editor like you are used to in Google Docs or your e-mail composer, you will have to write a bit of code to make a word **bold** (like this: `**bold**`) or _italics_ (like this: `_italics_`). Developers tend to like writing in Markdown, because it allows people to write and format without having to use a mouse and click on icons. The resulting files tend to be easier to store and display on the web as well.
 
 Here is a short but comprehensive list of the Markdown you may need for your post, aside from bolding and italicizing:
+
 - **Section titles** - Using [the `##` syntax](https://www.markdownguide.org/basic-syntax/#headings). (It’s a good practice to always have at least 2.)
 - **Section sub-titles** - Using [the `###` syntax](https://www.markdownguide.org/basic-syntax/#headings). (It’s a good practice to always have at least 2. You cannot have a sub-title without a section title.)
 - **One blockquote** - Using [`>` syntax](https://www.markdownguide.org/basic-syntax/#blockquotes-1).

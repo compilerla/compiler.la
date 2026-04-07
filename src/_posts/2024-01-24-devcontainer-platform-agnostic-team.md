@@ -50,7 +50,6 @@ Although I was nervous about joining a team without other Mac engineers and usin
 
 For a more basic step-by-step tutorial, refer to the official [VS Code Dev Containers tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial) and the official [development container spec](https://containers.dev/overview). For more technical detail on Compiler’s specific implementation of Dev Containers for the Benefits application, refer to the application documentation on [Docker dynamic ports](https://docs.calitp.org/benefits/development/docker-dynamic-ports/) and [working with Dev Containers](https://docs.calitp.org/benefits/development/).
 
-
 ## Benefits of a platform-agnostic team
 
 The benefits of having all engineers running and writing code from the same containerized environment and using the same code editor are quite clear: Less configuration headache when one engineer’s local environment has a seemingly un-replicable bug. But as I learned as I kept working on the Compiler team, I could see even more benefits of having this kind of environment supporting a team that has engineers using all major operating platforms.
