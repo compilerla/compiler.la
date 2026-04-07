@@ -13,6 +13,8 @@
   },
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve"
+    "start": "npx @11ty/eleventy --serve",
+    "lint:check": "npx prettier --check src",
+    "lint:fix": "npx prettier --write src"
   }
 }
