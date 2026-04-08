@@ -57,7 +57,7 @@ crossorigin="anonymous"
     const DateTime = luxon.DateTime;
     const now = DateTime.now();
 
-    const job = {% include "job-json.html" job=page %};
+    const job = {% include "job-json.html" job:page %};
     const open_date = DateTime.fromISO(job.open_date).startOf("day");
     const close_date = DateTime.fromISO(job.close_date).endOf("day");
 
