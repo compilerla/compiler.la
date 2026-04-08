@@ -2,12 +2,15 @@
 <html lang="en">
 
 <head>
+    {% comment %}
+    TODO: resolve "unexpected 'if page.title'" error
     {% if layout.title_prefix %}
     {% assign title = layout.title_prefix | append: " " | append: page.title %}
     {% else if page.title %}
     {% assign title = page.title %}
     <meta name="og:title" name="title" content="{{ page.title }}">
     {% endif %}
+    {% endcomment %}
 
     <title>{{ title | default: "Compiler"}} </title>
 
