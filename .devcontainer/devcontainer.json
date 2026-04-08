@@ -22,7 +22,8 @@
         "esbenp.prettier-vscode",
         "mhutchie.git-graph",
         "redhat.vscode-xml",
-        "Shopify.theme-check-vscode"
+        "Shopify.theme-check-vscode",
+        "tombi-toml.tombi"
       ]
     }
   }
