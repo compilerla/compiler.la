@@ -5,7 +5,7 @@ subtitle: "Get to know our Compiler team member, Adam Linder."
 description: "Get to know our Compiler team member, Adam Linder."
 author: Laney Mangan and Adam Linder
 excerpt: "Get to know our Compiler team member, Adam Linder."
-date: 2025-08-08 00:00:00 +0000
+date: 2025-08-08T00:00:00+0000
 categories:
   - compiler
 ---
