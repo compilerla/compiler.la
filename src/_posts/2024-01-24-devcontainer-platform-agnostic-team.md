@@ -5,7 +5,7 @@ subtitle: "Learn from the Compiler Engineering team, which has been using VS Cod
 description: "Learn from the Compiler Engineering team, which has been using VS Code Dev Containers daily across Windows, Linux and Mac on all of their projects."
 author: Machiko Yasuda
 excerpt: "Learn from the Compiler Engineering team, which has been using VS Code Dev Containers daily across Windows, Linux and Mac on all of their projects."
-date: 2024-01-24 00:00:00 +0200
+date: 2024-01-24T00:00:00+0200
 categories:
   - compiler
   - engineering
@@ -49,7 +49,6 @@ Running all of the Pytests is also just a two-click endeavor: Click the `Testing
 Although I was nervous about joining a team without other Mac engineers and using Visual Studio Code for the first time, being in this containerized developer environment and having both debugging and testing built in to the editor has been a time-saving and stress-relieving work environment. The Engineering team uses this Dev Container set up for all of our projects, including internal Compiler projects like this website itself as well, which, by the way, is [open source on GitHub](https://github.com/compilerla/compiler.la/).
 
 For a more basic step-by-step tutorial, refer to the official [VS Code Dev Containers tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial) and the official [development container spec](https://containers.dev/overview). For more technical detail on Compiler’s specific implementation of Dev Containers for the Benefits application, refer to the application documentation on [Docker dynamic ports](https://docs.calitp.org/benefits/development/docker-dynamic-ports/) and [working with Dev Containers](https://docs.calitp.org/benefits/development/).
-
 
 ## Benefits of a platform-agnostic team
 
