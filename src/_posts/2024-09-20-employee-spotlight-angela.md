@@ -5,7 +5,7 @@ subtitle: "Get to know our Compiler team member, Angela Tran."
 description: "Get to know our Compiler team member, Angela Tran."
 author: Laney Mangan and Angela Tran
 excerpt: "Get to know our Compiler team member, Angela Tran."
-date: 2024-12-20 00:00:00 +0000
+date: 2024-12-20T00:00:00+0000
 categories:
   - compiler
 ---

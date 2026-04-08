@@ -5,7 +5,7 @@ subtitle: "How a small, scrappy, California-based LLC created parental leave and
 description: "How a small, scrappy, California-based LLC created parental leave and wage replacement policies for its remote, multi-state team."
 author: Shelby Miller
 excerpt: "How a small, scrappy, California-based LLC created parental leave and wage replacement policies for its remote, multi-state team."
-date: 2024-05-17 19:03:13 +0200
+date: 2024-05-17T19:03:13+0200
 categories:
   - compiler
 ---
@@ -20,7 +20,6 @@ The week before I started the job, I bewilderedly looked down at two lines on a 
         alt="The first 5 Compiler Employees stand side-by-side in front of a garden of pink flowers" />
     <figcaption>Photograph by CM Creative.</figcaption>
 </figure>
-
 
 Unsure if the pregnancy would last, I started the job and kept my pregnancy quiet. Weeks later, more confident that “yep, we’re having another baby,” I nervously told Vyki on a video call. Her response? “Whoa! You said you wanted another baby! Okay, your next major assignment is to write Compiler’s parental leave policy!” And thus began a two-year, eye-opening, mind-boggling, rewarding endeavor.
 
@@ -39,6 +38,7 @@ Fortunately, Compiler is a member of a PEO (professional employer organization).
 After reading multiple sample policies and language from SHRM, the PEO, and elsewhere, I took my favorite parts from each and patched them together to create Compiler’s first draft of a parental leave policy. Of highest importance was, and is:
 
 There be no tenure requirement; leave and wage replacement be available immediately to all full-time employees
+
 - Offer the same parental leave benefits to everyone, regardless of where they live. Identify the state with the requirements friendliest to the employee, and apply them to all employees
 - Leave be at least 12 weeks long, the amount of time as the “fourth trimester”
 - Provide at least 50% of the employee’s regular wages during the course of the leave
@@ -56,19 +56,17 @@ Compiler and I verbally agreed to the above parental leave scenario, and I went 
     <figcaption>Photograph provided by Shelby Miller.</figcaption>
 </figure>
 
-
 At this time, Compiler provided non-contributory (i.e. the company pays the premium) STDI to all employees. A reason for doing so was “this can help the birthing parent (and anyone else experiencing a short-term disability) with wage replacement in addition to what Compiler will pay as part of the parental leave because we know we can’t yet pay 100% of the employee’s wages.” All full-time employees receive non-contributory STDI and LTDI as soon as they’re hired – no tenure requirement. Do you see that’s a common theme for us? Waiting for benefits stinks.
 
 The patched-together first draft of the parental leave policy was dusted off, and Compiler’s fourth Managing Partner, Scott Frazier (also a parent!), joined the effort to finalize the policy. In March 2023, we accomplished two major milestones: 1) the draft was shared with Compiler’s employees, along with an invitation to review and provide input, and 2) the draft was sent to Compiler’s California-based attorneys for their feedback.
 
 Through the Spring and Summer, Scott and I traded emails and calls with the attorneys. They needed to know how many employees Compiler had in each state so they could determine which state requirements Compiler must legally abide by. It was determined that California’s policies were the most family- and employee-friendly and, therefore, all employees would receive those benefits. The way to do this was to create three separate policies, rather than one, so that Compiler’s policies mimicked the setup of California’s three policies (Pregnancy Disability Leave, California Family Rights Act, and Disability Insurance and/or Paid Family Leave).
 
-
->Compiler’s three policies are:
->- Pregnancy Disability Leave and Accommodation
->- Parental Leave (AKA Baby Bonding Leave)
->- Wage Replacement During Pregnancy Disability Leave and/or Parental Bonding Leave (AKA Wage Replacement)
-
+> Compiler’s three policies are:
+>
+> - Pregnancy Disability Leave and Accommodation
+> - Parental Leave (AKA Baby Bonding Leave)
+> - Wage Replacement During Pregnancy Disability Leave and/or Parental Bonding Leave (AKA Wage Replacement)
 
 The three-policy approach was unexpected and unlike the sample policies I read and the drafts proposed. But in speaking with our attorneys, I began to understand the reasoning. The three policies complement one another, and when either of Compiler’s Leave policies are utilized by an employee, the Wage Replacement automatically kicks in.
 
