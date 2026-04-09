@@ -3,8 +3,8 @@
   "version": "2.0.0",
   "description": "Software built by humans, for humans, in LA",
   "author": "Compiler",
-  "license": "AGPL-3.0-or-later",
   "type": "module",
+  "license": "AGPL-3.0-or-later",
   "private": true,
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
@@ -13,6 +13,8 @@
   },
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve"
+    "start": "npx @11ty/eleventy --serve",
+    "lint:check": "npx prettier --check .",
+    "lint:fix": "npx prettier --write ."
   }
 }

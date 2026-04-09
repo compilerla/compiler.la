@@ -31,4 +31,7 @@ repos:
   #     - id: prettier
   #       types_or: [css, html, liquid, markdown, yaml]
   #       # it would be ideal to run this on 'pre-commit' too. we just havent figured out how to do it yet
-  #       stages: [commit-msg]
+  #       additional_dependencies:
+  #         - prettier@3.8.1
+  #         - '@shopify/prettier-plugin-liquid@1.10.2'
+  #       types_or: [css, html, javascript, json, liquid, markdown, yaml]
