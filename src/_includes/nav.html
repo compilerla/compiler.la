@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <a class="d-inline-block" href="/"
     ><img width="88" height="46" src="/assets/compiler_logo_stacked.svg" alt="Compiler logo"
   /></a>
@@ -13,7 +13,30 @@
   >
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="modal fade" tabindex="-1" id="navbarToggler" aria-label="menu">
+  <div class="d-none d-lg-block container-fluid">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end">
+      {% for nav_item in site.data.nav %}
+      <li class="nav-item">
+        {% assign current_path = page.url | remove:".html" %}
+        <a
+          class="nav-link{% if nav_item.path == current_path %} active"
+          aria-current="page{% endif %}"
+          href="{{ nav_item.path }}"
+          {%
+          if
+          nav_item.target
+          %}
+          target="{{ nav_item.target }}"
+          {%
+          endif
+          %}
+          >{{ nav_item.name }}</a
+        >
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="d-lg-none modal fade" tabindex="-1" id="navbarToggler" aria-label="menu">
     <div class="modal-dialog modal-fullscreen">
       <div class="modal-content">
         <div class="modal-header border-0 d-flex justify-content-end">
@@ -27,24 +50,22 @@
         <div class="modal-body">
           <div class="d-flex align-items-center h-100 offset-lg-2 col-lg-10">
             <ul class="list-unstyled">
+              {% for nav_item in site.data.nav %}
               <li>
-                <a class="h2 text-white d-inline-block mb-4 pb-2 pb-lg-0" href="/">Home</a>
+                <a
+                  class="h2 text-white d-inline-block{% unless forloop.last %} mb-4 pb-2 pb-lg-0{% endunless %}"
+                  {%
+                  if
+                  nav_item.target
+                  %}target="{{ nav_item.target }}"
+                  {%
+                  endif
+                  %}
+                  href="{{ nav_item.path }}"
+                  >{{ nav_item.name }}</a
+                >
               </li>
-              <li>
-                <a class="h2 text-white d-inline-block mb-4 pb-2 pb-lg-0" href="/about">About</a>
-              </li>
-              <li>
-                <a class="h2 text-white d-inline-block mb-4 pb-2 pb-lg-0" href="/our-work">Our Work</a>
-              </li>
-              <li>
-                <a class="h2 text-white d-inline-block mb-4 pb-2 pb-lg-0" href="/jobs">Jobs</a>
-              </li>
-              <li>
-                <a class="h2 text-white d-inline-block mb-4 pb-2 pb-lg-0" href="/blog">Blog</a>
-              </li>
-              <li>
-                <a class="h2 text-white d-inline-block" target="_blank" href="/capabilities">Capabilities Statement</a>
-              </li>
+              {% endfor %}
             </ul>
           </div>
         </div>
