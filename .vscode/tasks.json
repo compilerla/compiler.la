@@ -1,47 +1,47 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Jekyll: Build Dev",
-            "detail": "jekyll serve --force_polling --livereload",
-            "type": "shell",
-            "linux": {
-                "command": "bundle exec jekyll serve --force_polling --livereload"
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
-            }
-        },
-        {
-            "label": "Jekyll: Build Dev with Drafts",
-            "detail": "jekyll serve --force_polling --livereload --drafts",
-            "type": "shell",
-            "linux": {
-                "command": "bundle exec jekyll serve --force_polling --livereload --drafts"
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
-            }
-        }
-    ]
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Jekyll: Build Dev",
+      "detail": "jekyll serve --force_polling --livereload",
+      "type": "shell",
+      "linux": {
+        "command": "bundle exec jekyll serve --force_polling --livereload"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      }
+    },
+    {
+      "label": "Jekyll: Build Dev with Drafts",
+      "detail": "jekyll serve --force_polling --livereload --drafts",
+      "type": "shell",
+      "linux": {
+        "command": "bundle exec jekyll serve --force_polling --livereload --drafts"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      }
+    }
+  ]
 }
