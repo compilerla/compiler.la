@@ -17,12 +17,10 @@ people through their lives. So, like I said, we think public transportation is i
 frustrating, sometimes surprising, often exciting, and at times, an all-around adventure. So, we took some time to reflect on our
 most notable transit adventures from the past year. Read on for a few of the Compiler team's recent travel stories.
 
-
 ## <img src="/assets/blog/jessica-sullivan.png" class="align-center w-25" alt="Watercolor illustration of Jessica Sullivan"> Jess
 
 I took my two COVID babies on public transit for the first time! We took a round-trip journey on the San Diego trolley to
 Old Town and enjoyed a really amazing sunset over Mission Bay on the way home. They thought it was the coolest "choo choo" in the world.
-
 
 ## <img src="/assets/team_members/machiko-yasuda.png" class="align-center w-25" alt="Watercolor illustration of Machiko Yasuda"> Machiko
 
@@ -41,11 +39,9 @@ They started phasing in new cars in 2018, and the primary line I ride has had a 
 the last few years, so I never quite knew if I would be riding an old or new car until it showed up. I was very excited
 when the last new car was put into service. And it looks like BART managed to complete this project well under budget! Kudos to them!
 
-
 ## <img src="/assets/team_members/shelby-miller.png" class="align-center w-25" alt="Watercolor illustration of Shelby Miller"> Shelby
 
-*Remember when we said public transportation can occasionally be frustrating–yeah. Transit fails are also worth reminiscing on.*
-
+_Remember when we said public transportation can occasionally be frustrating–yeah. Transit fails are also worth reminiscing on._
 
 In July, I got on the wrong bus multiple times in LA, and once ended up in maybe Chinatown? I gave up and called a Lyft. I also,
 at one point, was on the phone with our colleague Kegan while literally running to catch the (wrong) DASH bus at the big train station.
@@ -74,10 +70,11 @@ we converted the roomette from seats to a bed. His stroller just fit on the top 
 ready for bedtime.
 
 ## <img src="/assets/team_members/vyki-englert.png" class="align-center w-25" alt="Watercolor illustration of Vyki Englert"> Vyki
-**Last but not least, welcome to *Vyki’s Taiwan Corner***
 
-*Vyki spent some time last year traveling through Taiwan by bike, train, and bus. She collected a list of her favorite aspects of
-Taiwan transportation so that we can all be inspired.*
+**Last but not least, welcome to _Vyki’s Taiwan Corner_**
+
+_Vyki spent some time last year traveling through Taiwan by bike, train, and bus. She collected a list of her favorite aspects of
+Taiwan transportation so that we can all be inspired._
 
 - The local and local express trains show which stops they will make on an LED signboard
 - Automatic Books Stop! Like a mini fully automated library vending machine in the transit station
