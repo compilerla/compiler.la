@@ -21,7 +21,8 @@ post. We hope to publish an updated version as part of each round of hiring.
 
 Below we’ve outlined some of our favorite agencies, companies, and resources to help you navigate a career in this nascent industry.
 
-## Job Boards that lean toward civic tech ##
+## Job Boards that lean toward civic tech
+
 [LA2050.org/jobs](https://la2050.org/jobs): This job board is fantastic. It focuses on jobs in the greater Los Angeles region.
 
 [Tech Jobs for Good](https://techjobsforgood.com/): We’ve hired more than one candidate from this niche job board, it’s one of the only ones we currently pay to post on. You can also follow their account on [LinkedIn](https://www.linkedin.com/company/tech-jobs-for-good/).
@@ -39,6 +40,7 @@ Below we’ve outlined some of our favorite agencies, companies, and resources t
 [WTS International Jobs Board](https://careers.wtsinternational.org/jobseekers/): Non-profit organization dedicated to advancing women in transportation.
 
 ## Apprenticeships
+
 If you’re new to your career –especially if you’re a recent college or boot
 camp graduate– apprenticeship programs might be an excellent fit for you. Here are a few that we know of...
 
@@ -51,11 +53,13 @@ camp graduate– apprenticeship programs might be an excellent fit for you. Here
 [Federal Transit Administration Diversity in Federal Transit Internship Program (DFT)](https://twc.edu/programs/FTA.DFT)
 
 ## Fellowships
+
 We keep a running [list of fellowships that are offered within the civic tech](https://docs.google.com/spreadsheets/d/1VpYIEC7MhA_6VVORk5S9CDuccx_tEvFVefeDTilenXQ/edit#gid=0)
-space. *Please note we only track the name and URL and some of these programs
-may not be active.*
+space. _Please note we only track the name and URL and some of these programs
+may not be active._
 
 ## For-profit Civic Tech Companies / Consultancies
+
 [DataMade](https://datamade.us/): Chicago-based, lots of experience in working with criminal justice data and journalists.
 
 [Jemurai](https://jemurai.com/): A security firm with a delightful bunch of humans, in our experience.
@@ -109,11 +113,11 @@ and human-centered design. The most famous of these is probably the federal team
 18F, but states, counties, and cities are starting to launch their own. Below is a
 list of some of our favorites.
 
-*Note: federal jobs you often have to put together a federal resume which can easily
+_Note: federal jobs you often have to put together a federal resume which can easily
 run 20 pages and take you a few weeks to assemble; there are really great
 instructions on 18F’s website. If you’re interested, start working on that
 resume now -- when jobs get posted they are usually only open for a few days
-and that’s not enough time for you to put your resume in the necessary format.*
+and that’s not enough time for you to put your resume in the necessary format._
 
 [18F](https://18f.gsa.gov/join/)
 
@@ -138,7 +142,6 @@ and that’s not enough time for you to put your resume in the necessary format.
 [San Francisco Digital Services](https://digitalservices.sfgov.org/)
 
 [Colorado Digital Service](https://oit.colorado.gov/colorado-digital-service)
-
 
 ## Canada
 
@@ -166,7 +169,8 @@ you submit your application or they will auto-reject your application.
 [State of CA: CalCareers](https://www.calcareers.ca.gov/): This site has so many jobs! You can create an account and get really specific email
 notifications sent to you when a position opens that you might be qualified for or
 within an agency you might be excited about working with.
-  - CalCareers is confusing to learn how to navigate – [ODI has a really good guide](https://innovation.ca.gov/join-us/applying-civil-service-job/ ) to the state application process.
+
+- CalCareers is confusing to learn how to navigate – [ODI has a really good guide](https://innovation.ca.gov/join-us/applying-civil-service-job/) to the state application process.
 
 [Government Jobs](https://www.governmentjobs.com/):
 Private syndicate of gov jobs.
@@ -175,15 +179,16 @@ Private syndicate of gov jobs.
 Syndicate of most federal jobs.
 
 ## Public Transit Agencies
+
 **US Department of Transportation**:
 This [USAjobs.gov link filters for jobs at DOT](https://dot.usajobs.gov/search/results/?d=TD&p=1)
 
-**Federal Transit Administration** *(“FTA is one of 10 modal agencies of the US Department
-of Transportation”)*
+**Federal Transit Administration** _(“FTA is one of 10 modal agencies of the US Department
+of Transportation”)_
+
 - Find jobs by searching USA Jobs
 - Sign up for email notifications via the [Transportation Diversity Council’s (TDC)](https://tdc-ntl.org/blog/category/job-postings/) website.
 - Check out the [FTA’s job website](https://www.transit.dot.gov/jobs) for more information on applying for jobs and links to early career programs
 - [FTA has several early career programs](https://www.transit.dot.gov/about/jobs/early-career-programs)
 
-
-***And, of course, [sign up for notifications to hear when Compiler is hiring again.](https://share.hsforms.com/1yPW2aSteQS6VTeGDEyFq9gqq0e7)***
+**_And, of course, [sign up for notifications to hear when Compiler is hiring again.](https://share.hsforms.com/1yPW2aSteQS6VTeGDEyFq9gqq0e7)_**
