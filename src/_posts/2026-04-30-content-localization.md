@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: "Beyond Translation: The Case for Content Localization in California's Digital Services"
+title: "Beyond Translation: The Case for Content Localization in California’s Digital Services"
 subtitle: ""
 description: ""
 author: Vyki Englert
@@ -16,7 +16,7 @@ California is a multilingual state. More than 200 languages and dialects are spo
 
 On paper, this may look like progress. In practice, it too often means that the hardest part of language access is left out of the picture altogether. The literal and word-by-word translation performed by apps like Google Translate can be technically accurate, while overall meaning is altered or altogether lost. The city of Los Angeles can become, literally, “The Angels.”
 
-These errors may seem small, but when navigating digital interfaces, they can easily route people in the wrong direction, with the wrong documents, and the wrong expectations. They can cause someone to miss a deadline, abandon a form, or get rejected at the end of a submission flow they don’t have time to repeat. This can mean the loss of access to transportation services or food benefits that folks really need. For many of those same people—many of whom have already had too few reasons to trust institutions—a confusing or failed government interaction confirms what they already feared, which is that these systems weren't really built for them. And that suspicion, once reinforced, is hard to undo.
+These errors may seem small, but when navigating digital interfaces, they can easily route people in the wrong direction, with the wrong documents, and the wrong expectations. They can cause someone to miss a deadline, abandon a form, or get rejected at the end of a submission flow they don’t have time to repeat. This can mean the loss of access to transportation services or food benefits that folks really need. For many of those same people—many of whom have already had too few reasons to trust institutions—a confusing or failed government interaction confirms what they already feared, which is that these systems weren’t really built for them. And that suspicion, once reinforced, is hard to undo.
 
 To prevent these outcomes and ensure equitable access to critical government services across communities, we need more than just content translation. We need content localization, a practical framework for building digital service experiences that are intuitive in languages other than English.
 
@@ -60,6 +60,6 @@ Once you’ve determined what languages your team is going to support it’s tim
 
 If California can set baseline expectations for accessibility, privacy, and security, it can also set new benchmarks for critical language access that reflect the reality of what people need.
 
-The good news is we're not starting from scratch.
+The good news is we’re not starting from scratch.
 
 California has already demonstrated that raising the bar for digital services is possible, and that the infrastructure, the will, and the expertise to go further are already here. This is an opportunity to build on our existing progress, and to make language access equal to any other standard we hold our digital services to.
