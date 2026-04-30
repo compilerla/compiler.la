@@ -30,7 +30,13 @@ Content localization is the process of adapting language so it actually works in
 
 At Compiler, we focus on localization because we’ve seen that there is a huge gap between “translated text” and an online service that’s actually usable. We know that unless we plan for translation from the beginning, these systems will fail people at critical moments.
 
-<!-- images here -->
+<figure>
+  <div class="d-md-flex col-md-6 gap-2">
+    <img src="/assets/blog/2026/benefits_eligibility_spanish.png" alt="Screenshot of the Cal-ITP Benefits Application page, where the user is presented with the transit benefits options available for eligible riders to enroll in. The user can select the option for which benefit type is applicable to them. The text in this image is in Spanish." />
+    <img src="/assets/blog/2026/benefits_eligibility_english.png" alt="Screenshot of the Cal-ITP Benefits Application page, where the user is presented with the transit benefits options available for eligible riders to enroll in. The user can select the option for which benefit type is applicable to them. The text in this image is in English." />
+  </div>
+  <figcaption>The Compiler-built <a href="https://calitp.org">Cal-ITP</a> <a href="https://benefits.calitp.org">Benefits Application</a> is an example of an online service where language has been thoughtfully adapted and formatted.</figcaption>
+</figure>
 
 ## Deciding what languages to translate
 
