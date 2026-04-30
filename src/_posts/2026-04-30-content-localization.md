@@ -40,18 +40,23 @@ Every agency should have a framework for determining which languages it supports
 
 Once you’ve determined what languages your team is going to support it’s time to do the work:
 
-1. **Establish glossaries + style guides for all languages**
-If English gets a style guide, covered languages deserve them, too. Include program names, proper nouns, acronyms, tone/formality, and terms that must remain stable across pages and forms. Head Start has a useful example of this, with a Spanish-specific translation style guide and shared terminology resources.
-1. **Make internationalization a baseline requirement**
-Internationalization, often referred to as i18n for short, is the engineering and design work that makes a website or app adaptable to multiple languages and locales. Procurement for websites and apps should require that products are translation-ready, instead of translated, with externalized strings, translation keys, support for text expansion, and (where relevant) right-to-left layouts.
-1. **Define high priority workflows to receive bilingual QA before release**
-Not every page carries the same risk. Agencies should designate high-consequence flows, like eligibility, submissions, deadlines, and payments, and hold them to in-language editorial review and functional QA as a release standard.
-1. **Design for trust**
-When stakes are high, people want to verify. LA County’s Voting Solutions For All People (VSAP) research found that the experience for non-English speaking voters could be substantially enhanced if voters could easily toggle between their preferred language and English, reflecting a real need to confirm meaning and earn trust with non-English speaking users.
-1. **Scope and fund content localization separately (including maintenance)**
-Content localization and translation work should be budgeted separately, and accounted for as ongoing service work. If it’s treated as an end-stage add-on, anything added later will only be available in English, recreating the initial problem.
-1. **Centralize ownership**
-We recommend agencies designate a small internal team of experts to be accountable for multi-language support across all programs and functions. This team should advise programs early, own language style guides, coordinate translators, and keep terminology consistent across sites and applications. While we strongly recommend this ownership function be done in-house, we believe it can enable the success of both internal and external translators. Outsourced translations services can be a good fit for agencies that don’t have full time needs or only need periodic help.
+1. **Establish glossaries + style guides for all languages**\
+   If English gets a style guide, covered languages deserve them, too. Include program names, proper nouns, acronyms, tone/formality, and terms that must remain stable across pages and forms. Head Start has a useful example of this, with a Spanish-specific translation style guide and shared terminology resources.
+
+1. **Make internationalization a baseline requirement**\
+   Internationalization, often referred to as i18n for short, is the engineering and design work that makes a website or app adaptable to multiple languages and locales. Procurement for websites and apps should require that products are translation-ready, instead of translated, with externalized strings, translation keys, support for text expansion, and (where relevant) right-to-left layouts.
+
+1. **Define high priority workflows to receive bilingual QA before release**\
+   Not every page carries the same risk. Agencies should designate high-consequence flows, like eligibility, submissions, deadlines, and payments, and hold them to in-language editorial review and functional QA as a release standard.
+
+1. **Design for trust**\
+   When stakes are high, people want to verify. LA County’s Voting Solutions For All People (VSAP) research found that the experience for non-English speaking voters could be substantially enhanced if voters could easily toggle between their preferred language and English, reflecting a real need to confirm meaning and earn trust with non-English speaking users.
+
+1. **Scope and fund content localization separately (including maintenance)**\
+   Content localization and translation work should be budgeted separately, and accounted for as ongoing service work. If it’s treated as an end-stage add-on, anything added later will only be available in English, recreating the initial problem.
+
+1. **Centralize ownership**\
+   We recommend agencies designate a small internal team of experts to be accountable for multi-language support across all programs and functions. This team should advise programs early, own language style guides, coordinate translators, and keep terminology consistent across sites and applications. While we strongly recommend this ownership function be done in-house, we believe it can enable the success of both internal and external translators. Outsourced translations services can be a good fit for agencies that don’t have full time needs or only need periodic help.
 
 If California can set baseline expectations for accessibility, privacy, and security, it can also set new benchmarks for critical language access that reflect the reality of what people need.
 

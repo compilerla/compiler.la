@@ -678,7 +678,7 @@ header {
     margin-bottom: 1.5rem;
 }
 
-.blog_post p:last-child {
+.blog_post p:last-child:not(li p) {
     margin-bottom: 0;
 }
 
