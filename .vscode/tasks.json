@@ -4,12 +4,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Jekyll: Build Dev",
-      "detail": "jekyll serve --force_polling --livereload",
+      "label": "11ty: Serve",
       "type": "shell",
-      "linux": {
-        "command": "bundle exec jekyll serve --force_polling --livereload"
-      },
+      "command": ["npm", "start"],
       "group": {
         "kind": "build",
         "isDefault": true
@@ -23,6 +20,7 @@
         "clear": false
       }
     },
+    // TODO: reimplement in 11ty
     {
       "label": "Jekyll: Build Dev with Drafts",
       "detail": "jekyll serve --force_polling --livereload --drafts",

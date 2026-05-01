@@ -26,11 +26,9 @@ We also have 2 Prototypes/Flows that demonstrate navigation and usage of the sit
 
 ### Running a local instance
 
-This is a [Jekyll][jekyll] static site. Development is done within a container-based environment using [VS Code with devcontainers](#vs-code-with-devcontainers). This repository includes a [`.devcontainer/devcontainer.json`](devcontainer-config-file) file that configures remote container development.
+This is an [11ty][11ty] static site. Development is done within a container-based environment using [VS Code with devcontainers](#vs-code-with-devcontainers). This repository includes a [`.devcontainer/devcontainer.json`](devcontainer-config-file) file that configures remote container development.
 
-Once inside the devcontainer in VS Code, you can press `Ctrl/Cmd+Shift+B` to run the `Jekyll: Build Dev` [task](https://code.visualstudio.com/docs/editor/tasks) defined in [`.vscode/tasks.json`][vscode-task-config-file], which builds the site and starts the Jekyll development server. The site will then be running at <http://localhost:4000>. Auto rebuild/reload will be active and will watch the site files for changes.
-
-> To run the blog in drafts-mode, run `Jekyll: Bulid Dev with Drafts`
+Once inside the devcontainer in VS Code, you can press `Ctrl/Cmd+Shift+B` to run the `11ty: Serve` [task](https://code.visualstudio.com/docs/editor/tasks) defined in [`.vscode/tasks.json`][vscode-task-config-file], which builds the site and starts the 11ty development server. The site will then be running at <http://localhost:8080>. Auto rebuild/reload will be active and will watch the site files for changes.
 
 ## VS Code with devcontainers
 
@@ -60,7 +58,7 @@ To close out of the container and re-open the directory locally in Visual Studio
 1. Type `Remote-Containers` to filter the commands
 1. Select `Reopen Locally`
 
-[jekyll]: https://jekyllrb.com
+[11ty]: https://www.11ty.dev/
 [devcontainer-config-file]: https://github.com/compilerla/compiler.la/blob/main/.devcontainer/devcontainer.json
 [vscode-task-config-file]: https://github.com/compilerla/compiler.la/blob/main/.vscode/tasks.json
 [vscode]: https://code.visualstudio.com/
