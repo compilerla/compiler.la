@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Adam Linder",
+    "title": "Account Manager",
+    "image": "adam-linder.png"
+  },
+  {
+    "name": "Andy Walker",
+    "title": "Product Manager",
+    "image": "andy-walker.png"
+  },
+  {
+    "name": "Angela Tran",
+    "title": "Senior Software Engineer",
+    "image": "angela-tran.png"
+  },
+  {
+    "name": "Anthony Rollins",
+    "title": "Managing Partner",
+    "image": "anthony-rollins.png"
+  },
+  {
+    "name": "Christine Bath",
+    "title": "Senior UI/UX Designer",
+    "image": "christine-bath.png"
+  },
+  {
+    "name": "John Gravois",
+    "title": "Senior Software Engineer",
+    "image": "john-gravois.png"
+  },
+  {
+    "name": "Kegan Maher",
+    "title": "Managing Partner",
+    "image": "kegan-maher.png"
+  },
+  {
+    "name": "Laney Mangan",
+    "title": "Associate Consultant, Customer Support Specialist",
+    "image": "laney-mangan.png"
+  },
+  {
+    "name": "Leela Singh",
+    "title": "Senior Project Manager",
+    "image": "leela-singh.png"
+  },
+  {
+    "name": "Luis Alvergue",
+    "title": "Senior Software Engineer",
+    "image": "luis-alvergue.png"
+  },
+  {
+    "name": "Marie Araneta",
+    "title": "Account Manager",
+    "image": "marie-araneta.png"
+  },
+  {
+    "name": "Milo Green",
+    "title": "Executive Assistant, Business Development",
+    "image": "milo-green.png"
+  },
+  {
+    "name": "Nina Dinh",
+    "title": "Account Manager",
+    "image": "nina-dinh.png"
+  },
+  {
+    "name": "Olivia Ramacier",
+    "title": "Associate Researcher, Customer Success Specialist",
+    "image": "olivia-ramacier.png"
+  },
+  {
+    "name": "Scott Cranfill",
+    "title": "Senior Software Engineer",
+    "image": "scott-cranfill.png"
+  },
+  {
+    "name": "Scott Frazier",
+    "title": "Managing Partner",
+    "image": "scott-frazier.png"
+  },
+  {
+    "name": "Shelby Miller",
+    "title": "Managing Partner",
+    "image": "shelby-miller.png"
+  },
+  {
+    "name": "Vyki Englert",
+    "title": "Managing Partner",
+    "image": "vyki-englert.png"
+  }
+]
