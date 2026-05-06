@@ -6,6 +6,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/styles/");
 
   // Keeps the same directory structure.
+  eleventyConfig.addPassthroughCopy("src/_redirects");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addPassthroughCopy("**/*.jpg");
   eleventyConfig.addPassthroughCopy("**/*.jpeg");
