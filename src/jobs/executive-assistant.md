@@ -1,5 +1,4 @@
 ---
-layout: job_post
 title: Executive Assistant Business Development
 open_date: 2022-12-02
 close_date: 2023-01-17

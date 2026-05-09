@@ -1,5 +1,4 @@
 ---
-layout: job_post
 title: Illustrator
 open_date: 2025-11-06
 close_date: 2025-11-13

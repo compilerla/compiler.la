@@ -1,3 +1,5 @@
+const byTitle = (a, b) => a.data.title.localeCompare(b.data.title);
+
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
   eleventyConfig.setLayoutsDirectory("_layouts");
@@ -14,4 +16,8 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("**/*.svg");
 
   eleventyConfig.addPassthroughCopy("src/assets/");
+
+  eleventyConfig.addCollection("jobs", (collectionApi) => {
+    return collectionApi.getFilteredByGlob("src/jobs/*.md").sort(byTitle);
+  });
 }

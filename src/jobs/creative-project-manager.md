@@ -1,5 +1,4 @@
 ---
-layout: job_post
 title: Consultant, Creative Services Project Manager
 open_date: 2021-05-01
 close_date: 2021-05-15

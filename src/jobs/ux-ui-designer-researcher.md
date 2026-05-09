@@ -1,5 +1,4 @@
 ---
-layout: job_post
 title: Senior Consultant, UX/UI Designer and Researcher
 open_date: 2024-04-03
 close_date: 2024-04-12
