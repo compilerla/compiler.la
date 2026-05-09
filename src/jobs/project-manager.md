@@ -1,5 +1,4 @@
 ---
-layout: job_post
 title: Project Manager
 open_date: 2024-07-11
 close_date: 2024-07-23

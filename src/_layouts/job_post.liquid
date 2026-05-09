@@ -5,18 +5,18 @@ title_prefix: "Jobs with Compiler:"
 <div class="row posting">
   <div class="offset-lg-1 col-lg-7">
     <h1 class="h2 mb-5 pb-2">
-      {{ page.title -}}
-      {%- if page.type %} ({{ page.type }}){% endif %}
+      {{ title -}}
+      {%- if type %} ({{ type }}){% endif %}
     </h1>
 
     {{ content }}
 
-    {% if page.apply_link %}
+    {% if apply_link %}
       <p>
         <a
           class="d-inline-block monospace btn btn-primary"
           id="apply"
-          href="{{ page.apply_link }}"
+          href="{{ apply_link }}"
         >
           Apply Now
         </a>
@@ -55,19 +55,18 @@ title_prefix: "Jobs with Compiler:"
 ></script>
 <script>
   // override default Timezone for California
-  luxon.Settings.defaultZone = "America/Los_Angeles";
+  luxon.Settings.defaultZone = 'America/Los_Angeles';
   const DateTime = luxon.DateTime;
   const now = DateTime.now();
 
-  const job = {% include "job-json" job:page %};
-  const open_date = DateTime.fromISO(job.open_date).startOf("day");
-  const close_date = DateTime.fromISO(job.close_date).endOf("day");
+  const open_date = DateTime.fromISO('{{ open_date | date: "%Y-%m-%d" }}').startOf('day');
+  const close_date = DateTime.fromISO('{{ close_date | date: "%Y-%m-%d" }}').endOf('day');
 
-  if(open_date > now || close_date < now) {
-      const apply = document.getElementById("apply");
-      if (apply) {
-          apply.classList.add("btn", "disabled");
-          apply.setAttribute("aria-disabled", "true");
-      }
+  if (open_date > now || close_date < now) {
+    const apply = document.getElementById('apply');
+    if (apply) {
+      apply.classList.add('btn', 'disabled');
+      apply.setAttribute('aria-disabled', 'true');
+    }
   }
 </script>

@@ -1,5 +1,4 @@
 ---
-layout: job_post
 title: Senior Software Engineer
 open_date: 2025-06-17
 close_date: 2025-06-30
