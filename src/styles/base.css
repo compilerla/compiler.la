@@ -641,7 +641,7 @@ header {
 
 @media (min-width: 992px) {
     :root {
-        --blog-post-h2-padding-top: 6rem;
+        --blog-post-h2-padding-top: 3.5rem;
     }
     .blog_post .blog_wrapper {
         padding-bottom: calc(120rem / 16) !important;
