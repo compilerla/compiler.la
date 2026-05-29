@@ -1,5 +1,4 @@
 ---
-layout: job_post
 title: Senior Consultant, Product Manager
 open_date: 2023-02-27
 close_date: 2023-03-12

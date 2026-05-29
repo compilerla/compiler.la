@@ -1,5 +1,4 @@
 ---
-layout: job_post
 title: Senior UX/UI Designer
 open_date: 2025-07-01
 close_date: 2025-07-14

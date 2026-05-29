@@ -1,5 +1,4 @@
 ---
-layout: job_post
 title: Associate Consultant, Scheduling Coordinator
 open_date: 2022-05-01
 close_date: 2022-05-13
