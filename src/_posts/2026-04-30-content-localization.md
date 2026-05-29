@@ -5,7 +5,7 @@ subtitle: "Translation alone isn’t enough–discover how Compiler bridges the 
 description: "Translation alone isn’t enough–discover how Compiler bridges the gap between translated and truly usable content with localization that reflects the reality of what people need."
 author: Vyki Englert
 excerpt: "Translation alone isn’t enough–discover how Compiler bridges the gap between translated and truly usable content with localization that reflects the reality of what people need."
-date: 2026-04-30 00:00:00 +0000
+date: 2026-05-29 00:00:00 +0000
 categories:
   - compiler
 ---
