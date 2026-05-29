@@ -29,7 +29,9 @@ title: Jobs with Compiler
   const DateTime = luxon.DateTime;
   const now = DateTime.now();
 
-  const all_jobs = {{ jobs | jsonify }}
+  // despite what the documentation says, this filter makes 11ty computed data available in JSON object literal form
+  // https://liquidjs.com/filters/json.html
+  const all_jobs = {{ jobs | json }};
   const open_jobs = [];
   const closed_jobs = [];
 
