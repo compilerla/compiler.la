@@ -69,3 +69,7 @@ If California can set baseline expectations for accessibility, privacy, and secu
 The good news is we’re not starting from scratch.
 
 California has already demonstrated that raising the bar for digital services is possible, and that the infrastructure, the will, and the expertise to go further are already here. This is an opportunity to build on our existing progress, and to make language access equal to any other standard we hold our digital services to.
+
+## About Compiler
+
+_Compiler is a woman-owned software consultancy built by people who use and rely on public systems every day. We partner with government agencies and mission-driven organizations to design, build, and sustain digital services that work better for everyone. Our team combines human-centered design, data expertise, and modern engineering practices to help agencies deliver accessible, maintainable, and equitable digital tools._
