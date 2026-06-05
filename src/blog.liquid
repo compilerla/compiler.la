@@ -18,8 +18,7 @@ title: Compiler’s Blog
   </div>
   <div class="col-md-6 offset-md-3">
     <!-- Home Post List -->
-    {% assign posts = collections.posts | reverse %}
-    {% for post in posts %}
+    {% for post in collections.posts reversed %}
       <article class="post-preview">
         <a
           class="h3 post-title text-white text-decoration-underline d-inline-block mb-2"
