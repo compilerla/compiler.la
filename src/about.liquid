@@ -2,7 +2,6 @@
 layout: default
 description: We build open-source, human-centered, secure, agile solutions to support the delivery of government services that increase equity of opportunity.
 ---
-
 <section class="row position-relative">
   <div class="container">
     <div class="offset-lg-1 col-lg-7 py-5 my-5 py-md-0 my-md-0">
@@ -15,19 +14,19 @@ description: We build open-source, human-centered, secure, agile solutions to su
       <a class="btn btn-primary mb-4 mb-md-0" target="_blank" href="/capabilities">Read our Capabilities Statement</a>
     </div>
     <span class="animate-bus">
-      <img alt="Illustration of a bus" src="/assets/illustrations/bus.svg" />
+      <img alt="Illustration of a bus" src="/assets/illustrations/bus.svg">
     </span>
   </div>
 </section>
 
 <section class="bg-w-100 position-relative bg-white">
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
   <div class="row py-md-3">
     <div class="container my-5 py-md-5 py-4">
       <div class="offset-lg-1 col-lg-10 mb-md-4">
@@ -58,20 +57,20 @@ description: We build open-source, human-centered, secure, agile solutions to su
         </div>
       </div>
       <span class="animate-bike">
-        <img alt="Illustration of a bicycle" src="/assets/illustrations/bicycle.svg" />
+        <img alt="Illustration of a bicycle" src="/assets/illustrations/bicycle.svg">
       </span>
     </div>
   </div>
 </section>
 
 <section class="bg-w-100">
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-black border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
+  <hr class="border border-100 border-black border-half opacity-100 mb-1">
   <div class="row">
     <div class="container my-5 py-4 py-md-5">
       <div class="row my-md-4 py-md-2">
@@ -113,13 +112,13 @@ description: We build open-source, human-centered, secure, agile solutions to su
       </div>
     </div>
   </div>
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
-  <hr class="border border-100 border-dark border-half opacity-100 mb-1" />
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
+  <hr class="border border-100 border-dark border-half opacity-100 mb-1">
 </section>
 
 <section class="row">
@@ -134,17 +133,17 @@ description: We build open-source, human-centered, secure, agile solutions to su
         <div class="offset-lg-1 col-lg-10 pt-md-4 mt-md-3 pt-4">
           <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5">
             {% for member in team %}
-            <div class="team-member">
-              <div class="bg-white rounded">
-                <img
-                  class="img-fluid d-block mx-auto"
-                  src="/assets/team_members/{{ member.image }}"
-                  alt="Watercolor illustration of {{member.name}}"
-                />
+              <div class="team-member">
+                <div class="bg-white rounded">
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="/assets/team_members/{{ member.image }}"
+                    alt="Watercolor illustration of {{member.name}}"
+                  >
+                </div>
+                <h3 class="h4 pt-3 mb-1 d-inline-block text-white">{{ member.name }}</h3>
+                <p class="fs-7 text-white">{{ member.title }}</p>
               </div>
-              <h3 class="h4 pt-3 mb-1 d-inline-block text-white">{{ member.name }}</h3>
-              <p class="fs-7 text-white">{{ member.title }}</p>
-            </div>
             {% endfor %}
           </div>
         </div>
@@ -173,13 +172,13 @@ description: We build open-source, human-centered, secure, agile solutions to su
 </section>
 
 <section class="bg-w-100 bg-white">
-  <div class="row">{% include "ready-to-work.html", h3-class:"text-dark" %}</div>
+  <div class="row">{% include 'ready-to-work', h3-class: 'text-dark' %}</div>
 </section>
 
 <script>
   const randomizeTeam = function () {
     // get an array of all team members
-    let members = [...document.querySelectorAll(".team-member")];
+    let members = [...document.querySelectorAll('.team-member')];
     let currentIndex = members.length;
     // and shuffle
     while (currentIndex != 0) {
@@ -192,7 +191,7 @@ description: We build open-source, human-centered, secure, agile solutions to su
     members.forEach((m, i) => {
       m.style.order = i;
       if (i > 4) {
-        m.classList.add("collapse", "collapseMore");
+        m.classList.add('collapse', 'collapseMore');
       }
     });
   };

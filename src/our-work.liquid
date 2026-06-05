@@ -39,7 +39,7 @@ title: Our Work
 
         <div class="row pb-5 mb-5">
           <div class="accordion" id="our-services-accordion">
-            {% for service in site.data.services %}
+            {% for service in services %}
               <div class="accordion-item">
                 <h2 class="accordion-header" id="our-services-{{ service.id }}">
                   <button
@@ -98,29 +98,29 @@ title: Our Work
 
       <div class="offset-lg-1 col-lg-10 mb-md-4">
         <div class="row row-cols-1 row-cols-lg-2 g-4">
-          {% for featured_work in site.data.featured_work limit: 2 %}
+          {% for work in featured_work limit: 2 %}
             <div class="col">
               <div class="card h-100 text-dark border-0">
                 <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
                   <div class="min-h-40">
-                    {% if featured_work.tags %}
+                    {% if work.tags %}
                       <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
-                        {% for tag in featured_work.tags %}
+                        {% for tag in work.tags %}
                           <div class="col">
                             <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
                           </div>
                         {% endfor %}
                       </div>
                     {% endif %}
-                    <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
+                    <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ work.title }}</h3>
                   </div>
                   <div class="min-h-35">
-                    <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
+                    <p class="card-text pb-2 mb-5">{{ work.description }}</p>
                   </div>
 
                   <div>
                     <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
-                    <p class="card-text">{{ featured_work.outcome }}</p>
+                    <p class="card-text">{{ work.outcome }}</p>
                   </div>
                 </div>
               </div>
@@ -129,7 +129,7 @@ title: Our Work
         </div>
 
         <div class="row row-cols-1 g-4 mt-0">
-          {% for featured_work in site.data.featured_work limit: 2 offset: 2 %}
+          {% for work in featured_work limit: 2 offset: 2 %}
             {% if forloop.index0 == 0 %}
               {% assign class = 'col' %}
             {% else %}
@@ -139,25 +139,25 @@ title: Our Work
             <div class="{{ class }}">
               <div class="card h-100 text-dark border-0">
                 <img
-                  src="{{ featured_work.image }}"
+                  src="{{ work.image }}"
                   class="card-img-top"
-                  alt="{{ featured_work.image_alt_text }}"
+                  alt="{{ work.image_alt_text }}"
                 >
                 <div class="card-body px-4 mx-2 p-lg-5 m-lg-2 mb-5 mb-lg-4">
-                  {% if featured_work.tags %}
+                  {% if work.tags %}
                     <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
-                      {% for tag in featured_work.tags %}
+                      {% for tag in work.tags %}
                         <div class="col">
                           <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
                         </div>
                       {% endfor %}
                     </div>
                   {% endif %}
-                  <h3 class="card-title fw-boldest pt-5 mt-3 mb-4 mt-lg-2">{{ featured_work.title }}</h3>
-                  <p class="card-text pb-2 mb-4 pb-lg-0">{{ featured_work.description }}</p>
+                  <h3 class="card-title fw-boldest pt-5 mt-3 mb-4 mt-lg-2">{{ work.title }}</h3>
+                  <p class="card-text pb-2 mb-4 pb-lg-0">{{ work.description }}</p>
 
                   <h4 class="pill fs-8 p-0 mb-3 text-dark fw-boldest">Outcome</h4>
-                  <p class="card-text">{{ featured_work.outcome }}</p>
+                  <p class="card-text">{{ work.outcome }}</p>
                 </div>
               </div>
             </div>
@@ -165,29 +165,29 @@ title: Our Work
         </div>
 
         <div class="row row-cols-1 row-cols-lg-2 g-4 mt-0">
-          {% for featured_work in site.data.featured_work limit: 2 offset: 4 %}
+          {% for work in featured_work limit: 2 offset: 4 %}
             <div class="col collapseMore collapse">
               <div class="card h-100 text-dark border-0">
                 <div class="card-body px-lg-5 mx-lg-3 py-lg-5 my-lg-5 pt-3 mt-3 pb-5 pb-3 px-4 px-2">
                   <div class="min-h-40">
-                    {% if featured_work.tags %}
+                    {% if work.tags %}
                       <div class="row row-cols-1 row-cols-lg-auto g-2 g-lg-1">
-                        {% for tag in featured_work.tags %}
+                        {% for tag in work.tags %}
                           <div class="col">
                             <span class="pill pill-tag" aria-hidden="true">{{ tag }}</span>
                           </div>
                         {% endfor %}
                       </div>
                     {% endif %}
-                    <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ featured_work.title }}</h3>
+                    <h3 class="card-title fw-boldest pb-4 mb-0 pb-lg-2 mb-lg-5 pt-2 pt-lg-0 mt-4">{{ work.title }}</h3>
                   </div>
                   <div class="min-h-35">
-                    <p class="card-text pb-2 mb-5">{{ featured_work.description }}</p>
+                    <p class="card-text pb-2 mb-5">{{ work.description }}</p>
                   </div>
 
                   <div>
                     <h4 class="pill fs-8 text-dark fw-boldest ps-0">Outcome</h4>
-                    <p class="card-text">{{ featured_work.outcome }}</p>
+                    <p class="card-text">{{ work.outcome }}</p>
                   </div>
                 </div>
               </div>
@@ -239,4 +239,4 @@ title: Our Work
   <hr class="border border-100 border-dark border-half opacity-100 mb-1">
 </section>
 
-<section class="row">{% include 'ready-to-work.html' %}</section>
+<section class="row">{% include 'ready-to-work' %}</section>
