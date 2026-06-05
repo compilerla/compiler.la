@@ -20,4 +20,15 @@ export default async function (eleventyConfig) {
   eleventyConfig.addCollection("jobs", (collectionApi) => {
     return collectionApi.getFilteredByGlob("src/jobs/*.md").sort(byTitle);
   });
+
+  // draft blog posts are rendered locally, but not in production builds
+  eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
+    if (data.draft) {
+      data.title = `${data.title} (draft)`;
+    }
+
+    if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+      return false;
+    }
+  });
 }

@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "How to support a platform-agnostic engineering team with VS Code Dev Containers"
 subtitle: "Learn from the Compiler Engineering team, which has been using VS Code Dev Containers daily across Windows, Linux and Mac on all of their projects."
 description: "Learn from the Compiler Engineering team, which has been using VS Code Dev Containers daily across Windows, Linux and Mac on all of their projects."

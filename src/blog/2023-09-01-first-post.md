@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "How to write a Compiler blog post"
 subtitle: "Follow these instructions to learn how to write a blog post, include images, blockquotes and more."
 description: "Follow these instructions to learn how to write a blog post, include images, blockquotes and more."
@@ -7,6 +6,7 @@ author: Laney Mangan
 excerpt: "Learn how to write a blog post, include images, blockquotes and more."
 date: 2023-09-24T19:03:13+0200
 categories: compiler
+draft: true
 ---
 
 ## First thing’s first

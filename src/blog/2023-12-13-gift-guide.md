@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "Compiler’s 2023 Holiday Gift Guide"
 subtitle: "Searching for that perfect gift for the public service enthusiast in your life? Compiler’s got you covered! Here is this year’s round-up of our favorite transit-related gift ideas.
 <br><br><p><em>P.S. If you didn’t make the holiday cut off this year, we think these make great gifts year-round!</em></p>"

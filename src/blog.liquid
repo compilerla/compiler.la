@@ -3,7 +3,6 @@ layout: default
 description: An inside look at Compiler’s internal projects, interests and our client projects.
 title: Compiler’s Blog
 ---
-
 <div class="row blog">
   <div class="col-md-10 offset-md-1">
     <span class="pill d-inline-block mb-4">Blog</span>
@@ -15,22 +14,23 @@ title: Compiler’s Blog
       class="mw-100 mh-100"
       src="/assets/blog/compiler-team-photo-for-blog.jpg"
       alt="A group photograph of many members of the Compiler team at a winery in California."
-    />
+    >
   </div>
   <div class="col-md-6 offset-md-3">
     <!-- Home Post List -->
-    {% for post in site.posts %}
-    <article class="post-preview">
-      <a
-        class="h3 post-title text-white text-decoration-underline d-inline-block mb-2"
-        href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"
-      >
-        {{ post.title }}
-      </a>
-      <p class="font-monospace fw-boldest text-info mb-4">By {{ post.author }}</p>
-      <p class="post-subtitle text-info mb-3">{{ post.excerpt }}</p>
-      <p class="text-info fine-print">{{ post.date | date: '%B %d, %Y' }}</p>
-    </article>
+    {% assign posts = collections.posts | reverse %}
+    {% for post in posts %}
+      <article class="post-preview">
+        <a
+          class="h3 post-title text-white text-decoration-underline d-inline-block mb-2"
+          href="{{ post.data.page.url }}"
+        >
+          {{ post.data.title }}
+        </a>
+        <p class="font-monospace fw-boldest text-info mb-4">By {{ post.data.author }}</p>
+        <p class="post-subtitle text-info mb-3">{{ post.data.excerpt }}</p>
+        <p class="text-info fine-print">{{ post.data.date | date: '%B %d, %Y' }}</p>
+      </article>
     {% endfor %}
   </div>
 </div>

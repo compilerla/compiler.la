@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "Driving Progress: The Crucial Role of Open Source in Public Transportation Technology"
 subtitle:
 description: "Learn from the Compiler Team about the benefits of open source development"
