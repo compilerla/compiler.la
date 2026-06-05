@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "The Compiler Team's Transportation Round-up"
 subtitle: "Our favorite transit stories from the past year"
 description: "Our favorite transit stories from the past year"

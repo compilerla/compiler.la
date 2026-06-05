@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "Creating Compiler's Parental Leave Policy"
 subtitle: "How a small, scrappy, California-based LLC created parental leave and wage replacement policies for its remote, multi-state team."
 description: "How a small, scrappy, California-based LLC created parental leave and wage replacement policies for its remote, multi-state team."

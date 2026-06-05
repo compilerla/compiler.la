@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "Employee Spotlight: Adam"
 subtitle: "Get to know our Compiler team member, Adam Linder."
 description: "Get to know our Compiler team member, Adam Linder."

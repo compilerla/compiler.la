@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "Employee Spotlight: Angela"
 subtitle: "Get to know our Compiler team member, Angela Tran."
 description: "Get to know our Compiler team member, Angela Tran."

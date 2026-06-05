@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "Case Study: Strengthening California’s Digital Disaster Recovery"
 subtitle: "Supporting the California Department of Technology During the 2025 Wildfire Emergency"
 description: "Supporting the California Department of Technology During the 2025 Wildfire Emergency"

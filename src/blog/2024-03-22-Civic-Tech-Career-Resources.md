@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "Civic Tech Career Resources"
 subtitle: "Our most used resources for navigating a career in Civic Tech"
 description: "Our most used resources for navigating a career in Civic Tech"

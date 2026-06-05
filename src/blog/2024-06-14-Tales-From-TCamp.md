@@ -1,5 +1,4 @@
 ---
-layout: blog_post
 title: "Tales from Transportation Camp"
 subtitle: "The Compiler Team's key takeaways from UCLA's 2024 Transportation Camp LA."
 description: "The Compiler Team's key takeaways from UCLA's 2024 Transportation Camp LA."
