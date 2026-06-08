@@ -20,14 +20,10 @@
         "clear": false
       }
     },
-    // TODO: reimplement in 11ty
     {
-      "label": "Jekyll: Build Dev with Drafts",
-      "detail": "jekyll serve --force_polling --livereload --drafts",
+      "label": "11ty: Build",
       "type": "shell",
-      "linux": {
-        "command": "bundle exec jekyll serve --force_polling --livereload --drafts"
-      },
+      "command": ["npm", "run", "build"],
       "group": {
         "kind": "build",
         "isDefault": true
