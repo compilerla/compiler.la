@@ -16,8 +16,7 @@ export default async function (eleventyConfig) {
     .addPassthroughCopy("**/*.jpg")
     .addPassthroughCopy("**/*.jpeg")
     .addPassthroughCopy("**/*.png")
-    .addPassthroughCopy("**/*.svg")
-    .addPassthroughCopy("src/blog/pretty-atom-feed.xsl"); //
+    .addPassthroughCopy("**/*.svg");
 
   eleventyConfig.addPassthroughCopy("src/assets/");
 
@@ -45,7 +44,6 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom",
     outputPath: "/blog/feed.xml",
-    stylesheet: "pretty-atom-feed.xsl",
     collection: { limit: 20, name: "publishedPosts" },
     metadata: {
       language: "en",
