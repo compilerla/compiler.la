@@ -1,5 +1,7 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
+import feed from "./src/_data/feed.json" with { type: "json" };
+
 const byTitle = (a, b) => a.data.title.localeCompare(b.data.title);
 
 export default async function (eleventyConfig) {
@@ -43,14 +45,13 @@ export default async function (eleventyConfig) {
   // RSS feed - example https://github.com/11ty/eleventy-base-blog/
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom",
-    outputPath: "/blog/feed.xml",
+    outputPath: feed.outputPath,
     collection: { limit: 20, name: "publishedPosts" },
     metadata: {
+      base: feed.base,
       language: "en",
-      title: "Compiler’s Blog",
-      subtitle:
-        "Software built by humans, for humans, in LA. Compiler is a woman-owned software consultancy that’s passionate about making government tech solutions easy-to-use and accessible for all.",
-      base: "https://compiler.la/blog/",
+      subtitle: feed.subtitle,
+      title: feed.title,
     },
   });
 }
