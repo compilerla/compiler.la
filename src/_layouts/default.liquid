@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% assign title = title | default: 'Compiler' %}
-
     {% if title_prefix %}
       {% assign title = title_prefix | append: title %}
     {% endif %}
@@ -11,9 +9,8 @@
     <meta name="og:title" name="title" content="{{ title }}">
     <meta charset="UTF-8">
 
-    {% if description %}
-      <meta name="description" property="og:description" content="{{ description }}">
-    {% endif %}
+    <meta name="description" property="og:description" content="{{ description }}">
+
     {% if date %}
       <meta property="article:published_time" content="{{ date | date: '%Y-%m-%d' }}">
     {% endif %}
