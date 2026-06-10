@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+    {% assign title = title | default: 'Compiler' %}
+
     {% if title_prefix %}
       {% assign title = title_prefix | append: title %}
-    {% else %}
-      {% assign title = title | default: 'Compiler' %}
     {% endif %}
 
     <title>{{ title }}</title>

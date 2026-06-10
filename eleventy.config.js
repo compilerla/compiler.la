@@ -1,8 +1,6 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
-import blog from "./src/_data/blog.json" with { type: "json" };
-
-const { base, outputPath, subtitle, title } = blog;
+import feed from "./src/_data/feed.json" with { type: "json" };
 
 const byTitle = (a, b) => a.data.title.localeCompare(b.data.title);
 
@@ -47,8 +45,13 @@ export default async function (eleventyConfig) {
   // RSS feed - example https://github.com/11ty/eleventy-base-blog/
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom",
-    outputPath,
+    outputPath: feed.outputPath,
     collection: { limit: 20, name: "publishedPosts" },
-    metadata: { base, language: "en", subtitle, title },
+    metadata: {
+      base: feed.base,
+      language: "en",
+      subtitle: feed.subtitle,
+      title: feed.title,
+    },
   });
 }
