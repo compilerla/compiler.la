@@ -4,7 +4,7 @@
   "description": "Software built by humans, for humans, in LA",
   "author": "Compiler",
   "type": "module",
-  "license": "AGPL-3.0-or-later",
+  "license": "Apache-2.0",
   "private": true,
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
