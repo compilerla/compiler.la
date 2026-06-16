@@ -12,8 +12,7 @@ Our team specializes in building software applications around data for operation
 
 Our clients have included: City of Los Angeles, City of West Hollywood, CicLAvia, LA2050, Caltrans, County of Los Angeles, and the California Community Foundation.
 
-**About PeMS:** The Caltrans Performance Measurement System (PeMS) application is a [multi-tier web application](https://pems.dot.ca.gov){:target="\_blank"}
-that runs on a real-time transportation data warehouse. The traffic data displayed on the map is collected in real-time from over 39,000 individual detectors. These sensors span the freeway system across all major metropolitan areas of the State of California. PeMS is also an Archived Data User Service (ADUS) that provides over ten years of data for historical analysis. It integrates a wide variety of information from Caltrans and other local agency systems.
+**About PeMS:** The Caltrans Performance Measurement System (PeMS) application is a [multi-tier web application](https://pems.dot.ca.gov) that runs on a real-time transportation data warehouse. The traffic data displayed on the map is collected in real-time from over 39,000 individual detectors. These sensors span the freeway system across all major metropolitan areas of the State of California. PeMS is also an Archived Data User Service (ADUS) that provides over ten years of data for historical analysis. It integrates a wide variety of information from Caltrans and other local agency systems.
 
 Compiler is expected to design, develop, and deploy upgraded functions to the PeMS web application. Upon project completion, Compiler is expected to hand over all source code with documentation to Caltrans.
 
