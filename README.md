@@ -9,10 +9,10 @@ Deployed via [Netlify](https://www.netlify.com)
 
 We have a Figma file with the current designs, broken into the following sections/pages:
 
-| Section                                                                                                            | Description                                         |
-| ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------- |
-| [🎨 Styleguide](https://www.figma.com/file/2gq3WJFdRFDefyHcgFMUGt/Current-compiler.la?node-id=0%3A1)               | Colors, typography, and visual assets               |
-| [❖ Components](https://www.figma.com/file/2gq3WJFdRFDefyHcgFMUGt/Current-compiler.la?node-id=2%3A2)                | Reusable design elements like buttons, navbar, etc. |
+| Section                                                                                                           | Description                                         |
+| ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| [🎨 Styleguide](https://www.figma.com/file/2gq3WJFdRFDefyHcgFMUGt/Current-compiler.la?node-id=0%3A1)              | Colors, typography, and visual assets               |
+| [❖ Components](https://www.figma.com/file/2gq3WJFdRFDefyHcgFMUGt/Current-compiler.la?node-id=2%3A2)               | Reusable design elements like buttons, navbar, etc. |
 | [🏗 Information architecture](https://www.figma.com/file/2gq3WJFdRFDefyHcgFMUGt/Current-compiler.la?node-id=2%3A3) | Mocks of the actual pages, with Flows               |
 
 We also have 2 Prototypes/Flows that demonstrate navigation and usage of the site:
