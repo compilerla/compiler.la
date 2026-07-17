@@ -662,7 +662,7 @@ header {
 }
 
 .blog_post p + h2,
-.blog_wrapper p:first-child:not(li > p) {
+.blog_wrapper p:first-child:not(li > p):not(blockquote > p) {
   padding-top: 56px;
 }
 
