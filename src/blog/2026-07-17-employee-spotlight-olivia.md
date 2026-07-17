@@ -14,3 +14,10 @@ Meet Olivia! Olivia has been with Compiler for nearly six years and was one of t
 > “Olivia’s reliability at Compiler is undeniable. The trust she has built with me, the team and clients makes her one of the go-to people for all things transit in California. The challenge is making sure she doesn’t do everything for everyone all the time.” - Anthony Rollins, Managing Partner, Compiler
 
 Olivia is a patient and kind leader, a dedicated and hard-working knower-of-all-the-things (seriously, ask her **anything**, and I’ll bet she knows the answer!), a creative and motivated visionary, and for me personally, and to many of us on the team, a dear friend and colleague. Now let’s get to know Olivia!
+
+---
+
+<figure>
+    <img src="/assets/team_members/olivia-ramacier.png" alt="Watercolor illustration of Olivia Ramacier." />
+    <img src="/assets/blog/olivia-handwriting.png" alt="Olivia's name in her own handwriting." width="350" />
+</figure>
