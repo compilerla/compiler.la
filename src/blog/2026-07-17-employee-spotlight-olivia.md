@@ -35,7 +35,7 @@ A lot of things. My dad spent all of his career working for a public transit age
 While I am a fan of many forms of transit, my heart always comes back to buses. They're so versatile and I love being able to look out the window and really take in my surroundings. I do enjoy a historic trolley though! I had a chance to ride the St. Charles Streetcar (the world's oldest continuously operating streetcar line) in New Orleans, and it’s one of my favorite memories.
 
 <figure>
-  <img src="/assets/blog/2026/st-charles-streetcar.jpg" alt="The St. Charles Streetcar getting ready to turn around at its western terminus.">
+  <img width="355" src="/assets/blog/2026/st-charles-streetcar.jpg" alt="The St. Charles Streetcar getting ready to turn around at its western terminus.">
   <figcaption>The St. Charles Streetcar getting ready to turn around at its western terminus.</figcaption>
 </figure>
 
@@ -60,6 +60,6 @@ I think I've grown so much. I've definitely gained confidence in myself and my a
 One of my favorite memories is the first conference the Customer Success team boothed at for Cal-ITP in Palm Springs. There's just something about spending hours under fluorescent lighting in a hotel ballroom (that's somehow both hot and cold) that leads to team bonding.
 
 <figure>
-  <img src="/assets/blog/2026/olivia-laney-anthony-conference-break.jpg" alt="Olivia, Laney, and Anthony taking a break at the conference center.">
+  <img width="400" src="/assets/blog/2026/olivia-laney-anthony-conference-break.jpg" alt="Olivia, Laney, and Anthony taking a break at the conference center.">
   <figcaption>Olivia, Laney, and Anthony taking a break at the conference center.</figcaption>
 </figure>
