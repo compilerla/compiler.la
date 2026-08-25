@@ -67,7 +67,7 @@ Another key aspect of the Agile approach lies in how swiftly updates and improve
 
 ## Results from 5 years of implementation of Cal-ITP Benefits
 
-Since launching in 2022, the Cal-ITP Benefits app has expanded to nine participating transit agencies and has supported over 15,000 contactless reduced fare transactions. Another eleven agencies are expected to onboard in the next six months alone, as contactless Tap-2-Pay continues to grow in adoption throughout the state of California.
+Since launching in 2022, the Cal-ITP Benefits app has expanded to nine participating transit agencies and has supported over 15,000 contactless reduced fare transactions. Another eleven agencies are expected to onboard in the next six months alone, as contactless tap-to-pay continues to grow in adoption throughout the state of California.
 
 Some of the positive benefits of using contactless, open-loop payments include:
 
