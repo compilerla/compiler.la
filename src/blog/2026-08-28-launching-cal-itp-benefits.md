@@ -56,7 +56,7 @@ Ensuring a rider’s privacy is key to our approach so we designed a solution wh
 Compiler’s work creating Cal-ITP Benefits has transformed accessibility in the transit space, enabling discount fare eligibility to be linked to contactless bank cards. Thanks to this technology, riders automatically receive their correct reduced fares when they tap-to-pay — every time.
 
 <figure>
-    <img src="/assets/blog/2026/benefits-app.jpg" alt="TODO" />
+    <img src="/assets/blog/2026/benefits-app.jpg" alt="The Cal-ITP Benefits application, displayed on a desktop, a laptop, and a mobile device." />
 </figure>
 
 Because agencies may not have the capacity to implement new technologies or to change their business processes without assistance, Compiler provides customer support for Cal-ITP Benefits — as well as any product we build — to help make the transition more seamless.
