@@ -1,3 +1,4 @@
+import { EleventyRenderPlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 import feed from "./src/_data/feed.json" with { type: "json" };
@@ -54,4 +55,6 @@ export default async function (eleventyConfig) {
       title: feed.title,
     },
   });
+
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
 }
