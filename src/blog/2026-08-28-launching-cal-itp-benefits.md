@@ -80,9 +80,3 @@ Some of the positive benefits of using contactless, open-loop payments for both 
 - Lower maintenance costs than bespoke, closed-loop systems — including expensive cash fare collection systems.
 
 Making reduced fare rides more accessible is just one of countless ways that we can all work together to make transit better for everyone. And behind every transit program are human beings trying to serve their community. At Compiler, our expertise is making government tech solutions easy to use and accessible for all.
-
-## About Compiler
-
-_Compiler is a woman-owned software consultancy built by people who use and rely on public systems every day. We partner with government agencies and mission-driven organizations to design, build, and sustain digital services that work better for everyone. Our team combines human-centered design, data expertise, and modern engineering practices to help agencies deliver accessible, maintainable, and equitable digital tools._
-
-_If you’d like to learn more about Compiler’s work on Cal-ITP Benefits or partner with us on a new project, we’d love to talk. Email [hello@compiler.la](mailto:hello@compiler.la) to get started._
