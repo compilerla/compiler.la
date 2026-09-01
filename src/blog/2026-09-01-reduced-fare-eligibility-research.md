@@ -73,7 +73,12 @@ We found medical certification forms can vary greatly from one provider to the n
 
 Some forms ask medical providers to quickly confirm a person meets a broad disability category, like a physical disability, while others ask for a detailed write up of the specifics of a diagnosis and how it affects the person’s ability to use transit. Providers also have varying definitions for conditions that commonly qualify. For example, hearing impairments or deafness is typically a qualifying condition, but providers define these conditions differently.
 
-<!-- <table> -->
+| Agency            | Definition                                                                                                                                                                                                                     |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Santa Barbara MTD | Hearing impairments: Total deafness includes persons whose hearing loss is 70 dba or greater in the 1000 and 2000 Hz ranges.                                                                                                   |
+| MST               | Hearing disabilities: This section includes those persons with a 50% bilateral hearing loss, which is uncorrectable by use of a hearing aid.                                                                                   |
+| SacRT             | HEARING: Persons who have total deafness or are unable to hear with the aid of an assistance device on the level that meets the standards of the American National Standards Institute (ANSI), as determined by an audiometer. |
+| Chicago RTA       | Hard of hearing or deaf                                                                                                                                                                                                        |
 
 Every form requires a team to maintain it and store the sensitive PII that’s collected. This research suggests there’s an opportunity to develop standardized open source forms for easier maintenance and less data risk for both riders and providers.
 
