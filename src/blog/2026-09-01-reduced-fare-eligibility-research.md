@@ -66,7 +66,10 @@ We found medical certification forms can vary greatly from one provider to the n
 - Level of disclosure and detail needed about a person’s condition
 - How qualifying conditions are defined
 
-<!-- <image> -->
+<figure>
+  <img src="/assets/blog/2026/medical-certification-forms-collage.jpeg" alt="A collage of medical certification form questions">
+  <figcaption>Examples of the questions and form patterns healthcare providers and people with disabilities encounter at different transit providers.</figcaption>
+</figure>
 
 Some forms ask medical providers to quickly confirm a person meets a broad disability category, like a physical disability, while others ask for a detailed write up of the specifics of a diagnosis and how it affects the person’s ability to use transit. Providers also have varying definitions for conditions that commonly qualify. For example, hearing impairments or deafness is typically a qualifying condition, but providers define these conditions differently.
 
