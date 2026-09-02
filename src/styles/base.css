@@ -710,13 +710,20 @@ header {
 }
 
 .blog_post table {
-  margin: 0 1.5rem;
+  margin: 1.5rem 0 3rem;
+}
+
+.blog_post table th {
+  font-family: var(--bs-font-monospace);
+  font-weight: 800;
 }
 
 .blog_post table td,
 .blog_post table th {
-  padding: 0.75rem;
+  padding: 1.5rem 1.5rem 1.5rem 0;
   display: table-cell;
+  vertical-align: top;
+  border-bottom: 1px solid var(--brand-scale-gray-3);
 }
 
 /* Our Work */
