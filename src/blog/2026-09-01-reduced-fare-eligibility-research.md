@@ -13,7 +13,7 @@ Most public transit systems offer a reduced fare of 50% or more to people with d
 
 But as transit providers modernize their payment technology and customer interactions, integrations for reduced fare programs often lag behind. Contactless payments are becoming common for full-fare riders, but reduced fares riders are often limited to cash or reloadable, closed loop transit cards. People with disabilities routinely encounter paper forms, in-person requirements, and long wait times to get reduced fares. This creates a set of interrelated technology gaps for how to extend contactless, open loop payments to reduced fare riders and how to check identity and benefit eligibility digitally without extra paperwork.
 
-Compiler has partnered with the California Department of Technology and Caltrans to bridge these gaps with [Cal-ITP Benefits](https://www.camobilitymarketplace.org/rider-benefits/). The platform lets riders apply for reduced fares online with a digital identity and eligibility check, then maps their benefits to a bank card so they get reduced fares when they tap. Cal-ITP Benefits lets providers offer tap to pay reduced fares with opt-in eligibility policies for seniors, Medicare cardholders, U.S. veterans, and people with low income.
+Compiler has partnered with the California Department of Technology and Caltrans to bridge these gaps with [Cal-ITP Benefits](https://www.camobilitymarketplace.org/rider-benefits/). The platform lets riders apply for reduced fares online with a digital identity and eligibility check, then maps their benefits to a bank card so they get reduced fares when they tap. Cal-ITP Benefits lets providers offer tap to pay reduced fares with opt-in eligibility policies for seniors, Medicare cardholders, U.S. Veterans, and people with low income.
 
 We wanted to understand what it would take to extend the platform to people with disabilities and create a common eligibility policy for multiple providers. To do this, we spoke with front-line staff at transit providers, interviewed people with disabilities who currently use reduced fare programs, and reviewed 20 application forms.
 
@@ -35,7 +35,7 @@ To scope a digital eligibility check, we need to know what kind of documentation
 
 - Medicare cards ([Medicare covers some people with disabilities](https://www.ssa.gov/disabilityresearch/wi/medicare.htm) in addition to seniors)
 - Medical certification forms or letters from a medical professional
-- Proof of disabled U.S. veteran status (e.g. A “Service Connected” ID, VA letter/claim number)
+- Proof of disabled U.S. Veteran status (e.g. A “Service Connected” ID, VA letter/claim number)
 - Having disabled plates or a disabled placard from the DMV
 - Proof they receive SSI/SSDI benefits
 - Having another transit agency’s reduced fare card
@@ -52,7 +52,7 @@ Disability is varied and complex, and so is access to benefit programs. We talke
 - A person navigating a recent qualifying diagnosis who is pursuing, but not yet approved for, state disability or SSI/SSDI
 - A person with a lifelong visual impairment who gets SSI
 
-We quickly learned that to serve people with disabilities, eligibility can’t be limited to programs with digital verification checks. Getting access to benefits like SSDI or disabled U.S. veteran status requires significant time and effort.
+We quickly learned that to serve people with disabilities, eligibility can’t be limited to programs with digital verification checks. Getting access to benefits like SSDI or disabled U.S. Veteran status requires significant time and effort.
 
 Medical certification forms are an essential path to get reduced fares quickly while navigating other benefit programs. All the people with disabilities we interviewed used medical certification forms to get their benefits, and similarly many transit providers we interviewed said this was the most common documentation they receive.
 
