@@ -5,8 +5,6 @@ description: "What we learned about reduced fare eligibility after reviewing 20 
 author: Christine Bath
 excerpt: "What we learned about reduced fare eligibility after reviewing 20 application forms and talking to transit providers and riders with disabilities"
 date: 2026-09-03T00:00:00+0000
-categories:
-  - compiler
 ---
 
 Most public transit systems offer a reduced fare of 50% or more to people with disabilities as a condition of their federal funding. These benefits are often a lifeline to people with disabilities who disproportionally have less income and rely on public transit more to navigate their daily lives.
