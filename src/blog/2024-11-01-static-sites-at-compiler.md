@@ -1,12 +1,11 @@
 ---
-title: "How Compiler Approaches Static Sites"
+title: "How Compiler approaches static sites"
 subtitle: "Learn how the Engineering team combines older and reliable static site frameworks with new build tools and an open source approach to craft memorable and functional content-driven sites."
 description: "Learn how the Engineering team combines older and reliable static site frameworks with new build tools and an open source approach to craft memorable and functional content-driven sites."
 author: Machiko Yasuda
 excerpt: "Learn how the Engineering team combines older and reliable static site frameworks with new build tools and an open source approach to craft memorable and functional content-driven sites."
 date: 2024-12-03T00:00:00+0200
 categories:
-  - compiler
   - engineering
 ---
 

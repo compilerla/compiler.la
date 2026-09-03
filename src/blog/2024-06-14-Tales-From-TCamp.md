@@ -5,8 +5,6 @@ description: "The Compiler Team's key takeaways from UCLA's 2024 Transportation 
 author: Vyki Englert, Scott Frazier, Nina Dinh, Marie Araneta
 excerpt: "The Compiler Team's key takeaways from UCLA's 2024 Transportation Camp LA."
 date: 2024-06-13T19:03:13+0200
-categories:
-  - compiler
 ---
 
 Recently, four members of the Compiler team had the opportunity to attend the latest edition of [UCLA’s Transportation Camp LA](https://www.its.ucla.edu/). Shout out

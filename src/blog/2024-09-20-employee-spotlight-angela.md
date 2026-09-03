@@ -1,12 +1,10 @@
 ---
-title: "Employee Spotlight: Angela"
+title: "Employee spotlight: Angela"
 subtitle: "Get to know our Compiler team member, Angela Tran."
 description: "Get to know our Compiler team member, Angela Tran."
 author: Laney Mangan and Angela Tran
 excerpt: "Get to know our Compiler team member, Angela Tran."
 date: 2024-12-20T00:00:00+0000
-categories:
-  - compiler
 ---
 
 Before we dive into our interview with Angela, we want to officially kick off our new Employee Spotlight series. We here at Compiler are immensely proud of our team and we want to publicly celebrate that by giving our readers a peek behind the curtain. This will be the first of many interviews we will share about the unique contributions, skills, and interests of each of our team members.

@@ -5,4 +5,5 @@ export default {
   layout: "blog_post",
   permalink,
   tags: ["posts"],
+  categories: ["compiler"],
 };

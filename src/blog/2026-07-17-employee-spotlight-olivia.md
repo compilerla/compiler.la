@@ -1,12 +1,10 @@
 ---
-title: "Employee Spotlight: Olivia"
+title: "Employee spotlight: Olivia"
 subtitle: "Get to know our Compiler team member, Olivia Ramacier."
 description: "Get to know our Compiler team member, Olivia Ramacier."
 author: Laney Mangan and Olivia Ramacier
 excerpt: "Get to know our Compiler team member, Olivia Ramacier."
 date: 2026-07-21T00:00:00+0000
-categories:
-  - compiler
 ---
 
 Meet Olivia! Olivia has been with Compiler for nearly six years and was one of the first employees to work on one of our flagship projects, [Cal-ITP](https://calitp.org). Over the years, she has seen the program through all of its ups and downs with grace and steady leadership, always keeping the project moving and championing a brighter future for transit in California.
