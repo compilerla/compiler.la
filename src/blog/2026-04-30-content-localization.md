@@ -6,6 +6,9 @@ description: "Translation alone isn’t enough–discover how Compiler bridges t
 author: Vyki Englert
 excerpt: "Translation alone isn’t enough–discover how Compiler bridges the gap between translated and truly usable content with localization that reflects the reality of what people need."
 date: 2026-05-29T00:00:00+0000
+categories:
+  - compiler
+learn_more_about: "our human-centered localization practices or to partner with us on a new project"
 ---
 
 Hard-coding Google Translate into a government website might satisfy a legal checkbox. In 2026, it shouldn’t satisfy anyone who actually cares whether people can use a service.
