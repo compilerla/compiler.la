@@ -1,0 +1,18 @@
+{% comment %}
+  the machinery here makes it possible to
+  1. render a default outro blurb (supplied via blog_post.liquid frontmatter)
+  2. optionally swap in something tailored to a specific blog post
+{% endcomment %}
+
+{% capture content %}
+
+## About Compiler
+
+_Compiler is an agile software consultancy. We are cyclists, pedestrians, and bus-riders and we are passionate about solving
+technology challenges that support a climate-resilient future._
+
+_[Reach out](mailto:hello@compiler.la) to learn more about {{ learn_more_about }}. We'd love to talk._
+
+{% endcapture %}
+
+{{ content | md }}
