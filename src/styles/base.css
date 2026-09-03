@@ -711,11 +711,16 @@ header {
 
 .blog_post table {
   margin: 1.5rem 0 3rem;
+  width: 100%;
 }
 
 .blog_post table th {
   font-family: var(--bs-font-monospace);
   font-weight: 800;
+}
+
+.blog_post table th:first-of-type {
+  width: 130px;
 }
 
 .blog_post table td,
