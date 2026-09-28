@@ -9,8 +9,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
-    "@shopify/prettier-plugin-liquid": "^1.10.3",
-    "prettier": "^3.9.5"
+    "@shopify/prettier-plugin-liquid": "^1.11.1",
+    "prettier": "^3.9.9"
   },
   "scripts": {
     "build": "npx @11ty/eleventy",
