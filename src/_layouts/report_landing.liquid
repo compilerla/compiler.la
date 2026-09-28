@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="UTF-8">
+    <meta name="description" property="og:description" content="{{ meta_description }}">
+    <meta property="og:image" content="[https://compiler.la](https://compiler.la){{ meta_image }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Code+Pro:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    >
+
+    <link type="text/css" rel="stylesheet" href="/styles/base.css">
+  </head>
+
+  <body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-dark">
+        <a class="d-inline-block" href="/"
+          ><img width="88" height="46" src="/assets/compiler_logo_stacked.svg" alt="Compiler logo"
+        ></a>
+      </nav>
+    </header>
+    <main class="container-fluid overflow-hidden">
+      {{ content }}
+    </main>
+  </body>
+</html>
