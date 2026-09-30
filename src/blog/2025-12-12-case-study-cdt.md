@@ -1,5 +1,5 @@
 ---
-title: "Case study: strengthening California’s digital disaster recovery"
+title: "Case study: Strengthening California’s digital disaster recovery"
 subtitle: "Supporting the California Department of Technology during the 2025 wildfire emergency"
 description: "Supporting the California Department of Technology during the 2025 wildfire emergency"
 author: Milo Green

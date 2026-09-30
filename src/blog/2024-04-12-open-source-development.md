@@ -1,5 +1,5 @@
 ---
-title: "Driving progress: the crucial role of open source in public transportation technology"
+title: "Driving progress: The crucial role of open source in public transportation technology"
 subtitle:
 description: "Learn from the Compiler Team about the benefits of open source development"
 author: Milo Green

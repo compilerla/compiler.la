@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: "Beyond translation: the case for content localization in California’s digital services"
+title: "Beyond translation: The case for content localization in California’s digital services"
 subtitle: "Translation alone isn’t enough–discover how Compiler bridges the gap between translated and truly usable content with localization that reflects the reality of what people need."
 description: "Translation alone isn’t enough–discover how Compiler bridges the gap between translated and truly usable content with localization that reflects the reality of what people need."
 author: Vyki Englert
