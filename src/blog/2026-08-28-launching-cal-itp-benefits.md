@@ -1,5 +1,5 @@
 ---
-title: "Bringing tap-to-pay technology to discounted fares with Cal-ITP Benefits: A case study"
+title: "Case study: Bringing tap-to-pay technology to discounted fares with Cal-ITP Benefits"
 subtitle: "Learn how Compiler’s dedicated team worked to bring Cal-ITP Benefits to life, from initial research to expansion to multiple transit agencies."
 description: "Learn how Compiler’s dedicated team worked to bring Cal-ITP Benefits to life, from initial research to expansion to multiple transit agencies."
 author: Vyki Englert
