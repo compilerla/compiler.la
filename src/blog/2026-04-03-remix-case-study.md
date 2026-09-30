@@ -1,12 +1,10 @@
 ---
-title: "How Compiler Research Transformed Scheduling for Smaller Transit Agencies"
+title: "How Compiler research transformed scheduling for smaller transit agencies"
 subtitle: "Learn how Compiler transformed smaller transit agency scheduling with a research-backed pilot of Remix by Via."
 description: "Learn how Compiler transformed smaller transit agency scheduling with a research-backed pilot of Remix by Via."
 author: Laney Mangan
 excerpt: "Learn how Compiler transformed smaller transit agency scheduling with a research-backed pilot of Remix by Via."
 date: 2026-04-03T00:00:00+0000
-categories:
-  - compiler
 ---
 
 As transit riders, we depend on accurate schedule information to get where we need to go. Too many of us, however, are all too familiar with the frustration of missing schedules, inaccurate holiday schedules, and other situations that affect travel.

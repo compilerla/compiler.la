@@ -1,13 +1,11 @@
 ---
 layout: blog_post
-title: "Beyond Translation: The Case for Content Localization in California’s Digital Services"
+title: "Beyond translation: The case for content localization in California’s digital services"
 subtitle: "Translation alone isn’t enough–discover how Compiler bridges the gap between translated and truly usable content with localization that reflects the reality of what people need."
 description: "Translation alone isn’t enough–discover how Compiler bridges the gap between translated and truly usable content with localization that reflects the reality of what people need."
 author: Vyki Englert
 excerpt: "Translation alone isn’t enough–discover how Compiler bridges the gap between translated and truly usable content with localization that reflects the reality of what people need."
 date: 2026-05-29T00:00:00+0000
-categories:
-  - compiler
 ---
 
 Hard-coding Google Translate into a government website might satisfy a legal checkbox. In 2026, it shouldn’t satisfy anyone who actually cares whether people can use a service.

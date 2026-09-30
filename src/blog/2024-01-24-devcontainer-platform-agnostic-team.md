@@ -6,7 +6,6 @@ author: Machiko Yasuda
 excerpt: "Learn from the Compiler Engineering team, which has been using VS Code Dev Containers daily across Windows, Linux and Mac on all of their projects."
 date: 2024-01-24T00:00:00+0200
 categories:
-  - compiler
   - engineering
 ---
 

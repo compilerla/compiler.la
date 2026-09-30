@@ -1,12 +1,10 @@
 ---
-title: "Employee Spotlight: Adam"
+title: "Employee spotlight: Adam"
 subtitle: "Get to know our Compiler team member, Adam Linder."
 description: "Get to know our Compiler team member, Adam Linder."
 author: Laney Mangan and Adam Linder
 excerpt: "Get to know our Compiler team member, Adam Linder."
 date: 2025-08-08T00:00:00+0000
-categories:
-  - compiler
 ---
 
 Meet Adam! Adam joined the Compiler team in April of 2024 as our Customer Success Vendor Account Manager and has been a valued member of the team ever since. Working primarily on our [Cal-ITP](https://www.calitp.org/) project, Adam is passionate about public transportation and has played a crucial role in standing up our vendor program. Managing Partner, Scott Frazier, works closely with Adam. “The energy, enthusiasm and curiosity that Adam brings to Compiler are impossible to miss,” says Scott, “he excels at intuiting where there is an unmet need on the team, and then he’s the first person ready to jump in and help out.” And help out he does! From being our unofficial photographer at company gatherings, to going above and beyond every month at [Data and Donuts](https://datadonuts.la/), to jumping in when a project needs more hands–you can always count on Adam!
