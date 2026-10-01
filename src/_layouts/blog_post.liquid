@@ -1,5 +1,6 @@
 ---
 layout: default
+learn_more_about: "how we can help you make sure your technology spend provides the best outcomes for your staff and users"
 ---
 <div class="back-row bg-w-100 border-top border-bottom border-light">
   <a class="text-info fs-8 fw-boldest font-monospace text-uppercase" href="/blog">Back</a>
@@ -18,6 +19,7 @@ layout: default
     <div class="row">
       <div class="col-md-6 offset-md-3 text-black pb-5 mb-2 blog_wrapper">
         {{ content }}
+        {% include 'about-compiler', learn_more_about: learn_more_about %}
       </div>
     </div>
   </div>
