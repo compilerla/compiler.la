@@ -9,7 +9,7 @@ date: 2026-08-28T00:00:00+0000
 
 For transit technology to truly work, it has to work for everyone. Modern open-loop payment systems are revolutionizing how riders get on board, but until recently, one key group was left behind: reduced-fare riders.
 
-In this case study, we’ll showcase how Compiler, on behalf of Cal-ITP, developed an interoperable, open-source solution for tap-to-pay reduced fares — Cal-ITP Benefits. This technology allows riders to get their reduced fares with a simple online application that is standardized, safe, and secure.
+In this case study, we’ll showcase how Compiler, on behalf of Cal-ITP, developed an interoperable, open-source solution for tap-to-pay reduced fares — [Cal-ITP Benefits](https://www.camobilitymarketplace.org/rider-benefits/). This technology allows riders to get their reduced fares with a simple online application that is standardized, safe, and secure.
 
 How does it work? Cal-ITP Benefits performs quick digital eligibility checks for riders using existing government tools called application programming interfaces (APIs). Riders can then have their discounts assigned automatically to their contactless bank card of choice. Here’s how we got there.
 
