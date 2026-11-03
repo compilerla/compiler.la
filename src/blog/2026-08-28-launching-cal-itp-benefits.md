@@ -5,6 +5,7 @@ description: "Learn how Compiler’s dedicated team worked to bring Cal-ITP Bene
 author: Vyki Englert
 excerpt: "Learn how Compiler’s dedicated team worked to bring Cal-ITP Benefits to life, from initial research to expansion to multiple transit agencies."
 date: 2026-08-28T00:00:00+0000
+learn_more_about: "our work on Cal-ITP Benefits or partner with us on a new project"
 ---
 
 For transit technology to truly work, it has to work for everyone. Modern open-loop payment systems are revolutionizing how riders get on board, but until recently, one key group was left behind: reduced-fare riders.
