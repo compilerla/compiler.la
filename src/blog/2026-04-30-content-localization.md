@@ -6,6 +6,9 @@ description: "Translation alone isn’t enough–discover how Compiler bridges t
 author: Vyki Englert
 excerpt: "Translation alone isn’t enough–discover how Compiler bridges the gap between translated and truly usable content with localization that reflects the reality of what people need."
 date: 2026-05-29T00:00:00+0000
+categories:
+  - compiler
+learn_more_about: "our human-centered localization practices or to partner with us on a new project"
 ---
 
 Hard-coding Google Translate into a government website might satisfy a legal checkbox. In 2026, it shouldn’t satisfy anyone who actually cares whether people can use a service.
@@ -67,9 +70,3 @@ If California can set baseline expectations for accessibility, privacy, and secu
 The good news is we’re not starting from scratch.
 
 California has already demonstrated that raising the bar for digital services is possible, and that the infrastructure, the will, and the expertise to go further are already here. This is an opportunity to build on our existing progress, and to make language access equal to any other standard we hold our digital services to.
-
-## About Compiler
-
-_Compiler is a woman-owned software consultancy built by people who use and rely on public systems every day. We partner with government agencies and mission-driven organizations to design, build, and sustain digital services that work better for everyone. Our team combines human-centered design, data expertise, and modern engineering practices to help agencies deliver accessible, maintainable, and equitable digital tools._
-
-_If you’d like to learn more about Compiler’s human-centered localization practices or partner with us on a new project, we’d love to talk. Email [hello@compiler.la](mailto:hello@compiler.la) to get started._

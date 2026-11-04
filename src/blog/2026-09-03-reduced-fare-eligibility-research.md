@@ -5,6 +5,7 @@ description: "What we learned about reduced fare eligibility after reviewing 20 
 author: Christine Bath
 excerpt: "What we learned about reduced fare eligibility after reviewing 20 application forms and talking to transit providers and riders with disabilities"
 date: 2026-09-03T00:00:00+0000
+learn_more_about: "our work on Cal-ITP Benefits or partner with us on a new project"
 ---
 
 Most public transit systems offer a reduced fare of 50% or more to people with disabilities as a condition of their federal funding. These benefits are often a lifeline to people with disabilities who disproportionally have less income and rely on public transit more to navigate their daily lives.
@@ -89,9 +90,3 @@ More transit providers are using Cal-ITP Benefits to administer tap to pay reduc
 - Offering a mix of self service and in-person enrollment pathways
 
 We are continuing to work with our partners to extend the platform further. You join the [Cal-ITP Benefits newsletter](https://docs.calitp.org/benefits/reference/newsletter-archive/) for product updates and can [follow our work on Github](https://github.com/cal-itp/benefits).
-
-## About Compiler
-
-_Compiler is a woman-owned software consultancy built by people who use and rely on public systems every day. We partner with government agencies and mission-driven organizations to design, build, and sustain digital services that work better for everyone. Our team combines human-centered design, data expertise, and modern engineering practices to help agencies deliver accessible, maintainable, and equitable digital tools._
-
-_If you’d like to learn more about Compiler’s work on Cal-ITP Benefits or partner with us on a new project, we’d love to talk. Email [hello@compiler.la](mailto:hello@compiler.la) to get started._

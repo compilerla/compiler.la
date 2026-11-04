@@ -1,8 +1,12 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import markdownIt from "markdown-it";
 
 import feed from "./src/_data/feed.json" with { type: "json" };
 
 const byTitle = (a, b) => a.data.title.localeCompare(b.data.title);
+
+// this matches 11ty's default markdown settings
+const md = markdownIt({ html: true });
 
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
@@ -54,4 +58,7 @@ export default async function (eleventyConfig) {
       title: feed.title,
     },
   });
+
+  // Add markdown filter for rendering description content
+  eleventyConfig.addFilter("md", (content) => md.render(content));
 }
