@@ -31,13 +31,13 @@ Costs to operate closed-loop systems have been a key driver in agencies moving t
 
 ### All the cool kids are offering incentives
 
-Monterey Salinas Transit, whose geography makes cash collection logistically impossible, has a timeline to take cash off of its vehicles in 2027\. Today, their fares offer the best bang for your buck to riders choosing to tap to pay and hitting a daily, weekly, or monthly fare cap. Santa Cruz Metro has a daily fare cap that is \$1 cheaper if you use an open loop card. How to make sure incentives are equitable? This is a question RTD is tackling by modeling novel ideas, one of which includes increasing single ride tickets but keeping the monthly pass flat.
+Monterey Salinas Transit, whose geography makes cash collection logistically impossible, has a timeline to take cash off of its vehicles in 2027\. Today, their fares offer the best bang for your buck to riders choosing to tap to pay and hitting a daily, weekly, or monthly fare cap. Santa Cruz METRO has a daily fare cap that is \$1 cheaper if you use an open loop card. How to make sure incentives are equitable? This is a question RTD is tackling by modeling novel ideas, one of which includes increasing single ride tickets but keeping the monthly pass flat.
 
 ### Simplifying your fares is sage advice
 
 Over and over we’ve heard from agencies that both did and didn’t simplify fare policies before implementing new fare technologies. Both had come to the same conclusions: Fare simplification is a win for agencies, a win for vendors, and a win for riders. In some cases, **simplification also means standardization** across a region, which allows agencies to take advantage of and leverage buying power for bulk discounts.
 
-Examples included the state of California’s Mobility Marketplace, and its prenegotiated MSAs for payment hardware and software, as well as the GoCard collaborative procurement led by MST, which holds that as long as collaborating agencies agree to use the same card design, they can cooperatively take advantage of more discounts. Santa Cruz RT changed its fare policy for their senior program, raising it from 62+ to 65+ years of age. This way, they could take advantage of the tool Caltrans funded to digitize self-service eligibility for senior programs using the same definition as the California Department of Motor Vehicles.
+Examples included the state of California’s Mobility Marketplace, and its prenegotiated MSAs for payment hardware and software, as well as the GoCard collaborative procurement led by MST, which holds that as long as collaborating agencies agree to use the same card design, they can cooperatively take advantage of more discounts. Santa Cruz METRO changed its fare policy for their senior program, raising it from 62+ to 65+ years of age. This way, they could take advantage of the tool Caltrans funded to digitize self-service eligibility for senior programs using the same definition as the California Department of Motor Vehicles.
 
 ### Define Debt recovery
 
@@ -88,7 +88,7 @@ Why this organic growth is so strong isn’t well known, and assumptions vary dr
 Rapid adoption of interoperable off-the-shelf technologies means agencies can share lessons at a pace they haven’t been able to do before. Someone else is doing this right — maybe they already have a methodology, a draft policy.
 
 Need help with debt recovery? Call ORCA.
-Discounts for students on open loop? Talk to MST or Santa Cruz.
+Discounts for students on open loop? Talk to MST or Santa Cruz METRO.
 Calculating cost of ownership? RTD said they’re moving forward with developing a "rigorous methodology.”
 Need to educate and communicate with your riders about a new fare capping product? Toronto’s marketing videos are top notch.
 
