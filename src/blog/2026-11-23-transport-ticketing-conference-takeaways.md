@@ -1,9 +1,9 @@
 ---
 title: "Reflecting on Transport Ticketing North America 2026"
-subtitle: "Learn more about the themes, ideas, and trends that Compiler principal Vyki Englert learned while attending the 2026 Transport Ticketing North American conference."
-description: "Learn more about the themes, ideas, and trends that Compiler principal Vyki Englert learned while attending the 2026 Transport Ticketing North American conference."
+subtitle: "Learn more about the themes, ideas, and trends that Compiler principal Vyki Englert learned about while attending the 2026 Transport Ticketing North American conference."
+description: "Learn more about the themes, ideas, and trends that Compiler principal Vyki Englert learned about while attending the 2026 Transport Ticketing North American conference."
 author: Vyki Englert
-excerpt: "Learn more about the themes, ideas, and trends that Compiler principal Vyki Englert learned while attending the 2026 Transport Ticketing North American conference."
+excerpt: "Learn more about the themes, ideas, and trends that Compiler principal Vyki Englert learned about while attending the 2026 Transport Ticketing North American conference."
 date: 2026-11-23T00:00:00+0000
 ---
 
@@ -92,6 +92,6 @@ Discounts for students on open loop? Talk to MST or Santa Cruz METRO.
 Calculating cost of ownership? RTD said they’re moving forward with developing a "rigorous methodology.”
 Need to educate and communicate with your riders about a new fare capping product? Toronto’s marketing videos are top notch.
 
-We’re all peers, and we all love talking to transit. More importantly, we all want transit to succeed in every community. So make those email introductions — it can change everything.
+We’re all peers, and we all love talking about transit. More importantly, we all want transit to succeed in every community. So make those email introductions — it can change everything.
 
 H/t to Ruth Miller whose excellent post for JAWNT recapping the 2025 Transport Ticketing conference inspired this one.
