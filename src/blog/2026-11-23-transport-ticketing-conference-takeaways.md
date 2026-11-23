@@ -87,9 +87,9 @@ Why this organic growth is so strong isn’t well known, and assumptions vary dr
 
 Rapid adoption of interoperable off-the-shelf technologies means agencies can share lessons at a pace they haven’t been able to do before. Someone else is doing this right — maybe they already have a methodology, a draft policy.
 
-Need help with debt recovery? Call ORCA.
-Discounts for students on open loop? Talk to MST or Santa Cruz METRO.
-Calculating cost of ownership? RTD said they’re moving forward with developing a "rigorous methodology.”
+Need help with debt recovery? Call ORCA.\
+Discounts for students on open loop? Talk to MST or Santa Cruz METRO.\
+Calculating cost of ownership? RTD said they’re moving forward with developing a "rigorous methodology.”\
 Need to educate and communicate with your riders about a new fare capping product? Toronto’s marketing videos are top notch.
 
 We’re all peers, and we all love talking about transit. More importantly, we all want transit to succeed in every community. So make those email introductions — it can change everything.
