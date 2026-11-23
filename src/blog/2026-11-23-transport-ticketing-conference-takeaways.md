@@ -41,7 +41,7 @@ Examples included the state of California’s Mobility Marketplace, and its pren
 
 ### Define Debt recovery
 
-Orca knows what’s up. Paul Kulchenko, director of product delivery at Sound Transit, gave a great presentation explaining what debt recovery means for transit operators. He also outlined key vocabulary that was new to much of the audience who are earlier in their journey, and he shared Orca’s current policies for debt recovery. The policy has evolved to create today’s structure that balances card processor-preferred merchant behavior, manages costs to capture debts, and improves the experience for the customer. There were also, of course, absolutely fantastic charts. If you’re a transit agency – it’s definitely a deck your team wants to get its hands on.
+ORCA knows what’s up. Paul Kulchenko, director of product delivery at Sound Transit, gave a great presentation explaining what debt recovery means for transit operators. He also outlined key vocabulary that was new to much of the audience who are earlier in their journey, and he shared ORCA’s current policies for debt recovery. The policy has evolved to create today’s structure that balances card processor-preferred merchant behavior, manages costs to capture debts, and improves the experience for the customer. There were also, of course, absolutely fantastic charts. If you’re a transit agency – it’s definitely a deck your team wants to get its hands on.
 
 ## Other things of note
 
